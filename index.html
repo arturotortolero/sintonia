@@ -8,8 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600&family=VT323&display=swap">
 <style>
-/* Concepto: televisor doméstico de 1994. Tubo 4:3 de plástico gris marengo y, al lado, su mando.
-   El rótulo del aparato es propio. */
+/* Concepto: televisor doméstico de 1994 a toda pantalla. Los mandos van en la propia carcasa. */
 :root{
   --room:#141516; --plastic:#2c2d30; --plastic-2:#37383c; --edge:#17181a; --glass:#050606;
   --label:#b9bbbf; --dim:#7d7f85; --rubber:#4a4c51; --rubber-2:#5b5d63;
@@ -21,19 +20,18 @@
 html,body{height:100%;margin:0;background:var(--room);color:var(--label);font-family:var(--ui-font);overflow:hidden}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;touch-action:manipulation}
 button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
-.set{height:100%;display:grid;grid-template-columns:minmax(0,1fr) 172px;gap:18px;align-items:center;
-  padding:max(14px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(14px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
-.tv-room{height:100%;min-width:0;min-height:0;container-type:size;display:flex;align-items:center;justify-content:center}
-/* Mueble: alto = tubo + barbilla de 60px + marcos */
-.tv{--w:min(100cqw,calc((100cqh - 94px)*4/3 + 34px));width:var(--w);background:linear-gradient(170deg,var(--plastic-2),var(--plastic) 30%,#232427);
-  border-radius:20px;padding:17px 17px 0;box-shadow:0 0 0 1px var(--edge),0 18px 40px #000,inset 0 1px 0 #55575c}
-.tube{position:relative;width:100%;aspect-ratio:4/3;background:var(--glass);border-radius:7%/9%;overflow:hidden;box-shadow:0 0 0 3px #0c0d0e,0 0 0 5px #3f4044}
+.set{height:100%;display:flex;align-items:center;justify-content:center;
+  padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left))}
+.tv{width:100%;height:100%;min-width:0;display:flex;flex-direction:column;background:linear-gradient(170deg,var(--plastic-2),var(--plastic) 30%,#232427);
+  border-radius:16px;padding:10px 10px 0;box-shadow:0 0 0 1px var(--edge),inset 0 1px 0 #55575c}
+.tube{position:relative;flex:1;min-height:0;width:100%;container-type:size;background:var(--glass);border-radius:26px;overflow:hidden;box-shadow:0 0 0 3px #0c0d0e,0 0 0 5px #3f4044}
+.tube:fullscreen{border-radius:0;box-shadow:none}
 .frame{position:absolute;inset:0;overflow:hidden;background:#000}
-.pic{position:absolute;left:50%;top:50%;width:100%;aspect-ratio:16/9;transform:translate(-50%,-50%)}
-.frame.zoom .pic{width:133.34%}
+.pic{position:absolute;left:50%;top:50%;width:min(100cqw,177.78cqh);aspect-ratio:16/9;transform:translate(-50%,-50%)}
+.frame.zoom .pic{width:max(100cqw,177.78cqh)}
 .pic iframe,#player{position:absolute;inset:0;width:100%;height:100%;border:0}
 #static,.osd,.glass{position:absolute;pointer-events:none}
-.glass{inset:0;z-index:4;border-radius:inherit;
+.glass{opacity:1;inset:0;z-index:4;border-radius:inherit;
   background:repeating-linear-gradient(0deg,rgba(0,0,0,.1) 0 1px,transparent 1px 3px),radial-gradient(120% 90% at 28% 12%,rgba(255,255,255,.08),transparent 45%);
   box-shadow:inset 0 0 70px rgba(0,0,0,.6)}
 #static{inset:0;width:100%;height:100%;opacity:0;image-rendering:pixelated}
@@ -59,50 +57,36 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .row .n{color:var(--osd);font-size:1.4em;grid-row:span 3}
 .row .t{color:var(--osd)}
 .row .sub{opacity:.75;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-/* Barbilla */
-.chin{height:60px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px}
-.grille{height:26px;background:repeating-linear-gradient(90deg,#0d0e0f 0 3px,transparent 3px 7px)}
-.badge{font-size:15px;font-weight:600;letter-spacing:.34em;padding-left:.34em;color:var(--label)}
+/* Barbilla con los mandos del aparato */
+.chin{min-height:50px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;padding-block:6px;transition:opacity 1s}
+.badge{font-size:14px;font-weight:600;letter-spacing:.34em;color:var(--label)}
+.ctrl{display:flex;flex-wrap:wrap;justify-content:center;gap:5px}
 .status{display:flex;align-items:center;justify-content:flex-end;gap:10px;font-size:10px;letter-spacing:.14em;color:var(--dim)}
 .led{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 7px var(--red)}
 .set.on .led{background:var(--osd);box-shadow:0 0 7px var(--osd)}
-/* Mando */
-.remote{width:164px;max-height:100%;justify-self:center;overflow:auto;background:linear-gradient(95deg,#2f3033,#3d3e42 45%,#2a2b2e);border-radius:30px 30px 38px 38px;
-  padding:16px 14px 20px;display:flex;flex-direction:column;gap:10px;box-shadow:0 0 0 1px var(--edge),0 12px 26px #000,inset 0 1px 0 #5c5e63;transition:opacity 1s}
-.top{display:flex;justify-content:space-between;align-items:center;font-size:10px;letter-spacing:.18em;color:var(--dim)}
-.pw{width:40px;height:30px;border-radius:15px;background:var(--red);box-shadow:inset 0 -2px 0 #0005;color:#fff;font-size:15px;line-height:1}
-.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
-.k{min-height:32px;border-radius:9px;background:var(--rubber);box-shadow:inset 0 -2px 0 #0006,0 1px 0 #0008;font-size:15px;font-weight:600;color:#e6e7e9;font-variant-numeric:tabular-nums}
+.k{min-width:36px;min-height:32px;padding:0 8px;border-radius:6px;background:var(--rubber);box-shadow:inset 0 -2px 0 #0006,0 1px 0 #0008;font-size:12px;font-weight:600;color:#e6e7e9;letter-spacing:.03em;text-transform:uppercase;font-variant-numeric:tabular-nums}
 .k:hover{background:var(--rubber-2)}
 .k:active{transform:translateY(1px);box-shadow:none}
-.k.cur{color:var(--osd)}
-.k.txt{font-size:11px;letter-spacing:.04em;text-transform:uppercase}
 .k.lit{color:var(--osd)}
-.rockers{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.rock{display:grid;gap:3px;text-align:center}
-.rock small{font-size:10px;letter-spacing:.18em;color:var(--dim)}
-.rock .k{min-height:34px}
-.set.night .remote{opacity:.4}
-.set.night .remote:hover,.set.night .remote:focus-within{opacity:1}
+.k.pw{background:var(--red);color:#fff}
+.set.night .chin{opacity:.4}
+.set.night .chin:hover,.set.night .chin:focus-within{opacity:1}
 @media (max-aspect-ratio:1/1){
-  .set{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:14px;align-items:start}
-  .tv-room{height:auto;container-type:inline-size}
-  .tv{--w:100cqw;padding:10px 10px 0;border-radius:14px}
-  .chin{height:42px}.grille{height:18px}.status span{display:none}
-  .remote{height:100%;width:min(100%,250px);justify-content:space-evenly}
-  .k{min-height:40px}
+  .tv{height:auto;padding:8px 8px 0}
+  .tube{flex:none;aspect-ratio:16/9;border-radius:14px;height:auto}
+  .chin{grid-template-columns:minmax(0,1fr) auto}
+  .ctrl{grid-column:1/-1;grid-row:2}
 }
-@media (max-height:460px) and (min-aspect-ratio:1/1){
-  .set{grid-template-columns:minmax(0,1fr) 128px;gap:8px;padding-block:6px}
-  .tv{--w:min(100cqw,calc((100cqh - 46px)*4/3 + 16px));padding:8px 8px 0}.chin{height:30px}.grille{height:12px}.status span{display:none}.badge{font-size:11px}
-  .remote{width:122px;padding:8px;gap:5px;border-radius:16px}.pad.num{display:none}.top span{display:none}.k{min-height:28px;font-size:13px;min-width:0;padding:0}.k.txt{font-size:9px;letter-spacing:0}.pad{gap:4px}.rock small{display:none}
+@media (max-width:900px) and (min-aspect-ratio:1/1){
+  .chin{grid-template-columns:minmax(0,1fr);min-height:0;padding-block:4px}
+  .badge,.status{display:none}
+  .k{min-height:28px;font-size:11px;padding:0 6px}
 }
 @media (prefers-reduced-motion:reduce){.tv.warm .frame{animation:none}}
 </style>
 </head>
 <body>
 <div class="set" id="set">
-  <div class="tv-room">
     <div class="tv" id="tube">
       <div class="tube">
         <div class="frame" id="frame">
@@ -115,25 +99,21 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
         <div class="glass"></div>
       </div>
       <div class="chin">
-        <div class="grille"></div>
         <div class="badge">SINTONÍA</div>
+        <div class="ctrl">
+          <button class="k" id="chDown" aria-label="Canal anterior">CH −</button>
+          <button class="k" id="chUp" aria-label="Canal siguiente">CH +</button>
+          <button class="k" id="volDown" aria-label="Bajar volumen">Vol −</button>
+          <button class="k" id="volUp" aria-label="Subir volumen">Vol +</button>
+          <button class="k" id="guideBtn">Guía</button>
+          <button class="k" id="zoomBtn">Zoom</button>
+          <button class="k" id="sleepBtn">Sleep</button>
+          <button class="k" id="fullBtn" aria-label="Pantalla completa">⛶</button>
+          <button class="k pw" id="powerBtn" aria-label="Encender o apagar">⏻</button>
+        </div>
         <div class="status"><span>STEREO</span><i class="led"></i></div>
       </div>
     </div>
-  </div>
-  <div class="remote">
-    <div class="top"><span>MANDO</span><button class="pw" id="powerBtn" aria-label="Encender o apagar">⏻</button></div>
-    <div class="pad num" id="pad"></div>
-    <div class="pad">
-      <button class="k txt" id="guideBtn">Guía</button>
-      <button class="k txt" id="zoomBtn">Zoom</button>
-      <button class="k txt" id="sleepBtn">Sleep</button>
-    </div>
-    <div class="rockers">
-      <div class="rock"><button class="k" id="volUp" aria-label="Subir volumen">+</button><small>VOL</small><button class="k" id="volDown" aria-label="Bajar volumen">−</button></div>
-      <div class="rock"><button class="k" id="chUp" aria-label="Canal siguiente">▲</button><small>CH</small><button class="k" id="chDown" aria-label="Canal anterior">▼</button></div>
-    </div>
-  </div>
 </div>
 <script>
 /* ======== TUS CANALES ========
@@ -232,12 +212,19 @@ setInterval(()=>{
 },500);
 
 /* --- Sintonizar --- */
+/* El efecto de tubo se atenúa durante un minuto en cada encendido o cambio de canal. */
+function crtFade(){
+  const g=document.querySelector(".glass");
+  g.style.transition="none"; g.style.opacity=1; void g.offsetWidth;
+  g.style.transition="opacity 60s linear"; g.style.opacity=.12;
+}
 function tune(i,silent){
   cur=(i+CHANNELS.length)%CHANNELS.length; stage=0; turn=0; busy=0;
   paintDial();
   $("set").classList.toggle("night",!!CHANNELS[cur].night);
   $("guide").hidden=true;
   if(!silent){ burst(); clack(); }
+  crtFade();
   flashOsd("");
   if(ready&&isOn) play();
 }
@@ -279,7 +266,7 @@ function powerOn(){
   try{audio=audio||new (window.AudioContext||window.webkitAudioContext)();audio.resume();}catch(e){}
   isOn=true; $("off").hidden=true; $("set").classList.add("on");
   const t=$("tube");t.classList.remove("warm");void t.offsetWidth;t.classList.add("warm");
-  if(ready){ player.setVolume(vol); tune(cur,true); clack(); } else { pendingOn=true; }
+  crtFade(); if(ready){ player.setVolume(vol); tune(cur,true); clack(); } else { pendingOn=true; }
 }
 function powerOff(){
   isOn=false; $("set").classList.remove("on"); if(ready) player.stopVideo();
@@ -288,6 +275,7 @@ function powerOff(){
   showOff();
 }
 function showOff(msg){
+  const gl=document.querySelector(".glass"); gl.style.transition="none"; gl.style.opacity=1;
   $("offNow").innerHTML=""; const c=CHANNELS[cur];
   const b=document.createElement("b");b.textContent=msg||("Canal "+c.num+" · "+c.name);
   $("offNow").append(b); const line=document.createElement("div");line.textContent=msg?"":nowText(c);$("offNow").append(line);
@@ -346,8 +334,12 @@ function setVol(d){vol=Math.max(0,Math.min(100,vol+d));if(ready){player.unMute()
   $("osd").classList.add("on");clearTimeout(osdTimer);osdTimer=setTimeout(()=>$("osd").classList.remove("on"),1500);}
 
 /* --- Controles --- */
-for(let n=1;n<=9;n++){const b=document.createElement("button");b.className="k";b.textContent=n;b.dataset.d=n;b.setAttribute("aria-label","Canal "+n);b.onclick=()=>press(n);$("pad").append(b);}
 $("zoomBtn").onclick=()=>$("frame").classList.toggle("zoom");
+function toggleFull(){
+  const t=document.querySelector(".tube");
+  try{ const p=document.fullscreenElement?document.exitFullscreen():t.requestFullscreen(); if(p&&p.catch)p.catch(()=>{}); }catch(e){}
+}
+$("fullBtn").onclick=toggleFull;
 $("chUp").onclick=()=>isOn&&tune(cur+1);$("chDown").onclick=()=>isOn&&tune(cur-1);
 $("volUp").onclick=()=>setVol(5);$("volDown").onclick=()=>setVol(-5);
 $("guideBtn").onclick=toggleGuide;$("sleepBtn").onclick=cycleSleep;
@@ -358,6 +350,7 @@ addEventListener("keydown",e=>{
   if(e.key==="ArrowRight"){setVol(5);}
   if(e.key==="ArrowLeft"){setVol(-5);}
   if(e.key==="g"||e.key==="G")toggleGuide();
+  if(e.key==="f"||e.key==="F")toggleFull();
   if(/^[1-9]$/.test(e.key))press(+e.key);
   if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
   if(e.key==="Escape")$("guide").hidden=true;
