@@ -52,8 +52,21 @@ def recap():
     url = "https://www.youtube.com/playlist?list=UULF7QZIf0dta-XPXsp9Hv4dTw"
     return [v["id"] for v in videos(url) if "en 10 minutos" in v["t"]][:3]
 
+def podcasts():
+    """Solo episodios: descarta los cortes por duración y mezcla, del más nuevo al más antiguo."""
+    sources = [("escueladenada", 30), ("nachored", 10), ("elcuarticopod", 30)]
+    lists = [[v for v in videos(f"https://www.youtube.com/@{h}/videos") if v["s"] >= m * 60]
+             for h, m in sources]
+    if not all(lists):
+        raise RuntimeError("una de las fuentes de podcasts ha llegado vacía")
+    out = []
+    for i in range(max(map(len, lists))):
+        out += [l[i] for l in lists if i < len(l)]
+    return out
+
 JOBS = {
     "03": ("items", arnold),
+    "04": ("items", podcasts),
     "05": ("recap", recap),
     "07": ("items", lambda: videos("https://www.youtube.com/@joshuaweissmanrecipes/videos")),
     "09": ("items", lambda: videos("https://www.youtube.com/@yummy_yammy/videos")),
