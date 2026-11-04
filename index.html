@@ -4,7 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sintonía</title>
-<meta name="theme-color" content="#141516">
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Sintonía">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600&family=VT323&display=swap">
 <style>
@@ -82,6 +88,17 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
   .badge,.status{display:none}
   .k{min-height:28px;font-size:11px;padding:0 6px}
 }
+/* Modo cine: pantalla completa propia para el iPhone, que no permite la del navegador */
+.cine-keys{display:none;position:absolute;z-index:5;top:max(10px,env(safe-area-inset-top));left:max(10px,env(safe-area-inset-left));flex-direction:column;gap:6px}
+.cine-keys .k{opacity:.45;min-height:36px}
+.set.cine{padding:0}
+.set.cine .tv{position:fixed;inset:0;z-index:10;width:auto;height:auto;padding:0;border-radius:0;background:#000;box-shadow:none}
+.set.cine .tube{flex:1;aspect-ratio:auto;height:100%;border-radius:0;box-shadow:none}
+.set.cine .chin{display:none}
+.set.cine .cine-keys{display:flex}
+@media (max-aspect-ratio:1/1){
+  .set.cine .tv{inset:auto;left:50%;top:50%;width:100dvh;height:100dvw;transform:translate(-50%,-50%) rotate(90deg)}
+}
 @media (prefers-reduced-motion:reduce){.tv.warm .frame{animation:none}}
 </style>
 </head>
@@ -97,6 +114,12 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
         <div class="guide" id="guide" hidden></div>
         <div class="off" id="off"><div class="now" id="offNow"></div><button class="power-big" id="powerBig">ENCENDER</button></div>
         <div class="glass"></div>
+        <div class="cine-keys">
+          <button class="k" id="cineExit" aria-label="Salir de pantalla completa">✕</button>
+          <button class="k" id="cineUp" aria-label="Canal siguiente">CH +</button>
+          <button class="k" id="cineDown" aria-label="Canal anterior">CH −</button>
+          <button class="k" id="cineGuide">Guía</button>
+        </div>
       </div>
       <div class="chin">
         <div class="badge">SINTONÍA</div>
@@ -337,8 +360,11 @@ function setVol(d){vol=Math.max(0,Math.min(100,vol+d));if(ready){player.unMute()
 $("zoomBtn").onclick=()=>$("frame").classList.toggle("zoom");
 function toggleFull(){
   const t=document.querySelector(".tube");
+  if(!t.requestFullscreen){ $("set").classList.toggle("cine"); return; }
   try{ const p=document.fullscreenElement?document.exitFullscreen():t.requestFullscreen(); if(p&&p.catch)p.catch(()=>{}); }catch(e){}
 }
+$("cineExit").onclick=()=>$("set").classList.remove("cine");
+$("cineUp").onclick=()=>isOn&&tune(cur+1);$("cineDown").onclick=()=>isOn&&tune(cur-1);$("cineGuide").onclick=toggleGuide;
 $("fullBtn").onclick=toggleFull;
 $("chUp").onclick=()=>isOn&&tune(cur+1);$("chDown").onclick=()=>isOn&&tune(cur-1);
 $("volUp").onclick=()=>setVol(5);$("volDown").onclick=()=>setVol(-5);
@@ -353,7 +379,7 @@ addEventListener("keydown",e=>{
   if(e.key==="f"||e.key==="F")toggleFull();
   if(/^[1-9]$/.test(e.key))press(+e.key);
   if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
-  if(e.key==="Escape")$("guide").hidden=true;
+  if(e.key==="Escape"){$("guide").hidden=true;$("set").classList.remove("cine");}
   if(e.key===" "&&document.activeElement===document.body){e.preventDefault();isOn?powerOff():powerOn();}
 });
 addEventListener("resize",paintDial);
