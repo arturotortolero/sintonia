@@ -71,6 +71,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .led{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 7px var(--red)}
 .set.on .led{background:var(--osd);box-shadow:0 0 7px var(--osd)}
 .k{min-width:36px;min-height:32px;padding:0 8px;border-radius:6px;background:var(--rubber);box-shadow:inset 0 -2px 0 #0006,0 1px 0 #0008;font-size:12px;font-weight:600;color:#e6e7e9;letter-spacing:.03em;text-transform:uppercase;font-variant-numeric:tabular-nums}
+.k{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
 .k:hover{background:var(--rubber-2)}
 .k:active{transform:translateY(1px);box-shadow:none}
 .k.lit{color:var(--osd)}
@@ -119,6 +120,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
           <button class="k" id="cineUp" aria-label="Canal siguiente">CH +</button>
           <button class="k" id="cineDown" aria-label="Canal anterior">CH −</button>
           <button class="k" id="cineGuide">Guía</button>
+          <a class="k yt" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube">YT</a>
         </div>
       </div>
       <div class="chin">
@@ -130,6 +132,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
           <button class="k" id="volUp" aria-label="Subir volumen">Vol +</button>
           <button class="k" id="guideBtn">Guía</button>
           <button class="k" id="zoomBtn">Zoom</button>
+          <a class="k yt" id="ytBtn" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube">YouTube</a>
           <button class="k" id="sleepBtn">Sleep</button>
           <button class="k" id="fullBtn" aria-label="Pantalla completa">⛶</button>
           <button class="k pw" id="powerBtn" aria-label="Encender o apagar">⏻</button>
@@ -369,6 +372,17 @@ function toggleFull(){
 $("cineExit").onclick=()=>$("set").classList.remove("cine");
 $("cineUp").onclick=()=>isOn&&tune(cur+1);$("cineDown").onclick=()=>isOn&&tune(cur-1);$("cineGuide").onclick=toggleGuide;
 $("fullBtn").onclick=toggleFull;
+/* Abre el vídeo actual en YouTube por el mismo punto y pausa la tele. Al volver, sigue. */
+let leftForYT=false;
+document.querySelectorAll(".yt").forEach(a=>a.addEventListener("click",e=>{
+  const d=ready&&isOn?player.getVideoData():null;
+  if(!d||!d.video_id){ e.preventDefault(); return; }
+  a.href="https://youtu.be/"+d.video_id+"?t="+Math.floor(player.getCurrentTime()||0);
+  leftForYT=true; player.pauseVideo();
+}));
+document.addEventListener("visibilitychange",()=>{
+  if(document.visibilityState==="visible"&&leftForYT){ leftForYT=false; if(isOn&&ready) player.playVideo(); }
+});
 $("chUp").onclick=()=>isOn&&tune(cur+1);$("chDown").onclick=()=>isOn&&tune(cur-1);
 $("volUp").onclick=()=>setVol(5);$("volDown").onclick=()=>setVol(-5);
 $("guideBtn").onclick=toggleGuide;$("sleepBtn").onclick=cycleSleep;
