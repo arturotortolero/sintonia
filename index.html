@@ -86,12 +86,15 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 }
 @media (max-width:900px) and (min-aspect-ratio:1/1){
   .chin{grid-template-columns:minmax(0,1fr);min-height:0;padding-block:4px}
-  .badge,.status{display:none}
+  .chin{grid-template-columns:minmax(0,1fr) auto}
+  .badge,.status span{display:none}
   .k{min-height:28px;font-size:11px;padding:0 6px}
 }
 /* Modo cine: pantalla completa propia para el iPhone, que no permite la del navegador */
 .cine-keys{display:none;position:absolute;z-index:5;top:max(10px,env(safe-area-inset-top));left:max(10px,env(safe-area-inset-left));flex-direction:column;gap:6px}
 .cine-keys .k{opacity:.45;min-height:36px}
+.cine-keys .k.lit{opacity:1}
+.cine-ch{left:auto;right:max(10px,env(safe-area-inset-right));top:50%;transform:translateY(-50%)}
 .set.cine{padding:0}
 .set.cine .tv{position:fixed;inset:0;z-index:10;width:auto;height:auto;padding:0;border-radius:0;background:#000;box-shadow:none}
 .set.cine .tube{flex:1;aspect-ratio:auto;height:100%;border-radius:0;box-shadow:none}
@@ -117,19 +120,21 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
         <div class="glass"></div>
         <div class="cine-keys">
           <button class="k" id="cineExit" aria-label="Salir de pantalla completa">✕</button>
-          <button class="k" id="cineUp" aria-label="Canal siguiente">CH +</button>
-          <button class="k" id="cineDown" aria-label="Canal anterior">CH −</button>
+          <button class="k mute" aria-pressed="false">Mute</button>
           <button class="k" id="cineGuide">Guía</button>
           <a class="k yt" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube">YT</a>
+        </div>
+        <div class="cine-keys cine-ch">
+          <button class="k" id="cineUp" aria-label="Canal siguiente">CH +</button>
+          <button class="k" id="cineDown" aria-label="Canal anterior">CH −</button>
         </div>
       </div>
       <div class="chin">
         <div class="badge">SINTONÍA</div>
         <div class="ctrl">
-          <button class="k" id="chDown" aria-label="Canal anterior">CH −</button>
-          <button class="k" id="chUp" aria-label="Canal siguiente">CH +</button>
           <button class="k" id="volDown" aria-label="Bajar volumen">Vol −</button>
           <button class="k" id="volUp" aria-label="Subir volumen">Vol +</button>
+          <button class="k mute" id="muteBtn" aria-pressed="false">Mute</button>
           <button class="k" id="guideBtn">Guía</button>
           <button class="k" id="zoomBtn">Zoom</button>
           <a class="k yt" id="ytBtn" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube">YouTube</a>
@@ -137,7 +142,10 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
           <button class="k" id="fullBtn" aria-label="Pantalla completa">⛶</button>
           <button class="k pw" id="powerBtn" aria-label="Encender o apagar">⏻</button>
         </div>
-        <div class="status"><span>STEREO</span><i class="led"></i></div>
+        <div class="status"><span>STEREO</span><i class="led"></i>
+          <button class="k" id="chDown" aria-label="Canal anterior">CH −</button>
+          <button class="k" id="chUp" aria-label="Canal siguiente">CH +</button>
+        </div>
       </div>
     </div>
 </div>
@@ -173,7 +181,7 @@ const $=id=>document.getElementById(id);
 const nowSec=()=>Date.now()/1000;
 const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
 let player,ready=false,isOn=false,cur=0,item=0,stage=0,playing=false,busy=0,vol=70;
-let sleepAt=0,osdTimer,audio,failures=0,turn=0;
+let sleepAt=0,osdTimer,audio,failures=0,turn=0,muted=false;
 const SLEEP=[0,15,30,60]; let sleepStep=0;
 
 /* --- Reproductor --- */
@@ -358,7 +366,7 @@ function cycleSleep(){
   sleepAt=SLEEP[sleepStep]?Date.now()+SLEEP[sleepStep]*60000:0;
   if(ready) player.setVolume(vol); paintSleep();
 }
-function setVol(d){vol=Math.max(0,Math.min(100,vol+d));if(ready){player.unMute();player.setVolume(vol);}
+function setVol(d){vol=Math.max(0,Math.min(100,vol+d));muted=false;paintMute();if(ready){player.unMute();player.setVolume(vol);}
   $("osdNum").textContent="";$("osdName").textContent="VOL "+"|".repeat(Math.round(vol/5));$("osdTitle").textContent="";
   $("osd").classList.add("on");clearTimeout(osdTimer);osdTimer=setTimeout(()=>$("osd").classList.remove("on"),1500);}
 
@@ -384,6 +392,15 @@ document.addEventListener("visibilitychange",()=>{
   if(document.visibilityState==="visible"&&leftForYT){ leftForYT=false; if(isOn&&ready) player.playVideo(); }
 });
 $("chUp").onclick=()=>isOn&&tune(cur+1);$("chDown").onclick=()=>isOn&&tune(cur-1);
+function paintMute(){document.querySelectorAll(".mute").forEach(b=>{b.classList.toggle("lit",muted);b.setAttribute("aria-pressed",muted);});}
+function toggleMute(){
+  if(!ready) return;
+  muted=!muted; if(muted) player.mute(); else player.unMute();
+  paintMute();
+  $("osdNum").textContent="";$("osdName").textContent=muted?"SILENCIO":"SONIDO";$("osdTitle").textContent="";
+  $("osd").classList.add("on");clearTimeout(osdTimer);osdTimer=setTimeout(()=>$("osd").classList.remove("on"),1500);
+}
+document.querySelectorAll(".mute").forEach(b=>b.onclick=toggleMute);
 $("volUp").onclick=()=>setVol(5);$("volDown").onclick=()=>setVol(-5);
 $("guideBtn").onclick=toggleGuide;$("sleepBtn").onclick=cycleSleep;
 $("powerBig").onclick=powerOn;$("powerBtn").onclick=()=>isOn?powerOff():powerOn();
@@ -393,6 +410,7 @@ addEventListener("keydown",e=>{
   if(e.key==="ArrowRight"){setVol(5);}
   if(e.key==="ArrowLeft"){setVol(-5);}
   if(e.key==="g"||e.key==="G")toggleGuide();
+  if(e.key==="m"||e.key==="M")toggleMute();
   if(e.key==="f"||e.key==="F")toggleFull();
   if(/^[1-9]$/.test(e.key))press(+e.key);
   if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
