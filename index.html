@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sintonía</title>
+<meta name="theme-color" content="#141516">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600&family=VT323&display=swap">
+<style>
+/* Concepto: televisor doméstico de 1994. Tubo 4:3 de plástico gris marengo y, al lado, su mando.
+   El rótulo del aparato es propio. */
+:root{
+  --room:#141516; --plastic:#2c2d30; --plastic-2:#37383c; --edge:#17181a; --glass:#050606;
+  --label:#b9bbbf; --dim:#7d7f85; --rubber:#4a4c51; --rubber-2:#5b5d63;
+  --osd:#46f06a; --red:#d8362a; --guide:#101f78; --guide-2:#1a2f9c;
+  --osd-font:"VT323","Courier New",monospace; --ui-font:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--room);color:var(--label);font-family:var(--ui-font);overflow:hidden}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;touch-action:manipulation}
+button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
+.set{height:100%;display:grid;grid-template-columns:minmax(0,1fr) 172px;gap:18px;align-items:center;
+  padding:max(14px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(14px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
+.tv-room{height:100%;min-width:0;min-height:0;container-type:size;display:flex;align-items:center;justify-content:center}
+/* Mueble: alto = tubo + barbilla de 60px + marcos */
+.tv{--w:min(100cqw,calc((100cqh - 94px)*4/3 + 34px));width:var(--w);background:linear-gradient(170deg,var(--plastic-2),var(--plastic) 30%,#232427);
+  border-radius:20px;padding:17px 17px 0;box-shadow:0 0 0 1px var(--edge),0 18px 40px #000,inset 0 1px 0 #55575c}
+.tube{position:relative;width:100%;aspect-ratio:4/3;background:var(--glass);border-radius:7%/9%;overflow:hidden;box-shadow:0 0 0 3px #0c0d0e,0 0 0 5px #3f4044}
+.frame{position:absolute;inset:0;overflow:hidden;background:#000}
+.pic{position:absolute;left:50%;top:50%;width:100%;aspect-ratio:16/9;transform:translate(-50%,-50%)}
+.frame.zoom .pic{width:133.34%}
+.pic iframe,#player{position:absolute;inset:0;width:100%;height:100%;border:0}
+#static,.osd,.glass{position:absolute;pointer-events:none}
+.glass{inset:0;z-index:4;border-radius:inherit;
+  background:repeating-linear-gradient(0deg,rgba(0,0,0,.1) 0 1px,transparent 1px 3px),radial-gradient(120% 90% at 28% 12%,rgba(255,255,255,.08),transparent 45%);
+  box-shadow:inset 0 0 70px rgba(0,0,0,.6)}
+#static{inset:0;width:100%;height:100%;opacity:0;image-rendering:pixelated}
+#static.on{opacity:1}
+.osd{inset:0;padding:6%;font-family:var(--osd-font);color:var(--osd);text-shadow:2px 2px 0 #021;display:flex;flex-direction:column;justify-content:space-between;opacity:0}
+.osd.on{opacity:1}
+.osd .num{align-self:flex-end;font-size:clamp(40px,7vw,76px);line-height:.9}
+.osd .info{font-size:clamp(19px,2.5vw,28px);line-height:1.05;max-width:85%;margin-bottom:7%}
+.osd .name{display:block}
+.off{position:absolute;inset:0;z-index:3;background:radial-gradient(circle at 50% 50%,#101312,#040505);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:9%}
+.off[hidden]{display:none}
+.off .now{font-family:var(--osd-font);font-size:clamp(18px,2.4vw,24px);color:#6f8a76;max-width:28em;line-height:1.1}
+.off .now b{color:var(--osd);font-weight:400}
+.power-big{font-family:var(--osd-font);font-size:30px;color:var(--osd);border:2px solid var(--osd);padding:6px 26px;border-radius:3px}
+.power-big:hover{background:var(--osd);color:#021}
+.tv.warm .frame{animation:warm .5s cubic-bezier(.2,.8,.2,1)}
+@keyframes warm{0%{transform:scale(.02,.006);filter:brightness(5)}45%{transform:scale(1,.012);filter:brightness(4)}100%{transform:none;filter:none}}
+.guide{position:absolute;inset:0;z-index:2;background:var(--guide);font-family:var(--osd-font);color:#fff;display:flex;flex-direction:column;font-size:clamp(19px,2.4vw,26px);overflow:auto;padding:4% 5%}
+.guide[hidden]{display:none}
+.guide header{display:flex;justify-content:space-between;gap:12px;padding:6px 10px;color:var(--osd)}
+.guide button.row{display:grid;grid-template-columns:2.6em minmax(0,1fr);gap:0 10px;text-align:left;padding:8px 10px;border-top:2px solid var(--guide-2);width:100%;line-height:1.05}
+.guide button.row:hover,.guide button.row.cur{background:var(--guide-2)}
+.row .n{color:var(--osd);font-size:1.4em;grid-row:span 3}
+.row .t{color:var(--osd)}
+.row .sub{opacity:.75;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+/* Barbilla */
+.chin{height:60px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px}
+.grille{height:26px;background:repeating-linear-gradient(90deg,#0d0e0f 0 3px,transparent 3px 7px)}
+.badge{font-size:15px;font-weight:600;letter-spacing:.34em;padding-left:.34em;color:var(--label)}
+.status{display:flex;align-items:center;justify-content:flex-end;gap:10px;font-size:10px;letter-spacing:.14em;color:var(--dim)}
+.led{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 7px var(--red)}
+.set.on .led{background:var(--osd);box-shadow:0 0 7px var(--osd)}
+/* Mando */
+.remote{width:164px;max-height:100%;justify-self:center;overflow:auto;background:linear-gradient(95deg,#2f3033,#3d3e42 45%,#2a2b2e);border-radius:30px 30px 38px 38px;
+  padding:16px 14px 20px;display:flex;flex-direction:column;gap:10px;box-shadow:0 0 0 1px var(--edge),0 12px 26px #000,inset 0 1px 0 #5c5e63;transition:opacity 1s}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:10px;letter-spacing:.18em;color:var(--dim)}
+.pw{width:40px;height:30px;border-radius:15px;background:var(--red);box-shadow:inset 0 -2px 0 #0005;color:#fff;font-size:15px;line-height:1}
+.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.k{min-height:32px;border-radius:9px;background:var(--rubber);box-shadow:inset 0 -2px 0 #0006,0 1px 0 #0008;font-size:15px;font-weight:600;color:#e6e7e9;font-variant-numeric:tabular-nums}
+.k:hover{background:var(--rubber-2)}
+.k:active{transform:translateY(1px);box-shadow:none}
+.k.cur{color:var(--osd)}
+.k.txt{font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.k.lit{color:var(--osd)}
+.rockers{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.rock{display:grid;gap:3px;text-align:center}
+.rock small{font-size:10px;letter-spacing:.18em;color:var(--dim)}
+.rock .k{min-height:34px}
+.set.night .remote{opacity:.4}
+.set.night .remote:hover,.set.night .remote:focus-within{opacity:1}
+@media (max-aspect-ratio:1/1){
+  .set{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:14px;align-items:start}
+  .tv-room{height:auto;container-type:inline-size}
+  .tv{--w:100cqw;padding:10px 10px 0;border-radius:14px}
+  .chin{height:42px}.grille{height:18px}.status span{display:none}
+  .remote{height:100%;width:min(100%,250px);justify-content:space-evenly}
+  .k{min-height:40px}
+}
+@media (max-height:460px) and (min-aspect-ratio:1/1){
+  .set{grid-template-columns:minmax(0,1fr) 128px;gap:8px;padding-block:6px}
+  .tv{--w:min(100cqw,calc((100cqh - 46px)*4/3 + 16px));padding:8px 8px 0}.chin{height:30px}.grille{height:12px}.status span{display:none}.badge{font-size:11px}
+  .remote{width:122px;padding:8px;gap:5px;border-radius:16px}.pad.num{display:none}.top span{display:none}.k{min-height:28px;font-size:13px;min-width:0;padding:0}.k.txt{font-size:9px;letter-spacing:0}.pad{gap:4px}.rock small{display:none}
+}
+@media (prefers-reduced-motion:reduce){.tv.warm .frame{animation:none}}
+</style>
+</head>
+<body>
+<div class="set" id="set">
+  <div class="tv-room">
+    <div class="tv" id="tube">
+      <div class="tube">
+        <div class="frame" id="frame">
+          <div class="pic"><div id="player"></div></div>
+          <canvas id="static" width="160" height="120" aria-hidden="true"></canvas>
+          <div class="osd" id="osd" aria-live="polite"><div class="num" id="osdNum"></div><div class="info"><span class="name" id="osdName"></span><span id="osdTitle"></span></div></div>
+        </div>
+        <div class="guide" id="guide" hidden></div>
+        <div class="off" id="off"><div class="now" id="offNow"></div><button class="power-big" id="powerBig">ENCENDER</button></div>
+        <div class="glass"></div>
+      </div>
+      <div class="chin">
+        <div class="grille"></div>
+        <div class="badge">SINTONÍA</div>
+        <div class="status"><span>STEREO</span><i class="led"></i></div>
+      </div>
+    </div>
+  </div>
+  <div class="remote">
+    <div class="top"><span>MANDO</span><button class="pw" id="powerBtn" aria-label="Encender o apagar">⏻</button></div>
+    <div class="pad num" id="pad"></div>
+    <div class="pad">
+      <button class="k txt" id="guideBtn">Guía</button>
+      <button class="k txt" id="zoomBtn">Zoom</button>
+      <button class="k txt" id="sleepBtn">Sleep</button>
+    </div>
+    <div class="rockers">
+      <div class="rock"><button class="k" id="volUp" aria-label="Subir volumen">+</button><small>VOL</small><button class="k" id="volDown" aria-label="Bajar volumen">−</button></div>
+      <div class="rock"><button class="k" id="chUp" aria-label="Canal siguiente">▲</button><small>CH</small><button class="k" id="chDown" aria-label="Canal anterior">▼</button></div>
+    </div>
+  </div>
+</div>
+<script>
+/* ======== TUS CANALES ========
+   kind:"latest"  → empieza por lo último de cada canal de YouTube y va turnándolos:
+                    uno de cada fuente, del más nuevo al más antiguo.
+   kind:"linear"  → programación fija: al entrar caes donde "va" la emisión.
+   Para añadir un canal, copia un bloque. El id de canal empieza por UC.
+   hours: franja en la que este canal es el que se enciende por defecto. */
+const CHANNELS = [{"num":"03","name":"Dibujos","kind":"linear","hours":[15,20],"items":[{"id":"b7ALgCvv2xY","t":"Arnold & Grandma Gertie Demand Justice","s":173},{"id":"DuAh6bRqo4U","t":"Rescuing Mr. Simmons","s":165},{"id":"Gd9q7DYI6Ik","t":"Helga Takes Over the Opera","s":151},{"id":"tey4vGtD4Xs","t":"A Smelly Camping Trip","s":104},{"id":"whqB5oRKN6s","t":"Arnold and Eugene Ride in the Go-Kart Race","s":206},{"id":"gmHKSUnIXQQ","t":"Helga's Arnold Shrine","s":45},{"id":"VWkbcbl1nPM","t":"Grandpa Phil Gets His Grade School Diploma","s":168},{"id":"RYbrbjXt9VQ","t":"The World's Biggest Pizza Puff","s":183},{"id":"vTjiLvZTp-c","t":"Romeo and Juliet","s":267},{"id":"uT63MnVrxJg","t":"\"We're All Gonna Die\" Hey Arnold! The Haunted Train","s":358},{"id":"qot9jTOLJOs","t":"Arnold Loves Helga","s":98},{"id":"C26Ffum2z7E","t":"Eugene, Eugene The Musical","s":109},{"id":"YSDU5ljiOGk","t":"Lorenzo Learns to Be a Kid","s":184},{"id":"6jvYynOwKdo","t":"Where is Arnold Going?","s":75},{"id":"lvJj-kpmsdM","t":"Arnold Goes Crazy","s":139},{"id":"LQ10CZlQtKs","t":"Grandma Gertie vs. Ernie Potts","s":58},{"id":"tPOhMQwGzlc","t":"Hey Arnold! First Episodes Top 3 Scenes","s":338},{"id":"w45DjJXVmSU","t":"Arnold and Gerald Perform in P.S. 118's Talent Show","s":107},{"id":"KZj1Z56nEDI","t":"Phoebe Farts into a Microphone","s":83},{"id":"nf1Ll0H_WXg","t":"Football in the Mud","s":108},{"id":"3g31YgjgYQo","t":"Ronnie Matthews- \"I Saw Your Face And Wow\"","s":54},{"id":"iCRY34cYF2w","t":"The Mule Race","s":193},{"id":"OmO82rA1UNM","t":"Arnold Gets Advice From Grandpa Phil","s":75},{"id":"rWY-PHGWwCg","t":"Aliens Invade Hey Arnold! | Halloween Episode in 5 Minutes","s":301},{"id":"9tK57cUpZuI","t":"Helga Goes Blind","s":67},{"id":"KD1D9YS327Q","t":"Arnold and Grandma Gertie Sing on the Roof","s":116},{"id":"SZUC0m5-mM8","t":"Oskar Memorizes \"A Tale of Two Cities\"","s":88},{"id":"twU2WaVPDdY","t":"Helga Has Self-Respect","s":86},{"id":"8RMWdJ7eDTo","t":"Seymour \"The Disposal\"","s":63},{"id":"WWsQ-03owSM","t":"Mr. Hyunh Sings \"The Simple Things\"","s":154},{"id":"MjIu2U58FVY","t":"Helga Pataki's Rough Childhood","s":98},{"id":"y3NAGdnJH40","t":"Olga Knows Nothing About Her Sister, Helga","s":52},{"id":"HYoVQev8-RI","t":"Helga Pataki’s Love Poems to Arnold Hey Arnold!","s":319}]},{"num":"05","name":"Noticias","kind":"latest","ids":["UCT4Jg8h03dD0iN3Pb5L0PMA"],"recap":["36RiNEZQkNc","Npd28oXC-pk"],"sourceName":"Resumen de RTVE y lo último de DW","tagline":"Las noticias en 10 minutos y DW Español","hours":[7,12]},{"num":"07","name":"Cocina","kind":"linear","hours":[12,15],"items":[{"id":"-H3pjmp_aDg","t":"El mejor sándwich de queso a la parrilla: DEFINITIVO","s":678},{"id":"kd6lUmbj5ig","t":"La mejor sopa de cebolla francesa de la historia","s":498},{"id":"7YmQDbJOelY","t":"Los mejores biscuits hojaldrados de todos los tiempos","s":605},{"id":"mjJQetAQwW4","t":"La lasaña más quesosa de todas","s":576},{"id":"ILArlisjE3k","t":"El Egg McMuffin de McDonald's, pero mejor","s":741},{"id":"TR6wp5pB1CQ","t":"Tiramisú en 10 minutos","s":569},{"id":"CPM_pP9V5GU","t":"Wontons picantes con chile y ajo hechos en casa","s":649},{"id":"iFZwO4MqyiY","t":"El mejor chopped cheese hecho en casa","s":1114},{"id":"Xo-DWTwumI8","t":"Salsas de comida rápida pero mejor","s":1685},{"id":"njNUwh3Yu2A","t":"Los mejores brownies chiclosos que probarás en tu vida","s":317},{"id":"f0e9cuhGiPg","t":"El burrito de desayuno perfecto","s":849},{"id":"doEnG5E8Hh4","t":"Los mejores sándwiches cubanos en casa (Cubanos)","s":970},{"id":"fWQzaXMOBU8","t":"El mejor pollo a la parmesana de la historia","s":1013},{"id":"PVr4J6Rsnx8","t":"Las mejores alitas de pollo en casa (3 niveles)","s":828},{"id":"TnIO6qYh3sY","t":"El cheesecake más cremoso en casa (súper fácil)","s":598},{"id":"p2ynn-fvbyw","t":"Pollo a la naranja perfecto en casa (estilo comida para llevar)","s":770},{"id":"m5T1a6_Q4G8","t":"Utensilios de cocina que todos necesitan","s":1204},{"id":"7SixjIlfnIw","t":"Sándwiches de tienda de conveniencia japonesa en casa","s":689},{"id":"mKu7Qg8wFKQ","t":"El mejor pollo frito picante hecho en casa (estilo Nashville)","s":581},{"id":"i9X04odxzsM","t":"Los tacos de QuesaBirria más jugosos hechos en casa (auténticos)","s":728},{"id":"rAg-4JyZ0vc","t":"El mejor sándwich French dip de la historia","s":880},{"id":"7TIrZDzLnAQ","t":"3 recetas de pasta para gente floja (15 minutos)","s":991},{"id":"79vyiI89gpc","t":"Cómo cocinar con hierro fundido","s":741},{"id":"eBSG7OqYegc","t":"El sándwich de bistec perfecto para preparar en casa.","s":678},{"id":"0K_PLf6SMYk","t":"Pollo y arroz estilo Halal Guys, pero mejor","s":829},{"id":"3XALaSzkUro","t":"Habilidades con el cuchillo que todos deberían conocer","s":1258},{"id":"lQYvvh-ANKQ","t":"El plato definitivo de tiras de pollo en casa.","s":869},{"id":"GvxeLBWBYZc","t":"Las mejores patatas fritas caseras","s":736},{"id":"DGb5Vn0PkcQ","t":"Fideos hechos a mano que todos deberían preparar","s":1166},{"id":"FSFTqzmuzy8","t":"Las salsas que todo el mundo debe conocer","s":1558}]},{"num":"09","name":"Noche","kind":"linear","night":true,"hours":[20,7],"items":[{"id":"1IL8fDyTHvo","t":"¡Fábricas de alimentos coreanas de otro nivel! Así se hacen platos populares con máquinas avanzadas","s":3706},{"id":"7SdNfjffK9c","t":"¡Se agotan nada más abrir! 4 años de filas por famosos rollos de canela - Comida callejera coreana","s":1355},{"id":"JFwYOMY7Y5g","t":"¡Increíbles fábricas de kimchi en Corea! Así se elaboran sus variedades más emblemáticas","s":1785},{"id":"F12kePYbGJk","t":"¡Este postre arrasa! Profiteroles gigantes con fruta entera - Street food coreano","s":1071},{"id":"fnKG8hRPo1I","t":"¡La calidad es una locura! 5 restaurantes coreanos de steak y BBQ que preparan carne sin parar","s":5454},{"id":"zeZDIKP_5f0","t":"¡Nunca has visto una hamburguesa así! Hamburguesa artesanal de otro nivel - Comida callejera coreana","s":1431},{"id":"K8xs6NgbveY","t":"¡No los encontrarás en ningún otro lugar! 5 panes exclusivos de populares panaderías coreanas","s":4726},{"id":"QVqOAORz7A4","t":"¡Nunca viste un pastel así! Pastel píxel popular con aspecto increíble - Comida callejera coreana","s":1757},{"id":"5wPGAeTI68E","t":"6 baguettes coreanas que se agotan cada día! Recopilación de cómo se hacen baguettes de otro nivel","s":5613},{"id":"qTlWZj_jqCI","t":"¿Pera entera dentro?! ¡Más de 700.000 vendidos! Pan de pera premiado - Comida callejera coreana","s":873},{"id":"SiYGSyTwmI8","t":"¡Estos panes vuelan! 5 panaderías coreanas populares con producción a escala industrial","s":4425},{"id":"Tvk_yv3b_lM","t":"¡Este pastel está arrasando ahora mismo! Pastel nube esponjoso - Comida callejera coreana","s":894},{"id":"nM3bqrWTFs0","t":"¡Lleno de queso y chocolate! Pancake legendario con 56 años de filas - Street Food de Indonesia","s":904},{"id":"Siz5CL_ujuE","t":"¡Te dará hambre con solo verlo! La mejor colección de comida callejera coreana","s":2871},{"id":"NJ7LEpkHcj4","t":"¡4 toneladas agotadas al día! Pasteles de arroz con fruta tras 5 años - Comida callejera coreana","s":842},{"id":"fvaTWmIaajA","t":"¡Maestría haciendo pasteles! Increíbles pastelerías hacen cientos de pasteles cada día [ASMR]","s":5217},{"id":"XAd5xtfZ0mY","t":"¡Agotado todos los días! Increíble pan de chocolate con malvavisco que llevó años desarrollar","s":614},{"id":"ydceMm8SNH8","t":"¡Cargados de fruta fresca! Los postres de fruta coreanos virales que se agotan al instante","s":1332},{"id":"1wmXH4DNgbk","t":"Top 3 cafeterías-pastelerías de Corea! Preparando impresionantes postres insignia","s":5658},{"id":"gfGhIi_1dSQ","t":"¡Nunca viste un kimbap como este! Kimbap automático de huevo y kimbap coreano gigante","s":998},{"id":"m1jQpGs6zvE","t":"¡Arte pastelero alucinante! Los 3 mejores maestros pasteleros de Corea","s":3640},{"id":"mC0GzB9ilUA","t":"¡Video relajante! Top 3 tiendas coreanas de donuts más populares: Producion en masa fascinante","s":3450},{"id":"Q2CSXUvPJi0","t":"¡¿Cómo se hace esto con tijeras?! Pan de cocodrilo gigante - Comida callejera indonesia","s":1044},{"id":"8If0kKDP8Yc","t":"¡Fuera de lo común! Top 4 comidas callejeras tailandesas populares que aman los lugareños","s":2668},{"id":"2nWCc_27les","t":"¡Esto no es un postre, es arte! Tarta de mousse de chocolate coreana premiada","s":727},{"id":"eaZKT7A_tTM","t":"¡Habilidades hipnotizantes! Top 4 maestros de street food asiático que no podrás dejar de ver","s":3136},{"id":"IxlXHKfcg68","t":"¡Agotadas en minutos! Baguettes de chocolate con ganache en una famosa panadería coreana","s":788},{"id":"USklLbH5ACQ","t":"¡Agotado al instante! 4 maestros coreanos populares hacen sus pasteles de arroz signature","s":3735},{"id":"9WCEw10g4mI","t":"¡La fábrica de Jokbal más grande de Corea! Producción sin parar de manitas de cerdo estofadas","s":718},{"id":"wQkgnXx6yZk","t":"¡Esto no es solo tonkatsu! Los 4 mejores maestros coreanos del filete de cerdo empanado","s":4232}]}];
+/* ============================= */
+
+const EPOCH = Date.UTC(2026,0,1)/1000;
+const DIM_SECONDS = 60;
+
+/* Posición de emisión: mismo instante, mismo punto del vídeo. */
+function onAir(items, nowSec){
+  const total = items.reduce((s,v)=>s+v.s,0);
+  let t = ((nowSec-EPOCH)%total+total)%total;
+  for(let i=0;i<items.length;i++){ if(t<items[i].s) return {index:i,offset:Math.floor(t)}; t-=items[i].s; }
+  return {index:0,offset:0};
+}
+function defaultChannel(hour){
+  const i = CHANNELS.findIndex(c=>{const [a,b]=c.hours; return a<b ? hour>=a&&hour<b : hour>=a||hour<b;});
+  return i<0?0:i;
+}
+if(typeof module!=="undefined"){ module.exports={onAir,defaultChannel,CHANNELS}; }
+</script>
+<script>
+const $=id=>document.getElementById(id);
+const nowSec=()=>Date.now()/1000;
+const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
+let player,ready=false,isOn=false,cur=0,item=0,stage=0,playing=false,busy=0,vol=70;
+let sleepAt=0,osdTimer,audio,failures=0,turn=0;
+const SLEEP=[0,15,30,60]; let sleepStep=0;
+
+/* --- Reproductor --- */
+const tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";document.head.append(tag);
+window.onYouTubeIframeAPIReady=()=>{
+  player=new YT.Player("player",{width:"100%",height:"100%",
+    playerVars:{controls:0,disablekb:1,fs:0,rel:0,iv_load_policy:3,playsinline:1,cc_load_policy:0,hl:"es",origin:location.origin},
+    events:{onReady:()=>{ready=true;player.setVolume(vol);if(pendingOn){pendingOn=false;tune(cur);}},onStateChange:onState,onError:onError,onAutoplayBlocked:()=>showOff("Toca para activar el sonido")}});
+};
+let pendingOn=false;
+/* Las listas se refrescan cada día en data.json; si no carga, se usan las de este archivo. */
+fetch("data.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(d=>{
+  if(!d) return;
+  CHANNELS.forEach(c=>{ const x=d[c.num]; if(x) Object.assign(c,x); });
+}).catch(()=>{});
+
+function hasRecap(c){ return !!(c.recap&&c.recap.length); }
+function latestList(c){
+  const id=hasRecap(c)?c.ids[0]:c.ids[turn%c.ids.length];
+  return (stage===0?"UULF":"UU")+id.slice(2);
+}
+function play(){
+  const c=CHANNELS[cur]; playing=false;
+  if(c.kind==="latest"){
+    const every=hasRecap(c)?2:c.ids.length, round=Math.floor(turn/every);
+    if(hasRecap(c)&&turn%2===0) player.loadVideoById(c.recap[round%c.recap.length]);
+    else player.loadPlaylist({list:latestList(c),listType:"playlist",index:round});
+  }else{
+    const a=onAir(c.items,nowSec()); item=a.index;
+    player.loadVideoById({videoId:c.items[item].id,startSeconds:a.offset});
+  }
+}
+function nextUp(){
+  const c=CHANNELS[cur]; if(Date.now()<busy) return; busy=Date.now()+3000;
+  if(c.kind==="latest"){ turn++; stage=0; play(); }
+  else{ item=(item+1)%c.items.length; player.loadVideoById({videoId:c.items[item].id,startSeconds:0}); }
+}
+function onState(e){
+  if(!isOn) return;
+  if(e.data===YT.PlayerState.PLAYING){ playing=true; failures=0; const d=player.getVideoData(); if(d&&d.title) flashOsd(d.title); }
+  if(e.data===YT.PlayerState.ENDED){ nextUp(); }
+}
+function onError(){
+  const c=CHANNELS[cur];
+  const listEmpty=!(player.getPlaylist&&(player.getPlaylist()||[]).length);
+  if(c.kind==="latest"&&listEmpty&&stage<1){ stage++; play(); return; }
+  if(++failures>=4){ failures=0; isOn=false; $("set").classList.remove("on"); player.stopVideo(); showOff("YouTube no ha dejado reproducir este canal. Prueba con otro."); return; }
+  busy=0; nextUp();
+}
+/* Cambia antes del final para no ver la pantalla de sugerencias. */
+setInterval(()=>{
+  if(!isOn||!ready) return;
+  if(player.getPlayerState&&player.getPlayerState()===YT.PlayerState.PLAYING){
+    const d=player.getDuration(),t=player.getCurrentTime();
+    if(d>10&&t>=d-1.5) nextUp();
+  }
+  if(sleepAt){
+    const left=(sleepAt-Date.now())/1000;
+    if(left<=0){ powerOff(); return; }
+    if(left<DIM_SECONDS) player.setVolume(Math.round(vol*left/DIM_SECONDS));
+    paintSleep();
+  }
+},500);
+
+/* --- Sintonizar --- */
+function tune(i,silent){
+  cur=(i+CHANNELS.length)%CHANNELS.length; stage=0; turn=0; busy=0;
+  paintDial();
+  $("set").classList.toggle("night",!!CHANNELS[cur].night);
+  $("guide").hidden=true;
+  if(!silent){ burst(); clack(); }
+  flashOsd("");
+  if(ready&&isOn) play();
+}
+function flashOsd(title){
+  const c=CHANNELS[cur];
+  $("osdNum").textContent=c.num; $("osdName").textContent=c.name; $("osdTitle").textContent=title||"";
+  $("osd").classList.add("on"); clearTimeout(osdTimer);
+  osdTimer=setTimeout(()=>$("osd").classList.remove("on"),title?4500:2500);
+}
+
+/* --- Nieve y sonido del cambio --- */
+const cv=$("static"),cx=cv.getContext("2d");
+function burst(){
+  if(reduced) return;
+  cv.classList.add("on"); const end=performance.now()+420;
+  (function draw(){
+    const img=cx.createImageData(160,120);
+    for(let i=0;i<img.data.length;i+=4){const v=Math.random()*235;img.data[i]=img.data[i+1]=img.data[i+2]=v;img.data[i+3]=255;}
+    cx.putImageData(img,0,0);
+    if(performance.now()<end) setTimeout(draw,45); else cv.classList.remove("on");
+  })();
+}
+function clack(){
+  if(!audio) return; const t=audio.currentTime;
+  const o=audio.createOscillator(),g=audio.createGain();
+  o.type="sine";o.frequency.setValueAtTime(150,t);o.frequency.exponentialRampToValueAtTime(55,t+.07);
+  g.gain.setValueAtTime(.22,t);g.gain.exponentialRampToValueAtTime(.001,t+.09);
+  o.connect(g).connect(audio.destination);o.start(t);o.stop(t+.1);
+  const n=audio.createBufferSource(),b=audio.createBuffer(1,audio.sampleRate*.4,audio.sampleRate),d=b.getChannelData(0);
+  for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
+  const f=audio.createBiquadFilter(),h=audio.createGain();
+  f.type="bandpass";f.frequency.value=3200;f.Q.value=.6;
+  h.gain.setValueAtTime(.05,t+.02);h.gain.exponentialRampToValueAtTime(.001,t+.4);
+  n.buffer=b;n.connect(f).connect(h).connect(audio.destination);n.start(t+.02);
+}
+
+/* --- Encendido --- */
+function powerOn(){
+  try{audio=audio||new (window.AudioContext||window.webkitAudioContext)();audio.resume();}catch(e){}
+  isOn=true; $("off").hidden=true; $("set").classList.add("on");
+  const t=$("tube");t.classList.remove("warm");void t.offsetWidth;t.classList.add("warm");
+  if(ready){ player.setVolume(vol); tune(cur,true); clack(); } else { pendingOn=true; }
+}
+function powerOff(){
+  isOn=false; $("set").classList.remove("on"); if(ready) player.stopVideo();
+  sleepAt=0;sleepStep=0;paintSleep();
+  if(ready) player.setVolume(vol);
+  showOff();
+}
+function showOff(msg){
+  $("offNow").innerHTML=""; const c=CHANNELS[cur];
+  const b=document.createElement("b");b.textContent=msg||("Canal "+c.num+" · "+c.name);
+  $("offNow").append(b); const line=document.createElement("div");line.textContent=msg?"":nowText(c);$("offNow").append(line);
+  $("off").hidden=false;
+}
+function nowText(c){ return c.kind==="latest"?c.tagline:c.items[onAir(c.items,nowSec()).index].t; }
+
+/* --- Dial y guía --- */
+function paintDial(){
+  document.querySelectorAll("[data-d]").forEach(b=>b.classList.toggle("cur",+b.dataset.d===+CHANNELS[cur].num));
+}
+function press(n){
+  const i=CHANNELS.findIndex(c=>+c.num===n);
+  if(i<0){ if(isOn) noSignal(n); return; }
+  if(isOn) tune(i); else { cur=i; paintDial(); showOff(); }
+}
+function noSignal(n){
+  burst(); clack();
+  $("osdNum").textContent=String(n).padStart(2,"0"); $("osdName").textContent="SIN SEÑAL"; $("osdTitle").textContent="";
+  $("osd").classList.add("on"); clearTimeout(osdTimer); osdTimer=setTimeout(()=>$("osd").classList.remove("on"),1800);
+}
+function fmtClock(sec){return new Date(sec*1000).toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"});}
+function renderGuide(){
+  const g=$("guide");g.innerHTML="";
+  const h=document.createElement("header");
+  h.innerHTML=`<span>GUÍA</span><span>${fmtClock(nowSec())}</span>`;g.append(h);
+  CHANNELS.forEach((c,i)=>{
+    const b=document.createElement("button");b.className="row"+(i===cur?" cur":"");
+    const n=document.createElement("span");n.className="n";n.textContent=c.num;
+    const t=document.createElement("span");t.className="t";t.textContent=c.name;
+    const s=document.createElement("span");s.className="sub";
+    const s2=document.createElement("span");s2.className="sub";
+    if(c.kind==="latest"){s.textContent="Ahora: "+c.tagline;s2.textContent=c.sourceName;}
+    else{
+      const a=onAir(c.items,nowSec()),v=c.items[a.index],nx=c.items[(a.index+1)%c.items.length];
+      s.textContent="Ahora: "+v.t;
+      s2.textContent=fmtClock(nowSec()+v.s-a.offset)+" · "+nx.t;
+    }
+    b.append(n,t,s,s2);b.onclick=()=>{if(isOn)tune(i);else{cur=i;paintDial();powerOn();}g.hidden=true;};g.append(b);
+  });
+}
+function toggleGuide(){const g=$("guide");if(g.hidden){renderGuide();g.hidden=false;}else g.hidden=true;}
+
+function paintSleep(){
+  const b=$("sleepBtn");
+  if(!sleepAt){b.textContent="Sleep";b.classList.remove("lit");return;}
+  b.textContent=Math.ceil((sleepAt-Date.now())/60000)+"′";b.classList.add("lit");
+}
+function cycleSleep(){
+  sleepStep=(sleepStep+1)%SLEEP.length;
+  sleepAt=SLEEP[sleepStep]?Date.now()+SLEEP[sleepStep]*60000:0;
+  if(ready) player.setVolume(vol); paintSleep();
+}
+function setVol(d){vol=Math.max(0,Math.min(100,vol+d));if(ready){player.unMute();player.setVolume(vol);}
+  $("osdNum").textContent="";$("osdName").textContent="VOL "+"|".repeat(Math.round(vol/5));$("osdTitle").textContent="";
+  $("osd").classList.add("on");clearTimeout(osdTimer);osdTimer=setTimeout(()=>$("osd").classList.remove("on"),1500);}
+
+/* --- Controles --- */
+for(let n=1;n<=9;n++){const b=document.createElement("button");b.className="k";b.textContent=n;b.dataset.d=n;b.setAttribute("aria-label","Canal "+n);b.onclick=()=>press(n);$("pad").append(b);}
+$("zoomBtn").onclick=()=>$("frame").classList.toggle("zoom");
+$("chUp").onclick=()=>isOn&&tune(cur+1);$("chDown").onclick=()=>isOn&&tune(cur-1);
+$("volUp").onclick=()=>setVol(5);$("volDown").onclick=()=>setVol(-5);
+$("guideBtn").onclick=toggleGuide;$("sleepBtn").onclick=cycleSleep;
+$("powerBig").onclick=powerOn;$("powerBtn").onclick=()=>isOn?powerOff():powerOn();
+addEventListener("keydown",e=>{
+  if(e.key==="ArrowUp"&&isOn){e.preventDefault();tune(cur+1);}
+  if(e.key==="ArrowDown"&&isOn){e.preventDefault();tune(cur-1);}
+  if(e.key==="ArrowRight"){setVol(5);}
+  if(e.key==="ArrowLeft"){setVol(-5);}
+  if(e.key==="g"||e.key==="G")toggleGuide();
+  if(/^[1-9]$/.test(e.key))press(+e.key);
+  if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
+  if(e.key==="Escape")$("guide").hidden=true;
+  if(e.key===" "&&document.activeElement===document.body){e.preventDefault();isOn?powerOff():powerOn();}
+});
+addEventListener("resize",paintDial);
+cur=defaultChannel(new Date().getHours());paintDial();showOff();
+$("set").classList.toggle("night",!!CHANNELS[cur].night);
+window.__tv={tune,state:()=>({cur,item,stage,turn,isOn,ready,playing,yt:player&&player.getPlayerState&&player.getPlayerState(),title:player&&player.getVideoData&&player.getVideoData().title,vid:player&&player.getVideoData&&player.getVideoData().video_id,t:player&&player.getCurrentTime&&player.getCurrentTime()})};
+</script>
+</body>
+</html>
