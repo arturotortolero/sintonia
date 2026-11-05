@@ -243,9 +243,11 @@ const SLEEP=[0,15,30,60]; let sleepStep=0;
 
 /* --- Reproductor --- */
 const tag=document.createElement("script");tag.src="https://www.youtube.com/iframe_api";document.head.append(tag);
+/* El iPhone solo da pantalla completa real al vídeo: se activa la del reproductor de YouTube. */
+const phoneFS=!Element.prototype.requestFullscreen;
 window.onYouTubeIframeAPIReady=()=>{
   player=new YT.Player("player",{width:"100%",height:"100%",
-    playerVars:{controls:0,disablekb:1,fs:0,rel:0,iv_load_policy:3,playsinline:1,cc_load_policy:3,hl:"es",origin:location.origin},
+    playerVars:{controls:phoneFS?1:0,disablekb:1,fs:phoneFS?1:0,rel:0,iv_load_policy:3,playsinline:1,cc_load_policy:3,hl:"es",origin:location.origin},
     events:{onReady:()=>{ready=true;player.setVolume(vol);if(pendingOn){pendingOn=false;tune(cur);}},onStateChange:onState,onError:onError,onApiChange:noCaptions,onAutoplayBlocked:()=>showOff("Toca para activar el sonido")}});
 };
 let pendingOn=false;
