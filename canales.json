@@ -113,7 +113,7 @@
   {
     "num": "04",
     "name": "Podcasts",
-    "modo": "nuevo",
+    "modo": "tele",
     "hours": [],
     "fuentes": [
       {
@@ -364,7 +364,7 @@
   {
     "num": "13",
     "name": "Siestecita de Osos",
-    "modo": "nuevo",
+    "modo": "tele",
     "hours": [],
     "fuentes": [
       {
@@ -372,6 +372,23 @@
       },
       {
         "url": "https://www.youtube.com/@NatGeoAnimals"
+      }
+    ]
+  },
+  {
+    "num": "14",
+    "name": "LOLA",
+    "modo": "tele",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@ComedyCentral"
+      },
+      {
+        "url": "https://www.youtube.com/@SaturdayNightLive"
+      },
+      {
+        "url": "https://www.youtube.com/@KeyAndPeele"
       }
     ]
   }
