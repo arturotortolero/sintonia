@@ -1,8 +1,532 @@
 {
 "channels": [
 {
+"num": "01",
+"name": "Variedades",
+"hours": [],
+"sourceName": "Business Insider, NEVER TOO SMALL, Talent Match y Konbini",
+"tagline": "Business Insider, NEVER TOO SMALL, Talent Match y Konbini",
+"kind": "latest",
+"ids": [
+"UCcyq283he07B7_KUX07mmtA",
+"UC_zQ777U6YTyatP3P1wi3xw",
+"UCxTtMIYV5WTa56Dbtvze9jg",
+"UCHQda5vLxrH0Ff0I0kMq4zw"
+]
+},
+{
+"num": "02",
+"name": "Tecnología",
+"hours": [],
+"sourceName": "Google",
+"tagline": "Google",
+"kind": "linear",
+"items": [
+{
+"id": "DDjr6gXqtN8",
+"t": "What’s New in Google Accessibility | Episode 13 | American Sign Language",
+"s": 478
+},
+{
+"id": "lL7L6DiGeLc",
+"t": "What’s New in Google Accessibility | Episode 13",
+"s": 478
+},
+{
+"id": "WMjVP7QQyDI",
+"t": "Giannis x Google Search: Miami Pickup Hoops",
+"s": 73
+},
+{
+"id": "eSGqW_VMMXQ",
+"t": "Why the future of healthcare is prevention | Dr. Eric Topol & Josh Woodward",
+"s": 834
+},
+{
+"id": "ktdbUIZKeSE",
+"t": "Cómo evitar que los chips de IA se sobrecalienten en el espacio",
+"s": 133
+},
+{
+"id": "KO2bNK9L7WA",
+"t": "Mantener conectados a los satélites en órbita con láseres",
+"s": 150
+},
+{
+"id": "8NPgswgbTnE",
+"t": "Probando chips de IA para sobrevivir en el espacio",
+"s": 194
+},
+{
+"id": "-uu2N53Ig3M",
+"t": "Museo Lucas: Las búsquedas principales revelan narrativas ocultas | En busca de",
+"s": 284
+},
+{
+"id": "o1JK79jszqo",
+"t": "El nuevo proyecto ambicioso de Google para llevar el aprendizaje automático al espacio",
+"s": 127
+},
+{
+"id": "HuGAiGfKqW0",
+"t": "Por qué este profesor universitario está adoptando la IA",
+"s": 102
+},
+{
+"id": "x0692zj9jsI",
+"t": "Lo que un astronauta de la NASA puede enseñarnos sobre el descubrimiento y la exploración | Chris...",
+"s": 1691
+},
+{
+"id": "rPq7ITrWFvY",
+"t": "The latest updates to Google Translate",
+"s": 86
+},
+{
+"id": "Nm5e9ok8dIg",
+"t": "Las búsquedas sobre naturaleza más populares del mundo respondidas en un parque nacional épico | ...",
+"s": 355
+},
+{
+"id": "dWH8n-FkprM",
+"t": "Detrás de escena en las instalaciones de prueba de la misión Artemis II | Buscando respuestas",
+"s": 103
+},
+{
+"id": "bSp-foRDH5M",
+"t": "Cómo crear aplicaciones y automatizar tareas con Google Antigravity 2.0",
+"s": 136
+},
+{
+"id": "Sm7OTow3mcY",
+"t": "Cómo saber si una imagen fue generada por IA o no",
+"s": 73
+},
+{
+"id": "YSKzyVOQmuA",
+"t": "How Gemini 3.6 Flash helped this dairy farmer run his business",
+"s": 156
+},
+{
+"id": "2jBT5mlomoE",
+"t": "Cómo usamos la IA para tu salud | Podcast Made by Google T9E6",
+"s": 1237
+},
+{
+"id": "iDz4GqHQL6Q",
+"t": "Cómo se hizo el Doodle del 4 de julio | Detrás del Doodle",
+"s": 71
+},
+{
+"id": "TglEnUdBb3o",
+"t": "¿Qué es Nano Banana?",
+"s": 81
+},
+{
+"id": "MfDYRK1pAvA",
+"t": "¿Cuántas formas existen de patear un balón?",
+"s": 31
+},
+{
+"id": "JJTdXTf12oQ",
+"t": "Cómo usar el Agente en Google Flow | Encuentra tu flujo",
+"s": 117
+},
+{
+"id": "mx0xFpVjxHE",
+"t": "Cómo publicar una aplicación en Google AI Studio",
+"s": 71
+},
+{
+"id": "iGOmDRYctOw",
+"t": "Behind the Doodle: Father’s Day #GoogleDoodle",
+"s": 33
+},
+{
+"id": "ECquAokER_8",
+"t": "Cómo usar las herramientas en Google Flow | Encuentra tu flow",
+"s": 151
+},
+{
+"id": "gPx12V4yiIk",
+"t": "El deporte más buscado",
+"s": 61
+},
+{
+"id": "zASY1bewxbs",
+"t": "La encargada oficial del trofeo de la NBA responde a las preguntas más populares | Buscando",
+"s": 171
+},
+{
+"id": "jHEEaQJxJyo",
+"t": "Títeres e IA | Detrás de cámaras con Timmy TPU",
+"s": 179
+},
+{
+"id": "guv2-EoGUXw",
+"t": "Cómo editar y crear videos con Gemini Omni",
+"s": 89
+},
+{
+"id": "xxY0yuzxzLY",
+"t": "Gafas inteligentes | I/O 2026 Keynote",
+"s": 700
+},
+{
+"id": "34q_KjF64E8",
+"t": "IA y Sociedad | Conferencia Magistral de I/O 2026",
+"s": 377
+},
+{
+"id": "FLynjUYg79I",
+"t": "Medios generativos | Discurso principal de I/O 2026",
+"s": 558
+},
+{
+"id": "7Z5Vy9JBANs",
+"t": "Gemini | Conferencia I/O 2026",
+"s": 830
+},
+{
+"id": "kQQbTYPt7VE",
+"t": "Búsqueda + Compras | Presentación principal I/O 2026",
+"s": 1389
+},
+{
+"id": "amnhF6BwzZQ",
+"t": "Gemini Spark | Discurso de apertura de I/O 2026",
+"s": 491
+},
+{
+"id": "T_fnhr5lVBw",
+"t": "GIO26 AGY 2.0 Demostración Varun Elemento 5",
+"s": 495
+},
+{
+"id": "QhdEJFFaig0",
+"t": "Conferencia magistral de Gemini Omni | I/O 2026",
+"s": 271
+},
+{
+"id": "duHhImuaZGU",
+"t": "Palabras de apertura de Sundar Pichai | Conferencia principal de I/O 2026",
+"s": 2529
+},
+{
+"id": "tfx2CjqtCUI",
+"t": "I/O '26 Recap: Everything You Need to Know",
+"s": 893
+},
+{
+"id": "2m5BCWB02jY",
+"t": "Meet Gemini Omni",
+"s": 51
+},
+{
+"id": "uW4B6ziQqvY",
+"t": "¿Qué es Gemini Omni?",
+"s": 65
+},
+{
+"id": "s4Lav_gsMPo",
+"t": "Sneak Peek: Intelligent Eyewear | Gemini is Coming to Your Glasses",
+"s": 136
+},
+{
+"id": "q-dnq2Fsq2Y",
+"t": "Se busca ayuda, ayuda encontrada: descubre cómo Holly usa Gemini",
+"s": 104
+},
+{
+"id": "p6EBMG8OEBI",
+"t": "Novedades en la Búsqueda",
+"s": 97
+},
+{
+"id": "vN6W1Z8eRMc",
+"t": "Presentación de herramientas en Google Flow",
+"s": 71
+},
+{
+"id": "_qWItNk5a9Q",
+"t": "Explorando herramientas en Google Flow | En el Flow",
+"s": 170
+},
+{
+"id": "NL7izhdQ7vk",
+"t": "Presentando a tu agente y Gemini Omni en Google Flow",
+"s": 76
+},
+{
+"id": "dhI4djOVEmI",
+"t": "Día de entrenamiento de TPU para I/O ‘26",
+"s": 87
+},
+{
+"id": "KUyRq7szZsM",
+"t": "Introducing Gemini Omni: Create Anything from Anything",
+"s": 55
+},
+{
+"id": "YXbCQVhKb-Q",
+"t": "Crea algo que valga la pena",
+"s": 100
+},
+{
+"id": "MVn33xN9dF4",
+"t": "El show de Android: Del sistema operativo al sistema inteligente | Podcast de Google, temporada 9...",
+"s": 1665
+},
+{
+"id": "4JVtVgl8oEs",
+"t": "Sube de nivel en I/O",
+"s": 27
+},
+{
+"id": "EJJhbcHPqu4",
+"t": "¿Cuáles son las canchas más difíciles para jugar en la NBA?",
+"s": 31
+},
+{
+"id": "QAKtNOWsaHI",
+"t": "Cómo escribir un prompt de IA",
+"s": 187
+},
+{
+"id": "M9mAufki0Ik",
+"t": "Novedades en accesibilidad de Google | Episodio 12 | Lengua de señas americana",
+"s": 463
+},
+{
+"id": "s0M79zWRKps",
+"t": "Novedades en accesibilidad de Google | Episodio 12",
+"s": 463
+},
+{
+"id": "x6Ix0RVd7yk",
+"t": "Busca lo que ves: La tecnología detrás de la magia | Made by Google Podcast T9E4",
+"s": 1197
+},
+{
+"id": "NBOYISh5jC4",
+"t": "Crea apps para tus amigos",
+"s": 136
+},
+{
+"id": "7gnybANIBws",
+"t": "Cómo la IA te ayuda a expresar tu estilo | Podcast Made by Google T9E3",
+"s": 1488
+},
+{
+"id": "6jELhHO1VNA",
+"t": "¿Por qué el stepback de Luka es tan imposible de defender?",
+"s": 16
+},
+{
+"id": "-Ll1TaIDHXU",
+"t": "Hazme un plan para mejorar mis triples",
+"s": 16
+},
+{
+"id": "XO8oJo1C5zc",
+"t": "¿Qué se necesita para llegar a lo más alto?",
+"s": 31
+},
+{
+"id": "F8DQV3Ud0pk",
+"t": "Giannis Antetokounmpo revela los finalistas de Doodle for Google 2025 – 2026",
+"s": 105
+},
+{
+"id": "I0V14dTS9JQ",
+"t": "Expertos en computación cuántica responden las preguntas más populares | Searching For",
+"s": 236
+},
+{
+"id": "W-dj56fP4jY",
+"t": "Cómo usamos la IA en tu muñeca | Made by Google Podcast S9E2",
+"s": 1229
+},
+{
+"id": "b1Pvt072wKQ",
+"t": "Cómo programar una app al estilo \"vibe code\" a partir de un dibujo",
+"s": 192
+},
+{
+"id": "i2kXouPuNxk",
+"t": "¿Quieres echar un vistazo a los planes de @KarolG para @Coachella? Todo empieza con la Búsqueda d...",
+"s": 31
+},
+{
+"id": "tYhgWRJeYzs",
+"t": "¿Qué es el vibe coding?",
+"s": 95
+},
+{
+"id": "euiGMQURy0U",
+"t": "Repetición instantánea de Géminis | Nuevo ajuste",
+"s": 31
+},
+{
+"id": "xCkIxdJZ8fU",
+"t": "Cómo programar una página web al estilo \"vibe coding\"",
+"s": 145
+},
+{
+"id": "0DRDJ01COqo",
+"t": "Visualiza modelos de mundo con Project Genie",
+"s": 329
+},
+{
+"id": "Lb4jpHoZTjs",
+"t": "Platform 37: El nuevo espacio de innovación en IA de Google en Londres",
+"s": 107
+},
+{
+"id": "4BzoMc3acOY",
+"t": "Ayudando a los radiólogos a detectar el cáncer de mama con IA",
+"s": 239
+},
+{
+"id": "1FLVOAjtgag",
+"t": "Shaping the Limitless Possibilities of Dr. Marian Croak",
+"s": 576
+},
+{
+"id": "okxUpjDOd1w",
+"t": "La era de la innovación en IA | Donde vive el Internet",
+"s": 141
+},
+{
+"id": "gYfCm3zYajg",
+"t": "La evolución de la tecnología en el hip hop | LL COOL J y James Manyika de Google",
+"s": 1239
+},
+{
+"id": "oKjDeMtBZ4g",
+"t": "Crea con Flow | Cómo usar el estudio creativo con IA de Google",
+"s": 190
+},
+{
+"id": "BGuxsk79sYY",
+"t": "Introducing the New Flow, Your AI Creative Studio",
+"s": 60
+},
+{
+"id": "hi-O3crULJk",
+"t": "The $499 AI Superphone: Pixel 10a Deep Dive | Made by Google Podcast S9E1",
+"s": 812
+},
+{
+"id": "ooCjmT77SRM",
+"t": "Oner Biberkoku sobre cine con IA usando Flow | En el flujo",
+"s": 163
+},
+{
+"id": "TD6FPndjhoE",
+"t": "Presentamos Lyria, la tercera generación de música.",
+"s": 66
+},
+{
+"id": "n0lt9Hpk2oU",
+"t": "How did Red Gerard get so good? | Google + Team USA",
+"s": 31
+},
+{
+"id": "MBHquayfSUI",
+"t": "What are Chloe Kim’s iconic tricks? | Google + Team USA",
+"s": 31
+},
+{
+"id": "z39LT_ULDaQ",
+"t": "¿Por qué todo el mundo habla del Dios del Quad?",
+"s": 31
+},
+{
+"id": "Z1yGy9fELtE",
+"t": "Nuevo hogar | Comercial de Google Gemini SB 2026",
+"s": 61
+},
+{
+"id": "7hnvRBjuCW8",
+"t": "Cultivando para el futuro | Donde vive Internet",
+"s": 484
+},
+{
+"id": "QikCsFDvt9g",
+"t": "Crea arte interactivo con AI Studio",
+"s": 518
+},
+{
+"id": "PAU2VeoVplg",
+"t": "Project Genie from Google DeepMind | Google",
+"s": 47
+},
+{
+"id": "vFe-FrZSAKo",
+"t": "Programando el futuro | Donde vive Internet",
+"s": 495
+},
+{
+"id": "1WJLUXbAK9o",
+"t": "From Discovery to Delivery | New Ways to Shop with Google",
+"s": 98
+},
+{
+"id": "OEkPt3jnZTY",
+"t": "What’s New in Google Accessibility | Episode 11",
+"s": 472
+},
+{
+"id": "1SLhLQaDOvE",
+"t": "Novedades en accesibilidad de Google | Episodio 11 | Lengua de señas americana",
+"s": 472
+},
+{
+"id": "8sABhCMxU3c",
+"t": "New in Search | Personal Intelligence in AI Mode",
+"s": 114
+},
+{
+"id": "QdRfaMRjzvw",
+"t": "Avances en logística | Donde vive Internet",
+"s": 484
+},
+{
+"id": "hZSDKiM8LvA",
+"t": "Niklas Klabunde sobre prompts para cine con IA en Flow | In the Flow",
+"s": 244
+},
+{
+"id": "Bb0oFbZ35qM",
+"t": "Hashem Al-Ghaili sobre la creación de películas con IA con Flow | In the Flow",
+"s": 124
+},
+{
+"id": "jiGDzy0sxOI",
+"t": "Potenciando la creatividad | Donde vive Internet",
+"s": 351
+},
+{
+"id": "oRqEL0t67fo",
+"t": "Heather Cooper sobre cine con IA usando Flow | In the Flow",
+"s": 175
+},
+{
+"id": "nkX8j9472lg",
+"t": "Meta Puppet sobre cine con IA con Flow | En el Flow",
+"s": 220
+},
+{
+"id": "o-8WCNb3BQY",
+"t": "Mapeando nuevos medicamentos | Donde vive Internet",
+"s": 526
+}
+]
+},
+{
 "num": "03",
-"name": "Dibujos",
+"name": "Comiquitas",
 "hours": [
 15,
 20
@@ -1469,14 +1993,1012 @@
 },
 {
 "num": "06",
-"name": "Late Night",
+"name": "Late Night Show",
 "hours": [],
 "sourceName": "The Tonight Show Starring Jimmy Fallon y Jimmy Kimmel Live",
 "tagline": "The Tonight Show Starring Jimmy Fallon y Jimmy Kimmel Live",
-"kind": "latest",
-"ids": [
-"UC8-Th83bH_thdKZDJCrn88g",
-"UCa6vGFO9ty8v5KZJXQxdhaw"
+"kind": "linear",
+"items": [
+{
+"id": "uDTcC4fuDAw",
+"t": "Chef Anthony Vitolo Cooks His Classic Spaghetti Pomodoro with Jimmy | The Tonight Show",
+"s": 431
+},
+{
+"id": "DBcBmzz8Bf4",
+"t": "Timothy Simons on Major Soup Fail, Getting into Politics Doing VEEP & His Epic Search for Cigarettes",
+"s": 516
+},
+{
+"id": "PcALlSqnVAs",
+"t": "Memory Drawing Challenge with Carrie Coon | The Tonight Show Starring Jimmy Fallon",
+"s": 437
+},
+{
+"id": "Dp_bpfEvvoQ",
+"t": "Miles Teller on Tom Cruise Talking About Top Gun 3, MLB All-Star Game in Philly & Paper Tiger",
+"s": 716
+},
+{
+"id": "awKCW9dyuvQ",
+"t": "Carrie Coon Says Taylor Swift Should Be on The Gilded Age, Discusses the Show's New Season",
+"s": 455
+},
+{
+"id": "RHWmbCnprXw",
+"t": "Trump Blames Everyone But Himself for Huge Midterm Loss & the White House Lashes Out at Jimmy Kimmel",
+"s": 1310
+},
+{
+"id": "vKy1cYrIsVg",
+"t": "Tracy Morgan Does His Chewbacca Impression, Talks the Knicks and Reggie Dinkins Season 2",
+"s": 594
+},
+{
+"id": "sdw-9wFMT1A",
+"t": "Pod Save America Hosts on Midterm Results, Trump’s Final Two Years & 2028 Presidential Candidates",
+"s": 1238
+},
+{
+"id": "gKjwSQyc5Js",
+"t": "Trump Furious About Democrats' Midterms Win, Says He Would Have Won the Ballot | The Tonight Show",
+"s": 514
+},
+{
+"id": "H9jo7ylQ1m8",
+"t": "Cage the Elephant – Make It Easy",
+"s": 211
+},
+{
+"id": "2zO9sHPInEQ",
+"t": "Kurt Vile: 99 BPM | The Tonight Show Starring Jimmy Fallon",
+"s": 285
+},
+{
+"id": "KY9zDP4pH88",
+"t": "Jimmy Kimmel Breaks Down Midterm Election Results, Trump Loses Bigly & Assistant Natalie Stops By!",
+"s": 1000
+},
+{
+"id": "1jGI0zIQ1k0",
+"t": "Eric Ripert Always Wanted to Be a Chef, Talks His New Cookbook and Drinks Tea with Jimmy",
+"s": 326
+},
+{
+"id": "ouEPXMniOUQ",
+"t": "Bill Hader on Group Chat with Kimmel, Mulaney and Armisen, The Cat in the Hat & His Kids Being Funny",
+"s": 883
+},
+{
+"id": "a-aW6D4hYrI",
+"t": "Niecy Nash-Betts Told Rihanna She Dressed as Her for Halloween, Talks Filming All's Fair Season 2",
+"s": 477
+},
+{
+"id": "21an7lQV90Q",
+"t": "Justine Lupe on Nobody Wants This, Her Dad’s Disastrous Wedding Speech & Her Mom Giving the Talk",
+"s": 616
+},
+{
+"id": "CPIx4qgKpMw",
+"t": "Sam Rockwell Makes Another Iconic Tonight Show Entrance, Does His Best SNL Impression with Jimmy",
+"s": 610
+},
+{
+"id": "AKVUa3rRxzo",
+"t": "Trump LASER Focused on Midterm Election, Blabbers About the Reflecting Pool & Mar-a-Lago Halloween",
+"s": 1041
+},
+{
+"id": "j4L-DHQA4zw",
+"t": "Trump Says He Will Become \"Mr. Veto\" If Democrats Win Midterms, Gives Speech at Reflecting Pool",
+"s": 501
+},
+{
+"id": "9LIrSFby1cg",
+"t": "Behind the Scenes with Jimmy Kimmel & Audience (Tank Top Halloween Costumes)",
+"s": 307
+},
+{
+"id": "OFgdomoKXt4",
+"t": "ADÉLA Teaches Jimmy Her Iconic Swaggerina Dance, Performs \"Nicole Kidman\" and \"Ain't In LA\"",
+"s": 729
+},
+{
+"id": "8MNrcLhXo8I",
+"t": "Foo Fighters – Baker Street",
+"s": 258
+},
+{
+"id": "4EJqaRrJvZ4",
+"t": "Shin Lim Performs a Mind-Blowing Cup and Ball Magic Trick for Jimmy | The Tonight Show",
+"s": 392
+},
+{
+"id": "9weE2rrPpIE",
+"t": "Christopher Lloyd on Meeting Princess Diana, Being in Cher’s Bedroom & Turning 88 Years Old",
+"s": 486
+},
+{
+"id": "fNvBsfb3TzU",
+"t": "Veronika Slowikowska Celebrates Her Birthday on The Tonight Show with a Polish Birthday Song",
+"s": 319
+},
+{
+"id": "7HeIRaVNtiM",
+"t": "Paul Bettany on New Show VisionQuest, Blowing His Eye Out on Set & Becoming an American Citizen",
+"s": 822
+},
+{
+"id": "-oFXlJxXsbM",
+"t": "Mel Robbins Pranked Her Family with Fake PEOPLE Magazine Cover, Shares Advice That Changed Her Life",
+"s": 650
+},
+{
+"id": "7_eUJ0Af5yw",
+"t": "Trump Lashes Out at a Reporter, Hecklers Take Over His Rallies & Obama's Cheesecake Factory Response",
+"s": 830
+},
+{
+"id": "FH-8ZAvGWfc",
+"t": "LL COOL J Introduced Hip-Hop to Maine, Talks Early Rap Names and Rock the Bells Vegas Residency",
+"s": 492
+},
+{
+"id": "RSU0CPdei9k",
+"t": "Guillermo Races with Bobby & Graham Rahal - Sponsored by Edwards Lifesciences",
+"s": 69
+},
+{
+"id": "dku-9J0KxTM",
+"t": "Trump Brags About Cognitive Test Again, Putin Hails Elon Musk a “Genius\" | The Tonight Show",
+"s": 559
+},
+{
+"id": "nwtmot_PL3M",
+"t": "Emma Roberts on Getting Married, American Horror Story & She Breaks Baseball Cards with Jimmy Kimmel",
+"s": 610
+},
+{
+"id": "ENAAxBc_StE",
+"t": "Jamie Campbell Bower Smells Jimmy, Shows Off His Stranger Things and Rings of Power Prosthetics",
+"s": 791
+},
+{
+"id": "cGkutLx7xLM",
+"t": "Governor Gavin Newsom on Trump’s Election Meddling, If He'll Run for President & Blue Wave Coming",
+"s": 985
+},
+{
+"id": "Vf09TIOOdw0",
+"t": "Angèle: Love Triangle | The Tonight Show Starring Jimmy Fallon",
+"s": 239
+},
+{
+"id": "zIwbwIlFFcE",
+"t": "Foo Fighters – Your Favorite Toy",
+"s": 187
+},
+{
+"id": "bbIvEDa6BCk",
+"t": "Hey Robot with Jamie Lee Curtis | The Tonight Show Starring Jimmy Fallon",
+"s": 421
+},
+{
+"id": "bwWGBP18vmc",
+"t": "Trump’s Racism is on Full Display, Won’t Endorse JD Vance & Don Jr is All Over the Place",
+"s": 961
+},
+{
+"id": "D38EKEBbMpE",
+"t": "Jamie Lee Curtis Tests Her Horror Movie Knowledge, Shows Off Baby Impression and Talks Newlyweds",
+"s": 829
+},
+{
+"id": "1BqwBATY6Qo",
+"t": "Foo Fighters – This Is A Call",
+"s": 230
+},
+{
+"id": "2RoZtt4mLVA",
+"t": "Trump Rants About Loving Meat, Continues to Thirst Over Sen. Jon Husted | The Tonight Show",
+"s": 586
+},
+{
+"id": "BQaMVQ3Bq6A",
+"t": "Gabourey Sidibe on Her Twins Dressing Up for Halloween & Scary Role on American Horror Story",
+"s": 513
+},
+{
+"id": "jLXghyVDXbg",
+"t": "You Can See Everything with Jamie Lee Curtis (Cold Open) | The Tonight Show Starring Jimmy Fallon",
+"s": 96
+},
+{
+"id": "t-WFvGbYyK8",
+"t": "Owen Wilson on Fockers Call from De Niro, Stealing from Woody Harrelson & Golfing with His Brother",
+"s": 731
+},
+{
+"id": "S_qp-16ic04",
+"t": "Julian McCullough Stand-Up: Touring with Nate Bargatze, Rat Birth Control | The Tonight Show",
+"s": 374
+},
+{
+"id": "zpW_gVjb7T4",
+"t": "Trump Gets Heckled at His Own Rally, Gifts Us a GREAT Moment & Don Jr’s Oligarch Hunting Trip",
+"s": 934
+},
+{
+"id": "m-rX7mtKv_M",
+"t": "Nicholas Galitzine Chickened Out of Whittling a Chess Piece for Ben Stiller (Extended)",
+"s": 507
+},
+{
+"id": "Gd-lxHNPMI0",
+"t": "Connie Britton on Friday Night Lights Reunion, Road Trip with Kyle Chandler & New Hulu Show Phony",
+"s": 558
+},
+{
+"id": "7E5KprMBADA",
+"t": "Silent Disco Interview with Parker Posey | The Tonight Show Starring Jimmy Fallon",
+"s": 332
+},
+{
+"id": "dk8jaL4AyCQ",
+"t": "Dave Grohl on Poaching Taylor Hawkins from Alanis Morissette, Cooking for Vin Diesel & New Album",
+"s": 869
+},
+{
+"id": "tVILxPeUynk",
+"t": "Parker Posey's Mom Had a Message for Joe Gorga While Filming The Mob, Talks Wild Horse Nine",
+"s": 457
+},
+{
+"id": "a9lTedOJDxI",
+"t": "Foo Fighters – Window",
+"s": 224
+},
+{
+"id": "LPkSDiJmUrU",
+"t": "Trump Offers $1 Million for Voter Fraud Reports, Gets Heckled at Mississippi Rally | Tonight Show",
+"s": 655
+},
+{
+"id": "5HNo4Cz5Yec",
+"t": "Trump Comments on Nicki Minaj’s “Beautiful Ass,\" Obama Roasts Trump & Midterm Shenanigans",
+"s": 886
+},
+{
+"id": "kXivqiKcgSE",
+"t": "St. Vincent: Smoking Section | The Tonight Show Starring Jimmy Fallon",
+"s": 301
+},
+{
+"id": "MMaOs74_bzs",
+"t": "Judd Apatow on Mushrooms with Wife Leslie Mann & Documentaries About Norm Macdonald & Maria Bamford",
+"s": 690
+},
+{
+"id": "DmYH6VEARqk",
+"t": "Joe Keery Recalls Shocking Audience Bathroom Incident During Other Desert Cities | The Tonight Show",
+"s": 337
+},
+{
+"id": "3ZbbL2ySDAo",
+"t": "Kim Kardashian on Going Through OJ Simpson's Luggage, Doing Dancing with the Stars & All's Fair",
+"s": 973
+},
+{
+"id": "a9Zqb2Wei-0",
+"t": "Billy Crystal Announces 860 Broadway Extension, Reveals His Grandkids Called Him Mike Wazowski",
+"s": 499
+},
+{
+"id": "4K1Cz42AYxY",
+"t": "The White House is Mad at Jimmy Kimmel AGAIN, Trump’s Press Secretary Mess & Fox News Betrays Him",
+"s": 853
+},
+{
+"id": "WXkIUl97fmY",
+"t": "Password with Billy Crystal, Joe Keery and St. Vincent | The Tonight Show Starring Jimmy Fallon",
+"s": 621
+},
+{
+"id": "7qjdZkgITXY",
+"t": "Tom Rhys Harries on Playing Clayface, Being Able to Beat Every Batman & Growing Up in Wales",
+"s": 466
+},
+{
+"id": "DSuqH79btC8",
+"t": "Trump Orders DOJ to Block Alaska Senate Results, Blasts Don Jr. Over Bankrolled Wedding",
+"s": 493
+},
+{
+"id": "jKGzSb5RY8g",
+"t": "Adam Brody on Traveling to Italy Without His Kids & Popularity of Nobody Wants This Around the World",
+"s": 650
+},
+{
+"id": "_D1shb99GNA",
+"t": "ROSALÍA Talks LUX Tour Celebrity Confessionals, Plays Charades with Linda Cardellini and Tate McRae",
+"s": 920
+},
+{
+"id": "4CZem0V1XhA",
+"t": "Matchbox Twenty - 3AM",
+"s": 238
+},
+{
+"id": "DPu5RyE1BKQ",
+"t": "ADÉLA: Nicole Kidman/Ain't In LA Medley | The Tonight Show Starring Jimmy Fallon",
+"s": 314
+},
+{
+"id": "QKppvCsSO6Y",
+"t": "Trump is Laser Focused on the Midterms & Our Hero Guillermo Returns After Dancing with the Stars",
+"s": 984
+},
+{
+"id": "t9MpJpgE8h0",
+"t": "ADÉLA Freaked Out When Nicole Kidman Mentioned Her & Gives Jimmy an Iconic Swaggerina Dance Lesson",
+"s": 439
+},
+{
+"id": "eCkr9Mmj2l4",
+"t": "Kate Berlant on Her Parents Being Too Supportive & Jimmy Kimmel’s Review of Her New HBO Special",
+"s": 550
+},
+{
+"id": "lc7dQcLXTW0",
+"t": "\"I'm Probably the Only Villain Ever with an Ostomy Bag\": Joe Manganiello on His Justice League Role",
+"s": 796
+},
+{
+"id": "c2UegpzAt4c",
+"t": "Curtis “50 Cent” Jackson on Beefing with Diddy, Being Intimidated by De Niro & Making Street Fighter",
+"s": 852
+},
+{
+"id": "UddHaiMqAqg",
+"t": "Kristen Bell's Halloween Hayride Was Sabotaged by Zombies | The Tonight Show Starring Jimmy Fallon",
+"s": 510
+},
+{
+"id": "25PihIm_Nd0",
+"t": "Trump’s New Press Secretary Has Disastrous First Day & Guillermo Booted from Dancing with the Stars!",
+"s": 998
+},
+{
+"id": "XTiftHEseWc",
+"t": "Trump Makes Strange Guttural Noise During Campaign Rally, Hegseth Breaks Priceless Historic Globe",
+"s": 814
+},
+{
+"id": "KRUYAuhFpi4",
+"t": "Josh Brolin on His List of 74 Movies Everyone Needs to See & Making His New Film Whalefall",
+"s": 714
+},
+{
+"id": "rSsdVPOQWxA",
+"t": "Queens of the Stone Age: Where The Goth Girls At? | The Tonight Show Starring Jimmy Fallon",
+"s": 253
+},
+{
+"id": "RIktC1DJ6ao",
+"t": "William Shatner & Brad Paisley - Masks",
+"s": 223
+},
+{
+"id": "qKoLXIjBsYk",
+"t": "Josh Charles on Getting Headbutted by David Wells & Playing a Blood-Phobic Surgeon in Best Medicine",
+"s": 568
+},
+{
+"id": "KryCb2pWYBU",
+"t": "William Shatner & Brad Paisley on Meeting & Making Music and Shatner Getting into Heavy Metal at 95",
+"s": 532
+},
+{
+"id": "mQMc-mtqRDM",
+"t": "Uma Thurman Had a Terrifying Brush with the Law When She Was Three | The Tonight Show",
+"s": 623
+},
+{
+"id": "wcGjroe8BZA",
+"t": "Trump Complains About Jimmy Kimmel, Throws Fit Over Not Winning Nobel Peace Prize & Guillermo-Mania!",
+"s": 1000
+},
+{
+"id": "PbbE-wy1Y4o",
+"t": "Jimmy Feeds the Tonight Show's Pet Fish | The Tonight Show Starring Jimmy Fallon",
+"s": 207
+},
+{
+"id": "cSChIJS1pyQ",
+"t": "Michael Douglas on Affair with Kathleen Turner, His Wife Not Reading His Book & Doing Coke with OJ",
+"s": 872
+},
+{
+"id": "339-czfSS5s",
+"t": "Trump Thirsts Over Sen. John Husted, White House Officials Believe Democrats Will Sweep the Midterms",
+"s": 492
+},
+{
+"id": "7HrD9azWOTg",
+"t": "Daisy Edgar-Jones on Meeting Spielberg at Her First Hollywood Party & Being in Sense and Sensibility",
+"s": 395
+},
+{
+"id": "xXJ76YlLm8k",
+"t": "Beck: In The Night | The Tonight Show Starring Jimmy Fallon",
+"s": 208
+},
+{
+"id": "Ic3bD0QRVYQ",
+"t": "Trump Won’t Win the Nobel Peace Prize, Keeps Talking About Iran Bombing LA & More Broken Promises",
+"s": 959
+},
+{
+"id": "Y5BeBkfgc7c",
+"t": "Beck Was the Inspiration for an Iconic Zoolander Character | The Tonight Show Starring Jimmy Fallon",
+"s": 588
+},
+{
+"id": "dtqSh7DAHAM",
+"t": "Malcolm Gladwell on Policing in America, Assault Rifle Bans & New Book The American Way of Killing",
+"s": 736
+},
+{
+"id": "8Ld7Q8RZg-E",
+"t": "KJ Apa Responds to Mr. Fantasy Identity Theft Allegations, Talks Jimmy Stewart Biopic | Tonight Show",
+"s": 391
+},
+{
+"id": "uTi2Yiz-8vs",
+"t": "Jessica Chastain Teaches Jimmy Kimmel How to Do the Other Mommy Creepy Smile",
+"s": 733
+},
+{
+"id": "5Q7snsArHds",
+"t": "Sacha Baron Cohen on Bringing Back Ali G | The Tonight Show Starring Jimmy Fallon",
+"s": 793
+},
+{
+"id": "XIBcA0R6AD4",
+"t": "Trump Wants His Golf Club to Be Camp David & Jimmy Kimmel's Message to Guillermo's Dancing Haters",
+"s": 1108
+},
+{
+"id": "IPWQkcJqoGI",
+"t": "Hoops of Insanity: Jock Strap Flap Slap, Hoop! There It Is | The Tonight Show Starring Jimmy Fallon",
+"s": 578
+},
+{
+"id": "GMk-YpfErws",
+"t": "Kyle MacLachlan on Filming Dune, Playing an Impotent Guy on Sex and the City & Working with Sting",
+"s": 613
+},
+{
+"id": "EmJNam332tY",
+"t": "Tonight Show Starting Five with Karl-Anthony Towns",
+"s": 105
+},
+{
+"id": "39hD61SxyGw",
+"t": "Kerry Washington on Working with Ben Affleck & Rooting for Two People on Dancing with the Stars",
+"s": 855
+},
+{
+"id": "tXHquLhRvMc",
+"t": "Trump's Approval Rating Hits ANOTHER Record-Breaking Low Ahead of Midterms | The Tonight Show",
+"s": 557
+},
+{
+"id": "TYxJ_HXi6Cw",
+"t": "Trump Muses About Iran Taking Out LA and San Diego, Leers at Natalie & Guillermo’s Big Dancing Night",
+"s": 833
+},
+{
+"id": "c7i9kHbp5Wk",
+"t": "Joanne McNally Stand-Up: Losing Eggs, Breakups with Bald Men | The Tonight Show",
+"s": 447
+},
+{
+"id": "LO9Tlp7LgiY",
+"t": "Marcus Mumford on His Obsession with Disney, Collaborating with Amazing Artists & Prized Possession",
+"s": 519
+},
+{
+"id": "EXbp8QI9z8M",
+"t": "Andy Cohen Responds to Viral Speedo Photo and Answers Lightning Round Bravo Questions | Tonight Show",
+"s": 541
+},
+{
+"id": "i261DEYcOcw",
+"t": "Anna Kendrick on Her Brother’s Wedding, Working with Chris Rock & Trip to New Zealand",
+"s": 726
+},
+{
+"id": "UpM0RaEvOWY",
+"t": "Chris Pratt's Bubba Gump Shrimp Co. Nickname Almost Became His Real Name | The Tonight Show",
+"s": 677
+},
+{
+"id": "ilWkoLJT2xo",
+"t": "Mumford & Sons Feat. Chris Thile – Here",
+"s": 219
+},
+{
+"id": "wgseaECwfCg",
+"t": "Tonight Show Lookalikes: Homemade Pancakes, Italian Guitar Teacher | The Tonight Show",
+"s": 254
+},
+{
+"id": "nlbaq4cRsfA",
+"t": "Trump Spends Millions of Taxpayer Dollars on Ads Promoting Himself & Tries to Buy the Midterms!",
+"s": 960
+},
+{
+"id": "ec1vqN1R_jo",
+"t": "Trump Fires Press Secretary Katie Zacharia, Waives Russia Sanctions After Striking Oil Deal",
+"s": 434
+},
+{
+"id": "KdBGJTRDPG4",
+"t": "This Week in Unnecessary Censorship",
+"s": 87
+},
+{
+"id": "tKFOA8epppA",
+"t": "Hailee Steinfeld Talks Avengers Rumors and Hexed Role as a New Mom, Plays Don’t Say the Same Thing",
+"s": 638
+},
+{
+"id": "13KR2CUo1hc",
+"t": "Paul McCartney on Singing at Taylor Swift’s Wedding, Grammys Party Rejection & Duet with Ringo",
+"s": 847
+},
+{
+"id": "Jsb-nfZ2TbQ",
+"t": "Tate McRae Dropped \"Housewife\" Hint at Lollapalooza, Talks Taylor Swift Shock and Plays Charades",
+"s": 639
+},
+{
+"id": "p1CiIWrRh0s",
+"t": "Goose - Good Times // End Times",
+"s": 268
+},
+{
+"id": "n3Mlm0nkync",
+"t": "Anne Hathaway Gets Surprised with OG Anunoby Jersey, Talks Verity Red Carpet & Plays Best Thing Ever",
+"s": 1033
+},
+{
+"id": "K42dfioYcAQ",
+"t": "Bernie Sanders on Trump Running Political Ads with YOUR Money, Ignoring the Constitution & A.I. Laws",
+"s": 772
+},
+{
+"id": "MxxodMXmcIs",
+"t": "Westside Cowboy: Pin Up Boys | The Tonight Show Starring Jimmy Fallon",
+"s": 234
+},
+{
+"id": "5lFfr11ODtk",
+"t": "Trump Desperate to Win Midterms, Jon Stewart is an Urban Scavenger & We Say Goodbye to Brooklyn!",
+"s": 860
+},
+{
+"id": "ZfmGOwvzc_c",
+"t": "Patti Smith Hid Behind a Door While Meeting the Pope, Reminisces on Bread of Angels Cover (Extended)",
+"s": 483
+},
+{
+"id": "JU5s-fTT1LU",
+"t": "Jimmy Kimmel Crashes Guillermo’s Halloween Party - Sponsored by Smirnoff",
+"s": 96
+},
+{
+"id": "HropHEXUhrA",
+"t": "Charlie Heaton Shares Kissing Cod Tradition, Talks Below & Hiding Accent from Stranger Things Cast",
+"s": 683
+},
+{
+"id": "q5KvXwWeF7k",
+"t": "John Oliver & Seth Meyers on Trump Hating Jimmy Kimmel & Friendship Between the Late Night Hosts",
+"s": 976
+},
+{
+"id": "Rku19kJhsWw",
+"t": "Keri Russell Got Sick on Her 50th Birthday, Shares Why She Doesn't Like Winning Awards (Extended)",
+"s": 513
+},
+{
+"id": "yrlod2vMk_A",
+"t": "Robby Hoffman on Only Text She’s Gotten from Her Mom, Being from Brooklyn & Netflix Special Wake Up",
+"s": 564
+},
+{
+"id": "n29QS55xr14",
+"t": "Thank You Notes: Scarecrows, Spiral Staircases | The Tonight Show Starring Jimmy Fallon",
+"s": 176
+},
+{
+"id": "4VIErDWXDKs",
+"t": "Trump Makes Up New Racial Stereotypes, Shows Off Billion Dollar Ballroom & Hegseth Crazy at Quantico",
+"s": 786
+},
+{
+"id": "Sfuy9BM5vsc",
+"t": "Trump Rages Over Fox News Rally Coverage, U.S. Passport Features \"Non-Negotiable\" Trump Image",
+"s": 787
+},
+{
+"id": "5m4aaVWLGiI",
+"t": "Billy Crystal on Working with Robert De Niro & Broadway Show About Losing His Home in Palisades Fire",
+"s": 892
+},
+{
+"id": "pX-ubzD22AU",
+"t": "Emma Willmann Stand-Up: Landlords, Hipster-Progressive Neighborhoods | The Tonight Show",
+"s": 364
+},
+{
+"id": "2baPys-3uTs",
+"t": "Mahershala Ali on Dreaming About Jimmy Kimmel, Living in Brooklyn & Playing a Hitman in New Movie",
+"s": 590
+},
+{
+"id": "4CGYcmPaqjI",
+"t": "Tate McRae Couldn't Believe Taylor Swift Liked \"TIT FOR TAT,\" Talks New Song \"Housewife\" Easter Eggs",
+"s": 370
+},
+{
+"id": "b_D1gPu5fSc",
+"t": "Jimmy Kimmel Threatened by FCC Chairman Robert De Niro, Trump Renames A.I. & Guillermo Dances to NY",
+"s": 839
+},
+{
+"id": "ihrlH3hf0vw",
+"t": "Linda Cardellini Sings a Song from The Music Man, Talks Iconic Jason Sound & Crystal Lake (Extended)",
+"s": 431
+},
+{
+"id": "YmewnMHBOw0",
+"t": "Amy Schumer on Her Surfing Accident, Her Son Helping with Her Children’s Book & Being on Judge Judy",
+"s": 519
+},
+{
+"id": "rmfXbXJn98U",
+"t": "ROSALÍA Makes Her Own LUX Tour Confession, Was Mind Blown by U2 Writing a Song About Her (Extended)",
+"s": 649
+},
+{
+"id": "4nb76mJ2XiU",
+"t": "Howard Stern on Jimmy Kimmel Being More Messed Up Than He Is, Vacationing Together & Show on HBO",
+"s": 1101
+},
+{
+"id": "VQ4nzxzJQQk",
+"t": "Charades with ROSALÍA, Linda Cardellini and Tate McRae | The Tonight Show Starring Jimmy Fallon",
+"s": 299
+},
+{
+"id": "0lW3GRcj2cs",
+"t": "Tom Morello – Soldier in the Army of Love",
+"s": 245
+},
+{
+"id": "BwzT9-WSZNQ",
+"t": "Trump Refuses International Election Monitors for Midterms, Democrats Favored to Take Control",
+"s": 620
+},
+{
+"id": "ss6bLwzpYSY",
+"t": "Trump Falls Asleep on Live TV, Tells the Truth for First Time & Our Favorite Foxtrotter Guillermo!",
+"s": 800
+},
+{
+"id": "CVoTtv4Zu2k",
+"t": "Sam Smith: Oh Mother | The Tonight Show Starring Jimmy Fallon",
+"s": 272
+},
+{
+"id": "PWd48Rt-k_4",
+"t": "Pete Davidson on Getting Two Concussions, Buying Staten Island Ferry & Getting Buff for New Movie",
+"s": 742
+},
+{
+"id": "KLH8PO7qMrs",
+"t": "Sam Smith Says Their Album Should've Been Called Hazelnut Eyes, Talks Sam Served Alter Ego",
+"s": 472
+},
+{
+"id": "9dSLJHS2Uns",
+"t": "Mayor Zohran Mamdani on His Relationship with Trump, People in Sewers & New Public Restrooms",
+"s": 747
+},
+{
+"id": "Z3LWJ-o-0_A",
+"t": "Emma D'Arcy Quizzes Jimmy on High Valyrian, Didn't Know They Were Auditioning for Digger (Extended)",
+"s": 643
+},
+{
+"id": "1liG0P61DPc",
+"t": "TV On The Radio – Wolf Like Me",
+"s": 258
+},
+{
+"id": "SxQoSKt1-Ds",
+"t": "John Cena Surprises Jimmy with WWE Championship Belt, Talks Fear of Heights and Matchbox The Movie",
+"s": 661
+},
+{
+"id": "BztVV-Io2AI",
+"t": "Jimmy Kimmel Throws Matt Damon Out, Trump Throws Lavish State Dinner & Jon Hamm Throws a Pothole Fit",
+"s": 929
+},
+{
+"id": "qNPIQX04inc",
+"t": "Virtual Reality Pictionary with John Cena and Jessica Biel (Extended) | The Tonight Show",
+"s": 672
+},
+{
+"id": "nHoquA-kUhI",
+"t": "Ben Affleck on Giving His Kids Advice, Winning Millionaire & New Movie Animals",
+"s": 1222
+},
+{
+"id": "I61lyl47KpE",
+"t": "Wishbone Kitchen's Meredith Hayden Makes Meals for The Tonight Show",
+"s": 122
+},
+{
+"id": "nFzDAtm8XlM",
+"t": "Mo Amer on James Bond Moment with Pierce Brosnan, Doing a USO Tour & Headlining Radio City",
+"s": 651
+},
+{
+"id": "qnA8bvrqXus",
+"t": "Trump Suggests Iran Could Take Out LA, Demands Media Arrests Over Rally Coverage | The Tonight Show",
+"s": 484
+},
+{
+"id": "BzWfnwr_430",
+"t": "Trump Showers Chinese President with Praise & Jimmy’s Assistant Natalie Interrupts the Monologue",
+"s": 766
+},
+{
+"id": "DQfetfXVwWA",
+"t": "Alabama Shakes: I Feel Hope Coming | The Tonight Show Starring Jimmy Fallon",
+"s": 274
+},
+{
+"id": "rpBfB5JoS-M",
+"t": "Brandi Carlile on Sad Gay Version of Her Album, Covering Alanis Morissette & Taking Her Kids on Tour",
+"s": 763
+},
+{
+"id": "5I_HqE_xjhw",
+"t": "Jennifer Hudson Talked Tom Cruise into Doing the Spirit Tunnel, Sings a Star Wars Quote (Extended)",
+"s": 477
+},
+{
+"id": "p5O4fSbGaFU",
+"t": "John Wilson on New Documentary The History of Concrete & Opening a Movie Theater in Queens",
+"s": 595
+},
+{
+"id": "NsRsBVk-pzg",
+"t": "Chris Rock Talks Reuniting with Adam Sandler for Grown Ups 3 and Filming Misty Green (Extended)",
+"s": 605
+},
+{
+"id": "pXhHkGE97ks",
+"t": "Trump’s TV Network FLOPS, Panicking Republicans Spew NONSENSE & Guillermo Dances His Heart Out!",
+"s": 856
+},
+{
+"id": "AjUmkMom87g",
+"t": "Battle of the Instant Songwriters: I Saw My Principal on Love Is Blind, 12-Foot Home Depot Skeleton",
+"s": 409
+},
+{
+"id": "s7DcP3r_QHk",
+"t": "Jamie Foxx on Appreciating Life Now, Expecting a Baby & His Dad Living with Him",
+"s": 1026
+},
+{
+"id": "PuaGNpZCggM",
+"t": "Jimmy Announces New MLB Yankees and Dodgers Children's Book | The Tonight Show Starring Jimmy Fallon",
+"s": 65
+},
+{
+"id": "kGBwvqON2cM",
+"t": "Ke Huy Quan on Filming The Goonies, Being Cast in Everything Everywhere All at Once & New Memoir",
+"s": 546
+},
+{
+"id": "fntundUUX_E",
+"t": "Trump Kicks Off 32-Day Midterm Campaign Blitz, Ramaswamy Nearly Drops Kid at Rally | Tonight Show",
+"s": 648
+},
+{
+"id": "hkI0vcecwew",
+"t": "Trump’s Threatening Ramble at the UN, His Minions Defend News Ban & Guillermo the Dancing Star!",
+"s": 781
+},
+{
+"id": "wvlIjBaG-L8",
+"t": "Florence Pugh Talks Spider-Man: Brand New Day and Her Aperol Spritz Workout, Plays Dramatic Autofill",
+"s": 762
+},
+{
+"id": "I0tQ2UFlwlQ",
+"t": "Sam Richardson on Loving the Detroit Lions, Batting Practice with the Tigers & Matchbox: the Movie",
+"s": 459
+},
+{
+"id": "EBj6OJ-8g-g",
+"t": "Alex Warren: CRY WOLF | The Tonight Show Starring Jimmy Fallon",
+"s": 210
+},
+{
+"id": "l4HyAorKfv8",
+"t": "Woody Harrelson on Emmys Bathroom with Jimmy & Matthew McConaughey & Matthew Being His Brother",
+"s": 894
+},
+{
+"id": "zgsl4uEVqWE",
+"t": "Riz Ahmed on His Mom's Unexpected Moment with Tom Cruise and Getting Used to Prosthetics for Digger",
+"s": 500
+},
+{
+"id": "eMHKNCwe_QI",
+"t": "Trump Bans News Outlets from the White House, Has a Thing for Mamdani & Is Melania A.I.?",
+"s": 894
+},
+{
+"id": "qpH4ximlcLQ",
+"t": "Best Thing Ever with Anne Hathaway | The Tonight Show Starring Jimmy Fallon",
+"s": 440
+},
+{
+"id": "9Jns9Q78MHk",
+"t": "Rory Scovel Reveals How Burning Man Changed His Life",
+"s": 503
+},
+{
+"id": "PKygRju86oI",
+"t": "Anne Hathaway Addresses Her Viral Mom-Mode Verity Red Carpet Moment | The Tonight Show",
+"s": 636
+},
+{
+"id": "ccLE0oUUvvI",
+"t": "Sarah Paulson on Ranking Her Friends, Season 13 of American Horror Story & Playing a Serial Killer",
+"s": 770
+},
+{
+"id": "GmbYOHeOQSY",
+"t": "Thank You Notes: Movie Theater Previews, Sangria | The Tonight Show Starring Jimmy Fallon",
+"s": 217
+},
+{
+"id": "_3oKdfuY2Vg",
+"t": "Dragonflies – Slower",
+"s": 222
+},
+{
+"id": "cuhNe9smsuA",
+"t": "Jimmy Talks Season 2 of His Microdrama Who Billionaire? Me Billionaire. | The Tonight Show",
+"s": 144
+},
+{
+"id": "TKkQbfEPDjc",
+"t": "Trump Tries to Buy Votes, Calls A.I. Threat a Hoax & Mitch McConnell is BACK!",
+"s": 904
+},
+{
+"id": "oFsKVzfFCvc",
+"t": "Trump Makes Questionable Pact to \"Self-Regulate\" AI, Launches AI Chatbot Government Site",
+"s": 687
+},
+{
+"id": "HABSVl7xbVg",
+"t": "Bill Burr on His Kids Not Respecting Him & Being in Aaron Sorkin’s New Film The Social Reckoning",
+"s": 1031
+},
+{
+"id": "6lFF7INj9Fk",
+"t": "Magnus Ferrell: Asleep Talking | The Tonight Show Starring Jimmy Fallon",
+"s": 215
+},
+{
+"id": "WmjIOrhBDIs",
+"t": "H.E.R. on Being California’s Most Talented Kid, Favorite Filipino Food & New Movie Forgotten Island",
+"s": 372
+},
+{
+"id": "3HXQb8CWIpM",
+"t": "Justin Verlander Relives the Emotional Moment He Was Surprised by His Daughter in His Final Game",
+"s": 334
+},
+{
+"id": "biuM4VZh7Us",
+"t": "Trump is Trying to Steal the Midterm Election, Don Jr’s Fishy Wedding & America Loves Guillermo",
+"s": 983
+},
+{
+"id": "gBquwKcpVXc",
+"t": "Daniel Kaluuya Breaks Down Spider-Punk's Popularity, Thought He Was Being Punk'd with His Statue",
+"s": 422
+},
+{
+"id": "FcUeQW3tSq0",
+"t": "Stephen Colbert on the Emmys, His Wife Hating His Beard & Gifting Jimmy His Captain America Shield",
+"s": 1279
+},
+{
+"id": "O8gKU4Ij8tk",
+"t": "Don’t Say the Same Thing Challenge with Hailee Steinfeld | The Tonight Show Starring Jimmy Fallon",
+"s": 251
+},
+{
+"id": "mQ3KzIc7qTQ",
+"t": "Trump is Constantly Falling Asleep, Mitch McConnell Seems Good & Guillermo on Dancing with the Stars",
+"s": 955
+},
+{
+"id": "URPobLgNsN4",
+"t": "Hailee Steinfeld Became a Mom While Voicing Hexed, Talks Avengers Rumors and Filming Sinners",
+"s": 416
+},
+{
+"id": "oxoX0f3JoJ0",
+"t": "3 Ridiculous Questions with Joey King – Sponsored by Astral Tequila",
+"s": 112
+},
+{
+"id": "3ApSBU8d3B4",
+"t": "Trump Launches AI-Powered Government Website, Karoline Leavitt Teases White House Tell-All Book",
+"s": 599
+},
+{
+"id": "tToZtxNRsDY",
+"t": "Chef David Chang on His Kids Not Eating Anything He Cooks, Learning to Gamble & New Show The Detour",
+"s": 468
+},
+{
+"id": "1hiJ_K8X9aU",
+"t": "Gracie Abrams: Look at My Life | The Tonight Show Starring Jimmy Fallon",
+"s": 233
+},
+{
+"id": "YYAuSANf-pg",
+"t": "MUNA – Dancing On The Wall",
+"s": 222
+},
+{
+"id": "JD_-X-wymS8",
+"t": "Josh Hartnett's Goddaughter Thought He Was Too Old for His Verity Role | The Tonight Show",
+"s": 375
+},
+{
+"id": "Fsy3tAVhiXU",
+"t": "Gal Gadot on Meeting Madonna, Having Four Young Daughters & Getting 100,000 Steps a Week",
+"s": 839
+},
+{
+"id": "BwZGfPZQUVo",
+"t": "Dramatic Autofill with Florence Pugh | The Tonight Show Starring Jimmy Fallon",
+"s": 259
+},
+{
+"id": "Bsx_YubufG0",
+"t": "Trump Bribes Americans For Votes, Brags About Crowd Size to Empty Seats & Our Talarico FCC Fight",
+"s": 825
+}
 ]
 },
 {
@@ -1486,8 +3008,8 @@
 12,
 15
 ],
-"sourceName": "Joshua Weissman Recipes",
-"tagline": "Joshua Weissman Recipes",
+"sourceName": "Joshua Weissman Recipes, Bon Appétit, J. Kenji López-Alt, TheCrewChef, Epicurious y Eater",
+"tagline": "Joshua Weissman Recipes, Bon Appétit, J. Kenji López-Alt, TheCrewChef, Epicurious y Eater",
 "kind": "linear",
 "items": [
 {
@@ -1496,9 +3018,59 @@
 "s": 678
 },
 {
+"id": "4D4pAvxy9lo",
+"t": "How a Master French Chef Makes Coq au Vin | French Fundamentals | Bon Appétit",
+"s": 791
+},
+{
+"id": "-HMSKdle3vk",
+"t": "Cocinar en el río: Episodio 1 | Nuestro viaje al Moab Music Festival",
+"s": 1528
+},
+{
+"id": "XM_3Osed_Zs",
+"t": "¡Dejo MI Loon! (y un menú degustación tras bambalinas)",
+"s": 706
+},
+{
+"id": "N6JDgJmiMFM",
+"t": "El mejor tiramisú que jamás prepararás (con calidad de restaurante) | Epicurious 101",
+"s": 515
+},
+{
+"id": "Cz-i5Wx1WoA",
+"t": "Por qué los taqueros más populares de NYC abrieron una marisquería mexicana con barra de vinos",
+"s": 686
+},
+{
 "id": "kd6lUmbj5ig",
 "t": "La mejor sopa de cebolla francesa de la historia",
 "s": 498
+},
+{
+"id": "UHGWG2QVl1Q",
+"t": "This $32 Potato Is the Best in New York | Made to Order | Bon Appétit",
+"s": 759
+},
+{
+"id": "FyN1oIOMgSE",
+"t": "Michelada BADOP V3",
+"s": 378
+},
+{
+"id": "zdOwalysTV4",
+"t": "Un día en la vida de un cocinero de tripulación.",
+"s": 805
+},
+{
+"id": "BrLTf27eUL0",
+"t": "Carnicero explica qué carne comprar | La guía definitiva de compra | Epicurious",
+"s": 1143
+},
+{
+"id": "aQslmTORUCk",
+"t": "Lo que se necesita para dirigir uno de los restaurantes nuevos más populares de NYC — Mise En Place",
+"s": 1070
 },
 {
 "id": "7YmQDbJOelY",
@@ -1506,9 +3078,59 @@
 "s": 605
 },
 {
+"id": "IZo3yZy2yR4",
+"t": "NYC’s Hottest New Steakhouse is Indian | On The Line | Bon Appétit",
+"s": 906
+},
+{
+"id": "ntLj5ecaQKs",
+"t": "Calabaza kabocha guisada sencilla",
+"s": 487
+},
+{
+"id": "f17wHQlYtds",
+"t": "El desayuno RUSH a bordo de un superyate",
+"s": 725
+},
+{
+"id": "OxuHuukJq3c",
+"t": "Can 8 People Agree on Chocolate Chip Cookies? | Everybody Eats | Epicurious",
+"s": 958
+},
+{
+"id": "LBRiMlBufP4",
+"t": "¿Por qué Alfie's en Washington D.C. solo sirve cinco filetes con patatas fritas al curry tailandé...",
+"s": 1016
+},
+{
 "id": "mjJQetAQwW4",
 "t": "La lasaña más quesosa de todas",
 "s": 576
+},
+{
+"id": "vs9lfTZmOMw",
+"t": "How a French Chef Makes France's Most Famous Soup | French Fundamentals | Bon Appétit",
+"s": 819
+},
+{
+"id": "g7s9CoBRS1o",
+"t": "JKLA MUSLOS DE POLLO BRASEADOS V5",
+"s": 1093
+},
+{
+"id": "XLuhVWiwJJo",
+"t": "Almuerzo para invitados a bordo de un superyate: servicio completo, ¡desde la preparación hasta e...",
+"s": 556
+},
+{
+"id": "r9eTNJHskSU",
+"t": "Chefs profesionales realizan una cata a ciegas de todos los macarrones con queso congelados | El ...",
+"s": 1543
+},
+{
+"id": "wlCkIhkWwy0",
+"t": "Dónde come realmente un chef top de NYC en su día libre – El día libre del chef",
+"s": 899
 },
 {
 "id": "ILArlisjE3k",
@@ -1516,9 +3138,59 @@
 "s": 741
 },
 {
+"id": "l6N8dYQfZJ4",
+"t": "Surviving a 10-Hour Shift as a Line Cook in NYC | Life of a Line Cook | Bon Appétit",
+"s": 1559
+},
+{
+"id": "pSa-VCDOzzo",
+"t": "Frascos de sopa instantánea casera",
+"s": 870
+},
+{
+"id": "BMNB3CgWErU",
+"t": "Mañanas relajadas a bordo de un superyate",
+"s": 762
+},
+{
+"id": "XrtCft77RBU",
+"t": "15 trucos de preparación de comidas que todo cocinero casero debería saber | Epicurious 101",
+"s": 620
+},
+{
+"id": "EjCHN6Gx-v8",
+"t": "El plato de pasta que ganó $25,000 está en esta trattoria de Brooklyn — Mise En Place",
+"s": 945
+},
+{
 "id": "TR6wp5pB1CQ",
 "t": "Tiramisú en 10 minutos",
 "s": 569
+},
+{
+"id": "N2hJUXYYNOg",
+"t": "How the Best Cheesesteak in NYC is Made | Made to Order | Bon Appétit",
+"s": 860
+},
+{
+"id": "CxX0AHuhEQ8",
+"t": "Late Night Souped-Up Ramen",
+"s": 347
+},
+{
+"id": "gezl74f3rZ0",
+"t": "16 horas en la vida de un chef de yate (mi chárter más difícil hasta ahora)",
+"s": 854
+},
+{
+"id": "wbVYrNwCh-4",
+"t": "Generación Z, Millennials y Baby Boomers califican los macarrones con queso de caja | Epicurious",
+"s": 1002
+},
+{
+"id": "VGXUclzgEA8",
+"t": "Descubra las recetas ancestrales en uno de los restaurantes nuevos más emocionantes de Chicago.",
+"s": 871
 },
 {
 "id": "CPM_pP9V5GU",
@@ -1526,9 +3198,59 @@
 "s": 649
 },
 {
+"id": "yjIzkvPVD34",
+"t": "Pro Chef Turns $30 Groceries into 3 Chicken Dinners | Price Cut | Bon Appétit",
+"s": 1569
+},
+{
+"id": "dqpOz9pJnho",
+"t": "Easy Weeknight Pasta with Mushrooms",
+"s": 922
+},
+{
+"id": "XGUWiiSVcEc",
+"t": "Provisiones, limpieza y visita al mercado de pescado: segunda parte del viaje en un superyate.",
+"s": 618
+},
+{
+"id": "7Picq_8d8CA",
+"t": "Butcher Explains Which Ground Beef to Buy | Ultimate Buying Guide | Epicurious",
+"s": 1429
+},
+{
+"id": "VROXawcSGME",
+"t": "Cómo come el pizzero más popular de Brooklyn en su día libre — Chef’s Day Off",
+"s": 889
+},
+{
 "id": "iFZwO4MqyiY",
 "t": "El mejor chopped cheese hecho en casa",
 "s": 1114
+},
+{
+"id": "QJcFxRAQ5_k",
+"t": "A Day at London's Most Exciting Pub | On The Line | Bon Appétit",
+"s": 791
+},
+{
+"id": "mQBIQ16C7kY",
+"t": "Pan plano a la parrilla JKLA v3",
+"s": 1625
+},
+{
+"id": "rMQMO3nT45Y",
+"t": "¡Renovación a mitad de temporada! El yate se renovó en 48 horas.",
+"s": 565
+},
+{
+"id": "OiILm2pXmqc",
+"t": "Por qué dejamos de freír las albóndigas y usamos el horno | Epicurious 101",
+"s": 482
+},
+{
+"id": "QzOmSGgUOiM",
+"t": "El chef detrás del restaurante número 1 de Nueva York analiza sus tres platos emblemáticos — Dish...",
+"s": 1092
 },
 {
 "id": "Xo-DWTwumI8",
@@ -1536,9 +3258,59 @@
 "s": 1685
 },
 {
+"id": "sg7PbdIfQU0",
+"t": "Our Most Popular Recipe of All Time: No-Knead Focaccia | Made in House | Bon Appétit",
+"s": 828
+},
+{
+"id": "LVJSni2TbPk",
+"t": "Lleva Japón a tu casa (Compras de despensa básica) | Kenji Eats Japan",
+"s": 3050
+},
+{
+"id": "qBPq3VQLIwM",
+"t": "Noche de pizza para la tripulación a bordo de un superyate",
+"s": 687
+},
+{
+"id": "NBs_XXkaeC8",
+"t": "Chefs profesionales prueban a ciegas todo el arroz frito congelado | El panel de cata | Epicurious",
+"s": 1560
+},
+{
+"id": "fqI2FOun0RI",
+"t": "El sándwich de desayuno inspirado en McDonald's que conquistó Filadelfia — El más pedido",
+"s": 834
+},
+{
 "id": "njNUwh3Yu2A",
 "t": "Los mejores brownies chiclosos que probarás en tu vida",
 "s": 317
+},
+{
+"id": "bs4iILLZUbQ",
+"t": "This Pork Bun is the #1 Street Food in Chinatown NYC | Street Eats | Bon Appétit",
+"s": 833
+},
+{
+"id": "GfJoeykjzqk",
+"t": "Cómo afilar un cuchillo sin filo",
+"s": 1354
+},
+{
+"id": "9TCdCqA-Ye8",
+"t": "¡De vuelta al yate! 48 horas a bordo",
+"s": 655
+},
+{
+"id": "gjEK_aqoMmQ",
+"t": "Nutricionista clasifica barras de proteína de mejor a peor | Flavor Grid | Epicurious",
+"s": 1707
+},
+{
+"id": "Mse_qrQ1LHM",
+"t": "El sándwich de queso picado pakistaní que tiene a Nueva York obsesionada: el más pedido.",
+"s": 680
 },
 {
 "id": "f0e9cuhGiPg",
@@ -1546,9 +3318,59 @@
 "s": 849
 },
 {
+"id": "kfaM1u1rcWk",
+"t": "Un día preparando el té de la tarde más antiguo de Inglaterra | On The Line | Bon Appétit",
+"s": 1202
+},
+{
+"id": "oeRyNPVrgJA",
+"t": "JKLA JapanSeries AibaSteel V7",
+"s": 1387
+},
+{
+"id": "Bq1ukfwLEQk",
+"t": "Parte 2 - Comidas y provisiones de la tripulación en un superyate",
+"s": 683
+},
+{
+"id": "eKx8u524Cr4",
+"t": "Las mejores costillas BBQ que prepararás en tu vida | Epicurious 101",
+"s": 522
+},
+{
+"id": "e2jh9S3T0zA",
+"t": "Cómo pasa su día libre el chef Gregory Gourdet comiendo por Nueva York — El día libre de un chef",
+"s": 781
+},
+{
 "id": "doEnG5E8Hh4",
 "t": "Los mejores sándwiches cubanos en casa (Cubanos)",
 "s": 970
+},
+{
+"id": "yGspBtxrwyQ",
+"t": "El hombre detrás del sándwich de pescado frito más viral de Filadelfia | Detrás del fenómeno | Bo...",
+"s": 1164
+},
+{
+"id": "TO2pblb_OzA",
+"t": "JKLA SerieJapón PruebaDeSaborKonbini V4",
+"s": 1363
+},
+{
+"id": "qqtlsyQbRJw",
+"t": "Botadura en dique seco y almuerzo de la tripulación: la vida de un chef de superyates",
+"s": 603
+},
+{
+"id": "ZxUdJALkIKg",
+"t": "3 comidas fáciles que puedes preparar en 15 minutos o menos | Epicurious",
+"s": 907
+},
+{
+"id": "TPJ8_21n8DY",
+"t": "Dentro del supermercado de NYC detrás de la hamburguesa viral de $2.90 — Los expertos",
+"s": 815
 },
 {
 "id": "fWQzaXMOBU8",
@@ -1556,9 +3378,59 @@
 "s": 1013
 },
 {
+"id": "YJpgGtF3egI",
+"t": "Un día con el parrillero en el mejor restaurante de carne nuevo de Nueva York | On The Line | Bon...",
+"s": 867
+},
+{
+"id": "Dzy-FjigB9A",
+"t": "Sándwich de ensalada de huevo al estilo Konbini | Kenji come en Japón",
+"s": 760
+},
+{
+"id": "PlcG2G0DI2A",
+"t": "¡Pizza en la playa! (para nuestros huéspedes en alquiler de superyates)",
+"s": 490
+},
+{
+"id": "QfvhXMFTanQ",
+"t": "Expertos en salsa picante prueban a ciegas todas las marcas (ft. Smokin’ Ed Currie) | Epicurious",
+"s": 1858
+},
+{
+"id": "wylgoSo4L40",
+"t": "Anna Faris, Isla Fisher, Leslie Mann y Michelle Buteau comparten sus opiniones polémicas sobre co...",
+"s": 721
+},
+{
 "id": "PVr4J6Rsnx8",
 "t": "Las mejores alitas de pollo en casa (3 niveles)",
 "s": 828
+},
+{
+"id": "BIN2fo9nfaE",
+"t": "Cómo se prepara la mejor chuleta de cerdo de Estados Unidos en el restaurante número uno de Nueva...",
+"s": 489
+},
+{
+"id": "N0Lz1H1-ovs",
+"t": "Cajas bento en un tren bala | Kenji come en Japón",
+"s": 553
+},
+{
+"id": "3pf5lgiSJHI",
+"t": "Comida para huéspedes en un superyate de alquiler en el Caribe",
+"s": 429
+},
+{
+"id": "6aWbZTmuj30",
+"t": "15 trucos con mantequilla que todo cocinero casero debería saber | Epicurious 101",
+"s": 852
+},
+{
+"id": "j9Un_z79X0k",
+"t": "Dentro de uno de los mejores restaurantes tailandeses de Estados Unidos — Mise En Place",
+"s": 1020
 },
 {
 "id": "TnIO6qYh3sY",
@@ -1566,9 +3438,59 @@
 "s": 598
 },
 {
+"id": "DmPmaF9aONo",
+"t": "Este es el sándwich más subestimado de Filadelfia | Hecho al momento | Bon Appétit",
+"s": 776
+},
+{
+"id": "l_dtRPpZwxg",
+"t": "Albóndigas japonesas increíbles (Tsukune) | Kenji Eats Japan",
+"s": 1470
+},
+{
+"id": "KhuwEUNyIxs",
+"t": "Preparación para la temporada del Caribe para el chárter",
+"s": 669
+},
+{
+"id": "I9G-IbB_jtk",
+"t": "Cómo preparar salmón perfecto a la parrilla en 10 minutos | Epicurious 101",
+"s": 418
+},
+{
+"id": "XmR-xmnMtQU",
+"t": "The Cast of 'Super Troopers 3' Eats a Whole Pig and Battles Over Food Crimes — Let's Do Lunch",
+"s": 855
+},
+{
 "id": "p2ynn-fvbyw",
 "t": "Pollo a la naranja perfecto en casa (estilo comida para llevar)",
 "s": 770
+},
+{
+"id": "ECyqrLRmC70",
+"t": "Un día en uno de los restaurantes italianos más antiguos de Nueva York | On The Line | Bon Appétit",
+"s": 749
+},
+{
+"id": "mCtw8PgTzHw",
+"t": "Tempura JKLA CC v2",
+"s": 771
+},
+{
+"id": "szADHfo62iQ",
+"t": "¡Adiós, amigos! Estoy dejando a los invitados del Superyate (y terminando mi rotación).",
+"s": 672
+},
+{
+"id": "G2ZNVik57SQ",
+"t": "Las superestrellas de la WWE ponen a prueba su fuerza culinaria | Epicurious",
+"s": 889
+},
+{
+"id": "XrQB601ws3w",
+"t": "Un día comiendo por Nueva York con el maestro del steak frites Sam Braverman: el día libre de un ...",
+"s": 841
 },
 {
 "id": "m5T1a6_Q4G8",
@@ -1576,9 +3498,59 @@
 "s": 1204
 },
 {
+"id": "vcHZymQ8wso",
+"t": "Nuestras 3 recetas favoritas en bandeja | Hecho en casa | Bon Appétit",
+"s": 1105
+},
+{
+"id": "rWhWK_s1_Z0",
+"t": "Cómo preparar berenjena glaseada con miso (Nasu Dengaku) | Kenji Eats Japan",
+"s": 583
+},
+{
+"id": "bicmTwjFXws",
+"t": "¡Invitados a bordo! Un día en la vida de un chef de yates de alquiler",
+"s": 646
+},
+{
+"id": "f-RY34qFonQ",
+"t": "Panadero profesional califica todos los panes y pasteles de Lidl | Epicurious",
+"s": 1025
+},
+{
+"id": "W7G6ol9TlZg",
+"t": "Este restaurante tiene un menú de degustación de cinco tiempos y un sándwich de costilla para la ...",
+"s": 609
+},
+{
 "id": "7SixjIlfnIw",
 "t": "Sándwiches de tienda de conveniencia japonesa en casa",
 "s": 689
+},
+{
+"id": "FhtqFWZxEKg",
+"t": "3 recetas francesas de papa que todo cocinero debería conocer | Fundamentos de cocina francesa | ...",
+"s": 1244
+},
+{
+"id": "qx9X5H08Xfw",
+"t": "Probando cócteles sin alcohol enlatados en Fairy Lake, MT",
+"s": 234
+},
+{
+"id": "KYq35MsZLz8",
+"t": "Día de llegada de los invitados del superyate (como chef en el yate a motor Loon)",
+"s": 943
+},
+{
+"id": "3YV0HFlPYMo",
+"t": "25 trucos de cocina que todo cocinero casero debe conocer | Epicurious 101",
+"s": 965
+},
+{
+"id": "kBVe44eBwpM",
+"t": "Dentro de la pizzería que hace nudos de ajo gigantes que están conquistando Nueva Jersey: lo más ...",
+"s": 625
 },
 {
 "id": "mKu7Qg8wFKQ",
@@ -1586,9 +3558,59 @@
 "s": 581
 },
 {
+"id": "2PVosB7BUX8",
+"t": "Inside America’s Best Michelin Star Restaurants | Bon Appétit",
+"s": 14546
+},
+{
+"id": "Oa6LoSXeMZc",
+"t": "Disfruta un almuerzo de tofu con nosotros | Kenji Eats Japan",
+"s": 1008
+},
+{
+"id": "Fq0QOFVvoEY",
+"t": "Cómo convertirme en un MEJOR chef de yates",
+"s": 1065
+},
+{
+"id": "f-3GKfWhF04",
+"t": "Expertos en carne hacen una prueba de sabor a ciegas de todas las marcas de tocino | The Taste Pa...",
+"s": 1838
+},
+{
+"id": "kJvfS2F3-bA",
+"t": "La tiranía del aceite de trufa con Josh Scherer | En la cabina con Babish",
+"s": 3053
+},
+{
 "id": "i9X04odxzsM",
 "t": "Los tacos de QuesaBirria más jugosos hechos en casa (auténticos)",
 "s": 728
+},
+{
+"id": "WiKbZRAAoJM",
+"t": "Esta es la receta perfecta de pastel de chocolate | Made in House | Bon Appétit",
+"s": 722
+},
+{
+"id": "1qhOiBmWJZM",
+"t": "Obligatory BLT Content",
+"s": 256
+},
+{
+"id": "zQTLmx6YH78",
+"t": "Mega Entrega de Carne - ¡Preparando el yate para cruzar el Atlántico!",
+"s": 800
+},
+{
+"id": "wsm-31jnu3U",
+"t": "Cómo preparar las hamburguesas más jugosas a la parrilla | Epicurious 101",
+"s": 508
+},
+{
+"id": "-59HAZDMgZw",
+"t": "Por qué este pequeño local de barbacoa en Texas está haciendo más de dos mil libras de salchicha",
+"s": 911
 },
 {
 "id": "rAg-4JyZ0vc",
@@ -1596,9 +3618,59 @@
 "s": 880
 },
 {
+"id": "F3T9-vvqcuk",
+"t": "Por qué las brochetas son la mejor forma de asar a la parrilla | Made in House | Bon Appétit",
+"s": 830
+},
+{
+"id": "s0QDj0Znm5Q",
+"t": "Estofado de res y tofu al estilo izakaya | Kenji come en Japón",
+"s": 675
+},
+{
+"id": "773J_Spaa1s",
+"t": "Desafío del almuerzo en yate: ¡¿Impresionar a 12 agentes de lujo?!",
+"s": 742
+},
+{
+"id": "OlrUk5Nkq68",
+"t": "Jackass pone a prueba sus habilidades culinarias básicas | Epicurious",
+"s": 914
+},
+{
+"id": "dY7-3P7zZ4g",
+"t": "El sándwich de pollo más popular de DC tiene una salsa sorpresa de boloñesa de pepperoni — El más...",
+"s": 861
+},
+{
 "id": "7TIrZDzLnAQ",
 "t": "3 recetas de pasta para gente floja (15 minutos)",
 "s": 991
+},
+{
+"id": "psKhtyT-Ob8",
+"t": "Inside NYC’s Only Michelin Star Chinese Restaurant | On The Line | Bon Appétit",
+"s": 951
+},
+{
+"id": "E-hOOHV_3kc",
+"t": "Mis compras del mercado de agricultores en Bozeman, MT",
+"s": 444
+},
+{
+"id": "KAzLEmAz_-Q",
+"t": "¿Por qué los chefs de yates odian los viernes...?",
+"s": 764
+},
+{
+"id": "zKWi3sXPOQQ",
+"t": "La receta definitiva de pollo a la parrilla para el verano | Epicurious 101",
+"s": 548
+},
+{
+"id": "dkYTkCQXHoY",
+"t": "El hotel de Nueva York que alimenta a 15,000 personas al mes tiene una cocina extremadamente ocup...",
+"s": 556
 },
 {
 "id": "79vyiI89gpc",
@@ -1606,9 +3678,59 @@
 "s": 741
 },
 {
+"id": "eHWfDK0pYMg",
+"t": "La tostada francesa más esponjosa que jamás harás | Fundamentos franceses | Bon Appétit",
+"s": 913
+},
+{
+"id": "-FgmqSpRsMc",
+"t": "Explorando una plaza de comidas subterránea | Kenji come en Japón",
+"s": 1024
+},
+{
+"id": "mOx_5-MRlhE",
+"t": "14 horas en el día de un chef de yate",
+"s": 966
+},
+{
+"id": "gyRJqbHIWDg",
+"t": "Cómo asar el filete perfecto para el verano | Epicurious 101",
+"s": 692
+},
+{
+"id": "uEU9ms3BiBQ",
+"t": "Cómo perdonarte a ti mismo con William H. Macy | In the Booth with Babish",
+"s": 3417
+},
+{
 "id": "eBSG7OqYegc",
 "t": "El sándwich de bistec perfecto para preparar en casa.",
 "s": 678
+},
+{
+"id": "xapqemHkJcc",
+"t": "Los secretos que usan los restaurantes para cocinar vegetales | Hecho en casa | Bon Appétit",
+"s": 790
+},
+{
+"id": "ZdlZGAuW8Wc",
+"t": "Para una mejor ensalada de papa, ásala con mayonesa | Kenji come en Japón",
+"s": 935
+},
+{
+"id": "HexNJVP2yTU",
+"t": "¡Secretos de un superyate! ¿Habías visto esto antes?",
+"s": 591
+},
+{
+"id": "5YFeYjUr95s",
+"t": "Chefs profesionales hacen una prueba de sabor a ciegas de todos los helados de vainilla | El pane...",
+"s": 2039
+},
+{
+"id": "qbqIsgi5fJE",
+"t": "Recorrido gastronómico de una chef por Nueva York: ramen para el desayuno y rabo de toro braseado...",
+"s": 627
 },
 {
 "id": "0K_PLf6SMYk",
@@ -1616,9 +3738,59 @@
 "s": 829
 },
 {
+"id": "3w3REWvN2tk",
+"t": "Trying Everything on the Menu at One of NYC’s Best Indian Restaurants | Bon Appétit",
+"s": 1998
+},
+{
+"id": "nXbTy2IIpxA",
+"t": "Nuestro viaje a Japón | Kenji come en Japón",
+"s": 3244
+},
+{
+"id": "GiEbU3CsaW8",
+"t": "Alquiler de superyate familiar por 7 días - Punto de vista del chef",
+"s": 952
+},
+{
+"id": "1K3sTSFBB6M",
+"t": "La mejor masa de pizza que jamás harás (calidad de restaurante) | Epicurious 101",
+"s": 815
+},
+{
+"id": "rf8Ylyy_CnA",
+"t": "El nuevo restaurante en NYC del chef estrella de Netflix ya tiene lista de espera",
+"s": 822
+},
+{
 "id": "3XALaSzkUro",
 "t": "Habilidades con el cuchillo que todos deberían conocer",
 "s": 1258
+},
+{
+"id": "ubq8VCtcR-U",
+"t": "Un día en Fallow, el restaurante más popular de Londres | On The Line | Bon Appétit",
+"s": 1595
+},
+{
+"id": "OtZZitPNzGo",
+"t": "Cómo preparar pollo teriyaki al estilo Seattle",
+"s": 1250
+},
+{
+"id": "uecTVutVVmM",
+"t": "¡Colándonos en superyates! (para ver sus cocinas) En el Salón Náutico de Antigua",
+"s": 945
+},
+{
+"id": "X9LVuL4pk4w",
+"t": "La guía definitiva para comprar pechugas de pollo | Epicurious",
+"s": 1364
+},
+{
+"id": "wVfdtWYTpE4",
+"t": "El nuevo Baohaus de Eddie Huang es un éxito total — Los expertos",
+"s": 861
 },
 {
 "id": "lQYvvh-ANKQ",
@@ -1626,9 +3798,59 @@
 "s": 869
 },
 {
+"id": "J8GVt8j1bT4",
+"t": "Cómo preparar lasaña con calidad de restaurante sin gastar de más | Cocina en tiempos de inflació...",
+"s": 938
+},
+{
+"id": "uEuKbqa5qCc",
+"t": "Arrachera asada con salsa verde de cebollines tatemados",
+"s": 743
+},
+{
+"id": "0n73L6hmOO0",
+"t": "¡Cómo se prepara la cocina de un superyate para el alquiler!",
+"s": 603
+},
+{
+"id": "OWD2EvNcTh8",
+"t": "El elenco de «Game Changer» de Dropout pone a prueba sus habilidades culinarias básicas | Epicurious",
+"s": 768
+},
+{
+"id": "SLBT5m1YsIY",
+"t": "Guga comparte su mayor arrepentimiento | En la cabina con Babish",
+"s": 2724
+},
+{
 "id": "GvxeLBWBYZc",
 "t": "Las mejores patatas fritas caseras",
 "s": 736
+},
+{
+"id": "bFmurnPXiGc",
+"t": "Probamos la legendaria carne de res de cocción lenta de Singapur | Street Eats | Bon Appétit",
+"s": 759
+},
+{
+"id": "ev_hUonZpxY",
+"t": "Cómo preparar tu asador de carbón",
+"s": 293
+},
+{
+"id": "Zw7c8RsX_vY",
+"t": "¡El chárter con más afluencia de clientes que he tenido jamás: ¡Tandom Yacht Charter!",
+"s": 799
+},
+{
+"id": "KsJiFpyWLaw",
+"t": "Chefs profesionales realizan una cata a ciegas de cecina de res | El panel de catadores | Epicurious",
+"s": 1918
+},
+{
+"id": "FcINiXN8-lM",
+"t": "Los mejores cheesesteaks comienzan con este pan",
+"s": 729
 },
 {
 "id": "DGb5Vn0PkcQ",
@@ -1636,9 +3858,59 @@
 "s": 1166
 },
 {
+"id": "sZl-doueWNY",
+"t": "Cómo se hace el mejor mac and cheese de NYC | Hecho a pedido | Bon Appétit",
+"s": 770
+},
+{
+"id": "3wj0roOiQUM",
+"t": "Late Night Kimchi and Brisket Reuben",
+"s": 407
+},
+{
+"id": "Fu3E9ag11Os",
+"t": "¡Desayuno a bordo! (Entre bastidores en un superyate)",
+"s": 916
+},
+{
+"id": "PK8ex3yrupY",
+"t": "Cómo prepara biryani uno de los mejores chefs indios de Nueva York | Epicurious 101",
+"s": 992
+},
+{
+"id": "Yhg4iGWm5sQ",
+"t": "Mise En Place, el principal destino gastronómico español de Nueva York.",
+"s": 782
+},
+{
 "id": "FSFTqzmuzy8",
 "t": "Las salsas que todo el mundo debe conocer",
 "s": 1558
+},
+{
+"id": "E74UVL6TQNY",
+"t": "Cómo prepara un chef francés el plato de pescado más famoso de Francia | Fundamentos de cocina fr...",
+"s": 851
+},
+{
+"id": "dKNKOekkjpI",
+"t": "Preparando salsa de cangrejo de inspiración vietnamita con Yenvy Pham de Pho Bac",
+"s": 2691
+},
+{
+"id": "AVymgcINtE0",
+"t": "¡Entre bastidores de un alquiler de yate!",
+"s": 830
+},
+{
+"id": "VVXe_OlKbGc",
+"t": "Cómo uno de los mejores chefs indios de Nueva York prepara pollo al curry | Epicurious 101",
+"s": 629
+},
+{
+"id": "x337IoaT9O0",
+"t": "La comedia implacable de Veep y Arrested Development | Tony Hale en la cabina de grabación con Ba...",
+"s": 2694
 },
 {
 "id": "WGVaDl1RRkc",
@@ -1646,9 +3918,59 @@
 "s": 923
 },
 {
+"id": "zfn51ySi2ek",
+"t": "El estadio que prepara la mejor comida en el deporte | On The Line | Bon Appétit",
+"s": 969
+},
+{
+"id": "-cJwO9aKfVM",
+"t": "Ensalada japonesa con aderezo de zanahoria y jengibre",
+"s": 594
+},
+{
+"id": "q2CzytY8Mnc",
+"t": "¡HE VUELTO! Me incorporo al superyate MY Loon como chef principal.",
+"s": 660
+},
+{
+"id": "KIoDdxjKcpo",
+"t": "13 chefs de 13 países preparan sándwiches | Epicurious",
+"s": 1097
+},
+{
+"id": "17EQWlO8I1w",
+"t": "Por qué un chef de Washington D.C. dejó su restaurante con estrella Michelin para empezar de cero.",
+"s": 698
+},
+{
 "id": "N3QgxolJbNE",
 "t": "Los mejores rollos de canela caseros",
 "s": 875
+},
+{
+"id": "uj5zfW29LhI",
+"t": "Un día con la maestra del horno en la mejor panadería de San Francisco | On The Line | Bon Appétit",
+"s": 1047
+},
+{
+"id": "728EQMuuxVA",
+"t": "El secreto para un mejor pollo a la parrilla: Gai Yang",
+"s": 1378
+},
+{
+"id": "fJiyP5aKBvc",
+"t": "¡Alaska en un superyate!",
+"s": 818
+},
+{
+"id": "PvrPQjWk2OI",
+"t": "Chefs profesionales realizan una cata a ciegas de todas las salsas para pasta | El panel de catad...",
+"s": 1880
+},
+{
+"id": "0i3gEbzSnZI",
+"t": "Cómo un estadio de Miami alimenta a más de 30.000 aficionados cada día — Formato grande",
+"s": 644
 },
 {
 "id": "8Bzi_ybXw10",
@@ -1656,9 +3978,59 @@
 "s": 979
 },
 {
+"id": "xeoFTxAnoZc",
+"t": "Cómo prepara galletas con chispas de chocolate una de las mejores panaderas de NYC | Hecho en cas...",
+"s": 651
+},
+{
+"id": "JwT07He0AxU",
+"t": "Cómo despresar un pollo entero",
+"s": 317
+},
+{
+"id": "TUf2DlUrcMM",
+"t": "¿Quién ganó? ¡Los Premios ACREW con Tilly!",
+"s": 679
+},
+{
+"id": "a0NBmQeDeeQ",
+"t": "El elenco de SNL pone a prueba sus habilidades culinarias básicas | Epicurious",
+"s": 839
+},
+{
+"id": "yeeV1frPR0A",
+"t": "El menú soñado de Alton Brown | In the Booth with Babish",
+"s": 2493
+},
+{
 "id": "KJ5CW1Hsums",
 "t": "Desayuno chino auténtico en casa (Jianbing)",
 "s": 907
+},
+{
+"id": "SbzFz_KNoy0",
+"t": "La mejor pizza nueva de Estados Unidos está en San Francisco | On The Line | Bon Appétit",
+"s": 1085
+},
+{
+"id": "a_KAzqQAtFw",
+"t": "Por qué me encanta cocinar pescado al vapor",
+"s": 759
+},
+{
+"id": "RW9WpOrrh6I",
+"t": "Charter Time! Super @yachtarience5061 and Chef @OliveOilandGasoline get ready.",
+"s": 750
+},
+{
+"id": "jk1NWWQuv5M",
+"t": "30 trucos para cocinar huevos que todo cocinero casero debería conocer | Epicurious 101",
+"s": 962
+},
+{
+"id": "FDfcDA3J_FM",
+"t": "Presentamos \"In the Booth with Babish\"",
+"s": 66
 },
 {
 "id": "-2RjqDwbrZQ",
@@ -1666,9 +4038,59 @@
 "s": 823
 },
 {
+"id": "MxGc0XHfNcM",
+"t": "El bistec perfecto se cocina en hierro fundido | Hecho en casa | Buen provecho",
+"s": 662
+},
+{
+"id": "AI7cuKZiY1A",
+"t": "Espárragos gruesos a la parrilla con mayonesa de yuzu y togarashi",
+"s": 701
+},
+{
+"id": "07imyXSG_c0",
+"t": "Yacht Chef Q&A - your Q's answered! ft @Olive Oil and Gasoline",
+"s": 1233
+},
+{
+"id": "p5khKj2I6Y0",
+"t": "14 chefs de 14 países preparan té | Epicurious",
+"s": 1231
+},
+{
+"id": "-okodVFi1Ek",
+"t": "Fish & Chips y Guinness | Por dentro de Dean's, el nuevo pub británico",
+"s": 808
+},
+{
 "id": "vjIfHr0GOrw",
 "t": "The Best Breakfast Sandwich At Home",
 "s": 803
+},
+{
+"id": "2zS2RtM8P68",
+"t": "Probamos el curry más legendario de Singapur | Street Eats | Bon Appétit",
+"s": 872
+},
+{
+"id": "-AQvYk8DMlI",
+"t": "Pasta all’Amatriciana: Una pasta romana para cenar entre semana que todos deberían conocer",
+"s": 785
+},
+{
+"id": "BY_kXPX5CZ4",
+"t": "El Canal de Panamá ¡En un superyate!",
+"s": 556
+},
+{
+"id": "Ky-4ZmOn9o8",
+"t": "36 trucos con fruta que todo cocinero casero debería conocer | Epicurious 101",
+"s": 806
+},
+{
+"id": "G8I9ILBaNYU",
+"t": "El único restaurante indio en NYC con tandoor de carbón tiene una lista de espera de 12,000 perso...",
+"s": 970
 },
 {
 "id": "eC8gqjQRj1I",
@@ -1676,9 +4098,59 @@
 "s": 607
 },
 {
+"id": "Mev_EZ030nc",
+"t": "Cómo un maestro chef francés hace Croque Monsieur | Fundamentos de francés | Buen provecho",
+"s": 1030
+},
+{
+"id": "8o2NWYiLN8I",
+"t": "La ciencia de la ensalada de papa japonesa",
+"s": 1358
+},
+{
+"id": "GOARy8BLKlU",
+"t": "Una semana como chef de tripulación - Parte 2",
+"s": 815
+},
+{
+"id": "j755eV0pdjc",
+"t": "Pro Chefs Blind Taste Test Every Potato Chip | The Taste Panel | Epicurious",
+"s": 2115
+},
+{
+"id": "yAKsGq0M-vg",
+"t": "El sándwich de pollo frito sucio que tiene a Los Ángeles obsesionado — Plateworthy",
+"s": 885
+},
+{
 "id": "oniAMAulMgU",
 "t": "La mejor pasta Alfredo baja en calorías de la historia",
 "s": 524
+},
+{
+"id": "Z2FD0Eq0iEQ",
+"t": "El hombre que dejó Wall Street para hacer hamburguesas | On The Line | Bon Appétit",
+"s": 941
+},
+{
+"id": "PKHwGCnuppU",
+"t": "I Made \"Leftover Leftover Pizza Dough English Muffin English Muffin Pizzas\"",
+"s": 485
+},
+{
+"id": "kJL8Voq8FIo",
+"t": "Cocinero de tripulación en un superyate - Parte 1",
+"s": 897
+},
+{
+"id": "BRAld0Nl45E",
+"t": "Prueba de sabor a ciegas de nuggets de pollo congelados realizada por chefs profesionales | El pa...",
+"s": 1774
+},
+{
+"id": "zC_9ylOexsQ",
+"t": "José Andrés recuerda a Anthony Bourdain mientras disfruta de jamón ibérico y pescado a la plancha...",
+"s": 632
 },
 {
 "id": "5BzvDJ9I4jg",
@@ -1686,9 +4158,59 @@
 "s": 843
 },
 {
+"id": "oabNIsfevgI",
+"t": "Cómo uno de los mejores chefs chinos de Nueva York prepara el pollo del General Tso | Made in Hou...",
+"s": 1053
+},
+{
+"id": "jrLlxRfjb9w",
+"t": "El abuelo de los platos de pasta romanos: Pasta alla Gricia",
+"s": 1144
+},
+{
+"id": "QMejK9SBejs",
+"t": "¡Reencuentro! Tilly y Nina en Europa: ¡Pizza, pasta y gelato!",
+"s": 916
+},
+{
+"id": "IBImswIqjnI",
+"t": "11 chefs de 11 países preparan panqueques | Epicurious",
+"s": 1356
+},
+{
+"id": "cd-I3fa6pKY",
+"t": "Nyesha Arrington se enfrenta a la única pizzería de Sacramento reconocida por la Guía Michelin: P...",
+"s": 794
+},
+{
 "id": "lLNH-JnbigM",
 "t": "Cómo hacer que la comida tenga buen sabor",
 "s": 914
+},
+{
+"id": "Oip5BOsvRl8",
+"t": "Cómo se prepara el mejor pollo jerk de Brooklyn | Hecho a la medida | Bon Appétit",
+"s": 613
+},
+{
+"id": "VJBZfhGfuUM",
+"t": "Arroz frito con kimchi y falda de res ahumada",
+"s": 667
+},
+{
+"id": "oWTlqnUWF-A",
+"t": "¡Chef de superyate en acción! Remodelación de la cocina parte 3 con @OliveOilandGasoline",
+"s": 687
+},
+{
+"id": "dCKpTCkYhE4",
+"t": "13 recetas francesas con huevo que todo chef debe dominar (de la más fácil a la más difícil) | Ep...",
+"s": 975
+},
+{
+"id": "1ttNFeCbvos",
+"t": "Cómo el rey de la pizza de Nueva York pasa su día libre comiendo (y no es pizza) — Día libre del ...",
+"s": 818
 },
 {
 "id": "ZruAfXHBrNk",
@@ -1696,9 +4218,59 @@
 "s": 594
 },
 {
+"id": "o8IRME56EL0",
+"t": "Cómo alimenta el Empire State Building a 8,000 personas al día | On The Line | Bon Appétit",
+"s": 1013
+},
+{
+"id": "DUGgSpdo2TU",
+"t": "Un recorrido a pie por el Distrito Internacional de Seattle.",
+"s": 809
+},
+{
+"id": "8U_CNnfL64o",
+"t": "Reforma de la cocina de un superyate, parte 1, MÁS preguntas y respuestas con el chef del yate",
+"s": 847
+},
+{
+"id": "JfSsf0B0guk",
+"t": "Chefs profesionales prueban a ciegas todos los aderezos ranch | El Panel de Cata | Epicurious",
+"s": 1548
+},
+{
+"id": "-sXhTVCIkvU",
+"t": "Bryan Cranston y Jane Kaczmarek comparten sus opiniones durante un festín de sándwiches: ¡vamos a...",
+"s": 634
+},
+{
 "id": "uNM5ZvNkN1U",
 "t": "La mejor hamburguesa baja en calorías de la historia",
 "s": 603
+},
+{
+"id": "J_kvG0X4MN0",
+"t": "Cómo se hace el mejor burrito de San Francisco | Hecho al momento | Bon Appétit",
+"s": 538
+},
+{
+"id": "FSMrFu3tFnQ",
+"t": "Rallado, machacado, sellado y picado: una nueva forma de cocinar cheesesteak | El programa de coc...",
+"s": 506
+},
+{
+"id": "aSxOeG7T6w4",
+"t": "¿Vino y marisco a las 7 de la mañana? ¡Mi viaje de cumpleaños al Mercado de Pescado de Barcelona!",
+"s": 500
+},
+{
+"id": "Y73TVwFFNsE",
+"t": "El secreto para unos nachos perfectos no es el horno | Epicurious 101",
+"s": 551
+},
+{
+"id": "fo-chb-EKwE",
+"t": "Nyesha Arrington conquista San Francisco: El tour gastronómico perfecto — Plateworthy",
+"s": 913
 },
 {
 "id": "Uj5ZggWHYU4",
@@ -1706,9 +4278,59 @@
 "s": 838
 },
 {
+"id": "kYOFXuf0HfA",
+"t": "Un día preparando los burritos más virales de NYC | On The Line | Bon Appétit",
+"s": 909
+},
+{
+"id": "xT_VJyRLcyI",
+"t": "Prepara arroz con pollo en tu arrocera | El programa de cocina de Kenji",
+"s": 877
+},
+{
+"id": "q1rZ7PWXVYk",
+"t": "¿Pasaré la prueba? Realizando mi evaluación de cocinero naval en Leiths School of Food and Wine",
+"s": 521
+},
+{
+"id": "7Tr105B2C1w",
+"t": "32 recetas con huevo que todo cocinero casero debería conocer | Epicurious",
+"s": 5055
+},
+{
+"id": "qprT5EpV8qM",
+"t": "El restaurante nuevo del que más se habla en Chicago tiene un menú sorprendente.",
+"s": 777
+},
+{
 "id": "0ZMRL8blTsY",
 "t": "Los Poke Bowls más saludables en casa",
 "s": 842
+},
+{
+"id": "S7P2iWzjIJs",
+"t": "Probamos el mejor pato pekín de Nueva York | Street Eats | Bon Appétit",
+"s": 911
+},
+{
+"id": "Vj1aSpVUvfk",
+"t": "Pollo con harissa y cuscús (una remezcla de pollo halal)",
+"s": 1474
+},
+{
+"id": "camtmgLpw_I",
+"t": "Secretos de un chef de yate: habilidades, salario y ¡picar algo todo el día!",
+"s": 993
+},
+{
+"id": "eQgovopA__E",
+"t": "9 trucos de ramen instantáneo que tienes que probar | Epicurious",
+"s": 1134
+},
+{
+"id": "OD83Cp4bLDw",
+"t": "Ganó el premio a la Mejor Chef Joven, y ahora Nueva York está obsesionada con su rabo de buey — M...",
+"s": 1284
 },
 {
 "id": "4r7Yl15-F7c",
@@ -1716,9 +4338,59 @@
 "s": 527
 },
 {
+"id": "nBvoe1AjNAk",
+"t": "Cómo uno de los mejores chefs de NYC prepara un salmón perfecto en 10 minutos | Made in House | B...",
+"s": 892
+},
+{
+"id": "ccvzoUTswo8",
+"t": "Sándwiches de desayuno en Joe'z Bayside Market and Cafe con Zoe Kahn",
+"s": 292
+},
+{
+"id": "zI1CtVDwsGU",
+"t": "Desayuno en un superyate - Diario de cocina",
+"s": 680
+},
+{
+"id": "CnB2tA_CTNI",
+"t": "Expertos en café catan a ciegas cada café de supermercado | El panel de cata | Epicurious",
+"s": 1919
+},
+{
+"id": "r2-gdFVXuR0",
+"t": "Este restaurante obtuvo una estrella verde Michelin por su cocina de cero residuos — Los expertos",
+"s": 723
+},
+{
 "id": "ZLULwy2cXVE",
 "t": "Las mejores galletas con chispas de chocolate de la historia",
 "s": 550
+},
+{
+"id": "3drCQVOYrO0",
+"t": "Probamos el legendario chili crab de Singapur | Street Eats | Bon Appétit",
+"s": 904
+},
+{
+"id": "K0wkS3xefZE",
+"t": "My Most Popular Recipe, Updated: Halal Cart-Style Chicken and Rice",
+"s": 2030
+},
+{
+"id": "cOMYZwGTVAI",
+"t": "Yacht Chef @ Home: ¡cocina el almuerzo conmigo!",
+"s": 857
+},
+{
+"id": "pNLo-dxkVME",
+"t": "7 recetas con papa que todo cocinero casero debe conocer | Epicurious",
+"s": 2971
+},
+{
+"id": "5BuAGH2-Vbw",
+"t": "Ven por el pescado y las patatas fritas, quédate por el bistec en este restaurante de moda de Cal...",
+"s": 715
 },
 {
 "id": "h_ZWXncC0CI",
@@ -1726,9 +4398,59 @@
 "s": 875
 },
 {
+"id": "ldeSYejY6CA",
+"t": "Cómo prepara spaghetti con albóndigas uno de los mejores chefs italianos de NYC | Made in House |...",
+"s": 1059
+},
+{
+"id": "cHeu3uwsAek",
+"t": "Sopa de udon fácil con pollo",
+"s": 546
+},
+{
+"id": "n-9krjQaD_8",
+"t": "¡La VERDADERA vida a bordo de los superyates! Todo sobre la tripulación, las operaciones y la vid...",
+"s": 960
+},
+{
+"id": "OiIHS65KhWE",
+"t": "Cómo se hacen los dumplings en 10 países | Epicurious",
+"s": 1346
+},
+{
+"id": "wDr5zrEKzHU",
+"t": "Cómo una granja cría al molusco más raro y costoso de Estados Unidos — Proveedores",
+"s": 744
+},
+{
 "id": "kzBOTkQRp0A",
 "t": "El mejor chocolate caliente de la historia (2 maneras)",
 "s": 492
+},
+{
+"id": "OAKh11ygTs0",
+"t": "Cómo se hacen los mejores huevos benedictinos de Nueva York | Hecho bajo pedido | Bon Appétit",
+"s": 741
+},
+{
+"id": "JbOAp_akVbs",
+"t": "Pollo Karaage extra crujiente doblemente frito (bocados de pollo frito japonés)",
+"s": 876
+},
+{
+"id": "TNgV8veICLY",
+"t": "Tasmania - ¡Viaje por carretera por la Costa Este! Bahía de los Fuegos, visita a una granja de os...",
+"s": 910
+},
+{
+"id": "9bxYQ_-q91w",
+"t": "Los mejores tacos de carne que jamás prepararás (con calidad de puesto de tacos) | Epicurious 101",
+"s": 639
+},
+{
+"id": "SCbW8FrDsPU",
+"t": "El pollo asado más famoso de Nueva York tardó 50 años en perfeccionarse — El más pedido",
+"s": 594
 },
 {
 "id": "KAfbkuBF6L0",
@@ -1736,9 +4458,59 @@
 "s": 581
 },
 {
+"id": "W3BlbYUr-v8",
+"t": "El pollo asado que las familias francesas preparan cada domingo: Poulet Rôti | Bon Appétit",
+"s": 955
+},
+{
+"id": "0rYqAIrXdaI",
+"t": "¡Sándwiches para el desayuno en Seattle Biscuit Company con Zoe Kahn!",
+"s": 274
+},
+{
+"id": "_2mWnhQm_AY",
+"t": "How Super Yacht's Shop aka PROVISIONING",
+"s": 877
+},
+{
+"id": "nTx54xzD-gU",
+"t": "4 niveles de burrito de desayuno: de aficionado a científico de alimentos",
+"s": 710
+},
+{
+"id": "zXfwlxO6idA",
+"t": "Dentro del menú del Año Nuevo Lunar, increíblemente popular, de este restaurante de Brooklyn — Lo...",
+"s": 660
+},
+{
 "id": "qEHvmINXUfk",
 "t": "El mejor pollo frito casero",
 "s": 722
+},
+{
+"id": "7P7DQBhn0-s",
+"t": "De 3 estrellas Michelin a un camión de barbacoa de Texas | On The Line | Bon Appétit",
+"s": 960
+},
+{
+"id": "bafqmp2rnoY",
+"t": "Late Night Shaved A5 Wagyu Burgers",
+"s": 478
+},
+{
+"id": "YmMMLVqKTSY",
+"t": "¡Hola Australia! + Receta de desayuno",
+"s": 972
+},
+{
+"id": "HlR6PLZcZg4",
+"t": "7 recetas de pasta que todo cocinero casero debería conocer | Epicurious",
+"s": 4117
+},
+{
+"id": "z0u3-wQypTw",
+"t": "El pastel de chocolate de 7 capas que conquista Nueva York: el más pedido",
+"s": 629
 },
 {
 "id": "aPqG4RkvyMw",
@@ -1746,9 +4518,59 @@
 "s": 806
 },
 {
+"id": "kJJ8elM9kQ8",
+"t": "Cómo el maestro chef español José Andrés prepara la paella a fuego abierto | Hecho a pedido | Bon...",
+"s": 845
+},
+{
+"id": "12_llkHO7jI",
+"t": "Haciendo Kotleti de mamá con Polina Chesnakova",
+"s": 1749
+},
+{
+"id": "h-jwavxW-K4",
+"t": "Qué come la tripulación en un superyate - Diario de cocina",
+"s": 827
+},
+{
+"id": "p0_WWUAPOns",
+"t": "Cómo se preparan los huevos revueltos en 14 países | Epicurious",
+"s": 1123
+},
+{
+"id": "70mvxTVUHvU",
+"t": "Chef Vikas Khanna Calls This NYC Pizza a Masterpiece — Chef's Day Off",
+"s": 682
+},
+{
 "id": "kSspDhrvNok",
 "t": "Las dos mejores maneras de preparar puré de papas",
 "s": 793
+},
+{
+"id": "ijjBdmZbIhc",
+"t": "Un día preparando los sándwiches más populares de Nueva York | En la línea | Bon Appétit",
+"s": 749
+},
+{
+"id": "bXwLmZBa0Lo",
+"t": "Respondo a todas tus preguntas sobre el wok",
+"s": 2741
+},
+{
+"id": "WFaBGx0Xgk4",
+"t": "Let's Cook! Crispy Shrimp Rolls from a Super Yacht Galley",
+"s": 1034
+},
+{
+"id": "bJNT1gv4Wbo",
+"t": "Las mejores enchiladas que jamás prepararás (calidad de restaurante) | Epicurious 101",
+"s": 644
+},
+{
+"id": "J9Ufk_y3vX0",
+"t": "Jason Momoa, Morena Baccarin, and Jacob Batalon Try NYC's Best Hawaiian Food — Let's Do Lunch",
+"s": 669
 },
 {
 "id": "dxZgcuxQTFs",
@@ -1756,9 +4578,59 @@
 "s": 785
 },
 {
+"id": "ZcGIsiBdlH0",
+"t": "El restaurante de carnes más popular de Nueva York solo tiene 10 mesas | En la línea | Bon Appétit",
+"s": 1233
+},
+{
+"id": "3ZgnKg8pEaI",
+"t": "Southern-Style Vietnamese Chicken Pho",
+"s": 647
+},
+{
+"id": "bDb0P1BxaG4",
+"t": "Guía de San Bartolomé",
+"s": 756
+},
+{
+"id": "0plYffjo39U",
+"t": "Para el mejor pollo tikka en casa, usa una freidora de aire | Epicurious 101",
+"s": 482
+},
+{
+"id": "VNApLK-DNEE",
+"t": "Por qué una pizzería está haciendo el sándwich de pollo más popular de Nueva York: el más pedido",
+"s": 508
+},
+{
 "id": "_tx6VaBC_Bc",
 "t": "El mejor sándwich club en casa",
 "s": 839
+},
+{
+"id": "OdbSrx4l8rM",
+"t": "Probamos la única comida callejera con estrella Michelin de Singapur | Street Eats | Bon Appétit",
+"s": 748
+},
+{
+"id": "dnLFYpecHho",
+"t": "Cocinando Memelas con Bricia López",
+"s": 1922
+},
+{
+"id": "rQz_gI98lDA",
+"t": "What's happened?! Channel Update",
+"s": 75
+},
+{
+"id": "jDk3BECypCM",
+"t": "El elenco de 'Knives Out: Wake Up Dead Man' pone a prueba sus habilidades culinarias básicas | Ep...",
+"s": 672
+},
+{
+"id": "f6LQGEm04Q0",
+"t": "Las comidas favoritas en NYC del experto en hamburguesas George Motz (que no son hamburguesas) — ...",
+"s": 775
 },
 {
 "id": "6bk4a4_ORfI",
@@ -1766,9 +4638,59 @@
 "s": 728
 },
 {
+"id": "HjsqE5SdAng",
+"t": "Cómo se prepara el mejor pollo frito coreano de Nueva York | Hecho al momento | Bon Appétit",
+"s": 657
+},
+{
+"id": "5C-dVEt4_pM",
+"t": "This Easy Lentil Soup is Just the Beginning | Kenji's Cooking ShowFebruary 25, 2026",
+"s": 796
+},
+{
+"id": "YE91OCt5bf4",
+"t": "Alaska Parte 2: ¡Vacaciones en casa rodante!",
+"s": 813
+},
+{
+"id": "ZB2Oy02K8BY",
+"t": "Chefs profesionales prueban a ciegas cada palomita de microondas | El panel de sabor | Epicurious",
+"s": 2004
+},
+{
+"id": "NSAKSx4Ssj8",
+"t": "Persian-Cajun BBQ Packs a Punch at Texas Hot Spot Redbird — Smoke Point",
+"s": 823
+},
+{
 "id": "urECpujNgcM",
 "t": "El mejor pollo frito coreano en casa",
 "s": 772
+},
+{
+"id": "qhZrvE3qhhg",
+"t": "Una noche en la cocina más intensa de Nueva York | Bon Appétit",
+"s": 927
+},
+{
+"id": "9J-KAia4Oq0",
+"t": "Nueva Inglaterra se fusiona con el Pacífico Noroeste con esta sencilla sopa de salmón | El progra...",
+"s": 970
+},
+{
+"id": "nICkTsSHf0o",
+"t": "La vida de la tripulación a bordo de un superyate: operaciones de licitación, aprovisionamiento y...",
+"s": 720
+},
+{
+"id": "hAo1YfwRd_A",
+"t": "Critical Role (The Mighty Nein) pone a prueba sus habilidades culinarias básicas | Epicurious",
+"s": 906
+},
+{
+"id": "_Whme2ji9Ic",
+"t": "Cómo este legendario chef ha dirigido un restaurante exitoso durante más de 25 años – Mise En Place",
+"s": 897
 },
 {
 "id": "oFSgLH8AN7w",
@@ -1776,9 +4698,59 @@
 "s": 499
 },
 {
+"id": "J6KnuGWs7fw",
+"t": "Un día en el restaurante mexicano más famoso de Nueva York | On The Line | Bon Appétit",
+"s": 673
+},
+{
+"id": "1DWB1EOLw_s",
+"t": "Este guiso de espinacas y garbanzos es mi plato favorito para complacer a todo el mundo.",
+"s": 683
+},
+{
+"id": "Q3cSyIa4o58",
+"t": "Diario de cocina n.º 1: Preparación de comidas en un superyate",
+"s": 526
+},
+{
+"id": "t-wqidcBg40",
+"t": "Comparación de tostadoras económicas y caras para encontrar la mejor (de $24 a $400) | Epicurious",
+"s": 1884
+},
+{
+"id": "9zIDLEcZrG0",
+"t": "Inside Ho Lee Fook, One of Hong Kong's Most Exciting Cantonese Restaurants — The Experts",
+"s": 766
+},
+{
 "id": "TveUI2jD_2c",
 "t": "Focaccia ultra aireada de 51 horas en casa",
 "s": 686
+},
+{
+"id": "0jSqBWoBMOI",
+"t": "Probamos el plato con estrella Michelin más polémico de Nueva York | Hecho a la carta | Bon Appétit",
+"s": 488
+},
+{
+"id": "0yRT1vlwFfI",
+"t": "Olvídate de las costillas cortas y prueba la carne estofada en vino tinto",
+"s": 1776
+},
+{
+"id": "Xl-KzIZqf4U",
+"t": "¡Cruzando el Atlántico en un superyate!",
+"s": 790
+},
+{
+"id": "Xa_i7Mw5lwg",
+"t": "El elenco de 'Stranger Things' pone a prueba sus habilidades culinarias básicas | Epicurious",
+"s": 570
+},
+{
+"id": "DyjJLxrqeq8",
+"t": "Simu Liu y Melissa Barrera hablan sobre entrenamiento de espionaje y resoluciones en Bangkok Supp...",
+"s": 644
 },
 {
 "id": "UhByCuLYt2g",
@@ -1786,9 +4758,59 @@
 "s": 529
 },
 {
+"id": "jkyv6RXYH64",
+"t": "Cómo dominar el Steak Frites francés en casa | Fundamentos de la cocina francesa | Bon Appétit",
+"s": 1023
+},
+{
+"id": "ZxIzsV-IFJI",
+"t": "Frozen Scallion Pancakes Make Great Breakfast Sandwiches",
+"s": 172
+},
+{
+"id": "SvvBRivHiQw",
+"t": "Visa Run para tripulación de yate: ¡Hola Malta!",
+"s": 423
+},
+{
+"id": "7i_0d_lsYSQ",
+"t": "5 Recipes for a Perfect Thanksgiving Feast | Epicurious 101",
+"s": 2615
+},
+{
+"id": "IAJuRClMLKU",
+"t": "Los filetes con papas fritas de $25 que se convirtieron en una obsesión en Nueva York — Los más p...",
+"s": 783
+},
+{
 "id": "3iNyUwPKrXQ",
 "t": "Pollo Peri Peri Perfecto en Casa",
 "s": 926
+},
+{
+"id": "StWK0MEuFKc",
+"t": "Cómo se preparan los mejores panqueques de Brooklyn | Hechos a pedido | ¡Buen provecho!",
+"s": 483
+},
+{
+"id": "aiyD-FbSZE0",
+"t": "Cómo preparar el pollo General Tso más crujiente en casa | El programa de cocina de Kenji",
+"s": 1369
+},
+{
+"id": "W4hmtSc81Fc",
+"t": "Viaje de senderismo por carretera en EE. UU. - Tripulación de yate de vacaciones",
+"s": 754
+},
+{
+"id": "EXKtYFmVeDM",
+"t": "Chefs profesionales hacen una prueba de sabor a ciegas de todos los rellenos de caja | The Taste ...",
+"s": 1788
+},
+{
+"id": "6FHYMmMZ3w0",
+"t": "Carla Hall y Candace Nelson hablan sobre Gordon Ramsay, panadero de alto nivel en Don Angie de Nu...",
+"s": 663
 },
 {
 "id": "qDRrXpKCk8M",
@@ -1796,9 +4818,59 @@
 "s": 657
 },
 {
+"id": "U-ij0ul8mlA",
+"t": "8 trucos de cocina que los chefs profesionales recomiendan | Charlas sobre restaurantes | Bon App...",
+"s": 484
+},
+{
+"id": "sb502xDisuA",
+"t": "Este aceite aromático de Sichuan es la puerta de entrada al sabor.",
+"s": 501
+},
+{
+"id": "5yI7jDTbZS4",
+"t": "An Atlantic Crossing Crew Chef Style",
+"s": 440
+},
+{
+"id": "6Tb5HDBEv48",
+"t": "Cómo se hacen los hot dogs en 13 países | Epicurious",
+"s": 1159
+},
+{
+"id": "JpvKm1JisQE",
+"t": "Cómo el famoso pollo jerk de Miss Lily se convirtió en un clásico de Nueva York — Brent Meats World",
+"s": 585
+},
+{
 "id": "AFzx37MGW6o",
 "t": "Auténtico pollo jerk en casa",
 "s": 879
+},
+{
+"id": "zxBNYL-KaRg",
+"t": "Cómo se prepara el mejor gumbo de Nueva Orleans | Hecho a pedido | ¡Buen provecho!",
+"s": 653
+},
+{
+"id": "nozurVDQ_Is",
+"t": "Cómo preparar sopa de fideos con carne de res de Sichuan",
+"s": 1364
+},
+{
+"id": "ACS9vPReRwU",
+"t": "Swimming Heart Reef, Australia",
+"s": 61
+},
+{
+"id": "5Xki1fKGmQA",
+"t": "How to Make Perfect Pie Crusts for Thanksgiving | Epicurious 101",
+"s": 674
+},
+{
+"id": "DytI6AwqYHw",
+"t": "Cómo un restaurante peruano de pollos rostizados logró perfeccionar su piel crujiente – Los expertos",
+"s": 484
 },
 {
 "id": "u-_FnU9FaeA",
@@ -1806,9 +4878,59 @@
 "s": 1127
 },
 {
+"id": "qwDry6MF7hU",
+"t": "La hamburguesa número 1 de Estados Unidos se sirve en el mejor bar nuevo de Nueva York | On The L...",
+"s": 782
+},
+{
+"id": "021KahIfXfA",
+"t": "Pregúntale lo que quieras a Kenji: Utensilios, woks, cuchillos, guisos y detectores de humo (tamb...",
+"s": 3925
+},
+{
+"id": "r5xP1jyzT68",
+"t": "The Whitsunday Getaway",
+"s": 204
+},
+{
+"id": "HGj6GIpAfMo",
+"t": "8 Boxed Mac & Cheese Hacks You’ve Never Tried Before | Epicurious",
+"s": 1305
+},
+{
+"id": "0yM3dC6GasI",
+"t": "William H. Macy y Joel Edgerton sobre Acción de Gracias, Vegemite y comer fuera: Vamos a almorzar",
+"s": 619
+},
+{
 "id": "0aS89GsHIBQ",
 "t": "Los mejores tacos de carne en casa",
 "s": 729
+},
+{
+"id": "oe9PCgONfd0",
+"t": "Estos Kati Rolls son una de las mejores comidas callejeras de la India | Comida callejera | Buen ...",
+"s": 572
+},
+{
+"id": "DtCqblM6Syg",
+"t": "¿Cuándo debo salar mi filete? | El programa de cocina de Kenji",
+"s": 1313
+},
+{
+"id": "GEvVaWa-4TQ",
+"t": "DaySkipperettes",
+"s": 77
+},
+{
+"id": "Xmcp0yAwtyc",
+"t": "4 niveles de langosta: de aficionado a científico de alimentos | Epicurious",
+"s": 904
+},
+{
+"id": "YkYJdbi0fI4",
+"t": "Cómo un equipo enorme de chefs alimenta a 350.000 aficionados en el evento de golf más grande del...",
+"s": 640
 },
 {
 "id": "ldVuxgEc1m0",
@@ -1816,9 +4938,54 @@
 "s": 763
 },
 {
+"id": "A2BLyqu_dCU",
+"t": "Charlie Puth mezcla una canción usando electrodomésticos de una cocina de pruebas.",
+"s": 512
+},
+{
+"id": "AODAwMANijw",
+"t": "Para un mejor ziti horneado, no hierva la pasta: remójela.",
+"s": 1344
+},
+{
+"id": "fHwQe44jgQM",
+"t": "Yacht Crew Caribbean Season 2014/15",
+"s": 202
+},
+{
+"id": "3wknFTgAmyo",
+"t": "3 Hours of Pro Chefs Blind Taste Testing Supermarket Food | The Taste Panel | Epicurious",
+"s": 9575
+},
+{
+"id": "jXwwwmOrPcw",
+"t": "Phil Rosenthal descubre su nuevo lugar chino favorito en NYC — Vamos a almorzar",
+"s": 694
+},
+{
 "id": "9BnVOZ1chKE",
 "t": "Los fideos con ajo y chile picante más fáciles (2 maneras)",
 "s": 533
+},
+{
+"id": "pRR6OuEGOsQ",
+"t": "Las 10 sartenes que los chefs profesionales realmente usan en los restaurantes | Charlas sobre re...",
+"s": 520
+},
+{
+"id": "W8mYCn4BVQs",
+"t": "Tteokbokki Real (Pastelitos de arroz coreanos salteados con salsa de soja y carne) | El programa ...",
+"s": 1273
+},
+{
+"id": "smUal5zo0co",
+"t": "American Cheese Hacks Every Home Cook Should Know | Epicurious 101",
+"s": 622
+},
+{
+"id": "5O0wknrk084",
+"t": "El nuevo grupo más popular del K-Pop, RIIZE, come barbacoa coreana en Cote, Nueva York — Let's Do...",
+"s": 483
 },
 {
 "id": "RBkhdRBp1xo",
@@ -1826,9 +4993,49 @@
 "s": 469
 },
 {
+"id": "RwYossga_jI",
+"t": "This Restaurant Earned a Michelin Star in Just 9 Months | On The Line | Bon Appétit",
+"s": 987
+},
+{
+"id": "JzccAFXcTqE",
+"t": "Hago arroz frito con spam en mi nuevo wok",
+"s": 613
+},
+{
+"id": "bgUe5BIqaB4",
+"t": "Chocolateros prueban a ciegas cada barra de chocolate | El panel de cata | Epicurious",
+"s": 2107
+},
+{
+"id": "Mw7OofnCUMg",
+"t": "La tienda de bánh mì más popular de Nueva York vende miles a la semana — Los expertos",
+"s": 650
+},
+{
 "id": "yvfVAvJZ-8A",
 "t": "Cómo hacer los mejores panecillos para hamburguesas de la historia",
 "s": 655
+},
+{
+"id": "fUd0qcR2PbA",
+"t": "Cómo se prepara el mejor po-boy de Nueva Orleans | Hecho a pedido | ¡Buen provecho!",
+"s": 573
+},
+{
+"id": "G8-qa2-ucs4",
+"t": "Mi estofado para días de enfermedad: Sundubu Jjigae (sopa coreana de tofu suave)",
+"s": 1044
+},
+{
+"id": "XwEGL7tQx3E",
+"t": "7 trucos para el microondas que todo cocinero casero debería saber | Epicurious 101",
+"s": 879
+},
+{
+"id": "it6jq6zzFvc",
+"t": "¿Por qué Michelin le dio una estrella a este pequeño restaurante mexicano en un centro comercial?...",
+"s": 819
 },
 {
 "id": "EAmC5DhRbz4",
@@ -1836,9 +5043,49 @@
 "s": 602
 },
 {
+"id": "gC8wGB2J--4",
+"t": "El hombre que dirige un puesto de parathas de 50 años en las calles de Delhi | Street Eats | Bon ...",
+"s": 653
+},
+{
+"id": "6wD8T-X0bKE",
+"t": "¿Se puede hacer tartar con filete sellado?",
+"s": 1266
+},
+{
+"id": "HydlA9r_S3Y",
+"t": "Aespa pone a prueba sus habilidades culinarias básicas | Epicurious",
+"s": 605
+},
+{
+"id": "vGm8qtL9-GM",
+"t": "Por dentro del exitoso restaurante indio de Vikas Khanna en Nueva York: Mise En Place",
+"s": 998
+},
+{
 "id": "S-E0KQW-Nl0",
 "t": "La Pasta Picante con Vodka Perfecta",
 "s": 601
+},
+{
+"id": "Gk6CcMtKd-A",
+"t": "El chef de 22 años que dirige un restaurante con 2 estrellas Michelin | On The Line | Bon Appétit",
+"s": 920
+},
+{
+"id": "gGbhjHa7OFw",
+"t": "Padma Lakshmi habla sobre la cocina, la cultura y quiénes pertenecen a Estados Unidos.",
+"s": 1971
+},
+{
+"id": "ZImcUEj1_9U",
+"t": "29 trucos con verduras que todo cocinero casero debería saber | Epicurious 101",
+"s": 857
+},
+{
+"id": "F4MFjMvLFRY",
+"t": "El nuevo restaurante coreano del chef Edward Lee no se parece a ningún otro en Estados Unidos — M...",
+"s": 768
 },
 {
 "id": "tY9pSkn1VCg",
@@ -1846,9 +5093,49 @@
 "s": 943
 },
 {
+"id": "QBcZwHpaqB4",
+"t": "Cómo prepara sushi uno de los mejores chefs japoneses del mundo | Hecho a pedido | Bon Appétit",
+"s": 658
+},
+{
+"id": "aXmKAsE3_Ec",
+"t": "Comparación de sartenes antiadherentes: teflón, hierro fundido y Titanium Pro de Our Place",
+"s": 1859
+},
+{
+"id": "pFgndOFYmys",
+"t": "Cómo se elabora el arroz en 10 países | Epicurious",
+"s": 1037
+},
+{
+"id": "BzKjBMDQDxI",
+"t": "New York's Best Porchetta Comes From This Tiny Suburban Deli — The Experts",
+"s": 689
+},
+{
 "id": "j_pNxyr1GM0",
 "t": "Pizza estilo Nueva York en casa",
 "s": 608
+},
+{
+"id": "q7YhpGfcVXo",
+"t": "Cómo se hace el mejor sándwich de pollo frito de NYC | Hecho al momento | Bon Appétit",
+"s": 570
+},
+{
+"id": "wPbeYYur3tI",
+"t": "Cómo cocinar el lomo de res más jugoso",
+"s": 1026
+},
+{
+"id": "zGrNRJoHLMc",
+"t": "The Best Cheeseburger Sliders You’ll Ever Make | Epicurious 101",
+"s": 481
+},
+{
+"id": "UNudL3MMl_k",
+"t": "Cómo el fuego vivo impulsa el menú de degustación más popular de D.C. — Mise En Place",
+"s": 831
 },
 {
 "id": "bBqwT03GlrQ",
@@ -1856,9 +5143,49 @@
 "s": 730
 },
 {
+"id": "LcvAun4Jr70",
+"t": "Los 10 cuchillos que los chefs profesionales usan realmente en los restaurantes | Restaurant Talk...",
+"s": 552
+},
+{
+"id": "x-_k6DE7mP8",
+"t": "Pregúntale lo que quieras a Kenji: Todas tus preguntas sobre el Día de Acción de Gracias, respond...",
+"s": 3930
+},
+{
+"id": "RPz4XH7xO_Q",
+"t": "Chefs profesionales prueban a ciegas cada hamburguesa congelada | El panel de sabor | Epicurious",
+"s": 1783
+},
+{
+"id": "bWkW4gTvBuc",
+"t": "Este popular pollo de Hong Kong se agota cada noche — Mise En Place",
+"s": 642
+},
+{
 "id": "6yC2kEr9m-o",
 "t": "El mejor panceta crujiente en casa (Siu Yuk)",
 "s": 673
+},
+{
+"id": "Q_gCIPsk3jY",
+"t": "Este kebab es el Santo Grial de la comida callejera de Delhi | Comida callejera | Buen provecho",
+"s": 707
+},
+{
+"id": "9ELTp1YWfF0",
+"t": "¿Has salteado tus papas? ¡Deberías!",
+"s": 806
+},
+{
+"id": "F0txQ_1aqRQ",
+"t": "Cómo se hacen las patatas en 10 países | Epicurious",
+"s": 1049
+},
+{
+"id": "pHBHVstF7eA",
+"t": "Un día en el restaurante nuevo más concurrido de Brooklyn, I Cavallini — Mise En Place",
+"s": 783
 },
 {
 "id": "BIueul4H8B0",
@@ -1866,9 +5193,1924 @@
 "s": 941
 },
 {
+"id": "TqQ4whV8FTw",
+"t": "Cómo se preparan las mejores alitas de pollo Buffalo de Brooklyn | Hechas a pedido | ¡Buen provecho!",
+"s": 683
+},
+{
+"id": "9JGJGWEPigw",
+"t": "Smashburgers on the Griddle",
+"s": 220
+},
+{
+"id": "664IH7dkMm8",
+"t": "3 Delicious Corn Recipes Every Home Cook Should Know | Epicurious 101",
+"s": 623
+},
+{
+"id": "ReSATMfba-A",
+"t": "Detrás de escena en Acamaya: La nueva estrella culinaria de Nueva Orleans - Mise En Place",
+"s": 673
+},
+{
 "id": "7TSexgaX8SY",
 "t": "Filete con patatas fritas perfecto en casa",
 "s": 1077
+},
+{
+"id": "EcgxV1KLjvI",
+"t": "Cómo se preparan las mejores tostadas francesas de Nueva York | Al momento | Bon Appétit",
+"s": 731
+},
+{
+"id": "ilIudI2Hoq0",
+"t": "¡Come un buen relleno de Dick (aderezo para hamburguesas de Acción de Gracias) para recaudar fond...",
+"s": 1020
+},
+{
+"id": "rzTZfr49IHg",
+"t": "Chefs profesionales prueban a ciegas todas las salsas | El panel de degustación | Epicurious",
+"s": 2012
+},
+{
+"id": "R4jqcuq7-yM",
+"t": "Andy Samberg y Kate McKinnon se hacen reír a carcajadas durante un almuerzo caótico — Let's Do Lunch",
+"s": 663
+},
+{
+"id": "itruEUXXDEY",
+"t": "El chef de alta cocina detrás de una de las mejores sandwicherías de Nueva York | On The Line | B...",
+"s": 633
+},
+{
+"id": "MU-la1JRXAc",
+"t": "Cómo hacer un Kentucky Hot Brown",
+"s": 808
+},
+{
+"id": "YFRDFPFgiWs",
+"t": "Cómo se prepara la tostada en 10 países | Epicurious",
+"s": 1041
+},
+{
+"id": "wPX7er8xoIk",
+"t": "La panadería más emocionante de Estados Unidos se esconde en Nueva Orleans — Los expertos",
+"s": 588
+},
+{
+"id": "htPA3OrZkdo",
+"t": "Cómo un chef profesional prepara un filete de pescado de McDonald's con inspiración cantonesa | E...",
+"s": 876
+},
+{
+"id": "XcPLyXyALHQ",
+"t": "Enchiladas con bordes crujientes (o cómo aprovechar las sobras de pavo o pollo)",
+"s": 849
+},
+{
+"id": "tRE5_bQoGYw",
+"t": "4 niveles de fajitas: de principiante a científico culinario | Epicurious",
+"s": 787
+},
+{
+"id": "lQsgt9mYq2Y",
+"t": "Cuando Italia se encuentra con Japón, obtienes pasta ramen — Los expertos",
+"s": 556
+},
+{
+"id": "dI_xuwQqmSg",
+"t": "Dentro del legendario local de shawarma de Delhi | Street Eats | Bon Appétit",
+"s": 855
+},
+{
+"id": "KcZV19g5YQk",
+"t": "El Tom Yum de pavo permite que tu pavo sobrante tenga una segunda oportunidad.",
+"s": 1015
+},
+{
+"id": "A-pqjLgFCqw",
+"t": "The Best French Omelet You’ll Ever Make (Restaurant-Quality) | Epicurious 101",
+"s": 305
+},
+{
+"id": "1WU52f06MK4",
+"t": "Los secretos detrás del ascenso de Moo's Craft BBQ a los mejores restaurantes de LA — Smoke Point",
+"s": 785
+},
+{
+"id": "lXWkG771LFI",
+"t": "How NYC’s Best Butter Chicken is Made | Made to Order | Bon Appétit",
+"s": 697
+},
+{
+"id": "21BZJa4amIc",
+"t": "Mi ensalada favorita de pollo o pavo (originaria de Sichuan)",
+"s": 800
+},
+{
+"id": "BTHDKD5cLWg",
+"t": "Un experto en quesos prueba 13 de los quesos más originales del mundo | Epicurious",
+"s": 1611
+},
+{
+"id": "JU24fYnHYz8",
+"t": "Los Jonas Brothers comparten sus restaurantes favoritos, su nuevo álbum y la apertura de un camió...",
+"s": 573
+},
+{
+"id": "7fYpWQq8Hb0",
+"t": "67 consejos de cocina con el chef estrella Michelin Curtis Stone | Bon Appétit",
+"s": 1564
+},
+{
+"id": "z-janpUQ5dI",
+"t": "Prepara estos sándwiches calientes de pavo con mayonesa de chile y radicchio asado.",
+"s": 467
+},
+{
+"id": "_WayY4ZVdY8",
+"t": "Pro Chefs Blind Taste Test Every Veggie Burger | The Taste Panel | Epicurious",
+"s": 1828
+},
+{
+"id": "yYQp_wkVsEM",
+"t": "The Sea Urchin Sashimi is the Star at One of LA’s Best Restaurants – Icons",
+"s": 744
+},
+{
+"id": "NK88iwkvjfM",
+"t": "200 empleados, 3 estrellas Michelin: Un día en Eleven Madison Park | En la línea | Bon Appétit",
+"s": 1228
+},
+{
+"id": "fU5JE7KdSrE",
+"t": "Una mejor manera de asar el pavo",
+"s": 1048
+},
+{
+"id": "lqdruAB8coA",
+"t": "Brennan Lee Mulligan y el elenco de 'Dimension 20' ponen a prueba sus habilidades culinarias bási...",
+"s": 634
+},
+{
+"id": "Y59SUl9_0iM",
+"t": "How Daniel Boulud Has Run a Michelin-Starred Restaurant for Over 30 Years — Icons",
+"s": 697
+},
+{
+"id": "uIXXQ4e36fA",
+"t": "El mejor pollo con mantequilla de la India está en las calles de Delhi | Comida callejera | Bon A...",
+"s": 698
+},
+{
+"id": "cTN0flxZe7w",
+"t": "Huevos escalfados con yogur y mantequilla de chile turca (Çilbir): una puerta de entrada a un mun...",
+"s": 624
+},
+{
+"id": "uAR4op5Vx4c",
+"t": "Cómo se elabora hoy este refrigerio japonés de 1000 años de antigüedad | Epicurious",
+"s": 1300
+},
+{
+"id": "koX-XUPiLr8",
+"t": "Eater Turns 20 With a Look Back at Two Decades of Food and Dining",
+"s": 62
+},
+{
+"id": "vKPbL3_xEAw",
+"t": "Un día en el restaurante francés más emocionante de Nueva York | On The Line | Bon Appétit",
+"s": 1038
+},
+{
+"id": "RwNDUkt7cCM",
+"t": "¡Diseñé un cuchillo! Les presento el KAN x Kenji Shitoku四徳, una forma totalmente nueva para todos...",
+"s": 512
+},
+{
+"id": "DlvLH2jZsiI",
+"t": "El elenco de la tercera temporada de 'El Juego del Calamar' pone a prueba sus habilidades culinar...",
+"s": 538
+},
+{
+"id": "-2so6X6cxbo",
+"t": "Cómo una chef creó dos restaurantes de pasta increíblemente exitosos — Icons",
+"s": 616
+},
+{
+"id": "vy6lvb91ULc",
+"t": "Cómo se preparan los mejores latkes de patata de Nueva York | Hechos al momento | Bon Appétit",
+"s": 1006
+},
+{
+"id": "2uQP2BX84Ag",
+"t": "Cómo preparar ropa vieja, el clásico estofado cubano de carne deshebrada",
+"s": 1144
+},
+{
+"id": "cNdtz46NDz8",
+"t": "4 niveles de teriyaki: de aficionado a científico de alimentos | Epicurious",
+"s": 965
+},
+{
+"id": "S-4Lozwjd64",
+"t": "El mejor restaurante nuevo de Nueva York es un éxito caribeño total — Mise En Place",
+"s": 965
+},
+{
+"id": "jWQQhSeKjHA",
+"t": "Cómo se prepara el mejor Beef Wellington de Nueva York | Hecho al momento | Bon Appétit",
+"s": 916
+},
+{
+"id": "PKGaJqT-cQI",
+"t": "¿Te sobró carne? Conviértela en esta ensalada tailandesa de carne (Neua Yang Nam Tok).",
+"s": 857
+},
+{
+"id": "SL_fNEFj2Eo",
+"t": "Cómo se elabora el café en 10 países | Epicurious",
+"s": 1337
+},
+{
+"id": "cKylMIWfOFE",
+"t": "Cómo el restaurante Kato, con estrella Michelin, se convirtió en el número 1 de LA — Mise En Place",
+"s": 946
+},
+{
+"id": "J4ZRU3k1CUI",
+"t": "How Panda Express Perfected Orange Chicken (Ft. Lucas Sin) | Bon Appétit",
+"s": 1415
+},
+{
+"id": "3mIHLr_XwAE",
+"t": "Para obtener el calabacín más sabroso, fríelo en aceite de oliva (Zucchini alla Scapece) | El pro...",
+"s": 678
+},
+{
+"id": "cn0bsLj9i3U",
+"t": "Pro Chefs Blind Taste Test Every Hot Dog | The Taste Panel | Epicurious",
+"s": 1585
+},
+{
+"id": "yS7IhqY2Q2k",
+"t": "Inside Pastry Icon Dominique Ansel's New Bakery – Icons",
+"s": 743
+},
+{
+"id": "MA5dLKlfp78",
+"t": "El pizzero más excéntrico de Brooklyn tiene un nuevo restaurante | On The Line | Bon Appétit",
+"s": 1139
+},
+{
+"id": "ghKzm8OLZs8",
+"t": "Cómo hacer una deliciosa salsa verde carbonizada",
+"s": 353
+},
+{
+"id": "ZLsSTb8KKQc",
+"t": "The Best Mac and Cheese You'll Ever Make (Restaurant-Quality) | Epicurious 101",
+"s": 601
+},
+{
+"id": "mCLtGrmQqKQ",
+"t": "El sándwich de pollo frito filipino definitivo inspirado en Jollibee — Brent Meats World",
+"s": 755
+},
+{
+"id": "FW8RBp_XR6A",
+"t": "Un día preparando el Banh Mi más popular de Nueva York | En la línea | Bon Appétit",
+"s": 996
+},
+{
+"id": "PFu7r-MTh-I",
+"t": "Cómo hacer un guacamole delicioso",
+"s": 304
+},
+{
+"id": "6gDEmPVwH74",
+"t": "Cheese Expert Tries Every Trader Joe’s Cheese | Epicurious",
+"s": 2585
+},
+{
+"id": "n3Uv-JKatqg",
+"t": "Fried Pork Lumpia at San Francisco's Best Filipino Restaurant — The Experts",
+"s": 711
+},
+{
+"id": "8ugtcdTCxqE",
+"t": "3 Hours Inside the World’s Best Restaurants | Bon Appétit",
+"s": 11423
+},
+{
+"id": "Vo4BDyZRR4Q",
+"t": "Basic Pico de Gallo",
+"s": 388
+},
+{
+"id": "ZYQ6FKQPh3o",
+"t": "Pro Chefs Blind Taste Test Every Frozen Burrito | The Taste Panel | Epicurious",
+"s": 1393
+},
+{
+"id": "nvj5lnHbneA",
+"t": "Meet the Man Behind NYC's First Italian Deli on Wheels — The Experts",
+"s": 692
+},
+{
+"id": "Ov9uLm0QEEY",
+"t": "Cómo prepara pavo con salsa en uno de los mejores restaurantes de comida soul de Nueva York | Hec...",
+"s": 936
+},
+{
+"id": "H2D47LJk4ks",
+"t": "Cómo hacer unos deliciosos tacos gringos crujientes",
+"s": 1140
+},
+{
+"id": "RtiB_qrLdP0",
+"t": "How Grilled Cheese is Made in 10 Countries | Epicurious",
+"s": 1106
+},
+{
+"id": "8tVxIJHp3aA",
+"t": "This NYC Lunch Spot Sells Out of Its Wildly Popular Turkey Sandwich Every Day — The Experts",
+"s": 646
+},
+{
+"id": "1byuDovVkWw",
+"t": "Dentro del único restaurante de tempura con estrella Michelin de Estados Unidos | On The Line | B...",
+"s": 798
+},
+{
+"id": "_Ns3GHGpYs4",
+"t": "La clave para unos excelentes submarinos italianos",
+"s": 646
+},
+{
+"id": "MPDg2eF0Rxs",
+"t": "Por qué cocinar al vapor es la técnica de cocina más subestimada | Epicurious 101",
+"s": 707
+},
+{
+"id": "wlfYCiaMze8",
+"t": "Cómo prepara pupusas uno de los mejores restaurantes salvadoreños — Los expertos",
+"s": 702
+},
+{
+"id": "SQwT8ha1294",
+"t": "How a Michelin Star Chef Makes Mashed Potatoes in 10 Minutes | Made to Order | Bon Appétit",
+"s": 218
+},
+{
+"id": "8MP1DTb3fBY",
+"t": "Preparando Mazemen sucios con Sho Spaeth, autor de Ramen casero",
+"s": 1742
+},
+{
+"id": "NwpJKXXgqxg",
+"t": "4 niveles de pollo jerk: de aficionado a científico culinario | Epicurious",
+"s": 961
+},
+{
+"id": "eB39UhO-mZ4",
+"t": "Brooklyn's Hottest Reservation Is at Theodora — Mise En Place",
+"s": 918
+},
+{
+"id": "dJ2mXxVZxQM",
+"t": "How One Pig Becomes Hot Dogs, Bacon, Salami, and More | Great Transformations | Bon Appétit",
+"s": 1438
+},
+{
+"id": "IHl6uAbCqZw",
+"t": "Sándwiches fáciles de pastel de carne y parmesano sobrante",
+"s": 351
+},
+{
+"id": "1IETVrtbYbg",
+"t": "Por qué es mejor saltear en restaurantes (y cómo hacerlo en casa) | Epicurious 101",
+"s": 855
+},
+{
+"id": "h6KRAKNgJSs",
+"t": "Cómo un chef fusiona el marisco mediterráneo con el estilo de Florida — Los Expertos",
+"s": 818
+},
+{
+"id": "X-koH49RxF4",
+"t": "Cómo un chef profesional prepara rollitos de huevo inspirados en las charcuterías de Nueva York |...",
+"s": 927
+},
+{
+"id": "JX271lHjULk",
+"t": "El pastel de carne italiano es la comida ideal para los amantes de las albóndigas.",
+"s": 1068
+},
+{
+"id": "pWshQtLedAA",
+"t": "How Fried Eggs are Made in 10 Countries | Epicurious",
+"s": 841
+},
+{
+"id": "I32oO29_FEg",
+"t": "Cómo un mercado de mariscos en Florida obtuvo el reconocimiento Michelin: los expertos",
+"s": 915
+},
+{
+"id": "qbAstEutWH4",
+"t": "Los mejores croissants de Nueva York | Hechos al momento | Bon Appétit",
+"s": 1004
+},
+{
+"id": "lCTENSRaB0o",
+"t": "Late Night Pepperoni Pizza English Muffin Sandwich",
+"s": 161
+},
+{
+"id": "rmqbOFrfy9w",
+"t": "Pro Chefs Blind Taste Test Every Boxed Pancake Mix | The Taste Panel | Epicurious",
+"s": 1467
+},
+{
+"id": "fMOcwlYGMk0",
+"t": "Por qué a todo el mundo le encanta este pollo frito etíope en Washington D. C. — Los expertos",
+"s": 560
+},
+{
+"id": "5VOoEaAZ_Fs",
+"t": "Un día en el restaurante mexicano más emocionante de Nueva York | En la línea | Bon Appétit",
+"s": 828
+},
+{
+"id": "m8sBAIdJGFw",
+"t": "La clave para unas albóndigas tiernas: Cómo preparar unas albóndigas excelentes | El programa de ...",
+"s": 1238
+},
+{
+"id": "g5q27t7M3c4",
+"t": "Trucos para el wok que todo cocinero casero debería saber | Epicurious 101",
+"s": 595
+},
+{
+"id": "zDtVGvK7ChY",
+"t": "Cómo un chef con estrellas Michelin se convirtió en la primera opción para dirigir este restauran...",
+"s": 1011
+},
+{
+"id": "W-7nHpFViUk",
+"t": "Cómo se preparan las mejores costillas BBQ de Austin | Hechas al momento | Bon Appétit",
+"s": 829
+},
+{
+"id": "6PfG_GMFlJg",
+"t": "La magia de las chalotas fritas (y un simple aglio e olio para lucirlas)",
+"s": 849
+},
+{
+"id": "BQLNZ8jUDwI",
+"t": "4 niveles de pizza de base gruesa: de aficionado a científico culinario | Epicurious",
+"s": 977
+},
+{
+"id": "Oe5-Zva3r50",
+"t": "Cómo uno de los mejores restaurantes chinos de Washington D. C. está redefiniendo la gastronomía ...",
+"s": 709
+},
+{
+"id": "UXtR-b0Y0pY",
+"t": "A Day at The Original Panda Express | On The Line | Bon Appétit",
+"s": 874
+},
+{
+"id": "kXPGlH_0Lzo",
+"t": "Pizza siciliana picante con pepperoni | El programa de cocina de Kenji",
+"s": 1567
+},
+{
+"id": "CjPFxnBexAo",
+"t": "Cena de bistec de $412 vs. $29: Chef profesional y cocinero casero intercambian ingredientes | Ep...",
+"s": 1147
+},
+{
+"id": "LIldeXbSiOA",
+"t": "Inside Lita, a Portuguese Fine Dining Spot Changing the Restaurant Industry — Mise En Place",
+"s": 1168
+},
+{
+"id": "IX4U1w21hxg",
+"t": "3 alimentos imprescindibles para John Cena, protagonista de \"Peacemaker\" | Perfect Order | Bon Ap...",
+"s": 339
+},
+{
+"id": "sndfni16DKo",
+"t": "The LA Hot: Mi sándwich favorito de la infancia | El programa de cocina de Kenji",
+"s": 677
+},
+{
+"id": "pB4nus1lKMc",
+"t": "El fumador Ed Currie prueba 11 de las salsas más picantes del mundo | Epicurious",
+"s": 1116
+},
+{
+"id": "E7oA8PtPdKE",
+"t": "The Popular Peruvian Chicken That Has NYC Buzzing — The Experts",
+"s": 724
+}
+]
+},
+{
+"num": "08",
+"name": "MVP Music Television",
+"hours": [],
+"sourceName": "Derrick Gee, NPR Music y FIP",
+"tagline": "Derrick Gee, NPR Music y FIP",
+"kind": "linear",
+"items": [
+{
+"id": "KxKBSS1bwaA",
+"t": "Troye Sivan plays his fav songs at my house!!",
+"s": 4332
+},
+{
+"id": "LtUDeizHqKk",
+"t": "Fat Joe: Concierto Tiny Desk",
+"s": 1547
+},
+{
+"id": "ltKZtc9rQ3M",
+"t": "Club Jazzafip : Steve Okonski",
+"s": 869
+},
+{
+"id": "MgB7Oc62MbY",
+"t": "¡Mei Semones toca sus canciones favoritas en mi casa!",
+"s": 2855
+},
+{
+"id": "73wCQRQb7v0",
+"t": "Jungle: Tiny Desk Concert",
+"s": 1093
+},
+{
+"id": "TSqu9xF7m8c",
+"t": "Club Jazzafip : Adrien Soleiman et son BelleJazzClub avec Bachar Mar-Khalifé",
+"s": 485
+},
+{
+"id": "uULR9yrjOM0",
+"t": "Chanel Beads: Final de Solid Air",
+"s": 3315
+},
+{
+"id": "XoH44mH5laY",
+"t": "'The Rocky Horror Show' de Richard O'Brien: Tiny Desk Concert",
+"s": 967
+},
+{
+"id": "BmklV9_MuJw",
+"t": "Club Jazzafip : AMG avec Ornella Noulet",
+"s": 436
+},
+{
+"id": "YwPkQkp8lro",
+"t": "¡Wednesday toca sus canciones favoritas de Carolina del Norte en mi casa!",
+"s": 3448
+},
+{
+"id": "xPIMk4d4ulI",
+"t": "CMAT: Tiny Desk Concert",
+"s": 1452
+},
+{
+"id": "U25MQhKzDYw",
+"t": "Club Jazzafip : Dida Pelled",
+"s": 493
+},
+{
+"id": "ljwjiaG1ZgY",
+"t": "Flying Lotus plays his fav prog records at my house!!",
+"s": 3560
+},
+{
+"id": "_Mp_bpIZKlI",
+"t": "Brìghde Chaimbeul: Tiny Desk Concert",
+"s": 1196
+},
+{
+"id": "fRmwo0DJB8k",
+"t": "Club Jazzafip : Adrien Soleiman et son BelleJazzClub avec Anaïs Cardot",
+"s": 404
+},
+{
+"id": "FMfPYdts_yI",
+"t": "Esto es lo que estoy escuchando ahora mismo:",
+"s": 4061
+},
+{
+"id": "HYA9e0XOUGk",
+"t": "Cardi B: Tiny Desk Concert",
+"s": 1127
+},
+{
+"id": "mDm5uPRUz1I",
+"t": "Live à Fip : Maddie Ashman",
+"s": 468
+},
+{
+"id": "Ahl9qCp8DUM",
+"t": "Australian Ambient — A Clifftop Mix at Sunrise",
+"s": 3951
+},
+{
+"id": "ZTcqu224vHw",
+"t": "Los Tigres del Norte: Tiny Desk Concert",
+"s": 1302
+},
+{
+"id": "BCupCr-_RT0",
+"t": "Club Jazzafip : aja monet & Justin Brown",
+"s": 470
+},
+{
+"id": "BXhJtPJJpm4",
+"t": "Jazz sudafricano: Obongjayar me lo descubrió 🇿🇦",
+"s": 718
+},
+{
+"id": "MYdu77oejOs",
+"t": "Draco Rosa: Tiny Desk Concert",
+"s": 848
+},
+{
+"id": "4UV-6fvc1YY",
+"t": "Live à Fip : Souad Massi",
+"s": 514
+},
+{
+"id": "w-7eTdilFKc",
+"t": "¡Obongjayar pone sus discos favoritos en mi casa!",
+"s": 3973
+},
+{
+"id": "cysj4CNoIk4",
+"t": "Los Texmaniacs: Tiny Desk Concert",
+"s": 1077
+},
+{
+"id": "GTnvnjZawtM",
+"t": "Live à Fip : Uzi Freyja",
+"s": 650
+},
+{
+"id": "wnKzRje8WEc",
+"t": "La INSÓLITA historia de Thundercat sobre Rage Against the Machine",
+"s": 363
+},
+{
+"id": "ey7ZHhcv1dE",
+"t": "Tim Bernardes: Tiny Desk Concert",
+"s": 1000
+},
+{
+"id": "FSd-zczKzLQ",
+"t": "Live à Fip : Gildaa",
+"s": 759
+},
+{
+"id": "7K9H6eluKwA",
+"t": "Thundercat sobre Miles Davis, jazz y progreso",
+"s": 392
+},
+{
+"id": "AvSxPx25oLc",
+"t": "Panteón Rococó: Tiny Desk Concert",
+"s": 1288
+},
+{
+"id": "SRQuHq-ElPQ",
+"t": "Live à Fip : Jowee Omicil",
+"s": 976
+},
+{
+"id": "4sZG-S8xoA8",
+"t": "La línea de bajo más infravalorada de Thundercat",
+"s": 573
+},
+{
+"id": "3EWLwZh4HjU",
+"t": "Melissa Aldana con Gonzalo Rubalcaba: Tiny Desk Concert",
+"s": 1286
+},
+{
+"id": "12thp09Gx2c",
+"t": "Live à fip : Juste Shani",
+"s": 497
+},
+{
+"id": "DKm5R7WbXLg",
+"t": "Thundercat sobre la GENIALIDAD de James Jamerson de Motown",
+"s": 772
+},
+{
+"id": "zw3iotteJz0",
+"t": "Alex Ferreira: Tiny Desk Concert",
+"s": 1060
+},
+{
+"id": "pSvJmTwgmxA",
+"t": "Le Mundial de Fip",
+"s": 4160
+},
+{
+"id": "qtf9Qn22RCo",
+"t": "Thundercat: \"Flying Lotus no recibe suficiente crédito\"",
+"s": 415
+},
+{
+"id": "lPbzlEj3A0U",
+"t": "YEИDRY: Tiny Desk Concert",
+"s": 1200
+},
+{
+"id": "w5oYn_1fLA0",
+"t": "Club Jazzafip : Airelle Besson & Benjamin Moussay",
+"s": 721
+},
+{
+"id": "f3rrlyiQU-A",
+"t": "¡¡Annahstasia toca su música folk favorita en mi casa!!",
+"s": 3366
+},
+{
+"id": "WCh4tfSqXFc",
+"t": "Los Mirlos: Tiny Desk Concert",
+"s": 1092
+},
+{
+"id": "hiqsPoLLUTg",
+"t": "Club Jazzafip : Naïssam Jalal",
+"s": 318
+},
+{
+"id": "fzK8V3nfHvo",
+"t": "La línea de bajo favorita de Thundercat",
+"s": 614
+},
+{
+"id": "vIvmDxrTjP4",
+"t": "Mon Laferte: Tiny Desk Concert",
+"s": 1266
+},
+{
+"id": "LrubBnThAlY",
+"t": "Live à Fip : The Lemon Twigs",
+"s": 567
+},
+{
+"id": "jZixTe8Py7o",
+"t": "Un documental de Fred again.., por Derrick Gee",
+"s": 2300
+},
+{
+"id": "O8AlOZV0BSI",
+"t": "Tori Kelly: Tiny Desk Concert",
+"s": 1455
+},
+{
+"id": "e4skt6GSBf4",
+"t": "Live à fip : Les Louanges",
+"s": 828
+},
+{
+"id": "MAkW607fgE8",
+"t": "PinkPantheress plays her fav british pop songs at my house!!",
+"s": 3362
+},
+{
+"id": "oRg3Tk3jHno",
+"t": "Ratboys: Tiny Desk Concert",
+"s": 1168
+},
+{
+"id": "4vJIEoKHhdE",
+"t": "Rencontre avec Gojira",
+"s": 1633
+},
+{
+"id": "yyCZLoTFIB4",
+"t": "Ninajirachi habla sobre cómo Lorde inspiró su álbum \"I Love My Computer\".",
+"s": 141
+},
+{
+"id": "KFb_rXmh4hA",
+"t": "Mac Ayres: Tiny Desk Concert",
+"s": 1193
+},
+{
+"id": "MVWLozk-BE8",
+"t": "Live à Fip : Annahstasia",
+"s": 742
+},
+{
+"id": "3vbItFOxMt4",
+"t": "Ninajirachi plays her favourite songs at my house!",
+"s": 4495
+},
+{
+"id": "R2eOU7c7G_4",
+"t": "Mon Rovîa: Tiny Desk Concert",
+"s": 1017
+},
+{
+"id": "_R5p06isK_g",
+"t": "Live à Fip : JeanJass",
+"s": 845
+},
+{
+"id": "JxkyBQaEvvc",
+"t": "Ichiko Aoba me sorprende con Heavy Metal",
+"s": 239
+},
+{
+"id": "SG0ifZpDswg",
+"t": "E.U.: Tiny Desk Concert",
+"s": 1547
+},
+{
+"id": "-0qY8ds0cQY",
+"t": "Club Jazzafip : Kassa Overall",
+"s": 767
+},
+{
+"id": "hRx7EAV42_U",
+"t": "Ichiko Aoba sobre la visita especial de Ryuichi Sakamoto",
+"s": 344
+},
+{
+"id": "kVzaq0RRYPQ",
+"t": "Isaiah Rashad: Tiny Desk Concert",
+"s": 1425
+},
+{
+"id": "6rsZ5i6XsRA",
+"t": "Club Jazzafip : Hommage en quintet à Miles Davis",
+"s": 1464
+},
+{
+"id": "bNUiBQTJw_o",
+"t": "So!YoON! sobre música sexy y Sade",
+"s": 571
+},
+{
+"id": "o4I-Y8XiBIs",
+"t": "'Weird Al' Yankovic: Tiny Desk Concert",
+"s": 1323
+},
+{
+"id": "iySvbrXHqvc",
+"t": "Live à fip : Chassol au studio 104",
+"s": 1120
+},
+{
+"id": "maukzHU-i-4",
+"t": "So!YoON! habla sobre cómo la música tradicional coreana influyó en su sonido",
+"s": 547
+},
+{
+"id": "_R_5qaYATh0",
+"t": "Audrey Hobert: Tiny Desk Concert",
+"s": 1284
+},
+{
+"id": "Jb0hGfsb1U8",
+"t": "Club Jazzafip : Paolo Fresu, David Linx et Gustavo Beytelmann",
+"s": 1081
+},
+{
+"id": "xdT9a26qthI",
+"t": "So!YoON! reacciona a un tema de Santana",
+"s": 378
+},
+{
+"id": "swh0_M0rRPQ",
+"t": "Death Cab for Cutie: Tiny Desk Concert",
+"s": 966
+},
+{
+"id": "XKufP1mP2KE",
+"t": "Live à fip : Flore Benguigui & The Sensible Notes au studio 104",
+"s": 915
+},
+{
+"id": "p4TXdrwv558",
+"t": "So!YoON! (SE SO NEON) plays her favorite guitar songs at my house!!",
+"s": 3673
+},
+{
+"id": "u_vnA6nlDvs",
+"t": "Charlie Puth: Tiny Desk Concert",
+"s": 1365
+},
+{
+"id": "XoZ4vqCHXI4",
+"t": "Live à Fip : Kevin Morby",
+"s": 675
+},
+{
+"id": "ZNuJUvgb-KE",
+"t": "Fred de nuevo...en la batalla silenciosa de Questlove con D'Angelo",
+"s": 468
+},
+{
+"id": "RTC6p6h_8tg",
+"t": "Renée Fleming & Béla Fleck: Tiny Desk Concert",
+"s": 1225
+},
+{
+"id": "id7giiR5T8M",
+"t": "Club Jazzafip : Asura",
+"s": 851
+},
+{
+"id": "jji29Dmmey0",
+"t": "Fred de nuevo... sobre su profesor de música clásica y la comprensión de Beethoven",
+"s": 412
+},
+{
+"id": "uP23-YE-T30",
+"t": "Armand Hammer: Tiny Desk Concert",
+"s": 1324
+},
+{
+"id": "eZuB7pcZYcY",
+"t": "Live à Fip : Tyler Ballgame",
+"s": 762
+},
+{
+"id": "B-pngd1ZA1A",
+"t": "Fred de nuevo... con sus característicos drones, ambiente y la mayor caída de Max Richter.",
+"s": 224
+},
+{
+"id": "2Szdo6fRc5c",
+"t": "The War and Treaty: Tiny Desk Concert",
+"s": 1124
+},
+{
+"id": "w24r7hbUOeU",
+"t": "Live à Fip : Fatoumata Diawara",
+"s": 633
+},
+{
+"id": "vtq1FLytbow",
+"t": "Fred again.. REBOBINA mi selección de Moby",
+"s": 318
+},
+{
+"id": "mbRycM-xgxo",
+"t": "Vince Staples: Tiny Desk Concert",
+"s": 1310
+},
+{
+"id": "BauWP1Sw-vo",
+"t": "Live à fip : Brigitte Calls Me Baby",
+"s": 652
+},
+{
+"id": "OzDuxDIdLXc",
+"t": "Fred again..and I play music for each other at my house!!",
+"s": 4102
+},
+{
+"id": "e81LZCHhNKQ",
+"t": "Napalm Death: Tiny Desk Concert",
+"s": 1077
+},
+{
+"id": "fumn67lEKsI",
+"t": "Live à fip : Melaine Dalibert",
+"s": 770
+},
+{
+"id": "UPmCMQvCRbQ",
+"t": "Folk Bitch Trio play records at my house!!",
+"s": 4265
+},
+{
+"id": "dQK2U-KrhuA",
+"t": "Flea and the Honora Band: Tiny Desk Concert",
+"s": 1227
+},
+{
+"id": "0huQ3SPEoAw",
+"t": "Club Jazzafip : Shai Maestro",
+"s": 913
+},
+{
+"id": "w_fL_csWv24",
+"t": "¡¡PARIS TEXAS pone discos en mi casa!!",
+"s": 3418
+},
+{
+"id": "Oa_Wpi-KWrg",
+"t": "redveil: Tiny Desk Concert",
+"s": 1189
+},
+{
+"id": "XKAKqpPQUA8",
+"t": "Live à fip : Sleaford Mods",
+"s": 522
+},
+{
+"id": "X0hm1_35PWM",
+"t": "Ólafur Arnalds plays records at my house!!",
+"s": 3706
+},
+{
+"id": "AzgbNvW793Q",
+"t": "Bow Wow: Tiny Desk Concert",
+"s": 1305
+},
+{
+"id": "DQkLw6nh7oE",
+"t": "FIP METAL - Rencontre avec Jehnny Beth",
+"s": 2273
+},
+{
+"id": "n1XGfKXJvJ8",
+"t": "¡¡¡El Dom Maker de Mount Kimbie reproduce discos en mi casa!!!",
+"s": 3529
+},
+{
+"id": "fEqGjypP5qY",
+"t": "Shaboozey: Tiny Desk Concert",
+"s": 1389
+},
+{
+"id": "9LuqrX_1v6c",
+"t": "Live à fip : Asfar Shamsi",
+"s": 340
+},
+{
+"id": "iJxTVrYTcGQ",
+"t": "Una semana en la vida (¡vlog de 100k subs!)",
+"s": 781
+},
+{
+"id": "ClFp8yqfokk",
+"t": "Fred Hammond: Tiny Desk Concert",
+"s": 1524
+},
+{
+"id": "6Lo-5XHYsS4",
+"t": "Live à fip : Arthur Fu Bandini",
+"s": 536
+},
+{
+"id": "71RCwh3b7qU",
+"t": "¡Ichiko Aoba toca sus canciones favoritas en mi casa! ¡Ichiko Aoba toca sus canciones favoritas e...",
+"s": 2653
+},
+{
+"id": "gQXf0PNreCo",
+"t": "8Ball & MJG: Concierto Tiny Desk",
+"s": 1342
+},
+{
+"id": "jRTs0GAFZuY",
+"t": "Live à fip : OMA",
+"s": 1035
+},
+{
+"id": "7ds5kQEfh9M",
+"t": "Late 90's Chillout Sunset Mix in Hamburg at Elbphilharmonie | Derrick Gee",
+"s": 3818
+},
+{
+"id": "CymCVrKpLzw",
+"t": "Eve: Tiny Desk Concert",
+"s": 1237
+},
+{
+"id": "ltAelmCXE1I",
+"t": "Club Jazzafip : Roberto Fonseca & Vincent Ségal",
+"s": 741
+},
+{
+"id": "LNq0Rcx5uZk",
+"t": "Michelle Zauner Plays 100% Korean Songs at My House!!",
+"s": 3436
+},
+{
+"id": "nkG2SSzPUns",
+"t": "The Paradox: Tiny Desk Concert",
+"s": 1136
+},
+{
+"id": "47cX7652Guk",
+"t": "Live à fip : Sessa",
+"s": 729
+},
+{
+"id": "YBQHQAt8cnA",
+"t": "THE LORDE VLOG",
+"s": 1102
+},
+{
+"id": "YCbFsAwwyyg",
+"t": "Joe: Tiny Desk Concert",
+"s": 1207
+},
+{
+"id": "xsBDHZAZiWA",
+"t": "Club Jazzafip : Kenny Barron",
+"s": 1147
+},
+{
+"id": "JRSNSf4E4SU",
+"t": "Lorde Plays Her Favorite Songs at My House!",
+"s": 3279
+},
+{
+"id": "h4JVg4JDxMU",
+"t": "Ayra Starr: Tiny Desk Concert",
+"s": 1158
+},
+{
+"id": "H3f-zTCYhrI",
+"t": "Pierre Richard : \"Avec Count Basie, mes jambes étaient contentes\"",
+"s": 72
+},
+{
+"id": "lddSYROltqU",
+"t": "MJ Lenderman plays records at my house!",
+"s": 2598
+},
+{
+"id": "XYhtkxR5sV8",
+"t": "GENA: Tiny Desk Concert",
+"s": 1140
+},
+{
+"id": "GrHBeSKkV70",
+"t": "Live à fip : Sébastien Tellier",
+"s": 499
+},
+{
+"id": "7cTntwCtkdI",
+"t": "Vlog de la experiencia VIP de F1 Melbourne [¡No contiene música!]",
+"s": 838
+},
+{
+"id": "KsCV94MQs34",
+"t": "Floetry: Tiny Desk Concert",
+"s": 1351
+},
+{
+"id": "XaEDE5Hi83A",
+"t": "Live à fip : Dhafer Youssef",
+"s": 789
+},
+{
+"id": "TGAMjtr6s34",
+"t": "Max Richter plays records at my house!",
+"s": 3622
+},
+{
+"id": "3azRJPBhZLU",
+"t": "Cure For Paranoia, 2026 Tiny Desk Contest Winner: Tiny Desk Concert",
+"s": 1116
+},
+{
+"id": "XZW1Dokc9vU",
+"t": "Jazz à la Villette 2025 : Rejjie Snow \"Spaceships\"",
+"s": 183
+},
+{
+"id": "FTZ1SPVcCRs",
+"t": "Minimal Classical Vinyl Mix at Elbphilharmonie, Hamburg | Derrick Gee",
+"s": 3772
+},
+{
+"id": "YUhWCGUVp4A",
+"t": "Annahstasia: Tiny Desk Concert",
+"s": 1255
+},
+{
+"id": "jj9F1nbRv7Q",
+"t": "Jazz à la Villette 2025 : Jacob Banks \"Slow Up\"",
+"s": 302
+},
+{
+"id": "3ujVLtnWEmM",
+"t": "Jyoty plays records at my house!",
+"s": 4142
+},
+{
+"id": "CEHm9LK9vtU",
+"t": "Laurie Anderson: Tiny Desk Concert",
+"s": 1262
+},
+{
+"id": "yDTCWSIfV6U",
+"t": "Jazz à la Villette 2025 : Sun Ra Arkestra \"Love In Outer Space\"",
+"s": 635
+},
+{
+"id": "DWs6dM8NrVo",
+"t": "It's pronounced STÜM",
+"s": 1334
+},
+{
+"id": "2OotD-iJO80",
+"t": "RaiNao: Tiny Desk Concert",
+"s": 949
+},
+{
+"id": "PN85j0j5Y8Q",
+"t": "Jazz à la Villette 2025 : Jeff Mills \"No White Snake\"",
+"s": 246
+},
+{
+"id": "Jxjmh3KHE1M",
+"t": "Julie se despide del misterio y es entrevistada por Derrick Gee",
+"s": 823
+},
+{
+"id": "Cg6E3lppn0I",
+"t": "Vince Gill: Tiny Desk Concert",
+"s": 1233
+},
+{
+"id": "M91aSCWSZbc",
+"t": "Fip en Trans : Lofácil",
+"s": 850
+},
+{
+"id": "QZhEGVU-FkU",
+"t": "beabadoobee plays music at my (shipping container) house",
+"s": 1119
+},
+{
+"id": "LVJpKUaPO4I",
+"t": "Don Was and the Pan-Detroit Ensemble: Tiny Desk Concert",
+"s": 1231
+},
+{
+"id": "gYTboICrasM",
+"t": "Fip en Trans : Dolphin Hyperspace",
+"s": 228
+},
+{
+"id": "KkdHdEm92cg",
+"t": "XL Recording's Richard Russell plays records at my house",
+"s": 4084
+},
+{
+"id": "wxaXWSVhRXU",
+"t": "Foo Fighters: Tiny Desk Concert",
+"s": 1430
+},
+{
+"id": "6Dn-1QT3mZU",
+"t": "Fip en Trans : eat-girls sextet",
+"s": 388
+},
+{
+"id": "Vh8Jm0FvCO8",
+"t": "Vlog: JAMIE XX visits my apartment (behind the scenes)",
+"s": 943
+},
+{
+"id": "ZDwDCUrd2KE",
+"t": "JADE: Tiny Desk Concert",
+"s": 1151
+},
+{
+"id": "nv6d2BSex48",
+"t": "Fip en Trans : Blind Yeo",
+"s": 356
+},
+{
+"id": "D1Y8gkMriSE",
+"t": "Jamie xx plays records at my house!!",
+"s": 4032
+},
+{
+"id": "yuvecwa9y7I",
+"t": "KestheBand: Tiny Desk Concert",
+"s": 1395
+},
+{
+"id": "oL0kQNGRSho",
+"t": "Live à fip : anaiis",
+"s": 758
+},
+{
+"id": "wybit8K2REM",
+"t": "FANNING OUT WITH ST. VINCENT (talking Greep, Waits, Lennon + more)",
+"s": 1178
+},
+{
+"id": "1XQtMnPz1AQ",
+"t": "Ragtime: Tiny Desk Concert",
+"s": 1169
+},
+{
+"id": "arZqFyPrgeM",
+"t": "Live à fip : John Maus",
+"s": 513
+},
+{
+"id": "TUJV2c6cmW4",
+"t": "Vlog: Brisbane, Weird Headphones, feat. grentperez, Ta-ku, Elijah",
+"s": 1180
+},
+{
+"id": "p7YpVl35pac",
+"t": "Milo J: Tiny Desk Concert",
+"s": 988
+},
+{
+"id": "Xen2kiKMlJw",
+"t": "Fip en Trans : Martin Dupont",
+"s": 222
+},
+{
+"id": "3-m7IyRqm6U",
+"t": "ERIKA DE CASIER | NewJeans, Danish Scene & Snacks!",
+"s": 566
+},
+{
+"id": "wdeWKd9rjt4",
+"t": "Infinity Song: Tiny Desk Concert",
+"s": 1224
+},
+{
+"id": "q1_ohvzgexA",
+"t": "Fip en Trans : Etuk Ubong",
+"s": 407
+},
+{
+"id": "eTDoMn-xPGE",
+"t": "Derrick y Julia analizan sus episodios favoritos del podcast de Speaks Volumes T2",
+"s": 4423
+},
+{
+"id": "6tCjflXY9CM",
+"t": "Amaia: Tiny Desk Concert",
+"s": 1297
+},
+{
+"id": "t7OzDREVyo4",
+"t": "Live à fip : Benny Sings, Mocky, Renaud Letang aka DRIFT",
+"s": 508
+},
+{
+"id": "jxFTzofUff8",
+"t": "Willo Perron sobre cómo crear los momentos más icónicos de la música con Drake, Rihanna y más",
+"s": 3196
+},
+{
+"id": "M34D3Ktovfw",
+"t": "Noah Kahan: Tiny Desk Concert",
+"s": 1406
+},
+{
+"id": "qDzKueSB04c",
+"t": "Fip en Trans : Son Rompe Pera",
+"s": 639
+},
+{
+"id": "WI5eUb3FDIg",
+"t": "Menswear Designer Nicholas Daley on Virgil Abloh, Miles Davis & the Tube",
+"s": 2473
+},
+{
+"id": "DQ2EwQ2B5bc",
+"t": "Gwenifer Raymond: Tiny Desk Concert",
+"s": 930
+},
+{
+"id": "aZVglHDUXMc",
+"t": "Fip en Trans : Martha Da'ro",
+"s": 492
+},
+{
+"id": "teTu7NQlZvU",
+"t": "Cómo los bares de escucha japoneses conquistaron el mundo Dwyer lo dice todo",
+"s": 4183
+},
+{
+"id": "mA_fuhvOD64",
+"t": "Mannequin Pussy: Tiny Desk Concert",
+"s": 1288
+},
+{
+"id": "daWE99VrNfk",
+"t": "Fip en Trans : Gaia Banfi \"Congelati\"",
+"s": 321
+},
+{
+"id": "mewI7HxxR4g",
+"t": "From Burnout to Neo-Classical Chart Topper | Alexandra Stréliski Speaks Volumes",
+"s": 4157
+},
+{
+"id": "jbMxucbIVP4",
+"t": "Lecrae: Tiny Desk Concert",
+"s": 1064
+},
+{
+"id": "zhbM_GeEP_c",
+"t": "Fip 360 : Superpoze \"Siècle\" au Béton Festival",
+"s": 460
+},
+{
+"id": "JAFfN9CQVWg",
+"t": "Kyle Chayka, de The New Yorker, habla sobre la cultura algorítmica, el contenido artesanal y el c...",
+"s": 3952
+},
+{
+"id": "kaJ-FQ0_ksg",
+"t": "Aterciopelados: Tiny Desk Concert",
+"s": 1449
+},
+{
+"id": "MSFV3UGTSC8",
+"t": "Fip 360 : Superpoze \"Sternes\" au Béton Festival",
+"s": 540
+},
+{
+"id": "zsnBFyFCvNI",
+"t": "La directora creativa de Harry Styles da la bienvenida a los fans al mundo de Harry | Molly Hawki...",
+"s": 3919
+},
+{
+"id": "lBuHH7WE4yE",
+"t": "Bush: Tiny Desk Concert",
+"s": 1166
+},
+{
+"id": "G1TtX9ioKzk",
+"t": "Live à fip : KeiyaA",
+"s": 501
+},
+{
+"id": "-7f7NeYv09Q",
+"t": "Machinedrum: Pioneering Electronic Hip Hop Before It Was Cool | Speaks Volumes",
+"s": 4183
+},
+{
+"id": "ImQ1i1fBEA0",
+"t": "Militarie Gun: Tiny Desk Concert",
+"s": 1025
+},
+{
+"id": "eALQmpbfolg",
+"t": "Live à fip : Jon Batiste",
+"s": 987
+},
+{
+"id": "IWNzykTwMqY",
+"t": "How Book Club Radio Went Viral | Speaks Volumes with Derrick Gee",
+"s": 399
+},
+{
+"id": "_La9NC90oCk",
+"t": "Mumford & Sons: Tiny Desk Concert",
+"s": 1019
+},
+{
+"id": "M588A2UQstc",
+"t": "Live à fip : Hannah Jadagu",
+"s": 434
+},
+{
+"id": "J9p6_aiSX-M",
+"t": "¿Es Book Club Radio una versión 2.0 de Boiler Room? + Cultura de clubes online vs. offline | Book...",
+"s": 4377
+},
+{
+"id": "rWigCEcb4LA",
+"t": "Kronos Quartet: Tiny Desk Concert",
+"s": 1288
+},
+{
+"id": "zXtC-C0ChtU",
+"t": "Fip 360 : Binary Digit",
+"s": 1414
+},
+{
+"id": "SHgw4R11QW0",
+"t": "La estrella pop británica Griff sobre el pop británico frente al estadounidense + Componer con Ch...",
+"s": 3375
+},
+{
+"id": "J1vTi9ycpiA",
+"t": "Caamp: Tiny Desk Concert",
+"s": 1172
+},
+{
+"id": "k0xryHXdl_E",
+"t": "Live à fip : Curtis Harding",
+"s": 1056
+},
+{
+"id": "xx9YzFMS1IQ",
+"t": "Marie Antoinette's Music Supervisor: \"I didn't like any music from that era\"",
+"s": 467
+},
+{
+"id": "VxPPrBvsB9I",
+"t": "Conozca a la comunidad del concurso Tiny Desk 2026.",
+"s": 255
+},
+{
+"id": "672YlUxG5o0",
+"t": "Live à fip : Miles Kane",
+"s": 490
+},
+{
+"id": "T_jsFZa4iWs",
+"t": "Brian Reitzell Speaks Volumes | Speaks Volumes with Derrick Gee",
+"s": 4579
+},
+{
+"id": "ebm72F5q9FI",
+"t": "Tiana Major9: Tiny Desk Concert",
+"s": 1232
+},
+{
+"id": "zPquJZAjxBM",
+"t": "Club Jazzafip : Tyreek McDole",
+"s": 983
+},
+{
+"id": "3i1B8qs9mzo",
+"t": "Cómo descubres TÚ música nueva",
+"s": 1414
+},
+{
+"id": "N8aJXgIq2QM",
+"t": "Kacey Musgraves: Tiny Desk Concert From The Archives",
+"s": 1409
+},
+{
+"id": "-XFhZgaxs10",
+"t": "Live à fip : Youssou N'Dour \"7 Seconds\" à Rio Loco",
+"s": 363
+},
+{
+"id": "CTc9OIVtDRw",
+"t": "Radiohead Stans & Nirvana T-Shirts w/ Yasi Salek (Bandsplain)",
+"s": 3388
+},
+{
+"id": "-VwcJdXJoxs",
+"t": "Madi Diaz: Tiny Desk Concert",
+"s": 1184
+},
+{
+"id": "ZQ2XTtmXj7A",
+"t": "Live à fip : Yerai Cortés",
+"s": 1170
+},
+{
+"id": "tgmLhZA1KyI",
+"t": "Tu primer sistema de alta fidelidad: Guía para principiantes",
+"s": 2703
+},
+{
+"id": "Y0WTNH7T_bs",
+"t": "Maybe Happy Ending: Tiny Desk Concert",
+"s": 1057
+},
+{
+"id": "DqxN8tCZKRk",
+"t": "Live à fip : Kae Tempest",
+"s": 563
+},
+{
+"id": "Xcdjlz7aMEk",
+"t": "Beats In Space Forever: Why Tim Sweeney Will Never Stop",
+"s": 3568
+},
+{
+"id": "5AVYDHTOixU",
+"t": "De La Soul: Tiny Desk Concert",
+"s": 1396
+},
+{
+"id": "xJ652WUpnVk",
+"t": "Live à fip : Blasé",
+"s": 615
+},
+{
+"id": "EI5s8eNkeEE",
+"t": "Lucinda Chua habla sobre bandas sonoras, FKA Twigs y música clásica | Podcast Derrick Speaks Volumes",
+"s": 4471
+},
+{
+"id": "m5XxOLdMSS8",
+"t": "Buddy Guy: Tiny Desk Concert",
+"s": 1242
+},
+{
+"id": "6UgYWFKvmJ4",
+"t": "Live à Fip : Miki",
+"s": 651
+},
+{
+"id": "C3iEafLsJ04",
+"t": "Cómo llevar a cabo un proyecto de pasión | Derrick Speaks Volumes Podcast",
+"s": 2481
+},
+{
+"id": "KcOweHh_DMI",
+"t": "Immanuel Wilkins: Tiny Desk Concert",
+"s": 1478
+},
+{
+"id": "OwTBrPXzMms",
+"t": "Fip 360 : Tatie Dee \"Trip to Quiberon\"",
+"s": 252
+},
+{
+"id": "BpTUs9Y4Btc",
+"t": "Cómo descubrir música nueva | Podcast Derrick Gee Speaks Volumes",
+"s": 2264
+},
+{
+"id": "5Q7LyfbOQD8",
+"t": "FLO: Tiny Desk Concert",
+"s": 1371
+},
+{
+"id": "_d66KphqXrs",
+"t": "Live à Fip : Charif Megarbane",
+"s": 613
+},
+{
+"id": "lHZ9h0l7_n8",
+"t": "My Hifi Journey (Sound Quality is a Luxury, Not a Necessity) | Derrick Gee Speaks Volumes Podcast",
+"s": 2018
+},
+{
+"id": "e-YIKQTdWPY",
+"t": "Ganavya: Tiny Desk Concert",
+"s": 1171
+},
+{
+"id": "ZPvkL8O_r_8",
+"t": "Live à fip : spill tab",
+"s": 358
+},
+{
+"id": "r4Osxyp0fTY",
+"t": "Guía para principiantes sobre Ryuichi Sakamoto | Podcast \"Speaks Volumes\" de Derrick Gee",
+"s": 1465
+},
+{
+"id": "M5QOaaRJYFc",
+"t": "Jill Scott: Tiny Desk Concert",
+"s": 1549
+},
+{
+"id": "HN36ZKmAt4E",
+"t": "Live à Fip : Alabaster DePlume",
+"s": 577
+},
+{
+"id": "q-NDZ31pXmM",
+"t": "Sarah McLachlan: Tiny Desk Concert",
+"s": 1453
+},
+{
+"id": "2SnPAwcrUVU",
+"t": "Live à fip : Bryan's Magic Tears",
+"s": 956
+},
+{
+"id": "uhbpMCZTe8c",
+"t": "Geese: Tiny Desk Concert",
+"s": 881
+},
+{
+"id": "EZwaXHsCi_o",
+"t": "Live à fip : Rogér Fakhr et Charif Megarbane",
+"s": 507
+},
+{
+"id": "kP3cAAU-AHk",
+"t": "John P. Kee & New Life: Tiny Desk Concert",
+"s": 1016
+},
+{
+"id": "koWnwQsndn4",
+"t": "Live à fip : Baby Volcano",
+"s": 642
+},
+{
+"id": "DzS1ak7vQ-M",
+"t": "Miguel: Tiny Desk Concert",
+"s": 1435
+},
+{
+"id": "Y76hZVayylc",
+"t": "Live à fip : Ichiko Aoba",
+"s": 616
+},
+{
+"id": "-qE3ADaWN2A",
+"t": "Ollella: Tiny Desk Concert",
+"s": 1061
+},
+{
+"id": "ZwyVcpX9nIo",
+"t": "Club Jazzafip : David Linx",
+"s": 301
+},
+{
+"id": "7sIJ1IRE8SE",
+"t": "FORAGER: Tiny Desk Concert",
+"s": 1232
+},
+{
+"id": "YvXqHGmusWw",
+"t": "Club Jazzafip : Sullivan Fortner",
+"s": 568
+},
+{
+"id": "tB2m3Jni21s",
+"t": "Sally Baby's Silver Dollars: Tiny Desk Concert",
+"s": 1250
+},
+{
+"id": "OqIIUkx30Bw",
+"t": "Live à fip : Saya Gray",
+"s": 435
+},
+{
+"id": "FQMarD0iTII",
+"t": "yeule: Tiny Desk Concert",
+"s": 1224
+},
+{
+"id": "bvqfmiOcIlk",
+"t": "Live à fip : Gabi Hartmann",
+"s": 834
+},
+{
+"id": "MzPPTUNbB7I",
+"t": "Guitarricadelafuente: Tiny Desk Concert",
+"s": 1286
+},
+{
+"id": "TkR02Gfn024",
+"t": "Live à fip : Mairo \"dope\"",
+"s": 233
+},
+{
+"id": "H4uzympZPx0",
+"t": "John Fogerty: Tiny Desk Concert",
+"s": 1449
+},
+{
+"id": "P1TvrvqJ6Vs",
+"t": "Live à fip : Malik Djoudi",
+"s": 572
+},
+{
+"id": "lPn39VmajSI",
+"t": "From The Top: Tiny Desk Concert",
+"s": 779
+},
+{
+"id": "yucrDe5FRa4",
+"t": "Live à Fip : Seu Jorge",
+"s": 636
+},
+{
+"id": "xvqEmRekRdU",
+"t": "Destin Conrad: Tiny Desk Concert",
+"s": 1286
+},
+{
+"id": "FOD8aLoUHw0",
+"t": "FIP METAL - Rencontre avec @mcfly",
+"s": 1139
+},
+{
+"id": "Br7beKBJFLE",
+"t": "Coco Jones: Tiny Desk Concert",
+"s": 1252
+},
+{
+"id": "OQh0C6wUPCo",
+"t": "Club Jazzafip : Ashley Henry",
+"s": 512
+},
+{
+"id": "2h59h8xlaCg",
+"t": "Great Grandpa: Tiny Desk Concert",
+"s": 1073
+},
+{
+"id": "28cRlwuViBg",
+"t": "Club Jazzafip : Chucho Valdés",
+"s": 534
+},
+{
+"id": "rMWjbb2l5BE",
+"t": "Daniel Caesar: Tiny Desk Concert",
+"s": 1192
+},
+{
+"id": "WMTx9My5Gic",
+"t": "Live à fip : Walid Ben Selim & Marie-Marguerite Cano",
+"s": 1226
+},
+{
+"id": "DISMiACmkeA",
+"t": "Tiny Desk Brasil: João Gomes",
+"s": 1207
+},
+{
+"id": "FbRHxxfrRAo",
+"t": "Live à fip : Ballaké Sissoko & Piers Faccini",
+"s": 512
+},
+{
+"id": "j22KzIF34Xo",
+"t": "GIVĒON: Tiny Desk Concert",
+"s": 1006
+},
+{
+"id": "wE1mP710ZAQ",
+"t": "Live à fip : Salif Keïta",
+"s": 640
+},
+{
+"id": "sSY_w9odHPk",
+"t": "Sixpence None the Richer: Pequeño concierto de escritorio",
+"s": 1216
+},
+{
+"id": "DFcHl2b7fWM",
+"t": "Live à fip : Greentea Peng",
+"s": 695
+},
+{
+"id": "vTx1ITE67g4",
+"t": "Odeal: Concierto de escritorio pequeño",
+"s": 1246
+},
+{
+"id": "pR03R5KFB-E",
+"t": "Live à FIP : Ludovico Einaudi \"Jay\"",
+"s": 191
+},
+{
+"id": "yNJR6WihGgw",
+"t": "Sean Shibe: Tiny Desk Concert",
+"s": 1397
+},
+{
+"id": "8oaRK4EMeB0",
+"t": "Live à FIP : Ludovico Einaudi \"Pathos\"",
+"s": 271
+},
+{
+"id": "WgqaxMOKfnI",
+"t": "Billy Strings: Pequeño concierto de escritorio",
+"s": 1359
+},
+{
+"id": "wTU3sRVYayU",
+"t": "Live à FIP : Ludovico Einaudi \"Oil on Wood\"",
+"s": 254
+},
+{
+"id": "mq-AtefGO9M",
+"t": "Annie DiRusso: Concierto de escritorio pequeño",
+"s": 1215
+},
+{
+"id": "TvYYDrGEe80",
+"t": "Club Jazzafip : Mathias Duplessy",
+"s": 238
+},
+{
+"id": "jjuorGiEUS4",
+"t": "Air: Tiny Desk Concert",
+"s": 1021
+},
+{
+"id": "zf0POM6IIvk",
+"t": "Club Jazzafip : Mathias Duplessy \"Ama Jara\"",
+"s": 216
 }
 ]
 },
