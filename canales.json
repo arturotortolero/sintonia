@@ -153,6 +153,9 @@
       },
       {
         "url": "https://www.youtube.com/@pastagrannies"
+      },
+      {
+        "url": "https://www.youtube.com/@Munchies"
       }
     ]
   },
@@ -194,6 +197,28 @@
     "fuentes": [
       {
         "url": "https://www.youtube.com/@yummy_yammy"
+      }
+    ]
+  },
+  {
+    "num": "10",
+    "name": "The Travel Channel",
+    "modo": "nuevo",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@BrunoMaltor"
+      }
+    ]
+  },
+  {
+    "num": "11",
+    "name": "Architecture",
+    "modo": "tele",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@Archdigest"
       }
     ]
   }
