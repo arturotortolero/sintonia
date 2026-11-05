@@ -120,7 +120,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .cine-keys{display:none;position:absolute;z-index:5;top:max(10px,env(safe-area-inset-top));left:max(10px,env(safe-area-inset-left));flex-direction:column;gap:6px}
 .cine-keys .k{opacity:.45;min-height:36px}
 .cine-keys .k.lit{opacity:1}
-.cine-seek{left:50%;transform:translateX(-50%);flex-direction:row}
+.cine-keys .gap{margin-top:10px}
 .cine-ch{left:auto;right:max(10px,env(safe-area-inset-right));top:50%;transform:translateY(-50%)}
 .set.cine{padding:0}
 .set.cine .tv{position:fixed;inset:0;z-index:10;width:auto;height:auto;padding:0;border-radius:0;background:#000;box-shadow:none}
@@ -151,14 +151,12 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
           <button class="k" id="cineGuide">Guía</button>
           <a class="k yt" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube">YT</a>
         </div>
-        <div class="cine-keys cine-seek">
-          <button class="k" data-seek="start" aria-label="Ver desde el inicio">⏮</button>
-          <button class="k" data-seek="-30" aria-label="Retroceder 30 segundos">−30</button>
-          <button class="k" data-seek="30" aria-label="Adelantar 30 segundos">+30</button>
-        </div>
         <div class="cine-keys cine-ch">
           <button class="k" id="cineUp" aria-label="Canal siguiente">CH +</button>
           <button class="k" id="cineDown" aria-label="Canal anterior">CH −</button>
+          <button class="k gap" data-seek="start" aria-label="Ver desde el inicio">⏮</button>
+          <button class="k" data-seek="-30" aria-label="Retroceder 30 segundos">−30</button>
+          <button class="k" data-seek="30" aria-label="Adelantar 30 segundos">+30</button>
         </div>
       </div>
       <div class="chin">
