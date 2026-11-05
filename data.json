@@ -10,7 +10,7 @@
 "items": [
 {
 "id": "2IHqDUY3ZVc",
-"t": "The Dark Side Of India's $740 Million Firecracker Industry",
+"t": "Risking Death To Make Firecrackers For Diwali",
 "s": 825
 },
 {
@@ -45,7 +45,7 @@
 },
 {
 "id": "Zdm1DoIV7SI",
-"t": "What Men Actually Confess in a Legal Brothel",
+"t": "The Sex Was the Easy Part. The Real Work Was Emotional.",
 "s": 3246
 },
 {
@@ -135,7 +135,7 @@
 },
 {
 "id": "WpGr70X-3SU",
-"t": "13 films d’horreur à voir absolument pour Halloween (validés par des stars) | Vidéo Club",
+"t": "Les films qui ont empêché les stars de dormir | Vidéo Club spécial Halloween",
 "s": 1107
 },
 {
@@ -190,7 +190,7 @@
 },
 {
 "id": "El3y_Rh6AQM",
-"t": "Léandre allaité jusqu’à 16 ans ?! (l'histoire est folle) | WAKE UP!",
+"t": "On a dû censurer Léandre mais c'est ok, c'était le matin ! | WAKE UP!",
 "s": 2275
 },
 {
@@ -270,7 +270,7 @@
 },
 {
 "id": "wrelotZoMP8",
-"t": "How Silicon Valley captured the Pentagon | The Gray Area",
+"t": "How Silicon Valley conquered the business of war | The Gray Area",
 "s": 2896
 },
 {
@@ -325,7 +325,7 @@
 },
 {
 "id": "F68AdaKgwOU",
-"t": "Nevada tests midterm voter mood | America, Actually",
+"t": "Inside Nevada’s Trump slump | America, Actually",
 "s": 1713
 },
 {
@@ -380,7 +380,7 @@
 },
 {
 "id": "EogeI7sRtwU",
-"t": "Talarico vs. Paxton: Why the Texas Senate race is so close",
+"t": "Choosin’ Texas: Talarico vs. Paxton",
 "s": 1369
 },
 {
@@ -5474,8 +5474,8 @@
 "num": "02",
 "name": "Tecnología",
 "hours": [],
-"sourceName": "Google, The Verge, Popular Mechanics y WIRED",
-"tagline": "Google, The Verge, Popular Mechanics y WIRED",
+"sourceName": "Google, The Verge, Popular Mechanics, WIRED y Marques Brownlee",
+"tagline": "Google, The Verge, Popular Mechanics, WIRED y Marques Brownlee",
 "kind": "linear",
 "items": [
 {
@@ -5499,6 +5499,11 @@
 "s": 1651
 },
 {
+"id": "g6Die8gVFn0",
+"t": "OLED iPad Mini is The Most Apple Product They've Ever Appled",
+"s": 780
+},
+{
 "id": "lL7L6DiGeLc",
 "t": "What’s New in Google Accessibility | Episode 13",
 "s": 478
@@ -5517,6 +5522,11 @@
 "id": "0JDtAex8fbY",
 "t": "Historian Debunks The Biggest Witchcraft Myths on Reddit",
 "s": 1044
+},
+{
+"id": "2reQut8WNGc",
+"t": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
+"s": 654
 },
 {
 "id": "WMjVP7QQyDI",
@@ -5539,6 +5549,11 @@
 "s": 643
 },
 {
+"id": "ESABTN4VtrA",
+"t": "iPhone Duo Review: First Generation Fun!",
+"s": 1745
+},
+{
 "id": "eSGqW_VMMXQ",
 "t": "Why the future of healthcare is prevention | Dr. Eric Topol & Josh Woodward",
 "s": 834
@@ -5557,6 +5572,11 @@
 "id": "yFWBqZQhZh4",
 "t": "Ethan Hawke & Betty Gilpin Answer The Web’s Most Searched Questions",
 "s": 656
+},
+{
+"id": "scwlR0QHGOk",
+"t": "The NEW Tesla Roadster: My Honest Reaction",
+"s": 1365
 },
 {
 "id": "ktdbUIZKeSE",
@@ -5579,6 +5599,11 @@
 "s": 1038
 },
 {
+"id": "QVv3mQzlrN0",
+"t": "Apple Homeview Impressions: Not Convinced!",
+"s": 707
+},
+{
 "id": "KO2bNK9L7WA",
 "t": "Mantener conectados a los satélites en órbita con láseres",
 "s": 150
@@ -5597,6 +5622,11 @@
 "id": "vtk4ImpKOsc",
 "t": "Historian Fact Checks Witchcraft Slop",
 "s": 1430
+},
+{
+"id": "_0G4OG39XjI",
+"t": "WTF is a Googlebook?",
+"s": 853
 },
 {
 "id": "8NPgswgbTnE",
@@ -5619,6 +5649,11 @@
 "s": 906
 },
 {
+"id": "3iRUwVzRDZQ",
+"t": "Xiaomi 18 Fold: How Does This Happen?",
+"s": 647
+},
+{
 "id": "-uu2N53Ig3M",
 "t": "Museo Lucas: Las búsquedas principales revelan narrativas ocultas | En busca de",
 "s": 284
@@ -5637,6 +5672,11 @@
 "id": "OxxOEUHfzw4",
 "t": "Historian Fact Checks Gilded Age Slop",
 "s": 1822
+},
+{
+"id": "e1q-TuHdc4Y",
+"t": "Dear YouTube!",
+"s": 743
 },
 {
 "id": "o1JK79jszqo",
@@ -5659,6 +5699,11 @@
 "s": 819
 },
 {
+"id": "rayrrXot17M",
+"t": "Nothing Headphone 1 Pro: They Copied the Wrong Thing!",
+"s": 860
+},
+{
 "id": "HuGAiGfKqW0",
 "t": "Por qué este profesor universitario está adoptando la IA",
 "s": 102
@@ -5677,6 +5722,11 @@
 "id": "dmyi8LO6CBo",
 "t": "Indian Film Expert Answers Bollywood Questions",
 "s": 1479
+},
+{
+"id": "DkUuOr21v4s",
+"t": "Xiaomi 18 Pro Max: They've Done It Again!",
+"s": 716
 },
 {
 "id": "x0692zj9jsI",
@@ -5699,6 +5749,11 @@
 "s": 1134
 },
 {
+"id": "pOX1l1edBME",
+"t": "The Apple Watch Has a Problem",
+"s": 906
+},
+{
 "id": "rPq7ITrWFvY",
 "t": "The latest updates to Google Translate",
 "s": 86
@@ -5717,6 +5772,11 @@
 "id": "4BZpuTb6yIQ",
 "t": "Mechanic Answers Car Questions",
 "s": 1355
+},
+{
+"id": "ohqxP8EEumo",
+"t": "iPhone 18 Pro Review: All About that Chip",
+"s": 996
 },
 {
 "id": "Nm5e9ok8dIg",
@@ -5739,6 +5799,11 @@
 "s": 1162
 },
 {
+"id": "6D__H_DO2Xk",
+"t": "iPhone Duo: What We Missed!",
+"s": 637
+},
+{
 "id": "dWH8n-FkprM",
 "t": "Detrás de escena en las instalaciones de prueba de la misión Artemis II | Buscando respuestas",
 "s": 103
@@ -5757,6 +5822,11 @@
 "id": "4GRVWIBYvOM",
 "t": "History Professor Answers Capitalism Questions",
 "s": 1365
+},
+{
+"id": "Od6M0AXpcxQ",
+"t": "iPhone 18 Pro/Duo Impressions: Mogged",
+"s": 1034
 },
 {
 "id": "bSp-foRDH5M",
@@ -5779,6 +5849,11 @@
 "s": 1085
 },
 {
+"id": "ANmTVYkEtLw",
+"t": "Google Pixel 11/Pro Review: Poker Face",
+"s": 748
+},
+{
 "id": "Sm7OTow3mcY",
 "t": "Cómo saber si una imagen fue generada por IA o no",
 "s": 73
@@ -5797,6 +5872,11 @@
 "id": "4o2YEkmejU0",
 "t": "Biomedical Scientist Fact Checks Pseudoscience Slop",
 "s": 1948
+},
+{
+"id": "fo-uubnajWM",
+"t": "I Made a Bet with Tesla",
+"s": 666
 },
 {
 "id": "YSKzyVOQmuA",
@@ -5819,6 +5899,11 @@
 "s": 958
 },
 {
+"id": "ngPkbaZliaU",
+"t": "The Truth About the Bezelless Concept Phone",
+"s": 389
+},
+{
 "id": "2jBT5mlomoE",
 "t": "Cómo usamos la IA para tu salud | Podcast Made by Google T9E6",
 "s": 1237
@@ -5837,6 +5922,11 @@
 "id": "KzotBDL7Jj8",
 "t": "Psychiatrist Debunks The Biggest Psychopath Myths on Reddit",
 "s": 942
+},
+{
+"id": "mfmdXPT7nAM",
+"t": "I Said Yes to Every Email for a Month! (Again)",
+"s": 1851
 },
 {
 "id": "iDz4GqHQL6Q",
@@ -5859,6 +5949,11 @@
 "s": 1182
 },
 {
+"id": "o4SSoURPODY",
+"t": "Google Pixel 11/Pro/Fold Impressions: It Is What It Is",
+"s": 674
+},
+{
 "id": "TglEnUdBb3o",
 "t": "¿Qué es Nano Banana?",
 "s": 81
@@ -5877,6 +5972,11 @@
 "id": "5vEGc9U1gLE",
 "t": "Rhett & Link Answer The Internet's Best Questions",
 "s": 628
+},
+{
+"id": "Z6z_feacXW8",
+"t": "Galaxy Z Fold 8 Review: Honeymoon's Over",
+"s": 696
 },
 {
 "id": "MfDYRK1pAvA",
@@ -5899,6 +5999,11 @@
 "s": 1957
 },
 {
+"id": "_xjxwl1zLMc",
+"t": "Framework 13 Pro: The Modular Laptop is Real!",
+"s": 769
+},
+{
 "id": "JJTdXTf12oQ",
 "t": "Cómo usar el Agente en Google Flow | Encuentra tu flujo",
 "s": 117
@@ -5917,6 +6022,11 @@
 "id": "apcPejRT0Yc",
 "t": "'Ted Lasso' Cast Answer The 50 Most Searched Questions",
 "s": 534
+},
+{
+"id": "8Hx2yvWSgs0",
+"t": "Samsung Z Fold 8 (Wide) Impressions: Better Than I Thought!",
+"s": 563
 },
 {
 "id": "mx0xFpVjxHE",
@@ -5939,6 +6049,11 @@
 "s": 1570
 },
 {
+"id": "_oRgdlJUD18",
+"t": "iOS 27 Hands-On: Top 5 New Features!",
+"s": 919
+},
+{
 "id": "iGOmDRYctOw",
 "t": "Behind the Doodle: Father’s Day #GoogleDoodle",
 "s": 33
@@ -5957,6 +6072,11 @@
 "id": "86YsXFf1Chw",
 "t": "Child Psychologist Answers Parenting Questions",
 "s": 1434
+},
+{
+"id": "eWKY0OnPByg",
+"t": "Apple Lost the AI Race",
+"s": 424
 },
 {
 "id": "ECquAokER_8",
@@ -5979,6 +6099,11 @@
 "s": 1620
 },
 {
+"id": "DUgPFNRmsCQ",
+"t": "Nothing Phone 4b: They Can't Say It!",
+"s": 621
+},
+{
 "id": "gPx12V4yiIk",
 "t": "El deporte más buscado",
 "s": 61
@@ -5997,6 +6122,11 @@
 "id": "fA8HCW9dQ8o",
 "t": "Ms. Rachel Answers The Web's Most Searched Questions",
 "s": 1225
+},
+{
+"id": "7KRabLH7jcE",
+"t": "The Best Car I've Ever Driven: McLaren W1",
+"s": 991
 },
 {
 "id": "zASY1bewxbs",
@@ -6019,6 +6149,11 @@
 "s": 1525
 },
 {
+"id": "ZpF6IE0rdxA",
+"t": "Antigravity A1: A New Take on Drones!",
+"s": 610
+},
+{
 "id": "jHEEaQJxJyo",
 "t": "Títeres e IA | Detrás de cámaras con Timmy TPU",
 "s": 179
@@ -6037,6 +6172,11 @@
 "id": "mPYMW0gR-20",
 "t": "Alex Warren Answers The Web's Most Searched Questions",
 "s": 629
+},
+{
+"id": "QrT4S9i3agE",
+"t": "Top 5 Android 17 Features: I Swear It's New!",
+"s": 564
 },
 {
 "id": "guv2-EoGUXw",
@@ -6059,6 +6199,11 @@
 "s": 1132
 },
 {
+"id": "WOzcFkld6_g",
+"t": "The Most Interesting Displays In The World!",
+"s": 957
+},
+{
 "id": "xxY0yuzxzLY",
 "t": "Gafas inteligentes | I/O 2026 Keynote",
 "s": 700
@@ -6077,6 +6222,11 @@
 "id": "GogFG5ci2KI",
 "t": "Neuroscientist Answers Psychedelic Therapy Questions",
 "s": 941
+},
+{
+"id": "_gCXmKjDecU",
+"t": "WWDC 2026 Impressions: Yeah, That's About Right",
+"s": 988
 },
 {
 "id": "34q_KjF64E8",
@@ -6099,6 +6249,11 @@
 "s": 488
 },
 {
+"id": "mk_wdHePbtQ",
+"t": "The Hidden Tech Behind an NBA Broadcast!",
+"s": 663
+},
+{
 "id": "FLynjUYg79I",
 "t": "Medios generativos | Discurso principal de I/O 2026",
 "s": 558
@@ -6117,6 +6272,11 @@
 "id": "Ot8lg2nC4Ao",
 "t": "Economist Answers U.S. Economy Questions",
 "s": 1613
+},
+{
+"id": "9GSDvO0LFFE",
+"t": "The Truth About the \"Whoop Killer\"",
+"s": 1062
 },
 {
 "id": "7Z5Vy9JBANs",
@@ -6139,6 +6299,11 @@
 "s": 1104
 },
 {
+"id": "eFeDpUVEy48",
+"t": "“The Biggest Android Update Ever”",
+"s": 779
+},
+{
 "id": "kQQbTYPt7VE",
 "t": "Búsqueda + Compras | Presentación principal I/O 2026",
 "s": 1389
@@ -6157,6 +6322,11 @@
 "id": "7bbZysDRSp0",
 "t": "Physicist Brian Greene Answers Quantum Physics Questions",
 "s": 1517
+},
+{
+"id": "coX4duwUCpw",
+"t": "Why New Smartphone Cameras Feel Worse",
+"s": 443
 },
 {
 "id": "amnhF6BwzZQ",
@@ -6179,6 +6349,11 @@
 "s": 1051
 },
 {
+"id": "i9TvUGeTltE",
+"t": "My Take on The New Apple",
+"s": 669
+},
+{
 "id": "T_fnhr5lVBw",
 "t": "GIO26 AGY 2.0 Demostración Varun Elemento 5",
 "s": 495
@@ -6197,6 +6372,11 @@
 "id": "enMPLaB1oEo",
 "t": "We Know More About The Pyramids Than You Think",
 "s": 778
+},
+{
+"id": "7YrdI7h2XoY",
+"t": "Glass is glass",
+"s": 286
 },
 {
 "id": "QhdEJFFaig0",
@@ -6219,6 +6399,11 @@
 "s": 1547
 },
 {
+"id": "c347oYQO57A",
+"t": "So This is Peak Smartphone",
+"s": 797
+},
+{
 "id": "duHhImuaZGU",
 "t": "Palabras de apertura de Sundar Pichai | Conferencia principal de I/O 2026",
 "s": 2529
@@ -6237,6 +6422,11 @@
 "id": "1NuJHjaWWZg",
 "t": "The Stokes Twins Answer The Web's Most Searched Questions",
 "s": 608
+},
+{
+"id": "5aS-8QCRdGE",
+"t": "The Unreleased Rollable Smartphone!",
+"s": 599
 },
 {
 "id": "tfx2CjqtCUI",
@@ -6259,6 +6449,11 @@
 "s": 731
 },
 {
+"id": "Hc0aqOEU2w8",
+"t": "Bluey Phone Review",
+"s": 263
+},
+{
 "id": "2m5BCWB02jY",
 "t": "Meet Gemini Omni",
 "s": 51
@@ -6277,6 +6472,11 @@
 "id": "TnpGfdEkV4Q",
 "t": "Mythology Expert Breaks Down Every Ancient Greek Constellation",
 "s": 3708
+},
+{
+"id": "eFUB_jL_XcM",
+"t": "So This is Peak Foldable",
+"s": 647
 },
 {
 "id": "uW4B6ziQqvY",
@@ -6299,6 +6499,11 @@
 "s": 638
 },
 {
+"id": "eXa2ndhmatI",
+"t": "The Windows Laptop Problem",
+"s": 649
+},
+{
 "id": "s4Lav_gsMPo",
 "t": "Sneak Peek: Intelligent Eyewear | Gemini is Coming to Your Glasses",
 "s": 136
@@ -6317,6 +6522,11 @@
 "id": "fLIZslgfIdQ",
 "t": "Forest Ecologist Answers Tree Questions | Tech Support | WIRED",
 "s": 1312
+},
+{
+"id": "D4QyStJWgCc",
+"t": "Nothing Phone 4A/Pro Review: I Have a Theory",
+"s": 724
 },
 {
 "id": "q-dnq2Fsq2Y",
@@ -6339,6 +6549,11 @@
 "s": 946
 },
 {
+"id": "j2rszuZ-9PY",
+"t": "Reviewing Everything on my Desk! (2026)",
+"s": 931
+},
+{
 "id": "p6EBMG8OEBI",
 "t": "Novedades en la Búsqueda",
 "s": 97
@@ -6357,6 +6572,11 @@
 "id": "XVEMBw2jT9o",
 "t": "Dictator Historian Answers America's Biggest Question",
 "s": 861
+},
+{
+"id": "iGeXGdYE7UE",
+"t": "Macbook Neo Review: Better than you Think!",
+"s": 773
 },
 {
 "id": "vN6W1Z8eRMc",
@@ -6379,6 +6599,11 @@
 "s": 955
 },
 {
+"id": "yWI33R4xyIc",
+"t": "Apple Studio Display XDR Review: We're All Pros Now!",
+"s": 642
+},
+{
 "id": "_qWItNk5a9Q",
 "t": "Explorando herramientas en Google Flow | En el Flow",
 "s": 170
@@ -6397,6 +6622,11 @@
 "id": "E1hfT0mDWgM",
 "t": "Millie Bobby Brown & Louis Partridge Answer The Web’s Most Searched Questions",
 "s": 713
+},
+{
+"id": "nfHRMqqO578",
+"t": "Samsung Galaxy S26 Ultra Review: There's a Catch",
+"s": 756
 },
 {
 "id": "NL7izhdQ7vk",
@@ -6419,6 +6649,11 @@
 "s": 683
 },
 {
+"id": "kBX5WH9b4M4",
+"t": "Macbook Neo Impressions: Reincarnated!",
+"s": 528
+},
+{
 "id": "dhI4djOVEmI",
 "t": "Día de entrenamiento de TPU para I/O ‘26",
 "s": 87
@@ -6437,6 +6672,11 @@
 "id": "JKdtx6szbwI",
 "t": "‘Jackass’ Cast Answer The 50 Most Searched Jackass Questions",
 "s": 901
+},
+{
+"id": "wRaDbRjVrc4",
+"t": "Samsung Galaxy Buds 4 Pro Review: Better than AirPods!",
+"s": 531
 },
 {
 "id": "KUyRq7szZsM",
@@ -6459,6 +6699,11 @@
 "s": 833
 },
 {
+"id": "FRI78tq9Eik",
+"t": "Samsung Galaxy S26/Ultra Impressions: 1 Crazy Display Feature!",
+"s": 550
+},
+{
 "id": "YXbCQVhKb-Q",
 "t": "Crea algo que valga la pena",
 "s": 100
@@ -6477,6 +6722,11 @@
 "id": "oOZAQ_pY6W8",
 "t": "MrBallen Answers The Web’s Most Searched Questions",
 "s": 1090
+},
+{
+"id": "iCSg_ul3G2w",
+"t": "Google Pixel 10A Impressions: (Never) Seen This Before",
+"s": 511
 },
 {
 "id": "MVn33xN9dF4",
@@ -6499,6 +6749,11 @@
 "s": 606
 },
 {
+"id": "zPAY2VxfFBk",
+"t": "The Problem with these Smartphone Batteries",
+"s": 512
+},
+{
 "id": "4JVtVgl8oEs",
 "t": "Sube de nivel en I/O",
 "s": 27
@@ -6517,6 +6772,11 @@
 "id": "8mkrHaLcxcA",
 "t": "History Professor Answers Industrial Revolution Questions | Tech Support | WIRED",
 "s": 1132
+},
+{
+"id": "vZdbbN3FCzE",
+"t": "The Downfall of OnePlus will be Studied",
+"s": 904
 },
 {
 "id": "EJJhbcHPqu4",
@@ -6539,6 +6799,11 @@
 "s": 931
 },
 {
+"id": "DqAKQwagCDg",
+"t": "Xiaomi 17 Ultra - More Camera than Phone!",
+"s": 725
+},
+{
 "id": "QAKtNOWsaHI",
 "t": "Cómo escribir un prompt de IA",
 "s": 187
@@ -6557,6 +6822,11 @@
 "id": "iYdg_caRxf8",
 "t": "Masters of the Universe Cast Answer The 50 Most Searched He-Man Questions",
 "s": 710
+},
+{
+"id": "TVsounscj4U",
+"t": "The New Siri is... Google (Explained)",
+"s": 503
 },
 {
 "id": "M9mAufki0Ik",
@@ -6579,6 +6849,11 @@
 "s": 718
 },
 {
+"id": "HLUamwXQ218",
+"t": "The Problem with this “Ultra Luxury” Smartphone",
+"s": 932
+},
+{
 "id": "s0M79zWRKps",
 "t": "Novedades en accesibilidad de Google | Episodio 12",
 "s": 463
@@ -6597,6 +6872,11 @@
 "id": "bx6_jj9RxhI",
 "t": "Tom Scott Answers Content Creator Questions | Tech Support | WIRED",
 "s": 1462
+},
+{
+"id": "Jh9pFp1oM7E",
+"t": "I shrunk down into an M5 chip",
+"s": 712
 },
 {
 "id": "x6Ix0RVd7yk",
@@ -6619,6 +6899,11 @@
 "s": 647
 },
 {
+"id": "v-sCZN3FbR0",
+"t": "Every Mistake I Made in 2025",
+"s": 825
+},
+{
 "id": "NBOYISh5jC4",
 "t": "Crea apps para tus amigos",
 "s": 136
@@ -6637,6 +6922,11 @@
 "id": "Pjl8n8u9Xfw",
 "t": "Medical Historian Answers History of Medicine Questions | Tech Support | WIRED",
 "s": 1626
+},
+{
+"id": "trsHTKqmZOk",
+"t": "Samsung Galaxy Z Tri Fold Impressions: NOW It Makes Sense!",
+"s": 785
 },
 {
 "id": "7gnybANIBws",
@@ -6659,6 +6949,11 @@
 "s": 1468
 },
 {
+"id": "sfyL4BswUeE",
+"t": "Smartphone Awards 2025!",
+"s": 1958
+},
+{
 "id": "6jELhHO1VNA",
 "t": "¿Por qué el stepback de Luka es tan imposible de defender?",
 "s": 16
@@ -6677,6 +6972,11 @@
 "id": "zKzZAtmhnEQ",
 "t": "Can AI Predict Date Compatibility? | AI Dating",
 "s": 941
+},
+{
+"id": "Mb6H7trzMfI",
+"t": "Driving Xiaomi's Electric Car: Are we Cooked?",
+"s": 1045
 },
 {
 "id": "-Ll1TaIDHXU",
@@ -6699,6 +6999,11 @@
 "s": 1653
 },
 {
+"id": "Qqyp00JPJZI",
+"t": "\"Siri Isn't That Bad\"",
+"s": 1128
+},
+{
 "id": "XO8oJo1C5zc",
 "t": "¿Qué se necesita para llegar a lo más alto?",
 "s": 31
@@ -6717,6 +7022,11 @@
 "id": "rRqdOICthL0",
 "t": "Has AI Ruined Dating? | AI Dating Game",
 "s": 1463
+},
+{
+"id": "KW21q_7U6Ao",
+"t": "What's on my Phone 2026!",
+"s": 790
 },
 {
 "id": "F8DQV3Ud0pk",
@@ -6739,6 +7049,11 @@
 "s": 592
 },
 {
+"id": "RvP-uVNwnXo",
+"t": "Dope Tech: STILL so good!",
+"s": 1014
+},
+{
 "id": "I0V14dTS9JQ",
 "t": "Expertos en computación cuántica responden las preguntas más populares | Searching For",
 "s": 236
@@ -6757,6 +7072,11 @@
 "id": "Druvom03m_A",
 "t": "Architect Answers Architecture Questions | Tech Support | WIRED",
 "s": 1126
+},
+{
+"id": "2MdQWo9fHZs",
+"t": "OnePlus 15 Review: This is Not Normal!",
+"s": 772
 },
 {
 "id": "W-dj56fP4jY",
@@ -6779,6 +7099,11 @@
 "s": 1309
 },
 {
+"id": "j31dmodZ-5c",
+"t": "The Problem with this Humanoid Robot",
+"s": 972
+},
+{
 "id": "b1Pvt072wKQ",
 "t": "Cómo programar una app al estilo \"vibe code\" a partir de un dibujo",
 "s": 192
@@ -6797,6 +7122,11 @@
 "id": "6u8-bioNK9E",
 "t": "The Boys' Antony Starr Answers The Internet's Best Questions",
 "s": 1036
+},
+{
+"id": "rU9aqBv0YdY",
+"t": "What's Going on with Apple Vision Pro?",
+"s": 638
 },
 {
 "id": "i2kXouPuNxk",
@@ -6819,6 +7149,11 @@
 "s": 1307
 },
 {
+"id": "eou_g_cYCew",
+"t": "Xiaomi 17 Pro Max: An iPhone... But Better!",
+"s": 712
+},
+{
 "id": "tYhgWRJeYzs",
 "t": "¿Qué es el vibe coding?",
 "s": 95
@@ -6837,6 +7172,11 @@
 "id": "BL9UE9_m-1Y",
 "t": "The iPhone Pro Max Was a No-Brainer—Apple Just Changed That",
 "s": 733
+},
+{
+"id": "Tl8RS0sR-qA",
+"t": "Google Pixel Pro Fold Review: Not Compatible!",
+"s": 491
 },
 {
 "id": "euiGMQURy0U",
@@ -6859,6 +7199,11 @@
 "s": 807
 },
 {
+"id": "rng_yUSwrgU",
+"t": "iPhone 17 Review: No Asterisks!",
+"s": 680
+},
+{
 "id": "xCkIxdJZ8fU",
 "t": "Cómo programar una página web al estilo \"vibe coding\"",
 "s": 145
@@ -6877,6 +7222,11 @@
 "id": "NKdyuKXkrPU",
 "t": "Harvard Professor Answers Iranian Government Questions | Tech Support | WIRED",
 "s": 787
+},
+{
+"id": "q0aFOxT6TNw",
+"t": "iPhone 17 Pro Review: Paradox in a Box!",
+"s": 742
 },
 {
 "id": "0DRDJ01COqo",
@@ -6899,6 +7249,11 @@
 "s": 1261
 },
 {
+"id": "tDARtYjUiHs",
+"t": "iPhone Air Review: Beauty is Pain",
+"s": 981
+},
+{
 "id": "Lb4jpHoZTjs",
 "t": "Platform 37: El nuevo espacio de innovación en IA de Google en Londres",
 "s": 107
@@ -6917,6 +7272,11 @@
 "id": "K2uWGdXl7MY",
 "t": "FINNEAS Answers The Internet’s 12 Best Questions",
 "s": 824
+},
+{
+"id": "7gtc1DW2Tgo",
+"t": "Wait... Smart Glasses are Suddenly Good?",
+"s": 691
 },
 {
 "id": "4BzoMc3acOY",
@@ -6939,6 +7299,11 @@
 "s": 506
 },
 {
+"id": "s0EbxhQYeCA",
+"t": "iPhone 17/Pro/Air Unboxing: 1 Hot Take!",
+"s": 797
+},
+{
 "id": "1FLVOAjtgag",
 "t": "Shaping the Limitless Possibilities of Dr. Marian Croak",
 "s": 576
@@ -6957,6 +7322,11 @@
 "id": "O3svEfSbsFQ",
 "t": "Home Inspector Answers House Safety Questions | Tech Support | WIRED",
 "s": 1236
+},
+{
+"id": "GB0b6KFZVq0",
+"t": "AirPods Pro 3 Review: I Understand It Now!",
+"s": 710
 },
 {
 "id": "okxUpjDOd1w",
@@ -6979,6 +7349,11 @@
 "s": 627
 },
 {
+"id": "idEAABFzpfg",
+"t": "iPhone 17/Pro/Air Impressions: Spot the Red Flags!",
+"s": 890
+},
+{
 "id": "gYfCm3zYajg",
 "t": "La evolución de la tecnología en el hip hop | LL COOL J y James Manyika de Google",
 "s": 1239
@@ -6997,6 +7372,11 @@
 "id": "BsE1RyxuLFo",
 "t": "Self Defense Expert Answers Self Defense Questions | Tech Support | WIRED",
 "s": 1473
+},
+{
+"id": "i63u-iAnhuk",
+"t": "Pixel 10/Pro Review: Good News and Bad News!",
+"s": 1220
 },
 {
 "id": "oKjDeMtBZ4g",
@@ -7019,6 +7399,11 @@
 "s": 1589
 },
 {
+"id": "eCR17sBh-Qw",
+"t": "Switching from iPhone to Android",
+"s": 548
+},
+{
 "id": "BGuxsk79sYY",
 "t": "Introducing the New Flow, Your AI Creative Studio",
 "s": 60
@@ -7037,6 +7422,11 @@
 "id": "ojCMveGCWw0",
 "t": "Barry Keoghan responde a las preguntas más buscadas en la web | WIRED",
 "s": 589
+},
+{
+"id": "269OsrzG3Ew",
+"t": "Google Pixel 10/Pro/Fold Impressions: Magnets!",
+"s": 941
 },
 {
 "id": "hi-O3crULJk",
@@ -7059,6 +7449,11 @@
 "s": 651
 },
 {
+"id": "-7X5KukvABc",
+"t": "Top 5 Sports Tech I Actually Use!",
+"s": 681
+},
+{
 "id": "ooCjmT77SRM",
 "t": "Oner Biberkoku sobre cine con IA usando Flow | En el flujo",
 "s": 163
@@ -7077,6 +7472,11 @@
 "id": "pzR8CeP53J4",
 "t": "Un ornitólogo profesional responde preguntas sobre aves | WIRED",
 "s": 2025
+},
+{
+"id": "We2ZD0-IXPM",
+"t": "Investigating the Tesla Robotaxi!",
+"s": 1034
 },
 {
 "id": "TD6FPndjhoE",
@@ -7099,6 +7499,11 @@
 "s": 5032
 },
 {
+"id": "AphNalSmvlk",
+"t": "iPadOS 26: Ready for Laptop Duty?",
+"s": 691
+},
+{
 "id": "n0lt9Hpk2oU",
 "t": "How did Red Gerard get so good? | Google + Team USA",
 "s": 31
@@ -7117,6 +7522,11 @@
 "id": "plGRMzsxpa4",
 "t": "Ryan Gosling y los creadores de Project Hail Mary responden a las 50 preguntas más buscadas | WIRED",
 "s": 1336
+},
+{
+"id": "FXrcFeuYtq8",
+"t": "iOS 26 Hands-On: Liquid Glass!",
+"s": 861
 },
 {
 "id": "MBHquayfSUI",
@@ -7139,6 +7549,11 @@
 "s": 1989
 },
 {
+"id": "bMou1qUMHC4",
+"t": "Samsung Z Fold/Flip 7 Impressions: Major Upgrades!",
+"s": 700
+},
+{
 "id": "z39LT_ULDaQ",
 "t": "¿Por qué todo el mundo habla del Dios del Quad?",
 "s": 31
@@ -7157,6 +7572,11 @@
 "id": "6Ygt0xOZkys",
 "t": "Cómo los influencers de derecha se infiltraron en el gobierno | WIRED",
 "s": 706
+},
+{
+"id": "4KbrxIpQgkM",
+"t": "Nothing Phone 3 Review: They Lied!",
+"s": 938
 },
 {
 "id": "Z1yGy9fELtE",
@@ -7179,6 +7599,11 @@
 "s": 1800
 },
 {
+"id": "-NNCca97v98",
+"t": "My Nintendo Switch 2 Review (Doesn't Matter?)",
+"s": 797
+},
+{
 "id": "7hnvRBjuCW8",
 "t": "Cultivando para el futuro | Donde vive Internet",
 "s": 484
@@ -7197,6 +7622,11 @@
 "id": "AHFoKh4qCE4",
 "t": "Iñaki Godoy Answers The Web's Most Searched Questions | WIRED",
 "s": 366
+},
+{
+"id": "A94RrC8Mg0o",
+"t": "Nothing Headphone 1 Review: As Good as They Look?",
+"s": 676
 },
 {
 "id": "QikCsFDvt9g",
@@ -7219,6 +7649,11 @@
 "s": 1004
 },
 {
+"id": "alDhOLhbkbY",
+"t": "The Android Tablet Problem",
+"s": 577
+},
+{
 "id": "PAU2VeoVplg",
 "t": "Project Genie from Google DeepMind | Google",
 "s": 47
@@ -7237,6 +7672,11 @@
 "id": "k-HZIFIoy3Q",
 "t": "Profesor de finanzas responde preguntas sobre inversiones | Soporte técnico | WIRED",
 "s": 1619
+},
+{
+"id": "1E3tv_3D95g",
+"t": "WWDC 2025 Impressions: Liquid Glass!",
+"s": 1103
 },
 {
 "id": "vFe-FrZSAKo",
@@ -7259,6 +7699,11 @@
 "s": 889
 },
 {
+"id": "eLusurjBcCs",
+"t": "One Plus 13S Review: What's the S For?",
+"s": 633
+},
+{
 "id": "1WJLUXbAK9o",
 "t": "From Discovery to Delivery | New Ways to Shop with Google",
 "s": 98
@@ -7277,6 +7722,11 @@
 "id": "xbgxajnBrak",
 "t": "Your Rich BFF Vivian Tu Answers Personal Finance Questions | Tech Support | WIRED",
 "s": 1582
+},
+{
+"id": "N_ZmHYF6-xM",
+"t": "Nintendo Switch 2 Unboxing & First Gameplay!",
+"s": 964
 },
 {
 "id": "OEkPt3jnZTY",
@@ -7299,6 +7749,11 @@
 "s": 1349
 },
 {
+"id": "5nKLu2CSxx8",
+"t": "Galaxy S25 Edge and the Thin Phone Problem",
+"s": 601
+},
+{
 "id": "1SLhLQaDOvE",
 "t": "Novedades en accesibilidad de Google | Episodio 11 | Lengua de señas americana",
 "s": 472
@@ -7317,6 +7772,11 @@
 "id": "hxffedwlmEo",
 "t": "Olympian Maxim Naumov Answers Figure Skating Questions | Tech Support | WIRED",
 "s": 1238
+},
+{
+"id": "j7W2v_FmCuE",
+"t": "Top 5 Android 16 Features: Big Visuals!",
+"s": 697
 },
 {
 "id": "8sABhCMxU3c",
@@ -7339,6 +7799,11 @@
 "s": 1405
 },
 {
+"id": "jXJODqfaJto",
+"t": "Why Apple, Samsung and Google Need Each Other",
+"s": 637
+},
+{
 "id": "QdRfaMRjzvw",
 "t": "Avances en logística | Donde vive Internet",
 "s": 484
@@ -7357,6 +7822,11 @@
 "id": "z520xkfx_lM",
 "t": "Professor Answers Olympic History Questions | Tech Support | WIRED",
 "s": 1396
+},
+{
+"id": "XbXXKhfvSF0",
+"t": "Sony WH-1000XM6 Review: Back on the Throne!",
+"s": 557
 },
 {
 "id": "hZSDKiM8LvA",
@@ -7379,6 +7849,11 @@
 "s": 1724
 },
 {
+"id": "yWBz2qZJ8zY",
+"t": "Samsung Galaxy S25 Edge Impressions: Nobody Asked!",
+"s": 426
+},
+{
 "id": "Bb0oFbZ35qM",
 "t": "Hashem Al-Ghaili sobre la creación de películas con IA con Flow | In the Flow",
 "s": 124
@@ -7397,6 +7872,11 @@
 "id": "FWl-LMxx5sg",
 "t": "MrBeast Answers The Web's Most Searched Questions | WIRED",
 "s": 809
+},
+{
+"id": "hIzjHBwjGCk",
+"t": "CMF Phone 2 Pro: Budget Phone of the Year!",
+"s": 631
 },
 {
 "id": "jiGDzy0sxOI",
@@ -7419,6 +7899,11 @@
 "s": 1554
 },
 {
+"id": "HdTCDxX-UnQ",
+"t": "Tengo un problema con Light Phone III",
+"s": 863
+},
+{
 "id": "oRqEL0t67fo",
 "t": "Heather Cooper sobre cine con IA usando Flow | In the Flow",
 "s": 175
@@ -7437,6 +7922,11 @@
 "id": "4l8DpEEWHhs",
 "t": "Doctor Answers Longevity Questions | Tech Support | WIRED",
 "s": 1093
+},
+{
+"id": "VTs8wnMsh0k",
+"t": "¡Revisando una Mano Biónica!",
+"s": 704
 },
 {
 "id": "nkX8j9472lg",
@@ -7459,6 +7949,11 @@
 "s": 1261
 },
 {
+"id": "p24qhUFIe68",
+"t": "Oppo Find X8 Ultra: ¡El estándar está por la nubes!",
+"s": 659
+},
+{
 "id": "o-8WCNb3BQY",
 "t": "Mapeando nuevos medicamentos | Donde vive Internet",
 "s": 526
@@ -7477,6 +7972,11 @@
 "id": "P-ZNiZwJn9Y",
 "t": "Jack Black & Paul Rudd Answer The Web's Most Searched Questions | WIRED",
 "s": 907
+},
+{
+"id": "K3CR6RiWS2U",
+"t": "Impresiones de la Nintendo Switch 2: Tiene un gran “Pero” encima.",
+"s": 885
 }
 ]
 },
@@ -9048,7 +9548,7 @@
 },
 {
 "id": "zTmQzzQKrxU",
-"t": "Cáncer de piel: ¿qué es la vacuna de fase 3 y cuándo llegará a los primeros pacientes?",
+"t": "Vacuna contra el melanoma: \"El 82% de los pacientes siguen sin cáncer a los dos años\"",
 "s": 351
 },
 {
@@ -9068,7 +9568,7 @@
 },
 {
 "id": "iHEzpa7JbEg",
-"t": "Milei vs Sánchez en la cumbre Iberoamericana de Madrid",
+"t": "Cumbre Iberoamericana de Madrid: ¿éxito o cumbre en declive?",
 "s": 458
 },
 {
@@ -9173,7 +9673,7 @@
 },
 {
 "id": "Eikr46nY7Rw",
-"t": "De HOLLYWOOD a PRISIÓN: RUSSELL BRAND, CULPABLE de VIOLACIÓN",
+"t": "RUSSELL BRAND, declarado CULPABLE de VIOLACIÓN",
 "s": 117
 },
 {
@@ -9203,7 +9703,7 @@
 },
 {
 "id": "5VtkLu-Zlhg",
-"t": "CAOS aéreo en EUROPA: casi 30 VUELOS afectados por falsas AMENAZAS de BOMBA",
+"t": "FALSAS ALARMAS de BOMBA obligan a desviar VUELOS por toda EUROPA",
 "s": 99
 },
 {
@@ -9298,7 +9798,7 @@
 },
 {
 "id": "TWXwT5W5Iqg",
-"t": "La máquina que parece alguien, con Carlos del Castillo | PODCAST",
+"t": "“A las personas nos hackea el cerebro que haya algo que no es inteligente pero que hable”",
 "s": 364
 },
 {
@@ -9383,7 +9883,7 @@
 },
 {
 "id": "Hr-Vumh7ZV4",
-"t": "A partir de tres asistentes de IA, se te fríe el cerebro | Pablo Foncillas",
+"t": "¿Cuántos asistentes de IA usas a la vez? A partir del tercero, trabajas peor | Pablo Foncillas",
 "s": 147
 },
 {
@@ -9608,7 +10108,7 @@
 },
 {
 "id": "baaipzxg0cc",
-"t": "Psicosis posparto: ¿Por qué una madre puede matar a sus hijos creyendo que los protege?",
+"t": "Narcís Bardalet: \"El enfermo mental no busca librarse de la pena, actúa atrapado en su delirio\"",
 "s": 426
 },
 {
@@ -9743,7 +10243,7 @@
 },
 {
 "id": "NjFzTTOebto",
-"t": "Este es el país de Europa que compra on-line más tarde | Pablo Foncillas",
+"t": "¿Qué país de Europa compra on-line más tarde? | Pablo Foncillas",
 "s": 123
 },
 {
@@ -9773,7 +10273,7 @@
 },
 {
 "id": "ozGskehFQa4",
-"t": "Futuro de los jóvenes: ¿MIEDO o ESPERANZA? La calle responde",
+"t": "Futuro de los jóvenes: ¿miedo o esperanza? La calle responde",
 "s": 123
 },
 {
@@ -10163,7 +10663,7 @@
 },
 {
 "id": "O8xWp8T19JY",
-"t": "Óscar Puente ante su dimisión: \"La renuncia es absolutamente inevitable\", según Enric Juliana",
+"t": "Elecciones del 29-N: Cómo el siniestro ferroviario descoloca la estrategia del PSOE y del PP",
 "s": 526
 },
 {
@@ -10343,7 +10843,7 @@
 },
 {
 "id": "e4eCWHGnSZo",
-"t": "¿Puede Canadá entrar en la Unión Europea? Lo que dicen los Tratados",
+"t": "Canadá, “Estado 51” de Trump: ¿puede la UE ser su escudo?",
 "s": 446
 },
 {
@@ -11580,8 +12080,8 @@
 12,
 15
 ],
-"sourceName": "Joshua Weissman Recipes, Bon Appétit, J. Kenji López-Alt, TheCrewChef, Epicurious, Eater, Pasta Grannies, Munchies, Jamie Oliver, Gaz Oakley y Insider Food",
-"tagline": "Joshua Weissman Recipes, Bon Appétit, J. Kenji López-Alt, TheCrewChef, Epicurious, Eater, Pasta Grannies, Munchies, Jamie Oliver, Gaz Oakley y Insider Food",
+"sourceName": "Joshua Weissman Recipes, Bon Appétit, J. Kenji López-Alt, TheCrewChef, Epicurious, Eater, Pasta Grannies, Munchies, Jamie Oliver, Gaz Oakley, Insider Food y LifebyMikeG",
+"tagline": "Joshua Weissman Recipes, Bon Appétit, J. Kenji López-Alt, TheCrewChef, Epicurious, Eater, Pasta Grannies, Munchies, Jamie Oliver, Gaz Oakley, Insider Food y LifebyMikeG",
 "kind": "linear",
 "items": [
 {
@@ -11591,7 +12091,7 @@
 },
 {
 "id": "-YP3OCTy3lg",
-"t": "A Day at One of Miami’s Busiest Restaurants | On The Line | Bon Appétit",
+"t": "This Steakhouse is Miami’s Hardest Reservation | On The Line | Bon Appétit",
 "s": 1098
 },
 {
@@ -11616,7 +12116,7 @@
 },
 {
 "id": "3fMHHAVYpYU",
-"t": "Pasta Grandpa Francesco’s Garden-to-Table Tagliatelle",
+"t": "Pasta Grandpa Francesco’s Tagliatelle with Homegrown Vegetables",
 "s": 483
 },
 {
@@ -11638,6 +12138,11 @@
 "id": "J-lEHpqcOO8",
 "t": "Inside America's New #1 Restaurant | Full Service",
 "s": 885
+},
+{
+"id": "cogeTZEfmgA",
+"t": "Recetas de 2 ingredientes que no deberían ser posibles",
+"s": 1541
 },
 {
 "id": "kd6lUmbj5ig",
@@ -11695,13 +12200,18 @@
 "s": 701
 },
 {
+"id": "vWw7CptWoiU",
+"t": "Estos 5 cubos te ahorrarán más de 20 horas de cocina",
+"s": 1198
+},
+{
 "id": "7YmQDbJOelY",
 "t": "Los mejores biscuits hojaldrados de todos los tiempos",
 "s": 605
 },
 {
 "id": "UHGWG2QVl1Q",
-"t": "This $32 Potato Is the Best in New York | Made to Order | Bon Appétit",
+"t": "Probably the Best Potato Dish in NYC | Made to Order | Bon Appétit",
 "s": 759
 },
 {
@@ -11748,6 +12258,11 @@
 "id": "kOrLZUpHUPE",
 "t": "How Delmonico's Serves 400 Pounds Of Steak A Day | Full Service",
 "s": 651
+},
+{
+"id": "06KjObOff8w",
+"t": "Which Groceries Are Actually Worth Making From Scratch?",
+"s": 1318
 },
 {
 "id": "mjJQetAQwW4",
@@ -11805,6 +12320,11 @@
 "s": 1028
 },
 {
+"id": "omCIQDoOWV4",
+"t": "Tengo un problema GIGANTE...",
+"s": 1191
+},
+{
 "id": "ILArlisjE3k",
 "t": "El Egg McMuffin de McDonald's, pero mejor",
 "s": 741
@@ -11858,6 +12378,11 @@
 "id": "AhD3OHxRU84",
 "t": "Making 300,000 Cannolis A Year By Hand | Small Business",
 "s": 613
+},
+{
+"id": "2YLrFB_0Hkk",
+"t": "Cómo como sano realmente en 2026",
+"s": 1132
 },
 {
 "id": "TR6wp5pB1CQ",
@@ -11915,6 +12440,11 @@
 "s": 906
 },
 {
+"id": "nfKIShqQtYA",
+"t": "Probando las 7 recetas más ingeniosas de Internet",
+"s": 1446
+},
+{
 "id": "CPM_pP9V5GU",
 "t": "Wontons picantes con chile y ajo hechos en casa",
 "s": 649
@@ -11968,6 +12498,11 @@
 "id": "RmgviQ2eF9g",
 "t": "Why Baklava Is So Hard To Make By Hand",
 "s": 801
+},
+{
+"id": "3tGHxFRcRVg",
+"t": "The 5-Minute Weeknight Dinner System",
+"s": 1071
 },
 {
 "id": "iFZwO4MqyiY",
@@ -12025,6 +12560,11 @@
 "s": 878
 },
 {
+"id": "uOPQbxeEUiQ",
+"t": "Pasé 5 años construyendo un huerto en mi patio para alimentar a mi familia",
+"s": 1070
+},
+{
 "id": "Xo-DWTwumI8",
 "t": "Salsas de comida rápida pero mejor",
 "s": 1685
@@ -12078,6 +12618,11 @@
 "id": "alJma1Phcwo",
 "t": "How Luxury Saucisson Is Made In The French Basque Country | Regional Eats",
 "s": 839
+},
+{
+"id": "v1TB_GEnZuQ",
+"t": "Esto se está saliendo de control",
+"s": 766
 },
 {
 "id": "njNUwh3Yu2A",
@@ -12135,6 +12680,11 @@
 "s": 4525
 },
 {
+"id": "6k39trPiMqU",
+"t": "Hice el mejor sándwich en freidora de aire para cada presupuesto",
+"s": 1188
+},
+{
 "id": "f0e9cuhGiPg",
 "t": "El burrito de desayuno perfecto",
 "s": 849
@@ -12188,6 +12738,11 @@
 "id": "LSdCaoul2uM",
 "t": "How Real Pecorino Romano Cheese Is Made In Lazio, Italy | Regional Eats",
 "s": 1264
+},
+{
+"id": "yg4d1n3yae4",
+"t": "10 trucos para el congelador que cambiarán tu vida",
+"s": 1148
 },
 {
 "id": "doEnG5E8Hh4",
@@ -12245,6 +12800,11 @@
 "s": 792
 },
 {
+"id": "DzsrBwgoJNU",
+"t": "Probé TODAS las formas de cultivar hongos en casa",
+"s": 1081
+},
+{
 "id": "fWQzaXMOBU8",
 "t": "El mejor pollo a la parmesana de la historia",
 "s": 1013
@@ -12298,6 +12858,11 @@
 "id": "Ybaz2bF9YSY",
 "t": "20 Bucket List Foods In NYC",
 "s": 6599
+},
+{
+"id": "3Bhd6NcqVJI",
+"t": "Los 50 dólares más deliciosos que jamás gastarás",
+"s": 1257
 },
 {
 "id": "PVr4J6Rsnx8",
@@ -12355,6 +12920,11 @@
 "s": 667
 },
 {
+"id": "3oppqhMEy2I",
+"t": "El sistema de almuerzos de 14 días que nunca aburre",
+"s": 1119
+},
+{
 "id": "TnIO6qYh3sY",
 "t": "El cheesecake más cremoso en casa (súper fácil)",
 "s": 598
@@ -12408,6 +12978,11 @@
 "id": "reQVXtj8QBI",
 "t": "How NYC’s Only Michelin-Starred Indian Restaurant Feeds 200 From A Tiny Kitchen | Full Service",
 "s": 540
+},
+{
+"id": "wCuS3pS9lKo",
+"t": "Por qué empecé a cultivar mis propios puros",
+"s": 1260
 },
 {
 "id": "p2ynn-fvbyw",
@@ -12465,6 +13040,11 @@
 "s": 1581
 },
 {
+"id": "qGb2rObZC7k",
+"t": "Cocinar con freidora de aire ha cambiado para siempre...",
+"s": 1208
+},
+{
 "id": "m5T1a6_Q4G8",
 "t": "Utensilios de cocina que todos necesitan",
 "s": 1204
@@ -12518,6 +13098,11 @@
 "id": "N6QwPxJSDXQ",
 "t": "The World’s Fastest Michelin-Starred Restaurant (20 Days) | Pro Kitchen Tours",
 "s": 885
+},
+{
+"id": "J24pCkgJoyQ",
+"t": "This $50 Meal Plan Feeds You for the Week",
+"s": 1314
 },
 {
 "id": "7SixjIlfnIw",
@@ -12575,6 +13160,11 @@
 "s": 4256
 },
 {
+"id": "tJqb1qjx8kw",
+"t": "Preparar las comidas no debería ser tan fácil…",
+"s": 1104
+},
+{
 "id": "mKu7Qg8wFKQ",
 "t": "El mejor pollo frito picante hecho en casa (estilo Nashville)",
 "s": 581
@@ -12628,6 +13218,11 @@
 "id": "Eev9k1u7S5k",
 "t": "Finding The Best Food At Disneyland Resort | Food Tours Season 9 Marathon | Including Bloopers",
 "s": 4627
+},
+{
+"id": "ik8YEXNfBQU",
+"t": "¿Realmente funcionan estas recetas virales para freidora de aire?",
+"s": 1241
 },
 {
 "id": "i9X04odxzsM",
@@ -12685,6 +13280,11 @@
 "s": 1209
 },
 {
+"id": "Xn8p1UqPnic",
+"t": "Esto cambia el desayuno para siempre...",
+"s": 1084
+},
+{
 "id": "rAg-4JyZ0vc",
 "t": "El mejor sándwich French dip de la historia",
 "s": 880
@@ -12738,6 +13338,11 @@
 "id": "Dkmnu_PZPHc",
 "t": "Finding The Best Food At The Wizarding World Of Harry Potter | Food Tours | Insider Food",
 "s": 1623
+},
+{
+"id": "-35JXpiQ3EA",
+"t": "A Revolution in Meal Prepping...",
+"s": 1151
 },
 {
 "id": "7TIrZDzLnAQ",
@@ -12795,6 +13400,11 @@
 "s": 1340
 },
 {
+"id": "46wFhxCbI6w",
+"t": "10 años de cocina india en 20 minutos",
+"s": 1290
+},
+{
 "id": "79vyiI89gpc",
 "t": "Cómo cocinar con hierro fundido",
 "s": 741
@@ -12848,6 +13458,11 @@
 "id": "JHcU6n6Otsc",
 "t": "Finding The Best Savory Snack At Disneyland Resort | Food Tours | Insider Food",
 "s": 1554
+},
+{
+"id": "Ftthb8tLtTo",
+"t": "Mi descenso a la locura de la fermentación",
+"s": 953
 },
 {
 "id": "eBSG7OqYegc",
@@ -12905,6 +13520,11 @@
 "s": 1534
 },
 {
+"id": "er5ZIWxgQ5o",
+"t": "10 Toxic Kitchen Items I Finally Replaced for Good",
+"s": 1052
+},
+{
 "id": "0K_PLf6SMYk",
 "t": "Pollo y arroz estilo Halal Guys, pero mejor",
 "s": 829
@@ -12958,6 +13578,11 @@
 "id": "Lcq00FmynpM",
 "t": "Finding The Best Restaurant At Disneyland Resort | Food Tours | Insider Food",
 "s": 1463
+},
+{
+"id": "RCl1dU5TzXs",
+"t": "10 reglas de la pizza que distinguen a los aficionados de los profesionales",
+"s": 1201
 },
 {
 "id": "3XALaSzkUro",
@@ -13015,6 +13640,11 @@
 "s": 11378
 },
 {
+"id": "THvFpeayvmM",
+"t": "3 comidas para llevar que NUNCA volverás a pedir",
+"s": 1059
+},
+{
 "id": "lQYvvh-ANKQ",
 "t": "El plato definitivo de tiras de pollo en casa.",
 "s": 869
@@ -13068,6 +13698,11 @@
 "id": "pI9INPDhKe8",
 "t": "Finding The Best Steak in LA | Food Tours | Insider Food",
 "s": 1412
+},
+{
+"id": "4ugcqTCIdMo",
+"t": "Nunca volveré a comprar hongos (aquí está el por qué)",
+"s": 938
 },
 {
 "id": "GvxeLBWBYZc",
@@ -13125,6 +13760,11 @@
 "s": 1054
 },
 {
+"id": "LFQZzbCtng0",
+"t": "Dentro de la mente del pizzero número uno del mundo",
+"s": 777
+},
+{
 "id": "DGb5Vn0PkcQ",
 "t": "Fideos hechos a mano que todos deberían preparar",
 "s": 1166
@@ -13178,6 +13818,11 @@
 "id": "BglDsg7frXQ",
 "t": "US vs UK McDonald’s Nutrition: High Protein, Low Fat, And More | Food Wars | Insider Food",
 "s": 1122
+},
+{
+"id": "6_zqZ44urOI",
+"t": "La forma más sencilla de dominar la freidora de aire",
+"s": 978
 },
 {
 "id": "FSFTqzmuzy8",
@@ -13235,6 +13880,11 @@
 "s": 1475
 },
 {
+"id": "W6Aq8TodxHs",
+"t": "La guía de fermentación más útil de Internet",
+"s": 1168
+},
+{
 "id": "WGVaDl1RRkc",
 "t": "Sándwiches De Comida Callejera Mexicana En Casa (Torta De Milanesa)",
 "s": 923
@@ -13288,6 +13938,11 @@
 "id": "_u1EIi1p9n8",
 "t": "Finding The Best Fried Chicken In Los Angeles | Food Tours | Insider Food",
 "s": 1319
+},
+{
+"id": "-lgYGnMDinA",
+"t": "Recorrido completo por mi abundante finca suburbana de un acre",
+"s": 1115
 },
 {
 "id": "N3QgxolJbNE",
@@ -13345,6 +14000,11 @@
 "s": 1470
 },
 {
+"id": "dkQ06t23gao",
+"t": "Unlock 5 iconic pizza styles with just one dough",
+"s": 1081
+},
+{
 "id": "8Bzi_ybXw10",
 "t": "The Best Beef Short Ribs Ever",
 "s": 979
@@ -13398,6 +14058,11 @@
 "id": "rtP-YJ3TkZY",
 "t": "US vs UK Fast Food Sauces | Food Wars | Insider Food",
 "s": 1859
+},
+{
+"id": "F7iWdYtTWNE",
+"t": "Tres comidas que como para vivir hasta los 100 años",
+"s": 982
 },
 {
 "id": "KJ5CW1Hsums",
@@ -13455,6 +14120,11 @@
 "s": 1484
 },
 {
+"id": "5kfRUt5QSn4",
+"t": "El precio de los huevos no es el verdadero problema...",
+"s": 874
+},
+{
 "id": "-2RjqDwbrZQ",
 "t": "El plato vietnamita más subestimado (Bun Cha Hanoi)",
 "s": 823
@@ -13508,6 +14178,11 @@
 "id": "jui7OQptPDI",
 "t": "US vs UK Frozen Pizza | Food Wars | Insider Food",
 "s": 1460
+},
+{
+"id": "xXxqsST3mbg",
+"t": "Cultivar alimentos es como un videojuego...",
+"s": 1133
 },
 {
 "id": "vjIfHr0GOrw",
@@ -13565,6 +14240,11 @@
 "s": 12281
 },
 {
+"id": "CbZsyNfoA_I",
+"t": "¿Es el Ninja Swirl una revolución o una estafa?",
+"s": 1061
+},
+{
 "id": "eC8gqjQRj1I",
 "t": "The Best Spicy Fried Rice Ever",
 "s": 607
@@ -13618,6 +14298,11 @@
 "id": "LA5o4d3-T3s",
 "t": "Finding The Best Pizza In Los Angeles | Food Tours | Insider Food",
 "s": 1287
+},
+{
+"id": "Ffsb3R-JSro",
+"t": "Por qué elaborar sake es mi nueva obsesión…",
+"s": 1099
 },
 {
 "id": "oniAMAulMgU",
@@ -13675,6 +14360,11 @@
 "s": 2034
 },
 {
+"id": "b_DU5uzfrYQ",
+"t": "Descubra estos 20 trucos geniales para preparar comidas",
+"s": 1165
+},
+{
 "id": "5BzvDJ9I4jg",
 "t": "El Beef Wellington más fácil",
 "s": 843
@@ -13728,6 +14418,11 @@
 "id": "2b-1LFjEMtI",
 "t": "Finding The Best Burrito In Los Angeles | Food Tours | Insider Food",
 "s": 1532
+},
+{
+"id": "8b77PEhXCds",
+"t": "Pan y mantequilla",
+"s": 826
 },
 {
 "id": "lLNH-JnbigM",
@@ -13785,6 +14480,11 @@
 "s": 7811
 },
 {
+"id": "_AtwFXvbZtk",
+"t": "¿Merecen la pena los costosos aparatos de cocina?",
+"s": 1031
+},
+{
 "id": "ZruAfXHBrNk",
 "t": "Los mejores fideos con chile y ajo de la historia",
 "s": 594
@@ -13838,6 +14538,11 @@
 "id": "GffAMFRDubs",
 "t": "US vs UK Bread | Food Wars | Insider Food",
 "s": 1519
+},
+{
+"id": "jrRYt34AQ-I",
+"t": "Por qué las grasas animales están conquistando el mundo culinario",
+"s": 808
 },
 {
 "id": "uNM5ZvNkN1U",
@@ -13895,6 +14600,11 @@
 "s": 1665
 },
 {
+"id": "UO6jRsL5xjM",
+"t": "Estas cenas preparadas en una sola olla te harán la vida más fácil",
+"s": 1134
+},
+{
 "id": "Uj5ZggWHYU4",
 "t": "El mejor shawarma en casa",
 "s": 838
@@ -13948,6 +14658,11 @@
 "id": "g4Lf4TxUOIk",
 "t": "Finding The Best Food In New Orleans | Food Tours Season 7 Marathon | Food Insider",
 "s": 7002
+},
+{
+"id": "YKR1v0-f-3U",
+"t": "7 errores de Acción de Gracias que comete todo cocinero casero",
+"s": 976
 },
 {
 "id": "0ZMRL8blTsY",
@@ -14005,6 +14720,11 @@
 "s": 1948
 },
 {
+"id": "GI_JwhwRl_I",
+"t": "¿Por qué cambié la pizza napolitana por la pizza neoyorquina?",
+"s": 929
+},
+{
 "id": "4r7Yl15-F7c",
 "t": "Los mejores panqueques esponjosos (2 maneras)",
 "s": 527
@@ -14058,6 +14778,11 @@
 "id": "e9W1zS63Hyw",
 "t": "How Fast Food Chains Have Changed: 2020 vs 2024 (US Vs UK) I Food Wars | Insider Food",
 "s": 9788
+},
+{
+"id": "YuA8cKLdpFE",
+"t": "Cómo ser autosuficiente en los suburbios @epicgardening",
+"s": 1324
 },
 {
 "id": "ZLULwy2cXVE",
@@ -14115,6 +14840,11 @@
 "s": 1756
 },
 {
+"id": "iVnU-vGt_xA",
+"t": "Mis 10 mejores recetas de freidora de aire de todos los tiempos",
+"s": 1067
+},
+{
 "id": "h_ZWXncC0CI",
 "t": "Pollo con mantequilla perfecto en casa",
 "s": 875
@@ -14168,6 +14898,11 @@
 "id": "pYJawuFQHio",
 "t": "US vs UK Domino's 2020 vs 2024 | Food Wars | Insider Food",
 "s": 1843
+},
+{
+"id": "CN9rboqsvkw",
+"t": "Probando las recetas de huevos más virales de Internet",
+"s": 1013
 },
 {
 "id": "kzBOTkQRp0A",
@@ -14225,6 +14960,11 @@
 "s": 1516
 },
 {
+"id": "z__A0TZPirM",
+"t": "Querido Chipotle, he rediseñado tu burrito...",
+"s": 1139
+},
+{
 "id": "KAfbkuBF6L0",
 "t": "Arroz glutinoso con mango perfecto en casa",
 "s": 581
@@ -14278,6 +15018,11 @@
 "id": "3txRULsUZ40",
 "t": "US vs UK Wingstop Menu Tier List | Food Wars | Insider Food",
 "s": 1176
+},
+{
+"id": "BJjTNhsjO0Q",
+"t": "Cultivé una comida de McDonald's #2",
+"s": 997
 },
 {
 "id": "qEHvmINXUfk",
@@ -14335,6 +15080,11 @@
 "s": 1589
 },
 {
+"id": "K2xSnUAM4jk",
+"t": "Es hora de un cambio.",
+"s": 1585
+},
+{
 "id": "aPqG4RkvyMw",
 "t": "Cómo convertir cualquier cosa en sopa",
 "s": 806
@@ -14388,6 +15138,11 @@
 "id": "ZsRF2HYorDk",
 "t": "UK vs USA Holiday Special | Food Wars | Insider Food",
 "s": 2278
+},
+{
+"id": "CVmtm6QNrMQ",
+"t": "The ONLY pickle video you need to watch.",
+"s": 988
 },
 {
 "id": "kSspDhrvNok",
@@ -14445,6 +15200,11 @@
 "s": 1186
 },
 {
+"id": "X10bc8jLb_U",
+"t": "Only the Butchers Know About These Cuts of Meat…",
+"s": 1083
+},
+{
 "id": "dxZgcuxQTFs",
 "t": "Burritos de pollo perfectos en casa",
 "s": 785
@@ -14498,6 +15258,11 @@
 "id": "eavcGn4Ibto",
 "t": "33 Bucket List Los Angeles Foods | Insider Food Marathon",
 "s": 11079
+},
+{
+"id": "7znCpRv6-oQ",
+"t": "Testing the internets most viral Potato recipes",
+"s": 998
 },
 {
 "id": "_tx6VaBC_Bc",
@@ -14555,6 +15320,11 @@
 "s": 8446
 },
 {
+"id": "Fkn12sDmCLk",
+"t": "Testing the internets most viral Onion recipes",
+"s": 903
+},
+{
 "id": "6bk4a4_ORfI",
 "t": "Los mejores bagels caseros de Nueva York",
 "s": 728
@@ -14608,6 +15378,11 @@
 "id": "boGynyaCt54",
 "t": "US vs UK Entire KFC Menu Ranked | Food Wars Tier List | Insider Food",
 "s": 1854
+},
+{
+"id": "K7CerwL-ZIM",
+"t": "¿Cuántas recetas para freidora de aire puede producir mi jardín?",
+"s": 1025
 },
 {
 "id": "urECpujNgcM",
@@ -14665,6 +15440,11 @@
 "s": 1894
 },
 {
+"id": "f_hr8V1WvIc",
+"t": "Cómo cultivo toda mi lechuga en casa (Guía para principiantes)",
+"s": 891
+},
+{
 "id": "oFSgLH8AN7w",
 "t": "La hamburguesa perfecta en casa (2 maneras)",
 "s": 499
@@ -14718,6 +15498,11 @@
 "id": "xqx0FCjI3U4",
 "t": "Finding The Best Gumbo In New Orleans | Food Tours | Insider Food",
 "s": 1639
+},
+{
+"id": "zOE8hAqRe0A",
+"t": "Cómo hacer que tus verduras sean mucho más atractivas… (7 recetas)",
+"s": 1008
 },
 {
 "id": "TveUI2jD_2c",
@@ -14775,6 +15560,11 @@
 "s": 1416
 },
 {
+"id": "rpmzUPhVBG8",
+"t": "Stop Throwing Away Your Food (7 Composting Methods)",
+"s": 835
+},
+{
 "id": "UhByCuLYt2g",
 "t": "Los mejores macarrones con queso caseros (2 opciones)",
 "s": 529
@@ -14828,6 +15618,11 @@
 "id": "W6FX7zYNgS8",
 "t": "Finding The Best Po'Boys In New Orleans | Food Tours | Insider Food",
 "s": 1822
+},
+{
+"id": "VUb6OVaIi0I",
+"t": "The Ultimate 8 Week Guide to Raising Chicks",
+"s": 1110
 },
 {
 "id": "3iNyUwPKrXQ",
@@ -14885,6 +15680,11 @@
 "s": 11911
 },
 {
+"id": "i4QmFtcp25U",
+"t": "10 Foods I'll Never Buy From the Store Again...",
+"s": 1134
+},
+{
 "id": "qDRrXpKCk8M",
 "t": "Nuggets de pollo fáciles en casa",
 "s": 657
@@ -14938,6 +15738,11 @@
 "id": "_5dPAPHPusM",
 "t": "US vs UK Pumpkin Spice | Food Wars | Insider Food",
 "s": 1734
+},
+{
+"id": "6hDGqwqo_C4",
+"t": "Esta receta de pasta para la noche de la semana cambiará tu vida",
+"s": 775
 },
 {
 "id": "AFzx37MGW6o",
@@ -14995,6 +15800,11 @@
 "s": 8238
 },
 {
+"id": "IX5BpNFBnTU",
+"t": "De vuelta en la cocina con mi hermano",
+"s": 1645
+},
+{
 "id": "u-_FnU9FaeA",
 "t": "Cómo cocinar con acero inoxidable",
 "s": 1127
@@ -15048,6 +15858,11 @@
 "id": "weP8Hgd8x2Q",
 "t": "US vs UK Fish And Chips | Food Wars | Insider Food",
 "s": 1798
+},
+{
+"id": "I30PGjWbqwA",
+"t": "How many meals can I create with 50 dollars?",
+"s": 1159
 },
 {
 "id": "0aS89GsHIBQ",
@@ -15105,6 +15920,11 @@
 "s": 10151
 },
 {
+"id": "VKsfu5kI2eI",
+"t": "7 cosas que hago para disfrutar el invierno.",
+"s": 1068
+},
+{
 "id": "ldVuxgEc1m0",
 "t": "Rollitos Primavera Crujientes En Casa (Lumpia)",
 "s": 763
@@ -15160,6 +15980,11 @@
 "s": 2372
 },
 {
+"id": "ypGTEtr_zr8",
+"t": "10 Sourdough Tools For Life Changing Bread",
+"s": 896
+},
+{
 "id": "9BnVOZ1chKE",
 "t": "Los fideos con ajo y chile picante más fáciles (2 maneras)",
 "s": 533
@@ -15208,6 +16033,11 @@
 "id": "p4dAHiIyABY",
 "t": "US vs UK French Fries | Food Wars | Insider Food",
 "s": 1650
+},
+{
+"id": "-eDmeaMy-pc",
+"t": "Estoy harta del mismo salteado...",
+"s": 1102
 },
 {
 "id": "RBkhdRBp1xo",
@@ -15260,6 +16090,11 @@
 "s": 2612
 },
 {
+"id": "eNWHKSBWRUk",
+"t": "La batalla por el sándwich de carne número uno en Estados Unidos",
+"s": 1090
+},
+{
 "id": "yvfVAvJZ-8A",
 "t": "Cómo hacer los mejores panecillos para hamburguesas de la historia",
 "s": 655
@@ -15308,6 +16143,11 @@
 "id": "8_SjDI6Yw9U",
 "t": "US vs UK Boba | Food Wars | Insider Food",
 "s": 1689
+},
+{
+"id": "R2MvOg0b2eM",
+"t": "10 recetas fáciles para freidora de aire que a mis hijos les encantan",
+"s": 911
 },
 {
 "id": "EAmC5DhRbz4",
@@ -15360,6 +16200,11 @@
 "s": 3082
 },
 {
+"id": "gAWdXR0sGWQ",
+"t": "I made Lamb Barbacoa the REAL way.",
+"s": 1071
+},
+{
 "id": "S-E0KQW-Nl0",
 "t": "La Pasta Picante con Vodka Perfecta",
 "s": 601
@@ -15408,6 +16253,11 @@
 "id": "esU7_eeXHWw",
 "t": "US vs UK Cheeseburgers | Food Wars | Insider Food",
 "s": 1984
+},
+{
+"id": "Bj0s8moO_XQ",
+"t": "Comidas de 10 minutos que me salvan la vida...",
+"s": 1001
 },
 {
 "id": "tY9pSkn1VCg",
@@ -15460,6 +16310,11 @@
 "s": 6412
 },
 {
+"id": "LtTQCYZWHas",
+"t": "¿Merece la pena el curso intensivo de Gordon Ramsay?",
+"s": 1150
+},
+{
 "id": "j_pNxyr1GM0",
 "t": "Pizza estilo Nueva York en casa",
 "s": 608
@@ -15508,6 +16363,11 @@
 "id": "2gefwoxoYWc",
 "t": "US vs UK KFC 2020 vs 2024 | Food Wars | Insider Food",
 "s": 1759
+},
+{
+"id": "kfG-TYHSq48",
+"t": "How I Became Self Sufficient in 3 Years (almost*)",
+"s": 1171
 },
 {
 "id": "bBqwT03GlrQ",
@@ -15560,6 +16420,11 @@
 "s": 10308
 },
 {
+"id": "Qm4tFMDTmGQ",
+"t": "Testing 5 Questionable Air Fryer Recipes…",
+"s": 1042
+},
+{
 "id": "6yC2kEr9m-o",
 "t": "El mejor panceta crujiente en casa (Siu Yuk)",
 "s": 673
@@ -15608,6 +16473,11 @@
 "id": "Hv1iyQHZyDQ",
 "t": "Finding The Best Steak In Las Vegas | Food Tours | Food Insider",
 "s": 1882
+},
+{
+"id": "QWFPkTH6jRA",
+"t": "What the F to do with all these tomatoes???",
+"s": 1167
 },
 {
 "id": "BIueul4H8B0",
@@ -15660,6 +16530,11 @@
 "s": 1404
 },
 {
+"id": "WEWOVlButYg",
+"t": "10 productos de cocina que optimizarán tu vida.",
+"s": 948
+},
+{
 "id": "7TSexgaX8SY",
 "t": "Filete con patatas fritas perfecto en casa",
 "s": 1077
@@ -15710,6 +16585,11 @@
 "s": 2159
 },
 {
+"id": "MHL4OuJfRic",
+"t": "How I'm Growing my own Shiitake Mushrooms",
+"s": 904
+},
+{
 "id": "EcgxV1KLjvI",
 "t": "Cómo se preparan las mejores tostadas francesas de Nueva York | Al momento | Bon Appétit",
 "s": 731
@@ -15753,6 +16633,11 @@
 "id": "i03zg0vtzJc",
 "t": "US vs UK Season 6 Marathon | Food Wars | Insider Food",
 "s": 16402
+},
+{
+"id": "NmIwGOkV4uY",
+"t": "Por qué nunca más volveré a comprar cebollas ni ajos...",
+"s": 854
 },
 {
 "id": "itruEUXXDEY",
@@ -15800,6 +16685,11 @@
 "s": 1689
 },
 {
+"id": "Y5zLmAu8uyY",
+"t": "Los 11 métodos y técnicas de conservación más comunes",
+"s": 1182
+},
+{
 "id": "htPA3OrZkdo",
 "t": "Cómo un chef profesional prepara un filete de pescado de McDonald's con inspiración cantonesa | E...",
 "s": 876
@@ -15843,6 +16733,11 @@
 "id": "MWEuILxPvf8",
 "t": "Finding The Best Celebrity Restaurant In Las Vegas | Food Tours | Insider Food",
 "s": 2178
+},
+{
+"id": "CBykDMlw6go",
+"t": "Recetas realistas de 5 ingredientes para la semana",
+"s": 1173
 },
 {
 "id": "dI_xuwQqmSg",
@@ -15890,6 +16785,11 @@
 "s": 1653
 },
 {
+"id": "fiFYHu3jqvg",
+"t": "Cómo preparo la comida de todo un día en minutos",
+"s": 752
+},
+{
 "id": "lXWkG771LFI",
 "t": "How NYC’s Best Butter Chicken is Made | Made to Order | Bon Appétit",
 "s": 697
@@ -15933,6 +16833,11 @@
 "id": "h4s_IxvTX9I",
 "t": "Finding The Best Burger NYC vs LDN vs LA | Food Tours Marathon | Insider Food",
 "s": 6958
+},
+{
+"id": "bwpLTL6oMi4",
+"t": "4 recetas fáciles de desayuno para transformar tus mañanas",
+"s": 1014
 },
 {
 "id": "7fYpWQq8Hb0",
@@ -15980,6 +16885,11 @@
 "s": 1122
 },
 {
+"id": "mN3LeLNFi30",
+"t": "Llevo 15 años esperando este electrodoméstico...",
+"s": 911
+},
+{
 "id": "NK88iwkvjfM",
 "t": "200 empleados, 3 estrellas Michelin: Un día en Eleven Madison Park | En la línea | Bon Appétit",
 "s": 1228
@@ -16023,6 +16933,11 @@
 "id": "0AUmgiO5d4c",
 "t": "UK vs US Bottled Water | Food Wars | Insider Food",
 "s": 2114
+},
+{
+"id": "4BW_KwSDtHc",
+"t": "Probando las recetas de huevos más creativas de Internet.",
+"s": 1041
 },
 {
 "id": "uIXXQ4e36fA",
@@ -16070,6 +16985,11 @@
 "s": 12563
 },
 {
+"id": "Haof6U1LG4o",
+"t": "¿TikTok está arruinando el contenido de cocina?",
+"s": 1342
+},
+{
 "id": "vKPbL3_xEAw",
 "t": "Un día en el restaurante francés más emocionante de Nueva York | On The Line | Bon Appétit",
 "s": 1038
@@ -16113,6 +17033,11 @@
 "id": "QV4VrFJUeIU",
 "t": "US vs UK Breakfast Foods | Food Wars | Insider Food",
 "s": 2154
+},
+{
+"id": "Llt80xkjp48",
+"t": "How to Make Rice Koji at Home (Plus Miso Making)",
+"s": 1150
 },
 {
 "id": "vy6lvb91ULc",
@@ -16160,6 +17085,11 @@
 "s": 2337
 },
 {
+"id": "fARBNtNrno0",
+"t": "La verdad sobre mi vida como youtuber de comida",
+"s": 1022
+},
+{
 "id": "jWQQhSeKjHA",
 "t": "Cómo se prepara el mejor Beef Wellington de Nueva York | Hecho al momento | Bon Appétit",
 "s": 916
@@ -16203,6 +17133,11 @@
 "id": "c_cSZ6tD2yo",
 "t": "US vs UK Whole Foods Hot Bar | Food Wars | Insider Food",
 "s": 1531
+},
+{
+"id": "7uhZyVVvOJg",
+"t": "¿Estas recetas en freidora de aire son una tontería o una genialidad?",
+"s": 1175
 },
 {
 "id": "J4ZRU3k1CUI",
@@ -16250,6 +17185,11 @@
 "s": 2787
 },
 {
+"id": "3c9n-uvEZ8w",
+"t": "5 Random Things I Prep to Survive the Week",
+"s": 963
+},
+{
 "id": "MA5dLKlfp78",
 "t": "El pizzero más excéntrico de Brooklyn tiene un nuevo restaurante | On The Line | Bon Appétit",
 "s": 1139
@@ -16293,6 +17233,11 @@
 "id": "MotcNT3QrJo",
 "t": "US vs UK Indian Takeout | Food Wars | Insider Food",
 "s": 2086
+},
+{
+"id": "Xz07nEBT7FQ",
+"t": "Pedí HelloFresh para ver si era una estafa.",
+"s": 1066
 },
 {
 "id": "FW8RBp_XR6A",
@@ -16340,6 +17285,11 @@
 "s": 7184
 },
 {
+"id": "BVbMX1dWAHE",
+"t": "Las cuatro mejores marcas de fideos instantáneos del mercado (prueba de sabor)",
+"s": 1208
+},
+{
 "id": "8ugtcdTCxqE",
 "t": "3 Hours Inside the World’s Best Restaurants | Bon Appétit",
 "s": 11423
@@ -16383,6 +17333,11 @@
 "id": "95dj2sE4XiQ",
 "t": "US vs Mexico Subway | Food Wars | Insider Food",
 "s": 986
+},
+{
+"id": "GAuHerZRl1s",
+"t": "Prepara estos 4 alimentos en casa para ahorrar ENORMES",
+"s": 982
 },
 {
 "id": "Ov9uLm0QEEY",
@@ -16430,6 +17385,11 @@
 "s": 2097
 },
 {
+"id": "HQvNKbDU2wA",
+"t": "Cómo preparo 12 comidas de inspiración india por 25 dólares",
+"s": 1009
+},
+{
 "id": "1byuDovVkWw",
 "t": "Dentro del único restaurante de tempura con estrella Michelin de Estados Unidos | On The Line | B...",
 "s": 798
@@ -16473,6 +17433,11 @@
 "id": "spE9JF8MCME",
 "t": "US vs Mexico McDonald's | Food Wars | Insider Food",
 "s": 1483
+},
+{
+"id": "94KhDUapXbQ",
+"t": "Las 4 formas más fáciles de iniciarse en la fermentación",
+"s": 1016
 },
 {
 "id": "SQwT8ha1294",
@@ -16520,6 +17485,11 @@
 "s": 2071
 },
 {
+"id": "S88Me4D1LUA",
+"t": "how I cook every meal for the week (family of 4)",
+"s": 1209
+},
+{
 "id": "dJ2mXxVZxQM",
 "t": "How One Pig Becomes Hot Dogs, Bacon, Salami, and More | Great Transformations | Bon Appétit",
 "s": 1438
@@ -16563,6 +17533,11 @@
 "id": "MIRI26gw3oY",
 "t": "US vs Mexico Coca-Cola | Food Wars | Insider Food",
 "s": 990
+},
+{
+"id": "zWtZD_r1CTg",
+"t": "These 15 minute dinners are GUARANTEED inspiration",
+"s": 1233
 },
 {
 "id": "X-koH49RxF4",
@@ -16610,6 +17585,11 @@
 "s": 1079
 },
 {
+"id": "biDCgbGgEcY",
+"t": "Mi freidora de aire ha reemplazado oficialmente a mi horno.",
+"s": 989
+},
+{
 "id": "qbAstEutWH4",
 "t": "Los mejores croissants de Nueva York | Hechos al momento | Bon Appétit",
 "s": 1004
@@ -16653,6 +17633,11 @@
 "id": "3ZJMv5JH0i4",
 "t": "Best Of Food Wars: Top 10 Videos Of All Time | Food Wars Marathon | Insider Food",
 "s": 10815
+},
+{
+"id": "EDeIkfVbfgM",
+"t": "¿Qué más puedes cocinar en tu horno de pizza? (5 recetas)",
+"s": 921
 },
 {
 "id": "5VOoEaAZ_Fs",
@@ -16700,6 +17685,11 @@
 "s": 2149
 },
 {
+"id": "tsOmfPDDiuA",
+"t": "3 pastas clásicas “neoyorquinas” (puede que ofendan a los italianos…)",
+"s": 993
+},
+{
 "id": "W-7nHpFViUk",
 "t": "Cómo se preparan las mejores costillas BBQ de Austin | Hechas al momento | Bon Appétit",
 "s": 829
@@ -16745,6 +17735,11 @@
 "s": 9574
 },
 {
+"id": "sqqOZ5FVSE0",
+"t": "5 recetas impactantes para procesador de alimentos (¡no incluyen hummus!)",
+"s": 1218
+},
+{
 "id": "UXtR-b0Y0pY",
 "t": "A Day at The Original Panda Express | On The Line | Bon Appétit",
 "s": 874
@@ -16788,6 +17783,11 @@
 "id": "LaxgRYxozZQ",
 "t": "Finding The Best Cheeseburger In Los Angeles | Food Tours | Food Insider",
 "s": 1829
+},
+{
+"id": "tkIuFO-Pju0",
+"t": "3 increíbles comidas mexicanas en menos de 15 minutos",
+"s": 1125
 }
 ]
 },
@@ -17096,7 +18096,7 @@
 },
 {
 "id": "Z4Lj6Cd6Tq0",
-"t": "Ed Maverick - ESCOMBRO (Live) | @genius Open Mic",
+"t": "Ed Maverick “ESCOMBRO” (Live Performance) | Open Mic",
 "s": 278
 },
 {
@@ -19855,11 +20855,6 @@
 "s": 216
 },
 {
-"id": "VZpq4iTUodE",
-"t": "Letra y significado de \"Lullaby\" de JayDon | Verificado por Genius",
-"s": 318
-},
-{
 "id": "aZV1csuqYJc",
 "t": "La batería que convirtió “Jump” de Van Halen en un clásico del rock con mil millones de reproducc...",
 "s": 607
@@ -19873,13 +20868,13 @@
 },
 {
 "num": "09",
-"name": "Noche",
+"name": "Calm Down Night",
 "hours": [
 20,
 7
 ],
-"sourceName": "YUMMY YAMMY",
-"tagline": "YUMMY YAMMY",
+"sourceName": "YUMMY YAMMY y Country Life Vlog",
+"tagline": "YUMMY YAMMY y Country Life Vlog",
 "night": true,
 "kind": "linear",
 "items": [
@@ -19889,9 +20884,19 @@
 "s": 3706
 },
 {
+"id": "jWAhLKkGVdk",
+"t": "Pan Rústico de Campo Horneado en Horno de Piedra",
+"s": 1425
+},
+{
 "id": "7SdNfjffK9c",
 "t": "¡Se agotan nada más abrir! 4 años de filas por famosos rollos de canela - Comida callejera coreana",
 "s": 1355
+},
+{
+"id": "ogx2mnj53so",
+"t": "Temporada de Cosecha de Membrillo | Conservas de Invierno & Tarta Casera",
+"s": 1466
 },
 {
 "id": "JFwYOMY7Y5g",
@@ -19899,9 +20904,19 @@
 "s": 1785
 },
 {
+"id": "iMLCn6yMdq4",
+"t": "Almuerzo Rústico de Pueblo | Hamburguesitas de Carne, Verduras & Pilaf de Papa",
+"s": 1324
+},
+{
 "id": "F12kePYbGJk",
 "t": "¡Este postre arrasa! Profiteroles gigantes con fruta entera - Street food coreano",
 "s": 1071
+},
+{
+"id": "C5mkKjzdjhg",
+"t": "Repostería de Otoño con Manzanas & Guiso Sustancioso de Cordero | Cocina de Pueblo",
+"s": 1489
 },
 {
 "id": "fnKG8hRPo1I",
@@ -19909,9 +20924,19 @@
 "s": 5454
 },
 {
+"id": "p0CQobPm1b4",
+"t": "Pollo Asado en Frasco con Verduras | Cocina Rústica de Pueblo",
+"s": 1360
+},
+{
 "id": "zeZDIKP_5f0",
 "t": "¡Nunca has visto una hamburguesa así! Hamburguesa artesanal de otro nivel - Comida callejera coreana",
 "s": 1431
+},
+{
+"id": "ESAIgIipD9Y",
+"t": "Sopa de Carne al Estilo Rural & Col Rellena de Verduras para el Invierno",
+"s": 1504
 },
 {
 "id": "K8xs6NgbveY",
@@ -19919,9 +20944,19 @@
 "s": 4726
 },
 {
+"id": "E87f2v_kpOI",
+"t": "Cocinando con Calabaza Fresca | Panes Planos Rústicos y Pilaf de Calabaza",
+"s": 1360
+},
+{
 "id": "QVqOAORz7A4",
 "t": "¡Nunca viste un pastel así! Pastel píxel popular con aspecto increíble - Comida callejera coreana",
 "s": 1757
+},
+{
+"id": "yr7hLcQhAdc",
+"t": "Panecillos Rústicos de Carne de Res y Papa | Repostería Acogedora de Otoño",
+"s": 1650
 },
 {
 "id": "5wPGAeTI68E",
@@ -19929,9 +20964,19 @@
 "s": 5613
 },
 {
+"id": "wMI4yDkybgg",
+"t": "Pasteles Frescos de Nuez | Repostería Acogedora de Otoño",
+"s": 1396
+},
+{
 "id": "qTlWZj_jqCI",
 "t": "¿Pera entera dentro?! ¡Más de 700.000 vendidos! Pan de pera premiado - Comida callejera coreana",
 "s": 873
+},
+{
+"id": "ojFkFTm-P2E",
+"t": "Pan Verde con Espinacas Frescas | Receta Rústica de Pueblo",
+"s": 1708
 },
 {
 "id": "SiYGSyTwmI8",
@@ -19939,9 +20984,19 @@
 "s": 4425
 },
 {
+"id": "_Z2EWDECvpk",
+"t": "Brochetas de Pollo al Estilo Rural | Con Lavash y Salsa Picante de Chile",
+"s": 1385
+},
+{
 "id": "Tvk_yv3b_lM",
 "t": "¡Este pastel está arrasando ahora mismo! Pastel nube esponjoso - Comida callejera coreana",
 "s": 894
+},
+{
+"id": "Xml6rKx33ak",
+"t": "Cosecha de Manzanas de Otoño | Preparándonos para el Invierno",
+"s": 1713
 },
 {
 "id": "nM3bqrWTFs0",
@@ -19949,9 +21004,19 @@
 "s": 904
 },
 {
+"id": "t_1pcw7cPXs",
+"t": "Pastel de Trucha al Horno | Receta Casera al Estilo del Pueblo",
+"s": 1491
+},
+{
 "id": "Siz5CL_ujuE",
 "t": "¡Te dará hambre con solo verlo! La mejor colección de comida callejera coreana",
 "s": 2871
+},
+{
+"id": "xDfgEsoLMh0",
+"t": "Preparando Baklava Tradicional de Azerbaiyán con Tres Tipos de Frutos Secos",
+"s": 1917
 },
 {
 "id": "NJ7LEpkHcj4",
@@ -19959,9 +21024,19 @@
 "s": 842
 },
 {
+"id": "TfAohrbTx9s",
+"t": "Temporada de Higos en el Pueblo | Mermelada, Conservas y Repostería Casera",
+"s": 1672
+},
+{
 "id": "fvaTWmIaajA",
 "t": "¡Maestría haciendo pasteles! Increíbles pastelerías hacen cientos de pasteles cada día [ASMR]",
 "s": 5217
+},
+{
+"id": "LbmVJWXf0H4",
+"t": "Almuerzo Rústico en el Jardín | Comida Fresca y Casera del Campo",
+"s": 1532
 },
 {
 "id": "XAd5xtfZ0mY",
@@ -19969,9 +21044,19 @@
 "s": 614
 },
 {
+"id": "Y6_Wz6PXa0M",
+"t": "Pastel de Pastor con Cordero al Horno de Leña | Cocina Rústica de Pueblo",
+"s": 1772
+},
+{
 "id": "ydceMm8SNH8",
 "t": "¡Cargados de fruta fresca! Los postres de fruta coreanos virales que se agotan al instante",
 "s": 1332
+},
+{
+"id": "H9QVMA1E4Z8",
+"t": "Pimientos Rellenos de Carne de Res | Cocina al Estilo Rural",
+"s": 1399
 },
 {
 "id": "1wmXH4DNgbk",
@@ -19979,9 +21064,19 @@
 "s": 5658
 },
 {
+"id": "_BLqCH-MFzc",
+"t": "Haciendo Queso Fresco Casero | Un Almuerzo Sencillo en el Campo",
+"s": 1495
+},
+{
 "id": "gfGhIi_1dSQ",
 "t": "¡Nunca viste un kimbap como este! Kimbap automático de huevo y kimbap coreano gigante",
 "s": 998
+},
+{
+"id": "v7yiVNNav-c",
+"t": "Temporada de Cosecha de Pimientos | Conservando para el Invierno",
+"s": 1855
 },
 {
 "id": "m1jQpGs6zvE",
@@ -19989,9 +21084,19 @@
 "s": 3640
 },
 {
+"id": "De8j0oJW17I",
+"t": "Cocinando Dimlama Uzbeko | Carne de Res y Verduras Frescas",
+"s": 1142
+},
+{
 "id": "mC0GzB9ilUA",
 "t": "¡Video relajante! Top 3 tiendas coreanas de donuts más populares: Producion en masa fascinante",
 "s": 3450
+},
+{
+"id": "Yl5RI2hnxYQ",
+"t": "Almuerzo de Verano en el Campo | Mini Panes Rellenos Caseros",
+"s": 1608
 },
 {
 "id": "Q2CSXUvPJi0",
@@ -19999,9 +21104,19 @@
 "s": 1044
 },
 {
+"id": "pzgY2qo_EiM",
+"t": "Del Huerto al Frasco | Conservando Pepinos y Tomates para el Invierno",
+"s": 1346
+},
+{
 "id": "8If0kKDP8Yc",
 "t": "¡Fuera de lo común! Top 4 comidas callejeras tailandesas populares que aman los lugareños",
 "s": 2668
+},
+{
+"id": "MKb7Au9oo-U",
+"t": "Sandía Rellena de Arroz y Carne de Res | Receta Rústica de Pueblo",
+"s": 1592
 },
 {
 "id": "2nWCc_27les",
@@ -20009,9 +21124,19 @@
 "s": 727
 },
 {
+"id": "Lua_KMeNKeI",
+"t": "Adjika Casera con Verduras Frescas del Huerto",
+"s": 1592
+},
+{
 "id": "eaZKT7A_tTM",
 "t": "¡Habilidades hipnotizantes! Top 4 maestros de street food asiático que no podrás dejar de ver",
 "s": 3136
+},
+{
+"id": "4KdAasn-0Q0",
+"t": "Cocina de Pueblo | Carne de Res y Verduras del Huerto en Horno Tradicional",
+"s": 1586
 },
 {
 "id": "IxlXHKfcg68",
@@ -20019,9 +21144,19 @@
 "s": 788
 },
 {
+"id": "zWgYisrNbP8",
+"t": "Un Día Tranquilo en el Pueblo | Un Almuerzo Casero y Sencillo",
+"s": 1627
+},
+{
 "id": "USklLbH5ACQ",
 "t": "¡Agotado al instante! 4 maestros coreanos populares hacen sus pasteles de arroz signature",
 "s": 3735
+},
+{
+"id": "sOXYXGloY_I",
+"t": "Guardando el Sabor del Verano para el Invierno | Mermelada de Melón, Lámina de Fruta y Pastel",
+"s": 1729
 },
 {
 "id": "9WCEw10g4mI",
@@ -20029,9 +21164,19 @@
 "s": 718
 },
 {
+"id": "YtTn4ELnHWw",
+"t": "Pastel de Carne con Verduras Frescas del Huerto | Cocina Rural",
+"s": 1680
+},
+{
 "id": "wQkgnXx6yZk",
 "t": "¡Esto no es solo tonkatsu! Los 4 mejores maestros coreanos del filete de cerdo empanado",
 "s": 4232
+},
+{
+"id": "TBkue7r40LY",
+"t": "Temporada de Verduras en el Pueblo | Ensalada Mixta Encurtida Casera para el Invierno",
+"s": 1830
 },
 {
 "id": "J1uKWBgKBPI",
@@ -20039,9 +21184,19 @@
 "s": 3464
 },
 {
+"id": "KuQzM_g5Mp4",
+"t": "Horneando Pan: Pan Plano Rústico sobre Brasas Ardientes",
+"s": 1921
+},
+{
 "id": "ZuvgrHZyVE4",
 "t": "¡Agotado a diario! Preparación del increíblemente elástico mochi helado de queso crema coreano",
 "s": 614
+},
+{
+"id": "RZD0J-U8pfg",
+"t": "Cocinando con Nectarinas Frescas | Mermelada, Zumo y Tarta Rústica",
+"s": 1907
 },
 {
 "id": "CaMYV6on1MQ",
@@ -20049,9 +21204,19 @@
 "s": 2783
 },
 {
+"id": "KYeD7o24_qg",
+"t": "Cosecha de Manzanilla – Guardando el Verano para el Invierno",
+"s": 1514
+},
+{
 "id": "m7_Lrtk1jek",
 "t": "¡Pedidos infinitos! La hamburguesa artesanal a domicilio n.º 1 en Corea",
 "s": 746
+},
+{
+"id": "n8rJCHZkq7o",
+"t": "Conservación de Pierna de Res para el Invierno – Cocina Rural",
+"s": 1610
 },
 {
 "id": "DHRWu0dPjQc",
@@ -20059,9 +21224,19 @@
 "s": 3376
 },
 {
+"id": "2DLPZ524dbw",
+"t": "Cuencos de Pan con Forma de Hongo y Brochetas de Cordero a la Parrilla",
+"s": 1844
+},
+{
 "id": "7E8DydWknWk",
 "t": "¿Es real esta pizza gigante de $6? ¡Una locura de pizza coreana que vende 500+ al día!",
 "s": 920
+},
+{
+"id": "OEOcXcbfioE",
+"t": "Empanada de Carne sobre Piedras Calientes – Cocina Rural Auténtica",
+"s": 1693
 },
 {
 "id": "55ptFo0pfJo",
@@ -20069,9 +21244,19 @@
 "s": 3041
 },
 {
+"id": "PVtqzbMNvZ8",
+"t": "Cocina Rural – Cosecha de Moras Negras y Jarabe de Invierno con un Solo Ingrediente",
+"s": 1946
+},
+{
 "id": "OmM7esEE3Jo",
 "t": "¡Habilidades increíbles! Top 3 'God-Level' Maestros Pasteleros en Corea",
 "s": 3279
+},
+{
+"id": "KSKQvy48O7Y",
+"t": "Temporada de Cosecha de Cerezas – Guardando el Verano para el Invierno",
+"s": 2023
 },
 {
 "id": "-fPMuWM-zcI",
@@ -20079,9 +21264,19 @@
 "s": 1143
 },
 {
+"id": "94rmlxuHULA",
+"t": "Pollo Relleno Asado en Barril – Un Método Rural Único",
+"s": 1233
+},
+{
 "id": "n048JTgEH3Q",
 "t": "Por qué todos hacen fila… Los 4 postres de repostería más virales de Corea",
 "s": 3612
+},
+{
+"id": "hDv1QtaJclA",
+"t": "Temporada de Cosecha de Rosas – Dulces Tradicionales de Rosa",
+"s": 1532
 },
 {
 "id": "AxGHnbvR05Y",
@@ -20089,9 +21284,19 @@
 "s": 1062
 },
 {
+"id": "z19yvlQk7cM",
+"t": "Crepes de Fresas Frescas – El Capricho Perfecto del Verano",
+"s": 1451
+},
+{
 "id": "WXraS-KStZI",
 "t": "¿Por qué la gente hace fila? Los 4 lugares de postres y panaderías más virales de Corea",
 "s": 4278
+},
+{
+"id": "9vy5PNKntog",
+"t": "Hamburguesas Cerradas de Res – Recién Horneadas",
+"s": 1771
 },
 {
 "id": "V-VEvDXB2BE",
@@ -20099,9 +21304,19 @@
 "s": 971
 },
 {
+"id": "Rsm0F-6-uLo",
+"t": "Patatas Rellenas al Estilo Campestre – Una Receta Tradicional Rural",
+"s": 1483
+},
+{
 "id": "Nq48VF_5CrU",
 "t": "¡Tan único! Postres virales coreanos de Dubái por los que la gente hace cola",
 "s": 1766
+},
+{
+"id": "o9rcPsb-YnM",
+"t": "Albóndigas Turcas de Bulgur al Estilo Rural Rellenas de Carne de Res",
+"s": 1469
 },
 {
 "id": "b3haQhLn0fQ",
@@ -20109,9 +21324,19 @@
 "s": 3661
 },
 {
+"id": "xuLMJXaT3hw",
+"t": "Cordero Entero Cocinado a Fuego Lento con Verduras de la Huerta – Banquete Campestre",
+"s": 1824
+},
+{
 "id": "-VnqsrG02Uo",
 "t": "¡Parece una toalla de verdad! El pastel viral de toalla de Dubái (Agotado al instante)",
 "s": 739
+},
+{
+"id": "nopmKC1wtzY",
+"t": "Almuerzo Campestre Tradicional – Carne de Res y Verduras al Saj",
+"s": 1518
 },
 {
 "id": "xr_pvZt1Hwg",
@@ -20119,9 +21344,19 @@
 "s": 3663
 },
 {
+"id": "WQYz4iZGysg",
+"t": "Pollos Enteros Asados Lentamente sobre Brasas Ardientes",
+"s": 1467
+},
+{
 "id": "ppyQiNvbETo",
 "t": "¡El legendario pan de ajo dulce coreano en Seúl! La gente hace cola 3 horas antes de abrir",
 "s": 785
+},
+{
+"id": "MygPd5PU-oY",
+"t": "Pan Fresco Cocinado al Fuego – Antigua Técnica Rural",
+"s": 1537
 },
 {
 "id": "d0MlqdwM9mw",
@@ -20129,9 +21364,19 @@
 "s": 3603
 },
 {
+"id": "05se0R3tTcw",
+"t": "Barcas Doradas de Pan con Relleno Salado – Panes con Carne y Papa",
+"s": 1514
+},
+{
 "id": "PL31A6YgxA4",
 "t": "¡Se agota al instante! El pan de chocolate de Dubái de 108 capas es viral en Corea",
 "s": 837
+},
+{
+"id": "3GbU0HSZRWY",
+"t": "Tripas de Res Rústicas Rellenas de Arroz y Carne | Tradición Familiar",
+"s": 1331
 },
 {
 "id": "ovP8Fq-94tI",
@@ -20139,9 +21384,19 @@
 "s": 2408
 },
 {
+"id": "pHsZBfwNJ6I",
+"t": "Desayuno Rural Sencillo – Mañana Tranquila en el Campo ☀",
+"s": 1371
+},
+{
 "id": "nkiIkfMtyoI",
 "t": "¡Agotado al abrir! El pastel coreano viral Bosque de fresas",
 "s": 1087
+},
+{
+"id": "GSei5XvtAYg",
+"t": "Cocina Campestre Acogedora – Chuletas Caseras de Carne para el Almuerzo",
+"s": 1442
 },
 {
 "id": "JnLR-IRW3LA",
@@ -20149,9 +21404,19 @@
 "s": 3291
 },
 {
+"id": "sYm1d_SNnDA",
+"t": "Un Pan Gigante del Campo – Pan Turco Balina",
+"s": 1251
+},
+{
 "id": "xyANlicxrKA",
 "t": "¡Nunca has visto pan así! El “Pan de Contenedor” patentado por un maestro panadero coreano",
 "s": 738
+},
+{
+"id": "6hWKqwG-vwQ",
+"t": "Cocina Rústica – Trucha de Río al Fuego Abierto",
+"s": 1320
 },
 {
 "id": "XwnJHUgjrZY",
@@ -20159,9 +21424,19 @@
 "s": 968
 },
 {
+"id": "5yr4B7bAmQE",
+"t": "De Leche de Vaca Fresca a Queso Suzme Casero y Tarta Rústica de Queso",
+"s": 1229
+},
+{
 "id": "khRTSL2UVrY",
 "t": "¡Carne de res increíble! Los legendarios maestros del bistec de Corea",
 "s": 3552
+},
+{
+"id": "PMskIbm72IA",
+"t": "Dolma de Col y Shorba de Pierna de Res Entera",
+"s": 1458
 },
 {
 "id": "L60rIQpTyw0",
@@ -20169,9 +21444,19 @@
 "s": 1006
 },
 {
+"id": "8D5DaMhYdxk",
+"t": "Pastel de Nueces del Viejo Pueblo Receta Casera Simple y Deliciosa",
+"s": 1012
+},
+{
 "id": "H1bpYADUXMY",
 "t": "¡Increíble producción en masa! Los 3 mejores postres de Corea siempre agotados - Panadería coreana",
 "s": 3237
+},
+{
+"id": "kFCZB2eRh3U",
+"t": "Vida Rural Sencilla – Pan Plano con Hierbas Silvestres al Fuego",
+"s": 1393
 },
 {
 "id": "yDujQP-VYA8",
@@ -20179,9 +21464,19 @@
 "s": 486
 },
 {
+"id": "gLi1DCebNk0",
+"t": "Crujiente por Fuera, Pilaf por Dentro — Perde Pilaf Turco",
+"s": 1264
+},
+{
 "id": "3zmMOZg5Q3I",
 "t": "¿Es esto realmente un postre? Los 3 pasteles de Navidad más bellos de Corea",
 "s": 3870
+},
+{
+"id": "RiBRo0Gi_1g",
+"t": "Día de Hornear en el Pueblo – Tarta Dulce de Fresa y Mermelada Casera",
+"s": 1297
 },
 {
 "id": "AM4VBNxVFv0",
@@ -20189,9 +21484,19 @@
 "s": 1261
 },
 {
+"id": "kbKZVeDQ7mg",
+"t": "Cocinando un Cordero Entero Bajo la Lluvia | Acogedora Vida Rural de Primavera",
+"s": 1309
+},
+{
 "id": "LA-1gCeVnUg",
 "t": "¡Agotado todos los días! Pastel con toneladas de fresas - Panadería coreana",
 "s": 3608
+},
+{
+"id": "YpLNSZ0P8xk",
+"t": "Sabor a Hogar – Pan de Campo y Sopa de Lentejas",
+"s": 1110
 },
 {
 "id": "edgkz8LPYwU",
@@ -20199,9 +21504,19 @@
 "s": 1088
 },
 {
+"id": "lucKH7VOX5w",
+"t": "Primeros Días de Primavera – Baguettes Rellenas de Carne y Cebolla al Horno de Leña",
+"s": 1132
+},
+{
 "id": "EVXnVMncP5s",
 "t": "¡Top 7 Comida Callejera Coreana de Invierno Más Popular!",
 "s": 3464
+},
+{
+"id": "8JeCdrXqyrc",
+"t": "Pilaf Badi Cocinado a Fuego Lento en el Campo",
+"s": 1315
 },
 {
 "id": "hZ5b-65Srhg",
@@ -20209,9 +21524,19 @@
 "s": 4206
 },
 {
+"id": "1r4ov9fqzD4",
+"t": "Un Verdadero Banquete Rural | Cocinando una Celebración Familiar Tradicional en el Campo",
+"s": 1310
+},
+{
 "id": "dwL6IHJICIw",
 "t": "¡La recopilación definitiva de platos asiáticos con huevo que tienes que ver!",
 "s": 3197
+},
+{
+"id": "VPKneyRHJ8E",
+"t": "Bændastíls Eldamennska – Nautarif og Klassískur Borscht",
+"s": 1340
 },
 {
 "id": "T6IP17Ol-kY",
@@ -20219,9 +21544,19 @@
 "s": 1124
 },
 {
+"id": "7-sUfkZfg_4",
+"t": "Carpa Fresca en Tandoor Subterráneo – Auténtico Sabor de Pueblo",
+"s": 1183
+},
+{
 "id": "YZJbBm3q0gk",
 "t": "Fábricas K-Food increíbles! Producción masiva de kimchi, kimbap y ramen",
 "s": 2901
+},
+{
+"id": "d0NVMtW2mbM",
+"t": "Pollo a la Parrilla Lento en Sartén Saj – Cocina Rural y Acogedora",
+"s": 1062
 },
 {
 "id": "dbN7fmDf0a4",
@@ -20229,9 +21564,19 @@
 "s": 4171
 },
 {
+"id": "zK4ndZQUces",
+"t": "Auténtico Çiğ Köfte Turco Hecho Al Estilo De Pueblo",
+"s": 1120
+},
+{
 "id": "BW9D1SB7w2Y",
 "t": "¡Increíble proceso de producción de bibimbap coreano! Enorme fábrica de bibimbap congelado",
 "s": 853
+},
+{
+"id": "pk5Aiohi3sM",
+"t": "Mini Empanadas De Carne Horneadas Al Acogedor Estilo De Pueblo",
+"s": 1215
 },
 {
 "id": "M1f-co3ko7k",
@@ -20239,9 +21584,19 @@
 "s": 5213
 },
 {
+"id": "DhnS21Ov9ok",
+"t": "Cena De Pueblo: Manti Caseros Desde Cero",
+"s": 1199
+},
+{
 "id": "fkSMymaGHP4",
 "t": "¿Se puede comer esto?! Hacer pastel de perrito de chocolate súper realista",
 "s": 916
+},
+{
+"id": "HUKxe7Wlchk",
+"t": "Un Día Acogedor Preparando Albóndigas Caseras Con Arroz",
+"s": 1303
 },
 {
 "id": "raHcMoBRyJA",
@@ -20249,9 +21604,19 @@
 "s": 4712
 },
 {
+"id": "fNW6V5qmgp4",
+"t": "Pastel De Carne En Capas Con Corteza Dorada",
+"s": 1445
+},
+{
 "id": "eJWs6e-gdQA",
 "t": "¡Nunca has visto un postre como este! La mejor colección de postres coreanos de pastel de arroz",
 "s": 4135
+},
+{
+"id": "gOnLrFn9ReI",
+"t": "Horneando Pan De Pueblo Con Papas En Horno De Leña",
+"s": 1316
 },
 {
 "id": "91Pv0OBOeUg",
@@ -20259,9 +21624,19 @@
 "s": 871
 },
 {
+"id": "FkzhDpJE6PY",
+"t": "El Pudin Secreto De Leche Y Calabaza De La Abuela",
+"s": 1117
+},
+{
 "id": "ZZeTDSfJQvE",
 "t": "¡Habilidades perfectas para cortar fruta! Maestros asiáticos al más alto nivel",
 "s": 3227
+},
+{
+"id": "gVRvq4ojVDU",
+"t": "Cocinando Pilaf Con Una Pierna Entera De Res Sobre Fuego Abierto",
+"s": 1645
 },
 {
 "id": "-eTJc4xgEtE",
@@ -20269,9 +21644,19 @@
 "s": 847
 },
 {
+"id": "gOqMEOxYays",
+"t": "Un Día Tranquilo Preparando Empanadas Tradicionales De Res Y Papa",
+"s": 1203
+},
+{
 "id": "0WX-TxB5dqU",
 "t": "Famosas Panaderías y Postres Coreanos! Relajante Compilación del Proceso de Horneado",
 "s": 4209
+},
+{
+"id": "42nanZ6Yxc8",
+"t": "Pastila Natural De Calabaza Sin Azúcar | Cocina Rural Rústica",
+"s": 1687
 },
 {
 "id": "aZ9RSZJPuyc",
@@ -20279,9 +21664,19 @@
 "s": 923
 },
 {
+"id": "FNNiNAD_XeQ",
+"t": "Cocinando Un Almuerzo Invernal Acogedor De Pueblo",
+"s": 1413
+},
+{
 "id": "qiHF8D8kZ-E",
 "t": "¡Las fábricas de alimentos asiáticas más épicas! Increíble compilación de producción a gran escala",
 "s": 4258
+},
+{
+"id": "vJN_kXUKIaA",
+"t": "Horneando Un Pastel De Miel Campesino Desde Cero",
+"s": 1426
 },
 {
 "id": "SEowoSVhm7M",
@@ -20289,9 +21684,19 @@
 "s": 1667
 },
 {
+"id": "QwyUsbzaths",
+"t": "Hojaldre Rústico Salado De Espinaca Y Queso ✨",
+"s": 1370
+},
+{
 "id": "Un8JahKjmzc",
 "t": "¡Explosión de Dulzura! Los Postres Coreanos Favoritos del Mundo",
 "s": 3987
+},
+{
+"id": "W05Sueu8UtM",
+"t": "Dushpere — Pasta Azerí Tradicional De La Vida Rural",
+"s": 1398
 },
 {
 "id": "XpU4jE4xr8U",
@@ -20299,9 +21704,19 @@
 "s": 1065
 },
 {
+"id": "B2dguFY0OTQ",
+"t": "Un Día Tranquilo En El Pueblo Y Tartas De Verduras Caseras",
+"s": 1603
+},
+{
 "id": "ayH11fdzrZU",
 "t": "¡Sensacional compilación de postres coreanos!",
 "s": 3936
+},
+{
+"id": "ngLN43dKfDg",
+"t": "Horneando Panes Turcos Tradicionales Con Sésamo En Un Frío Día De Invierno... ❄",
+"s": 1549
 },
 {
 "id": "CpsmYOny8WU",
@@ -20309,9 +21724,19 @@
 "s": 4287
 },
 {
+"id": "HjXbJ4pWcFQ",
+"t": "Shurpa Campesina De Res — Cocinada A La Antigua",
+"s": 1469
+},
+{
 "id": "LvCXnW0H3mA",
 "t": "¿De verdad la gente come este postre?! Hielo raspado en inodoro y pastel de bañera coreano popular",
 "s": 730
+},
+{
+"id": "BOtZ28AFkDY",
+"t": "Dolma Tradicional Azerbaiyana De Res Y Verduras Desde Cero",
+"s": 1453
 },
 {
 "id": "w2iLJ_rw5a8",
@@ -20319,9 +21744,19 @@
 "s": 933
 },
 {
+"id": "ixT64--c_d0",
+"t": "Cocinando Un Pastel De Verduras Lezgin Tradicional Con Leyla Aliyeva...",
+"s": 896
+},
+{
 "id": "5v4RIMVymyE",
 "t": "¡Sanación Dulce! Videos populares de pastelería y postres asiáticos que te derretirán el corazón",
 "s": 4711
+},
+{
+"id": "AgshzRsbCWg",
+"t": "Cocinando Un Almuerzo Tradicional Azerbaiyano De Pueblo | Vida De Pueblo",
+"s": 1476
 },
 {
 "id": "kWtjbDwoCEE",
@@ -20329,9 +21764,19 @@
 "s": 721
 },
 {
+"id": "k4sP61q4VtQ",
+"t": "Cocinando Albóndigas Al Estilo Rural En Platos Comestibles...",
+"s": 1799
+},
+{
 "id": "_fKNxuj6Wf8",
 "t": "Increíble! Producción de postres en las panaderías y fábricas más populares de Asia",
 "s": 6317
+},
+{
+"id": "OTxlGGBMo9E",
+"t": "Dulces Del Pueblo Con Leche Condensada | Delicias Caseras",
+"s": 1294
 },
 {
 "id": "4ewUkjDu7sE",
@@ -20339,9 +21784,19 @@
 "s": 922
 },
 {
+"id": "Ya9_kFMyn7M",
+"t": "Receta Familiar — Manti De Calabaza",
+"s": 1386
+},
+{
 "id": "fdbsKdm7O-w",
 "t": "¡Agotado al instante! Preparando un pan de sandía viral, increíblemente masticable",
 "s": 686
+},
+{
+"id": "LMZsVpeRh1A",
+"t": "Baklava Tradicional Azerbaiyana De Nueces 🇦🇿 | El Sabor De Oriente",
+"s": 1517
 },
 {
 "id": "Yy_0pL7ZXXk",
@@ -20349,9 +21804,19 @@
 "s": 4560
 },
 {
+"id": "-wxPZlw8vTw",
+"t": "Pilaf Rústico De Pavo Cocinado Al Estilo Del Pueblo",
+"s": 1558
+},
+{
 "id": "b7HL-e5YvoY",
 "t": "¡Agotado todos los días! Este pan de abeja está lleno de miel real y relleno dulce – Postre coreano",
 "s": 714
+},
+{
+"id": "mPIefuBQNQU",
+"t": "Panecillos Rústicos De Pollo — Receta Campesina Sencilla",
+"s": 1681
 },
 {
 "id": "qmuIvE24ZV8",
@@ -20359,9 +21824,19 @@
 "s": 1059
 },
 {
+"id": "NaKBayEfoTI",
+"t": "Tartas De Nuez Antiguas — Día Acogedor De Horneado En El Pueblo",
+"s": 1668
+},
+{
 "id": "H_FyNT1U6Rg",
 "t": "TOP 4 fábricas de pan en Corea que producen postres virales a otro nivel",
 "s": 3946
+},
+{
+"id": "aOoxFzCQcPQ",
+"t": "Cocinando Un Pilaf De Res Y Verduras Al Estilo Campestre",
+"s": 1518
 },
 {
 "id": "Pym0v_jZcGM",
@@ -20369,9 +21844,19 @@
 "s": 1096
 },
 {
+"id": "0BvKHIRMhus",
+"t": "Cocinando Un Desayuno Campestre Para La Familia Y Los Vecinos...",
+"s": 1754
+},
+{
 "id": "JnVkb9p4iMk",
 "t": "¡No lo vas a creer! Esta salchicha entera de calamar de Corea se agota todos los días",
 "s": 1177
+},
+{
+"id": "Ljo6I6iH7WU",
+"t": "Cocinando Un Almuerzo Campestre De Otoño Sencillo ✨",
+"s": 1502
 },
 {
 "id": "HvYmfN5sbfc",
@@ -20379,9 +21864,19 @@
 "s": 3056
 },
 {
+"id": "L5uf9BE5JB8",
+"t": "Preparando Una Ensalada Campestre De Verduras De Otoño",
+"s": 1504
+},
+{
 "id": "t4PrnU1QrGY",
 "t": "¡Increíble! Este pan de molde increíblemente popular se agota todos los días | Postre coreano",
 "s": 1623
+},
+{
+"id": "moVKsfiKBgg",
+"t": "Horneando Un Pastel De Hierbas Y Carne Al Estilo Del Pueblo...",
+"s": 1449
 }
 ]
 },
@@ -20389,8 +21884,8 @@
 "num": "10",
 "name": "The Travel Channel",
 "hours": [],
-"sourceName": "Bruno Maltor",
-"tagline": "Bruno Maltor",
+"sourceName": "Bruno Maltor y Luisito Comunica",
+"tagline": "Bruno Maltor y Luisito Comunica",
 "kind": "linear",
 "items": [
 {
@@ -20399,9 +21894,19 @@
 "s": 877
 },
 {
+"id": "8xIgBmPlwwk",
+"t": "Dicen que este ramen es malísimo… | VLOG",
+"s": 1360
+},
+{
 "id": "5boh1Vt-OIo",
 "t": "Après 15 ans de voyage : mon BEST OF ULTIME !",
 "s": 140
+},
+{
+"id": "TtjDltoXhqI",
+"t": "Probando la pizza con más queso del mundo | CHICAGO VLOG 🇺🇸",
+"s": 1771
 },
 {
 "id": "M1KTgPUtDQ0",
@@ -20409,9 +21914,19 @@
 "s": 1196
 },
 {
+"id": "ArTj5p3lTkc",
+"t": "No sabía que esto pasa en España | VLOG 🇪🇸",
+"s": 2393
+},
+{
 "id": "ETimXzW7wbo",
 "t": "Pourquoi 2 millions de personnes vivent au milieu de nulle part ?",
 "s": 1325
+},
+{
+"id": "I1CXqUxhBj4",
+"t": "Así es la cantina más antigua de todo México (+150 años) | ¡Sobrevivió a todo!",
+"s": 1984
 },
 {
 "id": "GPoguKJpbsw",
@@ -20419,9 +21934,19 @@
 "s": 1472
 },
 {
+"id": "4_gdo4yT_bg",
+"t": "Compré un hotel de 2 estrellas | ¿Qué tan malo es?",
+"s": 1453
+},
+{
 "id": "Wj8lKdCGpY0",
 "t": "Pourquoi la Chine construit des villes… VIDES",
 "s": 941
+},
+{
+"id": "SipLo0atXTw",
+"t": "¿Vale la pena formarse HORAS por esta Coca-Cola “secreta”? | NUEVA YORK",
+"s": 1274
 },
 {
 "id": "EuYZ5aczu40",
@@ -20429,9 +21954,19 @@
 "s": 1336
 },
 {
+"id": "ErYcoE5frXc",
+"t": "Probando el UBER de helicópteros para millonarios | ¿Vale la pena?",
+"s": 1027
+},
+{
 "id": "kaXyaZFvfxQ",
 "t": "Londres devient INVIVABLE (documentaire)",
 "s": 1461
+},
+{
+"id": "4DBy1-BdcsE",
+"t": "Así es CABO VERDE: el país más aislado de África | ¡Hermoso! 🇨🇻",
+"s": 2759
 },
 {
 "id": "iqA6Lc55B40",
@@ -20439,9 +21974,19 @@
 "s": 1543
 },
 {
+"id": "L7eshVo3kpc",
+"t": "Probando comida callejera en CABO VERDE | ¡Valió la pena el viaje! 🇨🇻",
+"s": 1441
+},
+{
 "id": "ubPaOdvq9jk",
 "t": "Voici à quoi ressemble VRAIMENT la vie à LONDRES",
 "s": 2571
+},
+{
+"id": "95sZykZh0Wg",
+"t": "Entrar a este país es MUY difícil y costoso | CABO VERDE 🇨🇻",
+"s": 1476
 },
 {
 "id": "pwpKAw0vvy0",
@@ -20449,9 +21994,19 @@
 "s": 1113
 },
 {
+"id": "fWuMR5262Uo",
+"t": "Este hotel cuesta $3,800 dólares por noche (y es una basura)",
+"s": 1237
+},
+{
 "id": "OcpfpxL-RW8",
 "t": "J'enquête sur le pays le plus \"heureux\" du monde (documentaire)",
 "s": 1624
+},
+{
+"id": "w5DG398oSdQ",
+"t": "Probando los “taxis robot” del futuro | ¿Decepción?",
+"s": 1615
 },
 {
 "id": "8XMMV8Mz4SQ",
@@ -20459,9 +22014,19 @@
 "s": 1309
 },
 {
+"id": "IpPH75OPrVg",
+"t": "Probando sushi barato de banda en Japón ($1 o menos) | ¿Delicioso?",
+"s": 2459
+},
+{
 "id": "kxiNScAz8vo",
 "t": "Le plus beau voyage de ma vie (après +15 ans d'aventures)",
 "s": 1921
+},
+{
+"id": "N42NpkSlqdM",
+"t": "Así es trabajar en AMAZON: ¡todos los secretos de ALEXA+!",
+"s": 2020
 },
 {
 "id": "XzJ30xVrZ8c",
@@ -20469,9 +22034,19 @@
 "s": 1387
 },
 {
+"id": "LFXpmx75kBY",
+"t": "El pueblo “más extraño” que he visitado | NAGORO",
+"s": 1374
+},
+{
 "id": "p_A4jgtZ7jU",
 "t": "Elle VIT à Paris depuis 10 ans : la VÉRITÉ",
 "s": 2117
+},
+{
+"id": "Vo77YCWmchA",
+"t": "Fui a la isla “más vacía” del mundo (3 personas) | ¿Cómo sobreviven?",
+"s": 2243
 },
 {
 "id": "MhMaOKRp1xk",
@@ -20479,9 +22054,19 @@
 "s": 1424
 },
 {
+"id": "Zaz7pluPYTw",
+"t": "ASÍ ES SEATTLE: ¡La ciudad donde empezó Starbucks y Costco! 🇺🇸",
+"s": 2031
+},
+{
 "id": "KX9lTBliMgc",
 "t": "Elle vit en ÉGYPTE depuis 3 ans, voici son TÉMOIGNAGE",
 "s": 1680
+},
+{
+"id": "h5LWbATsq0k",
+"t": "Probando comida latina en JAPÓN | ¿Mate con matcha? 🇦🇷🇨🇱🇲🇽🇯🇵",
+"s": 2233
 },
 {
 "id": "UCblnnl5PNc",
@@ -20489,9 +22074,19 @@
 "s": 1098
 },
 {
+"id": "csfgZX_5BzQ",
+"t": "Compré el pase VIP para el mundo Nintendo en Japón | ¿Vale la pena?",
+"s": 1223
+},
+{
 "id": "YmTRiVKaw-w",
 "t": "La capitale à 53 MILLIARDS où personne ne veut VIVRE",
 "s": 1228
+},
+{
+"id": "FTJT9OY7iW8",
+"t": "ASÍ ES SRI LANKA: el país “más barato” de Asia | ¿Cómo viven? 🇱🇰",
+"s": 2744
 },
 {
 "id": "IckC6OjtIMw",
@@ -20499,9 +22094,19 @@
 "s": 1913
 },
 {
+"id": "swQ0Ksk50vY",
+"t": "Probando comida callejera en SRI LANKA: el país “más barato” de Asia 🇱🇰",
+"s": 1627
+},
+{
 "id": "Iv77Fm9D6nk",
 "t": "J’enquête sur le business caché des voyages humanitaires",
 "s": 1365
+},
+{
+"id": "XMvqwnyhA7I",
+"t": "¿Cómo es ducharse en un avión mientras vuela? | SUITE EMIRATES ✈",
+"s": 1703
 },
 {
 "id": "ZRBCG2XDHOk",
@@ -20509,9 +22114,19 @@
 "s": 966
 },
 {
+"id": "BLyLkojQg08",
+"t": "Aquí vive el reptil más peligroso del mundo: DRAGÓN DE KOMODO",
+"s": 1476
+},
+{
 "id": "TVp9bcm6mis",
 "t": "Il vit à BORDEAUX depuis 6 ans, voici son TÉMOIGNAGE",
 "s": 2215
+},
+{
+"id": "wupYX4W8UHA",
+"t": "ASÍ ES SUMBA: la isla de los guerreros (rituales y vida) 🇮🇩",
+"s": 1725
 },
 {
 "id": "_pUEVshcf-U",
@@ -20519,9 +22134,19 @@
 "s": 1171
 },
 {
+"id": "a3e6-fLA-dQ",
+"t": "Este platillo es tóxico (si no está bien preparado): ¿A QUÉ SABE?",
+"s": 1354
+},
+{
 "id": "fV8EagyQqw8",
 "t": "La face cachée de l’Australie",
 "s": 1086
+},
+{
+"id": "YquGaAndLKw",
+"t": "Así es el trabajo “más peligroso” del mundo (adentro de un volcán) ⚠🇮🇩",
+"s": 1650
 },
 {
 "id": "4nzHsu7gaw8",
@@ -20529,9 +22154,19 @@
 "s": 1460
 },
 {
+"id": "s6krhfwh4R0",
+"t": "48 horas con la tribu “corta-cabezas” de Indonesia | ¿Cómo viven? 🇮🇩",
+"s": 1906
+},
+{
 "id": "A7UubEcInRY",
 "t": "Sydney devient beaucoup trop PUISSANTE pour l’Australie",
 "s": 1010
+},
+{
+"id": "ela3Qz3d_X0",
+"t": "Un día vendiendo FIERRO VIEJO | ¿Cuánto dinero se gana? 🇲🇽",
+"s": 1880
 },
 {
 "id": "FldhNbzhu6I",
@@ -20539,9 +22174,19 @@
 "s": 1703
 },
 {
+"id": "gSCglYuoTCs",
+"t": "Barateando en el mercado de oro más grande del mundo | DUBAI 🇦🇪",
+"s": 1337
+},
+{
 "id": "_dkwQft4V5s",
 "t": "J’enquête sur la fin de la van life en Europe",
 "s": 1035
+},
+{
+"id": "X1p2roNlv9Q",
+"t": "Fui a la isla “más oscura” del mundo | ¿CÓMO VIVEN? | Svalbard 🇳🇴",
+"s": 2782
 },
 {
 "id": "3vHbtxq9CQg",
@@ -20549,9 +22194,19 @@
 "s": 1457
 },
 {
+"id": "bnQI3v_MpOs",
+"t": "ASÍ ES NORUEGA: el “país perfecto para vivir” | Oslo 🇳🇴",
+"s": 1957
+},
+{
 "id": "P-JFBjfTL9E",
 "t": "Elle vit en NOUVELLE-CALÉDONIE depuis 4 ans, voici son TÉMOIGNAGE",
 "s": 1598
+},
+{
+"id": "ivg9zqLTAYw",
+"t": "¿Qué aerolínea asiática tiene la mejor PRIMERA CLASE? ✈",
+"s": 1510
 },
 {
 "id": "RcWRQQWbIFk",
@@ -20559,9 +22214,19 @@
 "s": 1192
 },
 {
+"id": "rPek2C44JRo",
+"t": "Visité el país con las leyes más estrictas (cárcel por comer chicle) | SINGAPUR 🇸🇬",
+"s": 1555
+},
+{
 "id": "Zg_eliNhDYE",
 "t": "J’enquête sur les dernières TRIBUS de FRANCE (documentaire)",
 "s": 1284
+},
+{
+"id": "nD-0dZYVYeQ",
+"t": "Así es el aeropuerto MÁS MODERNO del mundo (sorprendente) | SINGAPUR 🇸🇬✈",
+"s": 2119
 },
 {
 "id": "9I1YMzxeItg",
@@ -20569,9 +22234,19 @@
 "s": 1260
 },
 {
+"id": "BvirH-wQRqo",
+"t": "Así es la ciudad MÁS GRANDE de todo el mundo (impactante) | CHINA 🇨🇳",
+"s": 2023
+},
+{
 "id": "EKd7N0qyfy0",
 "t": "Les 10 destinations PAS CHÈRES à visiter en 2026",
 "s": 1362
+},
+{
+"id": "6t-BShqPbyY",
+"t": "Viajé hasta CHINA para ver su teléfono más esperado del año | ¡Increíble! 🇨🇳",
+"s": 1831
 },
 {
 "id": "dSDa1AR8_0I",
@@ -20579,9 +22254,19 @@
 "s": 937
 },
 {
+"id": "eGa2qQFgJJE",
+"t": "Buscando pareja en el mercado de solteros de CHINA | ¡Me sacó la policía! 🇨🇳",
+"s": 1267
+},
+{
 "id": "bJuXmkrNt4o",
 "t": "La face cachée de New York",
 "s": 1364
+},
+{
+"id": "W643nzDWhCE",
+"t": "LOS REYES DEL AFTER: 10 AÑOS DESPUÉS",
+"s": 1479
 },
 {
 "id": "l6FvMjxJo18",
@@ -20589,9 +22274,19 @@
 "s": 2769
 },
 {
+"id": "Wc4OzwYm49w",
+"t": "Visité el infierno en la tierra | TODO está en llamas",
+"s": 1272
+},
+{
 "id": "isLLTgaZGYM",
 "t": "New York devient INVIVABLE (documentaire)",
 "s": 1553
+},
+{
+"id": "3pKqiHSfirM",
+"t": "Me quedé en el hotel “más lujoso” de todo el mundo: ¿es verdad? | BURJ AL ARAB",
+"s": 2314
 },
 {
 "id": "TvE5QMCC-RQ",
@@ -20599,9 +22294,19 @@
 "s": 1177
 },
 {
+"id": "iYLEJfOUiOs",
+"t": "Compré todo lo nuevo de APPLE: iPhone 17 Pro, Air y AirPods | ¿Valen la pena?",
+"s": 1335
+},
+{
 "id": "KvyShiGVGnk",
 "t": "Pourquoi le Français recule vraiment au Québec (documentaire)",
 "s": 1290
+},
+{
+"id": "CWb1hAGAaw4",
+"t": "Cosas legales para nosotros pero MUY ILEGALES en Dubai 🇦🇪",
+"s": 1438
 },
 {
 "id": "NsYkIWoYhns",
@@ -20609,9 +22314,19 @@
 "s": 1103
 },
 {
+"id": "FZ2F1Gh2j-o",
+"t": "¿Qué lugar tiene las alitas MÁS PICANTES de todas?",
+"s": 1515
+},
+{
 "id": "GX38bYntDP8",
 "t": "10 lieux que vous ne connaissez (sûrement) pas en FRANCE",
 "s": 824
+},
+{
+"id": "jzVGnBb23rU",
+"t": "Probando comida callejera en MADAGASCAR: la “más barata” de África 🇲🇬",
+"s": 2175
 },
 {
 "id": "Fu7QxyjkEBQ",
@@ -20619,9 +22334,19 @@
 "s": 2246
 },
 {
+"id": "w8LK_HCrE-U",
+"t": "Fui a una fiesta de pueblo en ÁFRICA | ¡Se descontroló! 🇲🇬",
+"s": 1311
+},
+{
 "id": "p0skewUA6xU",
 "t": "Ce QUÉBEC-là n’existe que quelques semaines par an",
 "s": 1020
+},
+{
+"id": "rO8bPlxREEA",
+"t": "ASÍ ES MADAGASCAR: el país “más barato” del mundo | ¿Cómo es la vida?",
+"s": 2639
 },
 {
 "id": "eGJ27qZkG6U",
@@ -20629,9 +22354,19 @@
 "s": 1506
 },
 {
+"id": "Vj6eVynF4xY",
+"t": "El edificio que ha sobrevivido a todo: ¿cómo es por dentro? | TORRE LATINO CDMX 🇲🇽",
+"s": 1078
+},
+{
 "id": "KrTYSzuSFcs",
 "t": "La FACE CACHÉE de la BRETAGNE",
 "s": 1210
+},
+{
+"id": "hWa-oA9-i3I",
+"t": "Estoy pensando invertir en este hotel | VLOG",
+"s": 1528
 },
 {
 "id": "fY12FPwPEdk",
@@ -20639,9 +22374,19 @@
 "s": 1137
 },
 {
+"id": "bXO-O__8YAI",
+"t": "Fui al día sin ropa en mi ciudad | ¿Por qué sucede?",
+"s": 875
+},
+{
 "id": "CpL5OI5RE6o",
 "t": "Ce pays caché derrière les all inclusive",
 "s": 1945
+},
+{
+"id": "3m7oH-wk4-w",
+"t": "En este lugar la noche NO EXISTE (24 horas de luz) | ¿Cómo es la vida? ☀",
+"s": 1922
 },
 {
 "id": "4SV1zIIcOOQ",
@@ -20649,9 +22394,19 @@
 "s": 878
 },
 {
+"id": "J84So40Mdv0",
+"t": "Probando el pescado más apestoso del mundo | ¡CASI VOMITO! 🇸🇪",
+"s": 1512
+},
+{
 "id": "4358J1DXHiQ",
 "t": "Ces rois français existent ENCORE… et la loi les protège",
 "s": 1100
+},
+{
+"id": "zwfxzvQ6MF4",
+"t": "Así celebran el verano en Suecia | MIDSOMMAR 🇸🇪",
+"s": 1558
 },
 {
 "id": "2X9-YwCnIq4",
@@ -20659,9 +22414,19 @@
 "s": 1093
 },
 {
+"id": "gyWEM4QOMpk",
+"t": "Los mercados y el abandono de perros en LATAM: una dura realidad",
+"s": 1541
+},
+{
 "id": "M9ra0i56g-Q",
 "t": "J’explore l’endroit le plus sous-coté de la SUISSE",
 "s": 991
+},
+{
+"id": "0Udspg7A5bY",
+"t": "Visitando los “mejores” sitios japoneses en MX: ¿son tan buenos como dicen?",
+"s": 1872
 },
 {
 "id": "L85sITjbj08",
@@ -20669,9 +22434,19 @@
 "s": 1464
 },
 {
+"id": "vTgzntPTAyo",
+"t": "Los trucos sucios de los hoteles de lujo para sacar más dinero",
+"s": 1336
+},
+{
 "id": "H1Ge2vcYWIE",
 "t": "Ce pays incroyable que les Français évitent (à tort)",
 "s": 1103
+},
+{
+"id": "6OfveE55hhQ",
+"t": "Pasé 485 días en DUOLINGO: ¿aprendí algo o perdí mi tiempo?",
+"s": 1441
 },
 {
 "id": "22vvFRgZkGs",
@@ -20679,9 +22454,19 @@
 "s": 895
 },
 {
+"id": "3gSOBN9gKRk",
+"t": "Probando todos los postres de mi nueva cafetería | TORI KAMI ⛩",
+"s": 1467
+},
+{
 "id": "3oqoXAOCKbo",
 "t": "Lyon est-elle VRAIMENT la meilleure ville de France ?",
 "s": 833
+},
+{
+"id": "ulNk59eItFs",
+"t": "¿Qué esconden adentro de los edificios FALSOS de Nueva York?",
+"s": 1102
 },
 {
 "id": "xX0nECw-rS4",
@@ -20689,9 +22474,19 @@
 "s": 1109
 },
 {
+"id": "gSorBbkdAq0",
+"t": "Probando los taxis “del futuro” sin un chofer humano: ¿SON SEGUROS?",
+"s": 1483
+},
+{
 "id": "BQ8WjyMasOc",
 "t": "Un INFLUENCEUR achète un A380, la suite de l'histoire est folle",
 "s": 1475
+},
+{
+"id": "mZkBwPt1caE",
+"t": "El barrio de mansiones que fue destruido por un incendio: así se ve ahora | LA 🇺🇸",
+"s": 950
 },
 {
 "id": "VjhgVOkkM7g",
@@ -20699,9 +22494,19 @@
 "s": 812
 },
 {
+"id": "gCFgK00TFKs",
+"t": "Un día trabajando en un AEROPUERTO: ¿qué pasa con las maletas? ✈",
+"s": 1269
+},
+{
 "id": "AycYjiERFME",
 "t": "Elle vit à TOULOUSE depuis 10 ans, voici son TÉMOIGNAGE",
 "s": 1914
+},
+{
+"id": "cMdI2EC5zbQ",
+"t": "Así es la universidad más costosa del mundo | HARVARD",
+"s": 1339
 },
 {
 "id": "B1K8ILfOSFw",
@@ -20709,9 +22514,19 @@
 "s": 1126
 },
 {
+"id": "wUPUPIpYMtE",
+"t": "Probando comida callejera en CUBA | ¡La tierra del mojito y el lechón! 🇨🇺",
+"s": 1224
+},
+{
 "id": "X2GSuWsAEvo",
 "t": "Elle vit à LISBONNE depuis 4 ans, voici son TÉMOIGNAGE",
 "s": 1889
+},
+{
+"id": "MpyIoQbOXW8",
+"t": "Entré a una fábrica de habanos en CUBA: ¿el mejor tabaco del mundo? 🇨🇺",
+"s": 1323
 },
 {
 "id": "5ccfcrU5a4o",
@@ -20719,9 +22534,19 @@
 "s": 1495
 },
 {
+"id": "pzugsO8J_DU",
+"t": "Así se ven en la actualidad las “casas gratis” de los cubanos | CUBA #2",
+"s": 1774
+},
+{
 "id": "HCtB5ZZdYZc",
 "t": "La région française la PLUS SAUVAGE (et tu ne la connais pas vraiment)",
 "s": 905
+},
+{
+"id": "MJR3YbsJ5oU",
+"t": "ASÍ ES CUBA: un país atrapado en el pasado | ¿Cómo vive la gente? 🇨🇺",
+"s": 2778
 },
 {
 "id": "16LH86sFhQg",
@@ -20729,9 +22554,19 @@
 "s": 1444
 },
 {
+"id": "5pYZUy-6Ssc",
+"t": "Probando comida callejera en ALEMANIA | ¡El paraíso de la salchicha! 🇩🇪",
+"s": 1502
+},
+{
 "id": "Vw8fP2dgJho",
 "t": "J’explore le village le plus ISOLÉ de France (en Amazonie)",
 "s": 1807
+},
+{
+"id": "s37wemXkmgs",
+"t": "El oscuro pasado del castillo de WALT DISNEY | “Perturbador”",
+"s": 925
 },
 {
 "id": "imJu-qpzw34",
@@ -20739,9 +22574,19 @@
 "s": 1571
 },
 {
+"id": "8zL8VIYuGOM",
+"t": "BASURA POR DINERO: este país lo tiene resuelto 🇩🇪",
+"s": 923
+},
+{
 "id": "jqU9WhSABj8",
 "t": "Ces ARNAQUES ruinent vos VOYAGES… Voici comment les éviter",
 "s": 1887
+},
+{
+"id": "qpplbLCFrVU",
+"t": "Este asiento de avión cuesta $13,000 dólares: ¿vale la pena?",
+"s": 1118
 },
 {
 "id": "4QmCirpeUsU",
@@ -20749,9 +22594,19 @@
 "s": 923
 },
 {
+"id": "VhnogoLX2V8",
+"t": "Regresé al bosque “más perturbador” del mundo | AOKIGAHARA",
+"s": 1122
+},
+{
 "id": "iEBzJuW1jvE",
 "t": "Ce que les QUÉBÉCOIS pensent des FRANÇAIS !",
 "s": 741
+},
+{
+"id": "qFWH4oz5gus",
+"t": "El lado rural y congelado de Japón | ¡CUIDADO CON LOS MONOS!",
+"s": 1067
 },
 {
 "id": "KAkBjI8jJQU",
@@ -20759,9 +22614,19 @@
 "s": 2372
 },
 {
+"id": "0skhLBFoIlk",
+"t": "Así se hace la carne más cara del mundo: KOBE $$$ | ¡Vacas millonarias! 🇯🇵",
+"s": 1229
+},
+{
 "id": "5Ue4cT50yII",
 "t": "J'explore le QUÉBEC en HIVER !",
 "s": 1297
+},
+{
+"id": "kmRDfO69lEA",
+"t": "Intentando hablar japonés en JAPÓN (fracasé en el intento) 🇯🇵",
+"s": 1634
 },
 {
 "id": "2BpKSMkVeqU",
@@ -20769,9 +22634,19 @@
 "s": 1795
 },
 {
+"id": "CsHWxgdo11g",
+"t": "Así vive un universitario en DUBAI: ¡estudian, viajan y ganan dinero! 🇦🇪",
+"s": 1165
+},
+{
 "id": "1ggwKGG9m9g",
 "t": "Ce que les guides ne vous montrent PAS sur le JAPON !",
 "s": 1306
+},
+{
+"id": "LGs2KZXmne8",
+"t": "Aquí se estrelló el avión de Los Andes en 1972: ¿cómo sobrevivieron? 🇺🇾🇦🇷🇨🇱",
+"s": 1596
 },
 {
 "id": "flNLHU88d8g",
@@ -20779,9 +22654,19 @@
 "s": 860
 },
 {
+"id": "LGokG5mvL4o",
+"t": "Probando comida callejera en URUGUAY | ¡La tierra del choripan! 🇺🇾",
+"s": 1178
+},
+{
 "id": "9vSM8NJPNM0",
 "t": "Ne fais SURTOUT PAS ça au Japon",
 "s": 1006
+},
+{
+"id": "kmGhuJCqCFE",
+"t": "Visité una ciudad sin electricidad ni agua corriente: ¿cómo viven? | URUGUAY",
+"s": 1445
 },
 {
 "id": "cmWd_d683rk",
@@ -20789,9 +22674,19 @@
 "s": 1304
 },
 {
+"id": "xURnrFsm8aM",
+"t": "Entré a los barrios “más peligrosos” de URUGUAY | ¡Caballos por doquier! 🇺🇾",
+"s": 874
+},
+{
 "id": "ZlH2r_jJWno",
 "t": "Pourquoi les Japonais ne PEUVENT PAS grossir (documentaire)",
 "s": 1136
+},
+{
+"id": "JTeakZVGQSs",
+"t": "MI PRIMERA VEZ EN URUGUAY | ¡El paraíso del mate, futbol y besos! 🇺🇾",
+"s": 1637
 },
 {
 "id": "hmqPyPPohLk",
@@ -20799,9 +22694,19 @@
 "s": 1189
 },
 {
+"id": "niw4-nsoK2I",
+"t": "Visitando todos los “récords mundiales” de Dubai | ¡Pérdidas millonarias! 🇦🇪",
+"s": 852
+},
+{
 "id": "NY4WjsAkb84",
 "t": "10€ dans la PLUS GRANDE VILLE du monde (Tokyo) !",
 "s": 1641
+},
+{
+"id": "xzTC1Y3-lLY",
+"t": "En este pueblo todos viven y trabajan en el mismo edificio: ¿cómo es por dentro?",
+"s": 1124
 },
 {
 "id": "HRzzg4yEqb0",
@@ -20809,9 +22714,19 @@
 "s": 2439
 },
 {
+"id": "Zs_7dCgvtik",
+"t": "Probando comida mexicana en ALASKA | ¡Tacos en la nieve! ❄",
+"s": 1007
+},
+{
 "id": "qWbZMSt1KdA",
 "t": "Elle vit à STRASBOURG depuis 8 ans, voici son témoignage",
 "s": 1419
+},
+{
+"id": "7QYwUMoh32w",
+"t": "Así es la vida en ALASKA: el lugar más frío y vacío de América ❄",
+"s": 1334
 },
 {
 "id": "T7ku9EquCH8",
@@ -20819,9 +22734,19 @@
 "s": 1115
 },
 {
+"id": "g5tKSE7XewE",
+"t": "Cruzando sin pasaporte la frontera de Panamá: ¿qué tan difícil es? 🇵🇦🇨🇷",
+"s": 1029
+},
+{
 "id": "PGvnjsAvz70",
 "t": "Les 10 destinations où il ne faut PAS aller en 2025 !",
 "s": 849
+},
+{
+"id": "EYI94fo4RSI",
+"t": "48 horas con una tribu indígena de las montañas | COSTA RICA: BRIBRI 🇨🇷",
+"s": 1111
 },
 {
 "id": "xLRhW-QgSVY",
@@ -20829,9 +22754,19 @@
 "s": 1284
 },
 {
+"id": "Iqo1Ei21JWo",
+"t": "Entré a los barrios “más peligrosos” de Costa Rica | Infiernillo y Zona Roja 🇨🇷",
+"s": 1059
+},
+{
 "id": "dRCTRTY8bmM",
 "t": "Pourquoi l'URSS a asséché le 4e plus grand lac du monde ? (Documentaire)",
 "s": 1082
+},
+{
+"id": "sLq73tAoKEQ",
+"t": "Entré a la fábrica de autos más rápida de América: ¡un coche por minuto!",
+"s": 944
 },
 {
 "id": "ywNv_dedoTg",
@@ -20839,9 +22774,19 @@
 "s": 1224
 },
 {
+"id": "c_uxYAyOPc0",
+"t": "Probando comida callejera en HONG KONG | ¡Serpiente con palillos! 🇭🇰",
+"s": 945
+},
+{
 "id": "R-QUv-eW8fU",
 "t": "Ce que les Ouzbeks pensent VRAIMENT des Français",
 "s": 600
+},
+{
+"id": "iVKNFDpjqq8",
+"t": "Visité Las Vegas de China: MACAO | ¿Mejor o peor que la ciudad ‘original’? 🇲🇴",
+"s": 1108
 },
 {
 "id": "rC29AMmTPTQ",
@@ -20849,9 +22794,19 @@
 "s": 628
 },
 {
+"id": "TibhkHG335w",
+"t": "Así es vivir en una diminuta ‘casa ataúd’ de Hong Kong | $$$ Dura realidad",
+"s": 1097
+},
+{
 "id": "W1BlOgQ80z4",
 "t": "24h dans la CAPITALE la plus ÉTRANGE du monde",
 "s": 1200
+},
+{
+"id": "ZB7XncOwQ1M",
+"t": "La ciudad de China que quiere ser un país independiente | HONG KONG 🇭🇰🇨🇳",
+"s": 1242
 },
 {
 "id": "fHsJrpzglYg",
@@ -20859,9 +22814,19 @@
 "s": 1185
 },
 {
+"id": "68oB_jg6Xrc",
+"t": "¿Cómo se hace una FIGURA DE CERA? | ¡Meses de proceso!",
+"s": 904
+},
+{
 "id": "O14IkTpjGTw",
 "t": "Il vit dans la MEILLEURE VILLE du MONDE : VANCOUVER !",
 "s": 1924
+},
+{
+"id": "sKaZwEtCIfI",
+"t": "Los “brujos” de República Dominicana: el lado misterioso de la isla 🇩🇴",
+"s": 997
 },
 {
 "id": "kLy9wtC2SZE",
@@ -20869,9 +22834,19 @@
 "s": 774
 },
 {
+"id": "DQzg_t6G6Js",
+"t": "Probando comida callejera en REPÚBLICA DOMINICANA | ¡Todo es una delicia! 🇩🇴",
+"s": 1102
+},
+{
 "id": "fHm27YrrdyA",
 "t": "Est-ce que les Canadiens aiment les Français ?",
 "s": 616
+},
+{
+"id": "9kKS16MGdt8",
+"t": "Visitando la impactante frontera de HAITÍ: ¿cómo cruzan el filtro militar? | RD 🇩🇴🇭🇹",
+"s": 888
 },
 {
 "id": "oUtyh16vn9Q",
@@ -20879,9 +22854,19 @@
 "s": 1458
 },
 {
+"id": "DbssqO9kQ6Y",
+"t": "Entré a los barrios “más peligrosos” de República Dominicana | La 42 y Gualey 🇩🇴",
+"s": 1102
+},
+{
 "id": "ZZpbqI5Q1PU",
 "t": "LE PLUS BEAU PARC NATIONAL DU CANADA",
 "s": 1201
+},
+{
+"id": "P1YP3Wn0qwk",
+"t": "Compré el iPhone 16 Pro: ¿es tan malo como dicen? | ¡Gran fracaso de Apple!",
+"s": 826
 },
 {
 "id": "wC5d0eFJmks",
@@ -20889,9 +22874,19 @@
 "s": 1234
 },
 {
+"id": "4aipVesnVSM",
+"t": "Llegué a REPÚBLICA DOMINICANA y pasó de todo | ¡Terminé arrestado! 🇩🇴",
+"s": 1323
+},
+{
 "id": "fjZFpjCuG44",
 "t": "Elle vit dans la MEILLEURE VILLE du CANADA, voici son témoignage",
 "s": 1622
+},
+{
+"id": "HsZu8M60cF4",
+"t": "Así son los zapatos que diseñé para CROCS | ¡Primer YouTuber en el mundo!",
+"s": 799
 }
 ]
 },
@@ -20930,7 +22925,7 @@
 },
 {
 "id": "7jW_PdUaO3Y",
-"t": "Inside the Life of an Illustrator Who Left London for the Seaside",
+"t": "Inside the Life & DIY Home of an Illustrator Who Left London for the Seaside",
 "s": 1237
 },
 {
@@ -22409,8 +24404,8 @@
 "num": "12",
 "name": "Learn New Things",
 "hours": [],
-"sourceName": "The School of Life, Cleo Abram y Business Insider",
-"tagline": "The School of Life, Cleo Abram y Business Insider",
+"sourceName": "The School of Life, Cleo Abram, Business Insider y avozmechef",
+"tagline": "The School of Life, Cleo Abram, Business Insider y avozmechef",
 "kind": "linear",
 "items": [
 {
@@ -22425,8 +24420,13 @@
 },
 {
 "id": "2IHqDUY3ZVc",
-"t": "The Dark Side Of India's $740 Million Firecracker Industry",
+"t": "Risking Death To Make Firecrackers For Diwali",
 "s": 825
+},
+{
+"id": "x6SemyadEI4",
+"t": "Un Mes Aprendiendo Sushi, Esta Es La Pieza Final",
+"s": 1154
 },
 {
 "id": "OytwvZqDOX8",
@@ -22444,6 +24444,11 @@
 "s": 801
 },
 {
+"id": "Vgp8bmBrBog",
+"t": "Cómo Hacer Nigiris Y Cortar Pescado Para Sushi",
+"s": 1477
+},
+{
 "id": "O4FjeAYDRMQ",
 "t": "Por qué tener el corazón roto puede forjarte",
 "s": 223
@@ -22457,6 +24462,11 @@
 "id": "77GAfNCG12g",
 "t": "Why America Abandoned Route 66",
 "s": 2001
+},
+{
+"id": "UpHIEcT4Hy4",
+"t": "La Salsa Secreta De Los Restaurantes De Sushi",
+"s": 922
 },
 {
 "id": "fTrF-6hI8i8",
@@ -22474,6 +24484,11 @@
 "s": 13801
 },
 {
+"id": "BvisPDj3Nqk",
+"t": "Cómo hacer el ARROZ de sushi perfecto: Guía desde cero",
+"s": 983
+},
+{
 "id": "uk3wUnCEghw",
 "t": "El comportamiento infantil que arruina las relaciones adultas",
 "s": 231
@@ -22487,6 +24502,11 @@
 "id": "inIYXrNOyos",
 "t": "How A Cruise Ship Operates At The Edge Of The World | Risky Business",
 "s": 1163
+},
+{
+"id": "Ot5qPm4Y_DM",
+"t": "Pescado Salvaje VS De Piscifactoría - Que No Te Engañen",
+"s": 938
 },
 {
 "id": "3_uOA2K78M8",
@@ -22504,6 +24524,11 @@
 "s": 1659
 },
 {
+"id": "wWJ2mcPdo30",
+"t": "Qué Alimentos Se Pueden Congelar Y Cuáles No",
+"s": 1236
+},
+{
 "id": "c__DMV_Clog",
 "t": "Por qué a todas las parejas les cuesta equilibrar la cercanía y la distancia",
 "s": 292
@@ -22517,6 +24542,11 @@
 "id": "cKnwkxItL2M",
 "t": "Inside America's Only Internet Sea Cable Maker",
 "s": 900
+},
+{
+"id": "RwTru29v5Ek",
+"t": "Todo Lo Que Cocino Para Empezar Bien La Semana",
+"s": 879
 },
 {
 "id": "iKoG1FkOnVk",
@@ -22534,6 +24564,11 @@
 "s": 1078
 },
 {
+"id": "oBp0NEDC6Qw",
+"t": "Estás Salando La Carne En El PEOR Momento",
+"s": 644
+},
+{
 "id": "1bmUWt9wejI",
 "t": "No pierdas la esperanza",
 "s": 163
@@ -22547,6 +24582,11 @@
 "id": "UA3EvhuuKZI",
 "t": "How I Cover My Cost Of Living As A NYC Street Performer | The Pay Check",
 "s": 795
+},
+{
+"id": "MLBwu78cous",
+"t": "La Comida De los Pubs Ingleses Y Su Cultura Del Alcohol",
+"s": 973
 },
 {
 "id": "G_ATGHMKEZA",
@@ -22564,6 +24604,11 @@
 "s": 1866
 },
 {
+"id": "it-3r99XrrI",
+"t": "¿Es La Cocina Inglesa La Peor Del Mundo?",
+"s": 2569
+},
+{
 "id": "op77gGdFY1g",
 "t": "¿Los rechazamos porque no son los indicados, o porque no estamos bien?",
 "s": 309
@@ -22577,6 +24622,11 @@
 "id": "Aaj6INQWA_8",
 "t": "The Smuggled Resource Funding Sudan's Civil War",
 "s": 1034
+},
+{
+"id": "wzoLpWQ1tJk",
+"t": "Los 15 Libros Necesarios Para Aprender De Cocina",
+"s": 533
 },
 {
 "id": "OwiuTWfFK2c",
@@ -22594,6 +24644,11 @@
 "s": 931
 },
 {
+"id": "bBbrU6artno",
+"t": "El Problema Del Pan Actual",
+"s": 1736
+},
+{
 "id": "156C-c48ezU",
 "t": "¿Qué proyecto en los demás?",
 "s": 278
@@ -22607,6 +24662,11 @@
 "id": "W4E5JAD5U7A",
 "t": "How AI Agents Are Changing Business Decision-Making",
 "s": 243
+},
+{
+"id": "6cTkHN-sH48",
+"t": "La Cocina Oculta De Marruecos - Documental Gastronómico",
+"s": 2253
 },
 {
 "id": "FbS1hO2dQPM",
@@ -22624,6 +24684,11 @@
 "s": 805
 },
 {
+"id": "-8nyasWFk7A",
+"t": "Cocino Las 5 Carnes Españolas Más Desconocidas",
+"s": 759
+},
+{
 "id": "zRp_0hc-ZgQ",
 "t": "Sabiduría china antigua para calmar tu mente moderna",
 "s": 569
@@ -22637,6 +24702,11 @@
 "id": "zLFILxL1jMg",
 "t": "Why Electric Planes Are Almost Impossible | Pushing Limits",
 "s": 1326
+},
+{
+"id": "bAtflpjQ96w",
+"t": "10 Usos De La Barbacoa Que Nadie Aprovecha",
+"s": 871
 },
 {
 "id": "EyHPvu4aIJY",
@@ -22654,6 +24724,11 @@
 "s": 199
 },
 {
+"id": "eici0ugGjQE",
+"t": "10 Bases De Sabor Que Mejoran Cualquier Plato",
+"s": 683
+},
+{
 "id": "_HqfzLk0QxU",
 "t": "Why You Want to Run Away From a Good Relationship",
 "s": 268
@@ -22667,6 +24742,11 @@
 "id": "KIBJAEZMxwo",
 "t": "Inside Turkey's $2 Billion Marble And Stone Industry | Big Business",
 "s": 964
+},
+{
+"id": "C2QM2e_A1lk",
+"t": "Recorrí Italia De Norte A Sur Para Explicarte Su Cocina",
+"s": 2057
 },
 {
 "id": "LRvydNSQNsc",
@@ -22684,6 +24764,11 @@
 "s": 14094
 },
 {
+"id": "7uHT11gxdik",
+"t": "25 Trucos De Cocina Que Aprendí En Restaurantes",
+"s": 1386
+},
+{
 "id": "7SSHksM3qrs",
 "t": "Por qué mereces un berrinche: La verdad sobre la ira en los adultos",
 "s": 263
@@ -22697,6 +24782,11 @@
 "id": "HFV5UH10_eg",
 "t": "Breaking Down My $550,000 Retirement Savings In Bali, Indonesia | The Pay Check",
 "s": 1154
+},
+{
+"id": "48cED0yZFpw",
+"t": "El Revolucionario Método De Batch Cooking Para 2026",
+"s": 865
 },
 {
 "id": "O8xqi5tpD7I",
@@ -22714,6 +24804,11 @@
 "s": 1814
 },
 {
+"id": "2Y5JSP1wpvw",
+"t": "Las 5 Mejores GUARNICIONES Para Cenas Especiales",
+"s": 501
+},
+{
 "id": "rTZTR3qx69Q",
 "t": "Aprender a hablar... de nuevo",
 "s": 320
@@ -22727,6 +24822,11 @@
 "id": "3I-xv56cBUY",
 "t": "Life Lessons From Big Tech Workers Who Got Laid Off",
 "s": 999
+},
+{
+"id": "M2GaFrmOivc",
+"t": "Trucos Profesionales Para Hacer El Cochinillo Asado Perfecto",
+"s": 515
 },
 {
 "id": "O9INMnsoUxU",
@@ -22744,6 +24844,11 @@
 "s": 767
 },
 {
+"id": "T6V9k3Wrrzw",
+"t": "Así Se Hace El Mejor CORDERO ASADO De Madrid",
+"s": 580
+},
+{
 "id": "CrD_jqgX9e8",
 "t": "La alegría del pesimismo en el amor",
 "s": 219
@@ -22757,6 +24862,11 @@
 "id": "-4dc6907JYY",
 "t": "How AI Data Centers Are Making Everything More Expensive",
 "s": 1071
+},
+{
+"id": "nXhQE-PFEbw",
+"t": "Cookies De Turrón - Mi Nueva Obsesión",
+"s": 602
 },
 {
 "id": "tv6WwOFQIY0",
@@ -22774,6 +24884,11 @@
 "s": 478
 },
 {
+"id": "are30p_fyGU",
+"t": "¿Que Comen Los Locales En Japón?",
+"s": 1037
+},
+{
 "id": "yaCVfTQWhE8",
 "t": "Aquellos que temen al amor",
 "s": 285
@@ -22787,6 +24902,11 @@
 "id": "CXhM3E1WhQc",
 "t": "Inside The Busiest Kitchen On Uber Eats That Makes Indian And Pakistani Food",
 "s": 1201
+},
+{
+"id": "u7quWV4uc1E",
+"t": "La Comida Nocturna En Japón Y Su Problema Con El Alcohol",
+"s": 1743
 },
 {
 "id": "KquM_52cAIE",
@@ -22804,6 +24924,11 @@
 "s": 1377
 },
 {
+"id": "IpjAMiAEOI4",
+"t": "Cocina Japonesa: El Alto Precio de la Perfección Obsesiva",
+"s": 2040
+},
+{
 "id": "vjcGC-rRjlE",
 "t": "¿Qué pensar de la teoría del arroz sobre el carácter japonés?",
 "s": 227
@@ -22817,6 +24942,11 @@
 "id": "cTzumLDnauA",
 "t": "Breaking Down My $159,000 Salary In Brooklyn, New York | The Pay Check",
 "s": 1682
+},
+{
+"id": "lZfixipnWcA",
+"t": "7 Técnicas De Restaurante Para Cocinar Verduras",
+"s": 730
 },
 {
 "id": "i9GrNjqPrm0",
@@ -22834,6 +24964,11 @@
 "s": 701
 },
 {
+"id": "FG-umviytBk",
+"t": "Aprende a Hacer CROISSANTS Con Un Maestro Pastelero",
+"s": 986
+},
+{
 "id": "EFibYrEcrkU",
 "t": "Giuseppe di Lampedusa - El leopardo",
 "s": 219
@@ -22847,6 +24982,11 @@
 "id": "TNl9diGdyPo",
 "t": "How Ferrero Makes Millions Of Chocolates In America",
 "s": 1160
+},
+{
+"id": "NzojG2wB46c",
+"t": "Viajé 1000 km Para Aprender A Hacer El Mejor Pan",
+"s": 2345
 },
 {
 "id": "8W2Zw8Cijo8",
@@ -22864,6 +25004,11 @@
 "s": 482
 },
 {
+"id": "6oyZ77OJojs",
+"t": "21 Trucos Para Barbacoas Que Aprendí En Restaurantes",
+"s": 714
+},
+{
 "id": "XVcBtyxoJMg",
 "t": "No te esperarás esto...",
 "s": 319
@@ -22877,6 +25022,11 @@
 "id": "JZ9KC0WRLlg",
 "t": "Why Real Feta Cheese Is Disappearing | Big Business",
 "s": 1120
+},
+{
+"id": "lHlKxUMRBIE",
+"t": "Cuándo usar AIR FRYER y cuando HORNO - 10 pruebas reales",
+"s": 1371
 },
 {
 "id": "cQrcMf9olDA",
@@ -22894,6 +25044,11 @@
 "s": 453
 },
 {
+"id": "7aFZMkWTS_w",
+"t": "3 Días De Cocina Y Caza: Pizza Del Bosque, Corzos Y Desayunos",
+"s": 2791
+},
+{
 "id": "lQ26nhnrZgE",
 "t": "Siempre rechazarás el amor hasta que hagas esto...",
 "s": 270
@@ -22907,6 +25062,11 @@
 "id": "XsdAyQP_EYo",
 "t": "What Happens If You Go To Epstein Island Now?",
 "s": 388
+},
+{
+"id": "YHUW_A2iXV8",
+"t": "Especias: Cuales Comprar Y Cómo Utilizarlas En Casa",
+"s": 1512
 },
 {
 "id": "qbW-513h5vg",
@@ -22924,6 +25084,11 @@
 "s": 10753
 },
 {
+"id": "KgSk9k1Jqds",
+"t": "Pesca y Cocina: Mi Primer Día Y Consigo 4 Truchas",
+"s": 1063
+},
+{
 "id": "Su9Z60P2QOc",
 "t": "El amor entre parientes y el amor entre familiares",
 "s": 223
@@ -22937,6 +25102,11 @@
 "id": "UKypOcYjjkI",
 "t": "How Goodwill Actually Works I Big Business",
 "s": 1009
+},
+{
+"id": "nhSNDmJVEiM",
+"t": "Solomillo Rossini - Un Plato De Restaurante Hecho En Casa",
+"s": 1546
 },
 {
 "id": "RcBR0vcHGaY",
@@ -22954,6 +25124,11 @@
 "s": 252
 },
 {
+"id": "kNEBRGPXL9s",
+"t": "El Secreto del Pollo Asado con Yema Líquida DENTRO",
+"s": 830
+},
+{
 "id": "GdRXv7bLuwc",
 "t": "¿Quién sueña con el amor más grande? (no es quien esperas)",
 "s": 265
@@ -22967,6 +25142,11 @@
 "id": "Ynqf74oC7ks",
 "t": "How Toxic Green Mussels Feed Millions In Indonesia's Biggest City",
 "s": 1262
+},
+{
+"id": "_k0cvZY_tyI",
+"t": "10 Trucos De Cocina Que Aprendí En Restaurantes",
+"s": 839
 },
 {
 "id": "_9ZOix4QG5s",
@@ -22984,6 +25164,11 @@
 "s": 1604
 },
 {
+"id": "AixiViEtYSo",
+"t": "Las 5 Salsas Madre de La Cocina: Cuales Son Y cómo Se Hacen",
+"s": 857
+},
+{
 "id": "g1n7f80A-VE",
 "t": "Por qué deberías casarte ahora",
 "s": 316
@@ -22997,6 +25182,11 @@
 "id": "j6G91ryji5s",
 "t": "The Fight To Make Expensive Stadium Food Illegal",
 "s": 995
+},
+{
+"id": "JLYP0QVb1Cc",
+"t": "10 Canapés Sorprendentes Para Navidad",
+"s": 671
 },
 {
 "id": "FkJPf828nwU",
@@ -23014,6 +25204,11 @@
 "s": 1678
 },
 {
+"id": "OKLs8op6D-g",
+"t": "Lomo De Cerdo Asado Con Salsa De Naranja - Receta De Navidad",
+"s": 557
+},
+{
 "id": "d-2g55D972M",
 "t": "Una forma segura de superar a tu ex (esto te sorprenderá)",
 "s": 247
@@ -23027,6 +25222,11 @@
 "id": "Wm2PFz-a-rc",
 "t": "Why Every Millimeter Matters In These World Cup Gloves",
 "s": 562
+},
+{
+"id": "da1z-xMmLeo",
+"t": "Canelones De Rabo De Toro - Receta De Navidad",
+"s": 617
 },
 {
 "id": "sVZMdaapIW0",
@@ -23044,6 +25244,11 @@
 "s": 209
 },
 {
+"id": "VeHs6-r4F0Y",
+"t": "Tarta De Queso De Turrón - Cremosidad Perfecta Para Navidad",
+"s": 763
+},
+{
 "id": "lsvKC6hmRqU",
 "t": "La cosa más romántica que puedes decirle a alguien",
 "s": 276
@@ -23057,6 +25262,11 @@
 "id": "RZGsfvFXStY",
 "t": "The Illegal Business Of Fake World Cup Jerseys",
 "s": 741
+},
+{
+"id": "2H3xGtEqgUo",
+"t": "Cómo hacer Sushi Con Un Maestro Formado En Japón",
+"s": 1647
 },
 {
 "id": "hb7ViMlVmOM",
@@ -23074,6 +25284,11 @@
 "s": 13105
 },
 {
+"id": "UNhlvyoC7Bs",
+"t": "Cocinando En El Restaurante Más De Moda De Madrid",
+"s": 1102
+},
+{
 "id": "TEh7Ui-Fm0k",
 "t": "Elogio de la gente amable",
 "s": 214
@@ -23087,6 +25302,11 @@
 "id": "kezIRydD7p4",
 "t": "13 Dangerous Jobs Around the World",
 "s": 12837
+},
+{
+"id": "RR4P5FwSj3s",
+"t": "Curso GRATIS de Panadería para Principiantes",
+"s": 3506
 },
 {
 "id": "Ch5ncbaJO7Q",
@@ -23104,6 +25324,11 @@
 "s": 1075
 },
 {
+"id": "oP5YGYt1AmU",
+"t": "Pruebo Cuchillos De 5€ a 3500€ - ¿Cúal Comprar?",
+"s": 1384
+},
+{
 "id": "WpZcq-8g67o",
 "t": "Cómo no sentirse tan mal por estar soltero",
 "s": 273
@@ -23117,6 +25342,11 @@
 "id": "WKi9FHrGAjA",
 "t": "Why Living Past 115 Is Almost Impossible | Pushing Limits",
 "s": 2224
+},
+{
+"id": "bST85WxRxLI",
+"t": "3 TRUCOS Para Una PAELLA PERFECTA",
+"s": 971
 },
 {
 "id": "_oaidBmgMmo",
@@ -23134,6 +25364,11 @@
 "s": 529
 },
 {
+"id": "7nFcA_3of5g",
+"t": "10 Maneras De Cocinar Huevos Profesionales",
+"s": 717
+},
+{
 "id": "jsPsPMM1ZLs",
 "t": "Tus dos opciones en el amor después de una mala infancia",
 "s": 208
@@ -23147,6 +25382,11 @@
 "id": "s2S0CGyKmcY",
 "t": "What 'Made In America' Jeans Actually Look Like",
 "s": 855
+},
+{
+"id": "T1rp4PC7gYE",
+"t": "Guía Definitiva Para Limpiar Todo Tipo De Pescado",
+"s": 1708
 },
 {
 "id": "2ITQid177t8",
@@ -23164,6 +25404,11 @@
 "s": 1179
 },
 {
+"id": "sZPukO998II",
+"t": "El Truco Para Asar El Pollo Perfecto - Temperaturas Y Tiempos",
+"s": 674
+},
+{
 "id": "nKee93AC408",
 "t": "Cómo se hereda toda maldad",
 "s": 222
@@ -23177,6 +25422,11 @@
 "id": "vwHCGH3W1LU",
 "t": "How To Take On Apple And Samsung, With Nothing CBO | CMO Insider Podcast",
 "s": 1234
+},
+{
+"id": "0hTYXUzEskE",
+"t": "Trucos De Restaurante Para Cocinar La Carne Al Punto",
+"s": 520
 },
 {
 "id": "IKO9ADslRs4",
@@ -23194,6 +25444,11 @@
 "s": 1268
 },
 {
+"id": "FIb-gnI09nI",
+"t": "El Secreto Para Hacer Comida De Restaurante En Casa: Sous Vide",
+"s": 793
+},
+{
 "id": "-c6r2lACQyU",
 "t": "Cómo protegernos",
 "s": 181
@@ -23207,6 +25462,11 @@
 "id": "EBO6z839sug",
 "t": "Why We Don't Have Robot Companions Yet | Big Business",
 "s": 1046
+},
+{
+"id": "fxz4xt3YJdE",
+"t": "Los Caldos Más Importantes De La Cocina Y Cómo Hacerlos",
+"s": 976
 },
 {
 "id": "iz3iU3LWRM8",
@@ -23224,6 +25484,11 @@
 "s": 13771
 },
 {
+"id": "MB7oOmfHHAk",
+"t": "5 Cenas Fáciles Y Mejores Que El Batchcooking",
+"s": 879
+},
+{
 "id": "k7z215VLu9I",
 "t": "Cómo saber cuándo has encontrado a la pareja ideal",
 "s": 198
@@ -23237,6 +25502,11 @@
 "id": "Q5x6L332Ilg",
 "t": "The Hidden Process Behind Every FIFA-Certified Football | Big Business",
 "s": 668
+},
+{
+"id": "K7luZkMTlqw",
+"t": "Cenando en NOMA, El Mejor Restaurante Del Mundo",
+"s": 575
 },
 {
 "id": "l1viKpuypHw",
@@ -23254,6 +25524,11 @@
 "s": 1227
 },
 {
+"id": "XXfprj3b6wo",
+"t": "Barbacoas - 5 Platos Para Salir De La Rutina",
+"s": 426
+},
+{
 "id": "JViyD5dKM8k",
 "t": "La única regla de relación que importa",
 "s": 345
@@ -23267,6 +25542,11 @@
 "id": "IJSbWTpnYSQ",
 "t": "Inside The Chip Factory 1,000 Times Cleaner Than An Operating Room | Made In America",
 "s": 1829
+},
+{
+"id": "B2qGGHmtHoI",
+"t": "21 Trucos De Cocina Que Aprendí En Restaurantes Michelin",
+"s": 970
 },
 {
 "id": "7hxcNuOaa0s",
@@ -23284,6 +25564,11 @@
 "s": 785
 },
 {
+"id": "FBL9iz0XhqQ",
+"t": "Qué Come en 1 Día Un chef Profesional",
+"s": 984
+},
+{
 "id": "PJ-MGBMRiLs",
 "t": "Tu mente está tratando de sanarte (lastimándote)",
 "s": 262
@@ -23297,6 +25582,11 @@
 "id": "Aoc-s-_84Ig",
 "t": "The Real Reason Beef Prices Are So Expensive",
 "s": 884
+},
+{
+"id": "rkIj9ylWJWI",
+"t": "24 Horas En Un Restaurante Michelin",
+"s": 1093
 },
 {
 "id": "CefMjihQj1U",
@@ -23314,6 +25604,11 @@
 "s": 206
 },
 {
+"id": "LYg6ItzJgIg",
+"t": "Queso De Cabrales, El Más Caro Del Mundo - Cultura Gastronómica",
+"s": 1051
+},
+{
 "id": "ylpRsIRIcHk",
 "t": "Una prueba para medir lo bueno que era tu padre",
 "s": 435
@@ -23327,6 +25622,11 @@
 "id": "w8GIaxQ54mk",
 "t": "Why Maine's Blueberry Farmers Are Losing Millions",
 "s": 1422
+},
+{
+"id": "8fHQc6KMVaQ",
+"t": "Cómo Hacen Cachopo Y Fabada En Un Famoso Restaurante Asturiano",
+"s": 794
 },
 {
 "id": "XhkIeu2GYG4",
@@ -23344,6 +25644,11 @@
 "s": 1066
 },
 {
+"id": "nNkOG5-wc1g",
+"t": "Hice Una Barbacoa De Bogavante Y Marisco Gallego",
+"s": 846
+},
+{
 "id": "4SRuqBtbWmA",
 "t": "Por qué un paseo por el parque puede salvarte la vida",
 "s": 304
@@ -23357,6 +25662,11 @@
 "id": "7VwEOyAcvJM",
 "t": "Breaking Down My $306,500 Salary In San Francisco | The Pay Check",
 "s": 988
+},
+{
+"id": "iyoNM14UkrM",
+"t": "Cómo Darle El Punto Perfecto A La Tarta De Queso",
+"s": 573
 },
 {
 "id": "GBIxoVLzbo8",
@@ -23374,6 +25684,11 @@
 "s": 8724
 },
 {
+"id": "epbWlp2FyxM",
+"t": "La Tortilla De Patata De Un Chef Profesional",
+"s": 887
+},
+{
 "id": "S50oBiocXjs",
 "t": "Las señales de alerta que sigues ignorando",
 "s": 302
@@ -23387,6 +25702,11 @@
 "id": "vMiqO9rDO9c",
 "t": "Former OpenAI Researcher Warns 'AI Is Not Loyal To Us' | AI Architects | Business Insider",
 "s": 1965
+},
+{
+"id": "dTbzUp1Fhss",
+"t": "Cómo Hacer Una Cena Para Invitados",
+"s": 917
 },
 {
 "id": "PRIwXXeHxck",
@@ -23404,6 +25724,11 @@
 "s": 796
 },
 {
+"id": "dYNYXhiHaB0",
+"t": "Cómo Hacer Una FIDEUA De Restaurante",
+"s": 601
+},
+{
 "id": "hfqEqIgBYOg",
 "t": "Los peligros de perder el sentido de uno mismo",
 "s": 342
@@ -23412,6 +25737,11 @@
 "id": "zS032NiHcmk",
 "t": "The Rise And Fall Of Spirit Airlines",
 "s": 691
+},
+{
+"id": "exhgJuJDT10",
+"t": "Que Aceite Usar Para Cocinar (Salud Y Sabor)",
+"s": 1316
 },
 {
 "id": "9Gr9EQLs4o8",
@@ -23424,6 +25754,11 @@
 "s": 825
 },
 {
+"id": "usp75ZrXB5k",
+"t": "Mis 3 Desayunos Favoritos Para Días Especiales",
+"s": 664
+},
+{
 "id": "bcNr9SXdsMQ",
 "t": "El error que comete el 90% de las personas en las citas",
 "s": 344
@@ -23432,6 +25767,11 @@
 "id": "ij61TLsjKD8",
 "t": "Why Drilling To The Earth's Mantle Is Almost Impossible | Pushing Limits",
 "s": 1878
+},
+{
+"id": "IO4Z0anzIog",
+"t": "5 Cenas Listas En 15 Minutos o Menos",
+"s": 598
 },
 {
 "id": "hD6-QtY9n4w",
@@ -23444,6 +25784,11 @@
 "s": 12634
 },
 {
+"id": "7BljXvdvFKk",
+"t": "21 Trucos De Cocina Que Aprendí En Restaurantes",
+"s": 684
+},
+{
 "id": "4ZvK-gZZy38",
 "t": "La Marca del Amor Verdadero",
 "s": 385
@@ -23452,6 +25797,11 @@
 "id": "bG6bXMhy0Ps",
 "t": "Should Organic Food Be So Expensive?",
 "s": 1110
+},
+{
+"id": "VEgtw_Eo4OA",
+"t": "TOP 3 Dumplings De Madrid - Cultura Gastronómica",
+"s": 1168
 },
 {
 "id": "Wsk2_8d8fVY",
@@ -23464,6 +25814,11 @@
 "s": 871
 },
 {
+"id": "kYMw24D1M1g",
+"t": "Buscando La Mejor Hamburguesa En Casa",
+"s": 797
+},
+{
 "id": "tMC8T8wX_fk",
 "t": "El ex que no puedes superar",
 "s": 357
@@ -23472,6 +25827,11 @@
 "id": "oslN3LtaBqI",
 "t": "The Real Reason America's Weapons Are So Expensive",
 "s": 1219
+},
+{
+"id": "GkBATA97m0Y",
+"t": "Sal De La Rutina - 3 Salsas Que Cambiarán Tus Pastas Para Siempre",
+"s": 487
 },
 {
 "id": "66rJJshZHts",
@@ -23484,6 +25844,11 @@
 "s": 261
 },
 {
+"id": "OjEIM0NEDt4",
+"t": "Cómo Hacer Pasta Fresca En Casa - Aprende Por Fin",
+"s": 580
+},
+{
 "id": "ZkKv8MTpKAE",
 "t": "Cómo las personas heridas buscan más castigo",
 "s": 332
@@ -23492,6 +25857,11 @@
 "id": "9JLKfP5uJ9E",
 "t": "Why Pistachios Are About To Get Very Expensive",
 "s": 1938
+},
+{
+"id": "9CP8LxAkh2w",
+"t": "Aprende a Hacer Salsas Como Un Chef",
+"s": 1052
 },
 {
 "id": "D3BxKUCQuzA",
@@ -23504,6 +25874,11 @@
 "s": 1122
 },
 {
+"id": "4pwK05NRle8",
+"t": "¿Cuál Es La Mejor Sartén Para Cocinar? Guía Definitiva - Cultura Gastronómica",
+"s": 1194
+},
+{
 "id": "D5w28w3muec",
 "t": "Cómo la política puede volvernos locos",
 "s": 355
@@ -23512,6 +25887,11 @@
 "id": "uGkwc-JWdYw",
 "t": "Inside Turkey's $2B Hair Transplant Tourism Boom",
 "s": 1076
+},
+{
+"id": "N2xJNx5IPWo",
+"t": "Cómo Se Forjan Los Cuchillos De Damasco Artesanos - Cultura Gastronómica",
+"s": 1175
 },
 {
 "id": "2_hGmSg4LHo",
@@ -23524,6 +25904,11 @@
 "s": 2019
 },
 {
+"id": "k9daY0TZcDQ",
+"t": "5 Guarniciones Que Mejoran Cualquier Plato",
+"s": 812
+},
+{
 "id": "JRtKwcUJ5xk",
 "t": "\"Te Amo Pero No Creo Que Deberíamos Estar Juntos\"",
 "s": 171
@@ -23532,6 +25917,11 @@
 "id": "HjSQ10zDB0k",
 "t": "How Miners Risk Their Lives For Himalayan Pink Salt",
 "s": 823
+},
+{
+"id": "F6C90IXzFic",
+"t": "Cenas De Diario Mejores Que El Batch Cooking",
+"s": 1049
 },
 {
 "id": "aUH8PV4PIr8",
@@ -23544,6 +25934,11 @@
 "s": 2200
 },
 {
+"id": "RIv8s_hLLkk",
+"t": "10 Recetas Para No Tirar Comida: Conservar y Preservar",
+"s": 1520
+},
+{
 "id": "Plp318ScOEI",
 "t": "¿Por qué sigues teniendo la misma pelea?",
 "s": 221
@@ -23551,6 +25946,11 @@
 {
 "id": "bxVvA8SfJpc",
 "t": "How One Factory Supplies NYC's Bodegas",
+"s": 751
+},
+{
+"id": "4HJJwttrHRE",
+"t": "Cómo Organizar Tu Cocina Para Comer Mejor",
 "s": 751
 },
 {
@@ -23564,6 +25964,11 @@
 "s": 1936
 },
 {
+"id": "hRGEKB8-F-s",
+"t": "Cómo Cocinar Setas",
+"s": 848
+},
+{
 "id": "u5erSbqpX3o",
 "t": "8 reglas para terminar una relación",
 "s": 257
@@ -23572,6 +25977,11 @@
 "id": "Mnv6y3MVVKc",
 "t": "How Army Paratroopers Heading To Iran Are Trained To Jump From Airplanes",
 "s": 1482
+},
+{
+"id": "pXaXEWbtRGs",
+"t": "Cómo Encontrar SETAS Y Diferenciar Las Venenosas - Cultura Gastronómica",
+"s": 1854
 },
 {
 "id": "9S_ha84YVn8",
@@ -23584,6 +25994,11 @@
 "s": 662
 },
 {
+"id": "MtydOKgNcz0",
+"t": "Cómo Hacer El Viral Crepe De Leche De 1 Ingrediente",
+"s": 1030
+},
+{
 "id": "5vMOW-q5FsY",
 "t": "Ocho Reglas para Terminar Relaciones",
 "s": 288
@@ -23592,6 +26007,11 @@
 "id": "T9AQJj2Pquo",
 "t": "The Rise And Fall Of Southern Cafeterias",
 "s": 1461
+},
+{
+"id": "gnkLCnBizqo",
+"t": "Cómo Aprender a Cocinar",
+"s": 487
 },
 {
 "id": "-GoussBb5FM",
@@ -23604,6 +26024,11 @@
 "s": 2411
 },
 {
+"id": "x0TDnfA_ABY",
+"t": "Cocido, Croquetas y Mollete de Pringá, 3 Recetas Perfectas",
+"s": 1450
+},
+{
 "id": "o_RNzmkiLnQ",
 "t": "La Vida No Se Trata de Ser Feliz",
 "s": 254
@@ -23612,6 +26037,11 @@
 "id": "RfKlcttNBG0",
 "t": "How 13 Giant Batches Of Food Are Produced Around The World",
 "s": 13724
+},
+{
+"id": "DFiab-unMuY",
+"t": "Cocina Francesa, La Base De La Gastronomía - Cultura Gastronómica:",
+"s": 924
 },
 {
 "id": "1lFSutmVv0U",
@@ -23624,6 +26054,11 @@
 "s": 782
 },
 {
+"id": "d6Ih7ckl_gY",
+"t": "Aprende Pastelería - Curso Completo (+10 Técnicas)",
+"s": 1847
+},
+{
 "id": "Fpfucz_QB5E",
 "t": "En conversación: Alain de Botton habla de Great Company con Jamie Laing",
 "s": 3541
@@ -23632,6 +26067,11 @@
 "id": "o5opXRMhcyg",
 "t": "How Barbie Became A $1 Billion-A-Year Brand",
 "s": 473
+},
+{
+"id": "0Nvq3Tly744",
+"t": "Los 5 Hermanos Que Hacen El Mejor Embutido - Cultura Gastronómica",
+"s": 855
 },
 {
 "id": "TsTW1xBV_cQ",
@@ -23644,6 +26084,11 @@
 "s": 1048
 },
 {
+"id": "O5AZP1mF2bs",
+"t": "Productos De 3 Estrellas Michelin - Cultura Gastronómica",
+"s": 764
+},
+{
 "id": "qdBavW0x62k",
 "t": "La Psicología de la Soledad Masculina",
 "s": 261
@@ -23652,6 +26097,11 @@
 "id": "bkTrtv5nVmc",
 "t": "From Cocaine To Gold: The Cartels' New Billion-Dollar Trade",
 "s": 1598
+},
+{
+"id": "XjSnECug3oI",
+"t": "3 Fermentos En Casa: Kefir, Chucrut y Pepinillos",
+"s": 1303
 },
 {
 "id": "6odiH6-8ZqE",
@@ -23664,6 +26114,11 @@
 "s": 876
 },
 {
+"id": "2PYx-BtPeMc",
+"t": "Menú de 3 Platos Para Citas y Cenas Especiales",
+"s": 865
+},
+{
 "id": "M0swUcJAtzs",
 "t": "Los 9 Errores Más Comunes Que Cometemos al Elegir Pareja",
 "s": 410
@@ -23672,6 +26127,11 @@
 "id": "0mdzlfQQSl8",
 "t": "Beyond & Impossible Burgers Were Everywhere — What Happened?",
 "s": 1196
+},
+{
+"id": "ewP-HnNxYkw",
+"t": "Como Afilar Un Cuchillo: Horl 2 VS Piedra VS Chaira",
+"s": 596
 },
 {
 "id": "GzWJlHIxfAg",
@@ -23684,6 +26144,11 @@
 "s": 1063
 },
 {
+"id": "KwVez3egTzk",
+"t": "Cómo es Noma, El Mejor Restaurante Del Mundo",
+"s": 1455
+},
+{
 "id": "ygxnhxlaWtA",
 "t": "Cómo las Personas Exitosas Asumen Riesgos",
 "s": 310
@@ -23692,6 +26157,11 @@
 "id": "Qt3KppJNDtE",
 "t": "How India Took Over America’s Shrimp Supply | Big Business | Business Insider",
 "s": 1291
+},
+{
+"id": "bcgIPUBJwDQ",
+"t": "BARBACOAS - 3 Recetas Para subir el Nivel",
+"s": 547
 },
 {
 "id": "yT9LTpNNQyk",
@@ -23704,6 +26174,11 @@
 "s": 1770
 },
 {
+"id": "SyCZQM3PjCE",
+"t": "Como Aprendí a Hacer PAELLAS",
+"s": 334
+},
+{
 "id": "JyzJrkF21MM",
 "t": "Cuando Necesitas Renunciar al Control",
 "s": 213
@@ -23712,6 +26187,11 @@
 "id": "L-1onPXTTyE",
 "t": "How Millions Are Trapped In Modern Day Slavery At Sandstone Quarries in India",
 "s": 1353
+},
+{
+"id": "w1IuFHP2Q0c",
+"t": "TRUFAS, Por Qué Tan Caras Y Como Cultivarlas - Cultura Gastronómica",
+"s": 349
 },
 {
 "id": "hEgtFSNRd54",
@@ -23724,6 +26204,11 @@
 "s": 413
 },
 {
+"id": "gQSfe6DgrwQ",
+"t": "Cocina Molecular: Espumas, Aires, Gelatinas, Esféricos y Texturas - Cultura Gastronómica",
+"s": 596
+},
+{
 "id": "m6vesqQmHXk",
 "t": "Por Qué Saboteamos Nuestra Propia Felicidad",
 "s": 191
@@ -23734,6 +26219,11 @@
 "s": 619
 },
 {
+"id": "UyNWe0BEGks",
+"t": "Como Ser CREATIVO En La Cocina en 5 Pasos",
+"s": 365
+},
+{
 "id": "Fv-a8Q1jJE8",
 "t": "Vivir a largo plazo con una enfermedad mental",
 "s": 244
@@ -23742,6 +26232,11 @@
 "id": "QF6fDItt-Jw",
 "t": "How An NFL Stadium Flips Overnight",
 "s": 707
+},
+{
+"id": "rI_S0idL8HE",
+"t": "Guía Completa Para Fermentar En Casa - Cultura Gastronómica",
+"s": 1721
 }
 ]
 }
