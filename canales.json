@@ -2,7 +2,7 @@
   {
     "num": "01",
     "name": "Variedades",
-    "modo": "nuevo",
+    "modo": "tele",
     "hours": [],
     "fuentes": [
       {
@@ -16,6 +16,24 @@
       },
       {
         "url": "https://www.youtube.com/@konbini"
+      },
+      {
+        "url": "https://www.youtube.com/@TheDiaryOfACEO"
+      },
+      {
+        "url": "https://www.youtube.com/@trevornoah"
+      },
+      {
+        "url": "https://www.youtube.com/@themuseumofmodernart"
+      },
+      {
+        "url": "https://www.youtube.com/@nytimes"
+      },
+      {
+        "url": "https://www.youtube.com/@Vox"
+      },
+      {
+        "url": "https://www.youtube.com/@VICE-TV"
       }
     ]
   },
@@ -27,6 +45,12 @@
     "fuentes": [
       {
         "url": "https://www.youtube.com/@Google"
+      },
+      {
+        "url": "https://www.youtube.com/@TheVerge"
+      },
+      {
+        "url": "https://www.youtube.com/@PopularMechanics"
       }
     ]
   },
@@ -126,6 +150,9 @@
       },
       {
         "url": "https://www.youtube.com/@eater"
+      },
+      {
+        "url": "https://www.youtube.com/@pastagrannies"
       }
     ]
   },
@@ -143,6 +170,15 @@
       },
       {
         "url": "https://www.youtube.com/@FipradioFr"
+      },
+      {
+        "url": "https://www.youtube.com/@genius"
+      },
+      {
+        "url": "https://www.youtube.com/@DrumeoOfficial"
+      },
+      {
+        "url": "https://www.youtube.com/@SEBFRIT"
       }
     ]
   },
