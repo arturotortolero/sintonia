@@ -165,8 +165,6 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
           <button class="k" data-seek="start" aria-label="Ver desde el inicio">⏮ Inicio</button>
           <button class="k" data-seek="-30" aria-label="Retroceder 30 segundos">−30 s</button>
           <button class="k" data-seek="30" aria-label="Adelantar 30 segundos">+30 s</button>
-          <button class="k" id="volDown" aria-label="Bajar volumen">Vol −</button>
-          <button class="k" id="volUp" aria-label="Subir volumen">Vol +</button>
           <button class="k mute" id="muteBtn" aria-pressed="false">Mute</button>
           <button class="k" id="guideBtn">Guía</button>
           <button class="k" id="zoomBtn">Zoom</button>
@@ -491,7 +489,6 @@ function seek(how){
   $("osd").classList.add("on");clearTimeout(osdTimer);osdTimer=setTimeout(()=>$("osd").classList.remove("on"),1200);
 }
 document.querySelectorAll("[data-seek]").forEach(b=>b.onclick=()=>seek(b.dataset.seek==="start"?"start":+b.dataset.seek));
-$("volUp").onclick=()=>setVol(5);$("volDown").onclick=()=>setVol(-5);
 $("guideBtn").onclick=toggleGuide;$("sleepBtn").onclick=cycleSleep;
 $("powerBig").onclick=powerOn;$("powerBtn").onclick=()=>isOn?powerOff():powerOn();
 addEventListener("keydown",e=>{
