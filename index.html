@@ -64,7 +64,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .row .t{color:var(--osd)}
 .row .sub{opacity:.75;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 /* Barbilla con los mandos del aparato */
-.chin{min-height:50px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;padding-block:6px;transition:opacity 1s}
+.chin{position:relative;z-index:6;min-height:50px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;padding-block:6px;transition:opacity 1s}
 .badge{font-size:14px;font-weight:600;letter-spacing:.34em;color:var(--label)}
 .ctrl{display:flex;flex-wrap:wrap;justify-content:center;gap:5px}
 .status{display:flex;align-items:center;justify-content:flex-end;gap:10px;font-size:10px;letter-spacing:.14em;color:var(--dim)}
@@ -73,6 +73,15 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .k{min-width:36px;min-height:32px;padding:0 8px;border-radius:6px;background:var(--rubber);box-shadow:inset 0 -2px 0 #0006,0 1px 0 #0008;font-size:12px;font-weight:600;color:#e6e7e9;letter-spacing:.03em;text-transform:uppercase;font-variant-numeric:tabular-nums}
 .k{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
 .k:hover{background:var(--rubber-2)}
+@media (hover:hover){
+  .k[data-key]{position:relative}
+  .k[data-key]:hover::after,.k[data-key]:focus-visible::after{content:"Tecla: " attr(data-key);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);z-index:20;
+    padding:3px 7px;border-radius:4px;background:#050606;color:var(--osd);font:400 17px var(--osd-font);letter-spacing:0;text-transform:none;white-space:nowrap;pointer-events:none;box-shadow:0 0 0 1px #3f4044}
+  .status .k[data-key]:hover::after{left:auto;right:0;transform:none}
+  .cine-keys .k[data-key]{opacity:.6}
+  .cine-keys:not(.cine-ch) .k[data-key]:hover::after{bottom:auto;left:calc(100% + 6px);top:50%;transform:translateY(-50%)}
+  .cine-ch .k[data-key]:hover::after{bottom:auto;left:auto;right:calc(100% + 6px);top:50%;transform:translateY(-50%)}
+}
 .k:active{transform:translateY(1px);box-shadow:none}
 .k.lit{color:var(--osd)}
 .k.pw{background:var(--red);color:#fff}
@@ -506,7 +515,10 @@ addEventListener("keydown",e=>{
   if(/^[0-9]$/.test(e.key))typeDigit(e.key);
   if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
   if(e.key==="Escape"){$("guide").hidden=true;$("set").classList.remove("cine");}
-  if(e.key===" "&&document.activeElement===document.body){e.preventDefault();isOn?powerOff():powerOn();}
+  if(e.key==="y"||e.key==="Y"){$("ytBtn").click();}
+  if(e.key==="s"||e.key==="S")cycleSleep();
+  if(e.key==="a"||e.key==="A")openPrefs();
+  if(e.key===" "){e.preventDefault();if(document.activeElement&&document.activeElement.blur)document.activeElement.blur();isOn?powerOff():powerOn();}
 });
 addEventListener("resize",paintDial);
 cur=defaultChannel(new Date().getHours());paintDial();showOff();
@@ -608,6 +620,10 @@ $("tokenSave").onclick=async()=>{
   }catch(e){setToken("");msg("Ese código no da acceso de escritura a sintonia. Revisa los pasos.",true);}
 };
 $("tokenForget").onclick=()=>{setToken("");msg("Dispositivo desconectado.");renderPrefs();};
+/* Atajos de teclado que se muestran al pasar el cursor */
+[["#chUp,#cineUp","↑"],["#chDown,#cineDown","↓"],['[data-seek="start"]',"I"],['[data-seek="-30"]',"J"],['[data-seek="30"]',"L"],
+ [".mute","M"],["#guideBtn,#cineGuide","G"],["#zoomBtn","Z"],[".yt","Y"],["#sleepBtn","S"],["#prefsBtn","A"],["#fullBtn","F"],["#powerBtn","Espacio"],["#cineExit","Esc"]]
+.forEach(([sel,key])=>document.querySelectorAll(sel).forEach(b=>{b.dataset.key=key;b.setAttribute("aria-keyshortcuts",key==="Espacio"?"Space":key==="Esc"?"Escape":key==="↑"?"ArrowUp":key==="↓"?"ArrowDown":key);}));
 window.__tv={tune,state:()=>({cur,item,stage,turn,isOn,ready,playing,yt:player&&player.getPlayerState&&player.getPlayerState(),title:player&&player.getVideoData&&player.getVideoData().title,vid:player&&player.getVideoData&&player.getVideoData().video_id,t:player&&player.getCurrentTime&&player.getCurrentTime()})};
 </script>
 </body>
