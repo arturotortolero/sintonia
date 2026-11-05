@@ -61,24 +61,6 @@
     ]
   },
   {
-    "num": "03",
-    "name": "Comiquitas",
-    "modo": "tele",
-    "barajar": true,
-    "hours": [
-      15,
-      20
-    ],
-    "fuentes": [
-      {
-        "url": "https://www.youtube.com/playlist?list=PLMnlzeYiwSXeCVwR2j9EDs-J63QPr06jU",
-        "contiene": "Nicktoons|NickRewind",
-        "excluir": "Jungle",
-        "min": 0.75
-      }
-    ]
-  },
-  {
     "num": "04",
     "name": "Podcasts",
     "modo": "nuevo",
