@@ -388,6 +388,16 @@ function press(n){
   if(i<0){ if(isOn) noSignal(n); return; }
   if(isOn) tune(i); else { cur=i; paintDial(); showOff(); }
 }
+/* Con canales de dos cifras, espera un instante por si llega la segunda tecla. */
+let typed="",typedTimer;
+function typeDigit(k){
+  typed+=k; clearTimeout(typedTimer);
+  const two=CHANNELS.some(c=>+c.num>=10);
+  if(!two||typed.length===2){ const n=+typed; typed=""; if(n) press(n); return; }
+  $("osdNum").textContent=typed+"-"; $("osdName").textContent=""; $("osdTitle").textContent="";
+  $("osd").classList.add("on"); clearTimeout(osdTimer);
+  typedTimer=setTimeout(()=>{ const n=+typed; typed=""; $("osd").classList.remove("on"); if(n) press(n); },1200);
+}
 function noSignal(n){
   burst(); clack();
   $("osdNum").textContent=String(n).padStart(2,"0"); $("osdName").textContent="SIN SEÑAL"; $("osdTitle").textContent="";
@@ -472,7 +482,7 @@ addEventListener("keydown",e=>{
   if(e.key==="g"||e.key==="G")toggleGuide();
   if(e.key==="m"||e.key==="M")toggleMute();
   if(e.key==="f"||e.key==="F")toggleFull();
-  if(/^[1-9]$/.test(e.key))press(+e.key);
+  if(/^[0-9]$/.test(e.key))typeDigit(e.key);
   if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
   if(e.key==="Escape"){$("guide").hidden=true;$("set").classList.remove("cine");}
   if(e.key===" "&&document.activeElement===document.body){e.preventDefault();isOn?powerOff():powerOn();}
@@ -497,7 +507,8 @@ function h(tag,props={},...kids){const e=document.createElement(tag);Object.assi
 function msg(t,bad){$("prefsMsg").textContent=t;$("prefsMsg").classList.toggle("bad",!!bad);}
 function field(label,input){const id="f"+Math.random().toString(36).slice(2,8);input.id=id;return h("div",{className:"field"},h("label",{htmlFor:id,textContent:label}),input);}
 function looksLikeYT(u){return /^@[\w.-]+$/.test(u)||/(youtube\.com|youtu\.be)\//.test(u);}
-function freeNum(){for(let n=1;n<=9;n++){const s="0"+n;if(!config.some(c=>c.num===s))return s;}return "";}
+function pad2(n){return String(n).padStart(2,"0");}
+function freeNum(){for(let n=1;n<=99;n++){const s=pad2(n);if(!config.some(c=>c.num===s))return s;}return "";}
 function sourceLine(ch,i){
   const f=ch.fuentes[i],notes=[];
   if(f.min)notes.push("mínimo "+f.min+" min");
@@ -509,7 +520,7 @@ function sourceLine(ch,i){
 }
 function card(ch,idx){
   const num=h("select",{}),nm=h("input",{value:ch.name,maxLength:24}),modo=h("select",{});
-  for(let n=1;n<=9;n++){const v="0"+n;if(v===ch.num||!config.some(c=>c.num===v))num.append(h("option",{value:v,textContent:v,selected:v===ch.num}));}
+  for(let n=1;n<=99;n++){const v=pad2(n);if(v===ch.num||!config.some(c=>c.num===v))num.append(h("option",{value:v,textContent:v,selected:v===ch.num}));}
   [["tele","Como la tele: entras a mitad de la emisión"],["nuevo","Desde el principio: lo más nuevo primero"]].forEach(([v,t])=>modo.append(h("option",{value:v,textContent:t,selected:v===ch.modo})));
   num.onchange=()=>{ch.num=num.value;config.sort((a,b)=>a.num.localeCompare(b.num));renderPrefs();};
   nm.oninput=()=>ch.name=nm.value; modo.onchange=()=>ch.modo=modo.value;
