@@ -321,7 +321,7 @@ setInterval(()=>{
 function crtFade(){
   const g=document.querySelector(".glass");
   g.style.transition="none"; g.style.opacity=1; void g.offsetWidth;
-  g.style.transition="opacity 60s linear"; g.style.opacity=.12;
+  g.style.transition="opacity 60s linear"; g.style.opacity=0;
 }
 function tune(i,silent){
   cur=(i+CHANNELS.length)%CHANNELS.length; stage=0; turn=0; busy=0;
