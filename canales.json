@@ -336,5 +336,19 @@
         "url": "https://www.youtube.com/@aliabdaal"
       }
     ]
+  },
+  {
+    "num": "13",
+    "name": "Siestecita de Osos",
+    "modo": "nuevo",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@bbcearth"
+      },
+      {
+        "url": "https://www.youtube.com/@NatGeoAnimals"
+      }
+    ]
   }
 ]
