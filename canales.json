@@ -70,6 +70,47 @@
     ]
   },
   {
+    "num": "03",
+    "name": "Documentales",
+    "modo": "tele",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/playlist?list=PL21JZTwYQVIFU5Fy4ezjeuya_1SlhR9uj"
+      },
+      {
+        "url": "https://www.youtube.com/@aeonvideo",
+        "min": 4,
+        "max": 25
+      },
+      {
+        "url": "https://www.youtube.com/@Vox",
+        "min": 4,
+        "max": 25
+      },
+      {
+        "url": "https://www.youtube.com/@johnnyharris",
+        "min": 4,
+        "max": 30
+      },
+      {
+        "url": "https://www.youtube.com/@Polymatter",
+        "min": 4,
+        "max": 25
+      },
+      {
+        "url": "https://www.youtube.com/@Wendoverproductions",
+        "min": 4,
+        "max": 25
+      },
+      {
+        "url": "https://www.youtube.com/@britishpathe",
+        "min": 4,
+        "max": 25
+      }
+    ]
+  },
+  {
     "num": "04",
     "name": "Podcasts",
     "modo": "nuevo",

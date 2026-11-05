@@ -86,6 +86,8 @@ def read_source(src):
     name, vids = videos(info["page"])
     if src.get("min"):
         vids = [v for v in vids if v["s"] >= float(src["min"]) * 60]
+    if src.get("max"):
+        vids = [v for v in vids if v["s"] <= float(src["max"]) * 60]
     if src.get("contiene"):
         vids = [v for v in vids if has_any(v["t"], src["contiene"])]
     if src.get("excluir"):
@@ -93,7 +95,7 @@ def read_source(src):
     if not vids:
         raise RuntimeError(f"ningún vídeo pasa los filtros de {src['url']}")
     vids = [{**v, "t": clean(v["t"])} for v in vids]
-    info.update(name=info.get("name") or name, vids=vids, plain=not (src.get("min") or src.get("contiene") or src.get("excluir")))
+    info.update(name=info.get("name") or name, vids=vids, plain=not (src.get("min") or src.get("max") or src.get("contiene") or src.get("excluir")))
     return info
 
 def mix(lists):
@@ -122,8 +124,8 @@ def build(ch):
     rest = [s for s in src if s not in live]
     if live and not rest:
         return {**out, "kind": "latest", "ids": [s["id"] for s in live]}
-    filtered = [f for f in ch["fuentes"] if f.get("min") or f.get("contiene") or f.get("excluir")]
-    if live and all(f.get("contiene") and not f.get("min") for f in filtered):
+    filtered = [f for f in ch["fuentes"] if f.get("min") or f.get("max") or f.get("contiene") or f.get("excluir")]
+    if live and all(f.get("contiene") and not f.get("min") and not f.get("max") for f in filtered):
         return {**out, "kind": "latest", "ids": [s["id"] for s in live], "recap": [v["id"] for v in mix([s["vids"] for s in rest])[:3]]}
     return {**out, "kind": "episodes", "items": mix(lists)}
 

@@ -545,6 +545,7 @@ function freeNum(){for(let n=1;n<=99;n++){const s=pad2(n);if(!config.some(c=>c.n
 function sourceLine(ch,i){
   const f=ch.fuentes[i],notes=[];
   if(f.min)notes.push("mínimo "+f.min+" min");
+  if(f.max)notes.push("máximo "+f.max+" min");
   if(f.contiene)notes.push("título con: "+f.contiene.replace(/\|/g," o "));
   if(f.excluir)notes.push("sin: "+f.excluir);
   const label=f.url.replace(/^https?:\/\/(www\.)?/,"").replace(/\?si=.*$/,"");
