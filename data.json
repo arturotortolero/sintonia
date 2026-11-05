@@ -10,7 +10,7 @@
 "items": [
 {
 "id": "2IHqDUY3ZVc",
-"t": "The Dark Side Of India's $740 Million Firecracker Industry",
+"t": "Risking Death To Make Firecrackers For Diwali",
 "s": 825
 },
 {
@@ -35,7 +35,7 @@
 },
 {
 "id": "REfSnMJKatw",
-"t": "Priya Parker: Fight With Your Friends!",
+"t": "Priya Parker: Are You Scheduling Your Friendships to Death?",
 "s": 6263
 },
 {
@@ -45,7 +45,7 @@
 },
 {
 "id": "Zdm1DoIV7SI",
-"t": "What Men Actually Confess in a Legal Brothel",
+"t": "The Sex Was the Easy Part. The Real Work Was Emotional.",
 "s": 3246
 },
 {
@@ -95,7 +95,7 @@
 },
 {
 "id": "B_6lGEfJj-U",
-"t": "L’avocat LE PLUS détesté de l’Histoire du jeu vidéo | Deep Dive",
+"t": "GTA : il a voulu l’interdire (ça a mal fini) | Deep Dive",
 "s": 1643
 },
 {
@@ -175,7 +175,7 @@
 },
 {
 "id": "XbOkm0zB828",
-"t": "Michael Che: Kicking Trevor Out of VIP",
+"t": "Michael Che: The Unspoken Rules of Comedy",
 "s": 8415
 },
 {
@@ -255,7 +255,7 @@
 },
 {
 "id": "J6Zebd9wRB4",
-"t": "How ICE Arrests Depleted a Haitian Work Force",
+"t": "How Fear of ICE Is Gripping Haitian Workers",
 "s": 245
 },
 {
@@ -330,7 +330,7 @@
 },
 {
 "id": "wrelotZoMP8",
-"t": "How Silicon Valley captured the Pentagon | The Gray Area",
+"t": "How Silicon Valley learned to love war | The Gray Area",
 "s": 2896
 },
 {
@@ -400,7 +400,7 @@
 },
 {
 "id": "F68AdaKgwOU",
-"t": "Nevada tests midterm voter mood | America, Actually",
+"t": "Inside Nevada’s Trump slump | America, Actually",
 "s": 1713
 },
 {
@@ -470,7 +470,7 @@
 },
 {
 "id": "EogeI7sRtwU",
-"t": "Talarico vs. Paxton: Why the Texas Senate race is so close",
+"t": "Talarico vs. Paxton: What Texas voters have to say",
 "s": 1369
 },
 {
@@ -6974,19 +6974,14 @@
 "num": "02",
 "name": "Tecnología",
 "hours": [],
-"sourceName": "Google, The Verge, Popular Mechanics, WIRED y Marques Brownlee",
-"tagline": "Google, The Verge, Popular Mechanics, WIRED y Marques Brownlee",
+"sourceName": "Google, Popular Mechanics, WIRED y Marques Brownlee",
+"tagline": "Google, Popular Mechanics, WIRED y Marques Brownlee",
 "kind": "linear",
 "items": [
 {
 "id": "DDjr6gXqtN8",
 "t": "What’s New in Google Accessibility | Episode 13 | American Sign Language",
 "s": 478
-},
-{
-"id": "CAYWoVi0rkw",
-"t": "BookTok is the antidote to doomscrolling | The Vergecast",
-"s": 2162
 },
 {
 "id": "Ikl015Ax1a0",
@@ -7009,11 +7004,6 @@
 "s": 478
 },
 {
-"id": "eU70nW6yyd4",
-"t": "Why Rian Johnson made a photo app | The Vergecast",
-"s": 3692
-},
-{
 "id": "sckFhuLgXt4",
 "t": "3 descubrimientos arqueológicos que suenan demasiado extraños para ser reales",
 "s": 788
@@ -7032,11 +7022,6 @@
 "id": "WMjVP7QQyDI",
 "t": "Giannis x Google Search: Miami Pickup Hoops",
 "s": 73
-},
-{
-"id": "BTcOx_x9BNk",
-"t": "Will data centers rock the vote? | The Vergecast",
-"s": 2209
 },
 {
 "id": "Y66eDWnCzzI",
@@ -7059,11 +7044,6 @@
 "s": 834
 },
 {
-"id": "bqDCkYaOtGA",
-"t": "Cloud gaming works — but it's not winning",
-"s": 2504
-},
-{
 "id": "83ovYStxY-c",
 "t": "¿Realmente se fusionarán los humanos con la IA para 2045?",
 "s": 763
@@ -7082,11 +7062,6 @@
 "id": "ktdbUIZKeSE",
 "t": "Cómo evitar que los chips de IA se sobrecalienten en el espacio",
 "s": 133
-},
-{
-"id": "aOHO7o9ZjlM",
-"t": "The delightfully messy state of Apple gadgets | The Vergecast",
-"s": 5668
 },
 {
 "id": "Au9ysaQup70",
@@ -7109,11 +7084,6 @@
 "s": 150
 },
 {
-"id": "BDi_QYhuxIw",
-"t": "The touchscreen MacBook Apple said it wouldn't make | The Vergecast",
-"s": 2200
-},
-{
 "id": "zN_I3GoVK7w",
 "t": "Buscaban artefactos y terminaron encontrando una fosa común de la Guerra de Independencia",
 "s": 814
@@ -7132,11 +7102,6 @@
 "id": "8NPgswgbTnE",
 "t": "Probando chips de IA para sobrevivir en el espacio",
 "s": 194
-},
-{
-"id": "k4JNFtntViY",
-"t": "Amazon built the Trojan Horse for your smart home | The Vergecast",
-"s": 2487
 },
 {
 "id": "5lJWFn_Pgx4",
@@ -7159,11 +7124,6 @@
 "s": 284
 },
 {
-"id": "ZbmAv0O_Cmg",
-"t": "Inside the early days of the AI revolution | The Vergecast",
-"s": 2945
-},
-{
 "id": "JBNMb88kamo",
 "t": "Las tablillas indecifradas de la Isla de Pascua que podrían reescribir la historia",
 "s": 665
@@ -7182,11 +7142,6 @@
 "id": "o1JK79jszqo",
 "t": "El nuevo proyecto ambicioso de Google para llevar el aprendizaje automático al espacio",
 "s": 127
-},
-{
-"id": "OS-XE_gIhhQ",
-"t": "Files are over. All you need are URLs | The Vergecast",
-"s": 2229
 },
 {
 "id": "4trfrQ6dEW4",
@@ -7209,11 +7164,6 @@
 "s": 102
 },
 {
-"id": "HqxRJft0_4I",
-"t": "The iPhone Duo should have been an iPad | The Vergecast",
-"s": 6637
-},
-{
 "id": "FMlZ12UL66Y",
 "t": "Por qué este ingeniero de la NASA cree que no necesitamos combustible para llegar al espacio.",
 "s": 625
@@ -7232,11 +7182,6 @@
 "id": "x0692zj9jsI",
 "t": "Lo que un astronauta de la NASA puede enseñarnos sobre el descubrimiento y la exploración | Chris...",
 "s": 1691
-},
-{
-"id": "lCCa5ntnfAo",
-"t": "iPhone Duo challenges microdramas",
-"s": 779
 },
 {
 "id": "0I9EjrQ2-pw",
@@ -7259,11 +7204,6 @@
 "s": 86
 },
 {
-"id": "4VVUXaeXY-E",
-"t": "Why Tesla needs its cars to fly | The Vergecast",
-"s": 2293
-},
-{
 "id": "QseTxhr5E2U",
 "t": "La maldición de la momia era real, solo que no por la razón que crees.",
 "s": 777
@@ -7282,11 +7222,6 @@
 "id": "Nm5e9ok8dIg",
 "t": "Las búsquedas sobre naturaleza más populares del mundo respondidas en un parque nacional épico | ...",
 "s": 355
-},
-{
-"id": "g5gptFkgBlI",
-"t": "iPhone Duo review (emotional)",
-"s": 1574
 },
 {
 "id": "Q9K7292r-qk",
@@ -7309,11 +7244,6 @@
 "s": 103
 },
 {
-"id": "Om3ySjFtnrA",
-"t": "AI is dividing the math world in two | The Vergecast",
-"s": 2577
-},
-{
 "id": "Ovyomyqp5h4",
 "t": "Científicos clasifican las formas más probables en que la humanidad podría terminar",
 "s": 693
@@ -7332,11 +7262,6 @@
 "id": "bSp-foRDH5M",
 "t": "Cómo crear aplicaciones y automatizar tareas con Google Antigravity 2.0",
 "s": 136
-},
-{
-"id": "CBVODIUnPwc",
-"t": "Why your favorite creator is building an app | The Vergecast",
-"s": 2487
 },
 {
 "id": "gMdzZ3N1KWA",
@@ -7359,11 +7284,6 @@
 "s": 73
 },
 {
-"id": "z00Lhm3CqAM",
-"t": "Apple's HomeView has an app problem | The Vergecast",
-"s": 5912
-},
-{
 "id": "MyUyGDcoIvY",
 "t": "¿Avi Loeb sabe algo que el resto de nosotros no?",
 "s": 765
@@ -7382,11 +7302,6 @@
 "id": "YSKzyVOQmuA",
 "t": "How Gemini 3.6 Flash helped this dairy farmer run his business",
 "s": 156
-},
-{
-"id": "PUcWwvltFcc",
-"t": "Everything's recording everybody. What now? | The Vergecast",
-"s": 2318
 },
 {
 "id": "ao4bI8tEp4E",
@@ -7409,11 +7324,6 @@
 "s": 1237
 },
 {
-"id": "OzCSF16I_fQ",
-"t": "The $8 million AI music scam | The Vergecast",
-"s": 2343
-},
-{
 "id": "4Qx7LM0CMHA",
 "t": "La verdad sobre los tratamientos para el crecimiento del cabello, según la ciencia.",
 "s": 565
@@ -7432,11 +7342,6 @@
 "id": "iDz4GqHQL6Q",
 "t": "Cómo se hizo el Doodle del 4 de julio | Detrás del Doodle",
 "s": 71
-},
-{
-"id": "Ffa1lLaoIfc",
-"t": "The AI is in the computer | The Vergecast",
-"s": 6407
 },
 {
 "id": "5A1cYTxZIbs",
@@ -7459,11 +7364,6 @@
 "s": 81
 },
 {
-"id": "AhHB6eLlQ_8",
-"t": "The many pluses and minuses of Alexa Plus | The Vergecast",
-"s": 2220
-},
-{
 "id": "sO6zcKE7NTI",
 "t": "Tras 89 años, los investigadores creen haber encontrado el avión de Amelia Earhart",
 "s": 872
@@ -7482,11 +7382,6 @@
 "id": "MfDYRK1pAvA",
 "t": "¿Cuántas formas existen de patear un balón?",
 "s": 31
-},
-{
-"id": "VFjSoBABWAE",
-"t": "The hot new thing in headphones | The Vergecast",
-"s": 2357
 },
 {
 "id": "vgOpqmpDTaY",
@@ -7509,11 +7404,6 @@
 "s": 117
 },
 {
-"id": "50sz9fz5-pg",
-"t": "How much should you tell your AI agent? | The Vergecast",
-"s": 2605
-},
-{
 "id": "GiOTE8bMEpg",
 "t": "Científicos acaban de rejuvenecer células viejas.",
 "s": 635
@@ -7532,11 +7422,6 @@
 "id": "mx0xFpVjxHE",
 "t": "Cómo publicar una aplicación en Google AI Studio",
 "s": 71
-},
-{
-"id": "ku83Cdoj_G0",
-"t": "We hear pitches on the best vibe-coded apps | The Vergecast",
-"s": 3328
 },
 {
 "id": "kxi7V-j5dAs",
@@ -7559,11 +7444,6 @@
 "s": 33
 },
 {
-"id": "WTSOiCDqkPw",
-"t": "Dots get up in Muse's business | The Vergecast",
-"s": 5300
-},
-{
 "id": "0qQR12pR0x0",
 "t": "Los científicos creen que los percebes podrían ayudar a resolver el misterio del vuelo MH370 de M...",
 "s": 823
@@ -7582,11 +7462,6 @@
 "id": "ECquAokER_8",
 "t": "Cómo usar las herramientas en Google Flow | Encuentra tu flow",
 "s": 151
-},
-{
-"id": "lr3zCIQQKhA",
-"t": "We answer your questions about an iPod comeback, an E Ink iPhone Duo, and more",
-"s": 1816
 },
 {
 "id": "JPWyjLnhw1U",
@@ -7609,11 +7484,6 @@
 "s": 61
 },
 {
-"id": "SECdZyonxKg",
-"t": "Dots are OpenAI's cute lil guys | The Vergecast",
-"s": 1329
-},
-{
 "id": "t4vHx_JUZu4",
 "t": "Científicos ponen un cerebro en criosueño. ¿Podría la hibernación humana cambiar el futuro de los...",
 "s": 743
@@ -7632,11 +7502,6 @@
 "id": "zASY1bewxbs",
 "t": "La encargada oficial del trofeo de la NBA responde a las preguntas más populares | Buscando",
 "s": 171
-},
-{
-"id": "4tR-9Stug1Y",
-"t": "Pokémon trading cards are their own economy | The Vergecast",
-"s": 2070
 },
 {
 "id": "dwr4nL7mX5c",
@@ -7659,11 +7524,6 @@
 "s": 179
 },
 {
-"id": "Ogs_XpJLinM",
-"t": "Shuhei Yoshida on the future of gaming | The Vergecast",
-"s": 2636
-},
-{
 "id": "W9cQ7F6ae2g",
 "t": "Se suponía que el Humvee no duraría tanto.",
 "s": 277
@@ -7682,11 +7542,6 @@
 "id": "guv2-EoGUXw",
 "t": "Cómo editar y crear videos con Gemini Omni",
 "s": 89
-},
-{
-"id": "2SyX3sudRrY",
-"t": "Meta’s Muse actually does the thing | The Vergecast",
-"s": 5542
 },
 {
 "id": "clJyEFbDM64",
@@ -7709,11 +7564,6 @@
 "s": 700
 },
 {
-"id": "ZWA9h334GoQ",
-"t": "Meta and Snap battle for your face | The Vergecast",
-"s": 1891
-},
-{
 "id": "anwRO6nU0X8",
 "t": "Los mejores detectores de montantes: opciones magnéticas y eléctricas",
 "s": 85
@@ -7732,11 +7582,6 @@
 "id": "34q_KjF64E8",
 "t": "IA y Sociedad | Conferencia Magistral de I/O 2026",
 "s": 377
-},
-{
-"id": "UNa7GqyvVug",
-"t": "Hotline: Folding phones in cars, EVs in Mexico | The Vergecast",
-"s": 1748
 },
 {
 "id": "bq4R_DtOWok",
@@ -7759,11 +7604,6 @@
 "s": 558
 },
 {
-"id": "1NdPr8nQkWg",
-"t": "DLSS 5 explained, with Linus Tech Tips | The Vergecast",
-"s": 2323
-},
-{
 "id": "VUBzAbRjKkk",
 "t": "How to Live Forever, Or Die Trying",
 "s": 61
@@ -7782,11 +7622,6 @@
 "id": "7Z5Vy9JBANs",
 "t": "Gemini | Conferencia I/O 2026",
 "s": 830
-},
-{
-"id": "3gXb_o7m-3U",
-"t": "Googlebooks are coming for your Mac | The Vergecast",
-"s": 2047
 },
 {
 "id": "XljEx0SF_RE",
@@ -7809,11 +7644,6 @@
 "s": 1389
 },
 {
-"id": "VHbeloueR20",
-"t": "The real story of the iPhone 18 Pro's camera | The Vergecast",
-"s": 5221
-},
-{
 "id": "ddqRUssWSKU",
 "t": "Cómo se hacen las tijeras",
 "s": 276
@@ -7832,11 +7662,6 @@
 "id": "amnhF6BwzZQ",
 "t": "Gemini Spark | Discurso de apertura de I/O 2026",
 "s": 491
-},
-{
-"id": "s6I_DC_ARnI",
-"t": "Apple's new iPhones and Watches are better than the last ones | The Vergecast",
-"s": 2740
 },
 {
 "id": "gZeSRpGceHY",
@@ -7859,11 +7684,6 @@
 "s": 495
 },
 {
-"id": "IAfbYVRgOhQ",
-"t": "Your AI apocalypse questions, answered",
-"s": 1757
-},
-{
 "id": "nVW_eSpUOU0",
 "t": "How Scissors Are Made From Scrap Metal",
 "s": 498
@@ -7882,11 +7702,6 @@
 "id": "QhdEJFFaig0",
 "t": "Conferencia magistral de Gemini Omni | I/O 2026",
 "s": 271
-},
-{
-"id": "4EE7D3XgaYw",
-"t": "iPhone 18 Pro review: it's all about the manual controls",
-"s": 662
 },
 {
 "id": "J4y6iQYxycU",
@@ -7909,11 +7724,6 @@
 "s": 2529
 },
 {
-"id": "iWiaMVIHTLc",
-"t": "Is social media driving teen mental health issues? | The Vergecast",
-"s": 2698
-},
-{
 "id": "Ih48ewjJ1Wg",
 "t": "Cómo el cobalto extraído por niños en el Congo alimenta nuestros teléfonos",
 "s": 803
@@ -7932,11 +7742,6 @@
 "id": "tfx2CjqtCUI",
 "t": "I/O '26 Recap: Everything You Need to Know",
 "s": 893
-},
-{
-"id": "5gdFMfoaPwU",
-"t": "Who is the $1,059 Steam VR headset for? | The Vergecast",
-"s": 2455
 },
 {
 "id": "hKDis9AAqXQ",
@@ -7959,11 +7764,6 @@
 "s": 51
 },
 {
-"id": "BORNUd_FdLA",
-"t": "We unfolded the iPhone Duo | The Vergecast",
-"s": 4474
-},
-{
 "id": "wkq2vf_nsnQ",
 "t": "Why These Handmade Indian Shawls Cost Thousands of Dollars",
 "s": 718
@@ -7982,11 +7782,6 @@
 "id": "uW4B6ziQqvY",
 "t": "¿Qué es Gemini Omni?",
 "s": 65
-},
-{
-"id": "jjww1yqk7hw",
-"t": "Schools are catching onto tech’s playbook",
-"s": 2159
 },
 {
 "id": "6D9hya1jPyo",
@@ -8009,11 +7804,6 @@
 "s": 136
 },
 {
-"id": "EKfHv_xOZRw",
-"t": "iPhone 18 Pro hands-on",
-"s": 142
-},
-{
 "id": "9RM081o7tms",
 "t": "Cuatro fabricantes de cuchillos icónicos de todo el mundo",
 "s": 492
@@ -8032,11 +7822,6 @@
 "id": "q-dnq2Fsq2Y",
 "t": "Se busca ayuda, ayuda encontrada: descubre cómo Holly usa Gemini",
 "s": 104
-},
-{
-"id": "qypQmnlFjNk",
-"t": "iPhone Duo hands-on",
-"s": 158
 },
 {
 "id": "1htPARMAK9E",
@@ -8059,11 +7844,6 @@
 "s": 97
 },
 {
-"id": "jwh3asyiIgs",
-"t": "iPhone Duo Event in 24 minutes",
-"s": 1473
-},
-{
 "id": "9sksuP0opgA",
 "t": "Restaurando los libros más valiosos del mundo",
 "s": 311
@@ -8082,11 +7862,6 @@
 "id": "vN6W1Z8eRMc",
 "t": "Presentación de herramientas en Google Flow",
 "s": 71
-},
-{
-"id": "9Kltgi16rys",
-"t": "The tech that made a 2-hour marathon possible | The Vergecast",
-"s": 2064
 },
 {
 "id": "BSW1nQcP_pk",
@@ -8109,11 +7884,6 @@
 "s": 170
 },
 {
-"id": "TIyjZljN4fI",
-"t": "AGI is whatever you want it to be | The Vergecast",
-"s": 6212
-},
-{
 "id": "LH6q2H5wi3o",
 "t": "Science Behind Lab-Grown Meat",
 "s": 70
@@ -8132,11 +7902,6 @@
 "id": "NL7izhdQ7vk",
 "t": "Presentando a tu agente y Gemini Omni en Google Flow",
 "s": 76
-},
-{
-"id": "LBw43Xq-_R0",
-"t": "Apple Home rumors, ranked | The Vergecast",
-"s": 2121
 },
 {
 "id": "Lc7oarbry4w",
@@ -8159,11 +7924,6 @@
 "s": 87
 },
 {
-"id": "WNrXKw2JuIU",
-"t": "What’s happening with US data centers? | The Vergecast",
-"s": 1419
-},
-{
 "id": "6_4TZ2gpfew",
 "t": "La vida y obra del agente más feroz de la CIA",
 "s": 769
@@ -8182,11 +7942,6 @@
 "id": "KUyRq7szZsM",
 "t": "Introducing Gemini Omni: Create Anything from Anything",
 "s": 55
-},
-{
-"id": "f4KgyG-AuAo",
-"t": "What the AI overlords get wrong about being alive | The Vergecast",
-"s": 2473
 },
 {
 "id": "55ZVWCBKNvA",
@@ -8209,11 +7964,6 @@
 "s": 100
 },
 {
-"id": "1Cfx0QWPC9c",
-"t": "Can Fairphone survive the US market? | The Vergecast",
-"s": 1468
-},
-{
 "id": "R37KlrErUT4",
 "t": "Nuclear Historian Breaks Down Key Players in Oppenheimer and the Manhattan Project",
 "s": 854
@@ -8232,11 +7982,6 @@
 "id": "MVn33xN9dF4",
 "t": "El show de Android: Del sistema operativo al sistema inteligente | Podcast de Google, temporada 9...",
 "s": 1665
-},
-{
-"id": "tqUinUD8Dr4",
-"t": "The iPhone Fold could make concerts even worse | The Vergecast",
-"s": 5360
 },
 {
 "id": "IBdsNVjFRW4",
@@ -8259,11 +8004,6 @@
 "s": 27
 },
 {
-"id": "b9qHBtnE80M",
-"t": "How to buy a laptop when everything’s expensive | The Vergecast",
-"s": 1787
-},
-{
 "id": "8S-YaXRk3Ks",
 "t": "How Fake Foods Are Made in Japan",
 "s": 320
@@ -8282,11 +8022,6 @@
 "id": "EJJhbcHPqu4",
 "t": "¿Cuáles son las canchas más difíciles para jugar en la NBA?",
 "s": 31
-},
-{
-"id": "9UYvoz5Uaw4",
-"t": "Meta will cut teens off of Instagram after two hours | The Vergecast",
-"s": 1011
 },
 {
 "id": "nAk29yudURk",
@@ -8309,11 +8044,6 @@
 "s": 187
 },
 {
-"id": "TN7QAYcKVUc",
-"t": "Does smart home tech work in a college dorm? | The Vergecast",
-"s": 1962
-},
-{
 "id": "NqzCc4qVgi8",
 "t": "How YouTube Changed This Century Old Candy Company",
 "s": 229
@@ -8332,11 +8062,6 @@
 "id": "M9mAufki0Ik",
 "t": "Novedades en accesibilidad de Google | Episodio 12 | Lengua de señas americana",
 "s": 463
-},
-{
-"id": "cUyO0D4BGbM",
-"t": "We play a brutal quiz of our gadget memories | The Vergecast",
-"s": 1391
 },
 {
 "id": "v8aq9J_ICJg",
@@ -8359,11 +8084,6 @@
 "s": 463
 },
 {
-"id": "QWkL6Lvalg0",
-"t": "Pixel 11's camera is still hallucinating | The Vergecast",
-"s": 4455
-},
-{
 "id": "5lfOMdTeraY",
 "t": "How Japanese Chef Knives Are Made by Hand",
 "s": 265
@@ -8382,11 +8102,6 @@
 "id": "x6Ix0RVd7yk",
 "t": "Busca lo que ves: La tecnología detrás de la magia | Made by Google Podcast T9E4",
 "s": 1197
-},
-{
-"id": "7U-QtI-Cxxw",
-"t": "We ask Gemini and Alexa to track cats and give advice | The Vergecast",
-"s": 2353
 },
 {
 "id": "xKCZlVMd78A",
@@ -8409,11 +8124,6 @@
 "s": 136
 },
 {
-"id": "M1EfI0LZrl4",
-"t": "Pixel reviewer roundtable | The Vergecast",
-"s": 2198
-},
-{
 "id": "JOXuHDN6r8s",
 "t": "El B-2 puede transportar una carga de 20 toneladas a 6,000 millas sin repostar | Popular Mechanics",
 "s": 241
@@ -8432,11 +8142,6 @@
 "id": "7gnybANIBws",
 "t": "Cómo la IA te ayuda a expresar tu estilo | Podcast Made by Google T9E3",
 "s": 1488
-},
-{
-"id": "wIJc4stH5s8",
-"t": "A repair shop’s guide to surviving RAMageddon | The Vergecast",
-"s": 1281
 },
 {
 "id": "1anCHKq6ESg",
@@ -8459,11 +8164,6 @@
 "s": 16
 },
 {
-"id": "zFvu7kyiOAo",
-"t": "The Digital Doctor will see you now | The Vergecast",
-"s": 2166
-},
-{
 "id": "UeIZwW6J0Cs",
 "t": "How Klein Tools Packs 150 Years of Blacksmithing Know-How Into Every Pair of Pliers",
 "s": 273
@@ -8482,11 +8182,6 @@
 "id": "-Ll1TaIDHXU",
 "t": "Hazme un plan para mejorar mis triples",
 "s": 16
-},
-{
-"id": "wNjT5tWijDQ",
-"t": "Instagram did not need a new logo | The Vergecast",
-"s": 5408
 },
 {
 "id": "pprRaCTID7o",
@@ -8509,11 +8204,6 @@
 "s": 31
 },
 {
-"id": "0tCwnvOJi70",
-"t": "Should you let a robot mow your lawn? | The Vergecast",
-"s": 1968
-},
-{
 "id": "1lm5iP4jeHk",
 "t": "How Millions of Locks Are Made by Hand Each Year",
 "s": 524
@@ -8532,11 +8222,6 @@
 "id": "F8DQV3Ud0pk",
 "t": "Giannis Antetokounmpo revela los finalistas de Doodle for Google 2025 – 2026",
 "s": 105
-},
-{
-"id": "VC_Ft0stjCM",
-"t": "Google Pixel 11 event in 8 minutes",
-"s": 496
 },
 {
 "id": "9pCQTPLiEVI",
@@ -8559,11 +8244,6 @@
 "s": 236
 },
 {
-"id": "vDq1y4wozqk",
-"t": "How a 1960s chatbot fooled everyone | The Vergecast",
-"s": 2466
-},
-{
 "id": "DWqjJ7vXWYY",
 "t": "20 Unexpected Facts about Himalayan Salt | Popular Mechanics",
 "s": 178
@@ -8582,11 +8262,6 @@
 "id": "W-dj56fP4jY",
 "t": "Cómo usamos la IA en tu muñeca | Made by Google Podcast S9E2",
 "s": 1229
-},
-{
-"id": "tk85nX4s3R8",
-"t": "We share our vibe-coded websites | The Vergecast",
-"s": 2665
 },
 {
 "id": "Ji1wjH92EUU",
@@ -8609,11 +8284,6 @@
 "s": 192
 },
 {
-"id": "iTPzHvvMPmU",
-"t": "What's behind the Google AI shakeup | The Vergecast",
-"s": 5670
-},
-{
 "id": "FdFrDf9TOt4",
 "t": "Japanese Blacksmith Forges World-Famous Chef Knives | Popular Mechanics",
 "s": 224
@@ -8632,11 +8302,6 @@
 "id": "i2kXouPuNxk",
 "t": "¿Quieres echar un vistazo a los planes de @KarolG para @Coachella? Todo empieza con la Búsqueda d...",
 "s": 31
-},
-{
-"id": "Pbi24wk2W8g",
-"t": "The next big thing in movies is 60-year-old IMAX tech | The Vergecast",
-"s": 1685
 },
 {
 "id": "UJUh3ZRVbJ8",
@@ -8659,11 +8324,6 @@
 "s": 95
 },
 {
-"id": "pWuIRrNokck",
-"t": "We were wrong about passport-shaped foldables | The Vergecast",
-"s": 1857
-},
-{
 "id": "QXK4ib7OINk",
 "t": "From Knives to Multitools: Behind The Scenes At Gerber | Popular Mechanics",
 "s": 319
@@ -8682,11 +8342,6 @@
 "id": "euiGMQURy0U",
 "t": "Repetición instantánea de Géminis | Nuevo ajuste",
 "s": 31
-},
-{
-"id": "iTOyUc5sGas",
-"t": "What's really open about open-weight AI? | The Vergecast",
-"s": 2114
 },
 {
 "id": "TOm4ID9IagY",
@@ -8709,11 +8364,6 @@
 "s": 145
 },
 {
-"id": "anAP7KyahPM",
-"t": "Rise of the Whoop dupes | The Vergecast",
-"s": 1692
-},
-{
 "id": "4azvOuXZmQ8",
 "t": "How Millions of Pliers Are Made Every Year",
 "s": 271
@@ -8732,11 +8382,6 @@
 "id": "0DRDJ01COqo",
 "t": "Visualiza modelos de mundo con Project Genie",
 "s": 329
-},
-{
-"id": "6UAVthQ2SlU",
-"t": "It's time to panic about AI safety | The Vergecast",
-"s": 5128
 },
 {
 "id": "LKfYjl6WUFQ",
@@ -8759,11 +8404,6 @@
 "s": 107
 },
 {
-"id": "yYhAJrXdDn0",
-"t": "Meta's Oversight Board is coming for ChatGPT and Claude | The Vergecast",
-"s": 2191
-},
-{
 "id": "mS0yKqmwVCc",
 "t": "Mining for 800 Million Pounds of Himalayan Salt | Made Here",
 "s": 516
@@ -8782,11 +8422,6 @@
 "id": "4BzoMc3acOY",
 "t": "Ayudando a los radiólogos a detectar el cáncer de mama con IA",
 "s": 239
-},
-{
-"id": "FY6WXdwTbo4",
-"t": "The Z Fold 8 is the new foldable to beat | The Vergecast",
-"s": 2213
 },
 {
 "id": "B589M-JpjG4",
@@ -8809,11 +8444,6 @@
 "s": 576
 },
 {
-"id": "K30gOr3OPoM",
-"t": "Flip phones are so back | The Vergecast",
-"s": 1776
-},
-{
 "id": "ROnVRPIufdk",
 "t": "Explicando el universo con Neil deGrasse Tyson",
 "s": 1784
@@ -8832,11 +8462,6 @@
 "id": "okxUpjDOd1w",
 "t": "La era de la innovación en IA | Donde vive el Internet",
 "s": 141
-},
-{
-"id": "8sf04IXjD1M",
-"t": "Here's what an AI-first phone might look like | The Vergecast",
-"s": 2185
 },
 {
 "id": "yzwoDv-O7Q0",
@@ -8859,11 +8484,6 @@
 "s": 1239
 },
 {
-"id": "mckwAqzxlDg",
-"t": "You can't ignore Google Zero anymore | The Vergecast",
-"s": 5642
-},
-{
 "id": "LMVWrArZT9I",
 "t": "Cómo se fabrican los equipos Gerber en EE. UU. | Hecho aquí | Popular Mechanics",
 "s": 258
@@ -8882,11 +8502,6 @@
 "id": "oKjDeMtBZ4g",
 "t": "Crea con Flow | Cómo usar el estudio creativo con IA de Google",
 "s": 190
-},
-{
-"id": "KUOA0CjhC84",
-"t": "Why read anymore? | The Vergecast",
-"s": 1715
 },
 {
 "id": "t27rwWeYgFY",
@@ -8909,11 +8524,6 @@
 "s": 60
 },
 {
-"id": "c-MWq-DFTwo",
-"t": "Samsung Galaxy Unpacked in 15 minutes",
-"s": 886
-},
-{
 "id": "LMhf8paQrzM",
 "t": "10 Questions With A TOPGUN Fighter Pilot | Popular Mechanics",
 "s": 1073
@@ -8932,11 +8542,6 @@
 "id": "hi-O3crULJk",
 "t": "The $499 AI Superphone: Pixel 10a Deep Dive | Made by Google Podcast S9E1",
 "s": 812
-},
-{
-"id": "UZaWQEcoJXw",
-"t": "The car of the future is an EV golf cart | The Vergecast",
-"s": 1834
 },
 {
 "id": "5q7LgSOC6us",
@@ -8959,11 +8564,6 @@
 "s": 163
 },
 {
-"id": "qHgLdUSFyZA",
-"t": "The US is losing its lead in AI | The Vergecast",
-"s": 2039
-},
-{
 "id": "jclZ6iuMCeU",
 "t": "La historia del F-35 | Heavy Metal | Popular Mechanics",
 "s": 261
@@ -8982,11 +8582,6 @@
 "id": "TD6FPndjhoE",
 "t": "Presentamos Lyria, la tercera generación de música.",
 "s": 66
-},
-{
-"id": "x7DOf-bQ3oU",
-"t": "Apple's plot to crush OpenAI | The Vergecast",
-"s": 5524
 },
 {
 "id": "mm6-LXZwHQU",
@@ -9009,11 +8604,6 @@
 "s": 31
 },
 {
-"id": "pVHSvJnSUNg",
-"t": "The one AI detector people actually trust",
-"s": 2324
-},
-{
 "id": "nWsVY_CNg7Y",
 "t": "The Beautiful Tiles of Southern India | Popular Mechanics",
 "s": 485
@@ -9032,11 +8622,6 @@
 "id": "MBHquayfSUI",
 "t": "What are Chloe Kim’s iconic tricks? | Google + Team USA",
 "s": 31
-},
-{
-"id": "HYxsu3SDPZ8",
-"t": "Were we too nice to the Steam Machine? | The Vergecast",
-"s": 1501
 },
 {
 "id": "4cfHp2xfCKE",
@@ -9059,11 +8644,6 @@
 "s": 31
 },
 {
-"id": "UyXYAbHpbTs",
-"t": "The problem with Suno and AI music | The Vergecast",
-"s": 1715
-},
-{
 "id": "-76C5FsOLyQ",
 "t": "Behind the Scenes at ARCH Motorcycle | MADE HERE | Popular Mechanics",
 "s": 481
@@ -9082,11 +8662,6 @@
 "id": "Z1yGy9fELtE",
 "t": "Nuevo hogar | Comercial de Google Gemini SB 2026",
 "s": 61
-},
-{
-"id": "5Furiudht94",
-"t": "Watch, headphones, phone: Which AI gadget is best? | The Vergecast",
-"s": 2528
 },
 {
 "id": "NZ0uYmG-6N8",
@@ -9109,11 +8684,6 @@
 "s": 484
 },
 {
-"id": "v4vkwUf4AMw",
-"t": "Netflix is turning into YouTube | The Vergecast",
-"s": 5231
-},
-{
 "id": "UA7j-iGqSxk",
 "t": "The Surprising Origins of Everyday Inventions | What The Facts | Popular Mechanics",
 "s": 243
@@ -9132,11 +8702,6 @@
 "id": "QikCsFDvt9g",
 "t": "Crea arte interactivo con AI Studio",
 "s": 518
-},
-{
-"id": "SnIEu8OSXDs",
-"t": "Time to believe the quantum computing hype? | The Vergecast",
-"s": 1556
 },
 {
 "id": "Waurl-FW_c0",
@@ -9159,11 +8724,6 @@
 "s": 47
 },
 {
-"id": "Eh8nlfCTdiY",
-"t": "It's still way too hard to switch phones | The Vergecast",
-"s": 1837
-},
-{
 "id": "jPpWHHpngO4",
 "t": "The Fascinating Origins of Christmas | What The Facts | Popular Mechanics",
 "s": 245
@@ -9182,11 +8742,6 @@
 "id": "vFe-FrZSAKo",
 "t": "Programando el futuro | Donde vive Internet",
 "s": 495
-},
-{
-"id": "8WEgL5xCTak",
-"t": "The life-changing magic of touching stuff | The Vergecast",
-"s": 2198
 },
 {
 "id": "LmABLueBNho",
@@ -9209,11 +8764,6 @@
 "s": 98
 },
 {
-"id": "yTwXmJ88T9Q",
-"t": "Inherited Instincts [Partner content from STEMforBugs]",
-"s": 131
-},
-{
 "id": "PiO3vOz3rNE",
 "t": "Sweden Bargains for Trash | What The Facts | Popular Mechanics",
 "s": 222
@@ -9232,11 +8782,6 @@
 "id": "OEkPt3jnZTY",
 "t": "What’s New in Google Accessibility | Episode 11",
 "s": 472
-},
-{
-"id": "nJni3rdPFpM",
-"t": "Our favorite tips for logging off | The Vergecast",
-"s": 1605
 },
 {
 "id": "WNWhJB4GbyI",
@@ -9259,11 +8804,6 @@
 "s": 472
 },
 {
-"id": "eSTHgruGe-M",
-"t": "The video game disc is dead | The Vergecast",
-"s": 5892
-},
-{
 "id": "zZapSnp6Gds",
 "t": "Nightmares Can Cure Fear | What The Facts | Popular Mechanics",
 "s": 230
@@ -9282,11 +8822,6 @@
 "id": "8sABhCMxU3c",
 "t": "New in Search | Personal Intelligence in AI Mode",
 "s": 114
-},
-{
-"id": "7C6x5RBgJC0",
-"t": "Rivian’s last chance to take on Tesla | The Vergecast",
-"s": 1949
 },
 {
 "id": "7dkiuNhgwwk",
@@ -9309,11 +8844,6 @@
 "s": 484
 },
 {
-"id": "tlU30RbvpJg",
-"t": "Meet The Onion's new and improved InfoWars | The Vergecast",
-"s": 2362
-},
-{
 "id": "e0D54zPzRtk",
 "t": "How Pencils Are Made | Made Here | Popular Mechanics",
 "s": 530
@@ -9332,11 +8862,6 @@
 "id": "hZSDKiM8LvA",
 "t": "Niklas Klabunde sobre prompts para cine con IA en Flow | In the Flow",
 "s": 244
-},
-{
-"id": "4fUMfB-YLGo",
-"t": "Our vibe coded projects that actually work | The Vergecast",
-"s": 1834
 },
 {
 "id": "wgSCLEibRxg",
@@ -9359,11 +8884,6 @@
 "s": 124
 },
 {
-"id": "i7oqf1Oe9kg",
-"t": "RAMageddon has come for Apple | The Vergecast",
-"s": 4821
-},
-{
 "id": "Kafrcm4iMbI",
 "t": "Cómo se fabrica la primera silla táctica del mundo | Hecho aquí | Popular Mechanics",
 "s": 229
@@ -9382,11 +8902,6 @@
 "id": "jiGDzy0sxOI",
 "t": "Potenciando la creatividad | Donde vive Internet",
 "s": 351
-},
-{
-"id": "UplcgjvkD7k",
-"t": "2026 Dell XPS: The laptop that can balance it all | Hype Desk",
-"s": 319
 },
 {
 "id": "sYJVghsqmgk",
@@ -9409,11 +8924,6 @@
 "s": 175
 },
 {
-"id": "x054COCr4jQ",
-"t": "How to train your data | The Vergecast",
-"s": 1452
-},
-{
 "id": "aaKOLtcYiZ4",
 "t": "La historia de Hercules Candy | Made Here | Popular Mechanics",
 "s": 281
@@ -9434,11 +8944,6 @@
 "s": 220
 },
 {
-"id": "0ZEiIM6I0Qc",
-"t": "Google's new speaker and your smart home questions | The Vergecast",
-"s": 2040
-},
-{
 "id": "mNiUQNy16lk",
 "t": "Introducción al cambio de aceite | El taller de Giuseppe | Popular Mechanics",
 "s": 125
@@ -9457,11 +8962,6 @@
 "id": "o-8WCNb3BQY",
 "t": "Mapeando nuevos medicamentos | Donde vive Internet",
 "s": 526
-},
-{
-"id": "SvDh5SmwY0U",
-"t": "Why Big Tech can't quit smart glasses | The Vergecast",
-"s": 2572
 },
 {
 "id": "whEqEJjbVVE",
@@ -11048,7 +10548,7 @@
 },
 {
 "id": "zTmQzzQKrxU",
-"t": "Vacuna contra el melanoma: \"El 82% de los pacientes siguen sin cáncer a los dos años\"",
+"t": "Por qué el tratamiento del cáncer cambiará en cinco años con vacunas terapéuticas",
 "s": 351
 },
 {
@@ -11163,7 +10663,7 @@
 },
 {
 "id": "sZ0-QFmpgDc",
-"t": "Koldo García, desde la cárcel: \"El abogado del PP me ofreció dinero por meterme con el Gobierno\"",
+"t": "Koldo García: \"El abogado del PP me ofreció dinero por meterme con cualquier miembro del Gobierno\"",
 "s": 75
 },
 {
@@ -11203,7 +10703,7 @@
 },
 {
 "id": "5VtkLu-Zlhg",
-"t": "FALSAS ALARMAS de BOMBA obligan a desviar VUELOS por toda EUROPA",
+"t": "CAOS aéreo en EUROPA: casi 30 VUELOS afectados por falsas AMENAZAS de BOMBA",
 "s": 99
 },
 {
@@ -11298,7 +10798,7 @@
 },
 {
 "id": "TWXwT5W5Iqg",
-"t": "“A las personas nos hackea el cerebro que haya algo que no es inteligente pero que hable”",
+"t": "La máquina que parece alguien, con Carlos del Castillo | PODCAST",
 "s": 364
 },
 {
@@ -11403,7 +10903,7 @@
 },
 {
 "id": "kTOg5ns86FA",
-"t": "Entrevista al grupo musical, Alcalá Norte",
+"t": "ENTREVISTA | Alcalá Norte: \"Mucha gente votará por el miedo a vivir en un mundo peor\"",
 "s": 2073
 },
 {
@@ -11438,7 +10938,7 @@
 },
 {
 "id": "I84a3K7jJ18",
-"t": "Trabajar reciclando basura en Guatemala♻I Fuerza Latina DW",
+"t": "Guatemala se ahoga en basura y así viven los recicladores♻I Fuerza Latina DW",
 "s": 1549
 },
 {
@@ -11608,7 +11108,7 @@
 },
 {
 "id": "baaipzxg0cc",
-"t": "Caso Lindsay Clancy: Un médico forense explica qué ocurre en un cerebro con psicosis posparto",
+"t": "Psicosis posparto: ¿Por qué una madre puede matar a sus hijos creyendo que los protege?",
 "s": 426
 },
 {
@@ -11773,7 +11273,7 @@
 },
 {
 "id": "ozGskehFQa4",
-"t": "Futuro de los jóvenes: ¿miedo o esperanza? La calle responde",
+"t": "Jóvenes y futuro en España: ¿optimismo o incertidumbre? La calle responde",
 "s": 123
 },
 {
@@ -11838,7 +11338,7 @@
 },
 {
 "id": "QTQEg1Mr2qE",
-"t": "El PNV pide que se asuman “responsabilidades políticas al máximo nivel” por el accidente de Urda",
+"t": "El PNV se suma a Frente Amplio y pide \"responsabilidades al máximo nivel\" por el accidente de Urda",
 "s": 68
 },
 {
@@ -11913,7 +11413,7 @@
 },
 {
 "id": "zOM6jGpuMUA",
-"t": "Supervivientes del accidente de tren de Urda: \"Las imágenes eran horribles\"",
+"t": "Supervivientes del accidente de tren de Toledo llegan a Sevilla: \"Las imágenes eran horribles\"",
 "s": 112
 },
 {
@@ -12018,7 +11518,7 @@
 },
 {
 "id": "i4Kq_C-PaPM",
-"t": "La Guardia Civil trabaja en el rescate de pasajeros de los trenes del accidente de Toledo",
+"t": "Así trabaja la Guardia Civil en los rescates de las víctimas del accidente ferroviario de Toledo",
 "s": 67
 },
 {
@@ -12078,7 +11578,7 @@
 },
 {
 "id": "LKj96qm5cY4",
-"t": "Al menos 68 muertos y más de un centenar de heridos en el choque entre dos trenes en Urda, Toledo",
+"t": "Al menos 68 muertos y más de un centenar de heridos en el accidente de tren de Toledo",
 "s": 26
 },
 {
@@ -12163,7 +11663,7 @@
 },
 {
 "id": "O8xWp8T19JY",
-"t": "Óscar Puente ante su dimisión: \"La renuncia es absolutamente inevitable\", según Enric Juliana",
+"t": "Accidente de Toledo: ¿Por qué la alta velocidad amenaza con quebrar la precampaña electoral?",
 "s": 526
 },
 {
@@ -12343,7 +11843,7 @@
 },
 {
 "id": "e4eCWHGnSZo",
-"t": "Canadá, “Estado 51” de Trump: ¿puede la UE ser su escudo?",
+"t": "¿Puede Canadá entrar en la Unión Europea? Lo que dicen los Tratados",
 "s": 446
 },
 {
@@ -12408,7 +11908,7 @@
 },
 {
 "id": "CizMEHGMAx0",
-"t": "Obama carga contra Trump por sus reformas: \"La Casa Blanca parece un Cheesecake Factory\"",
+"t": "Obama ridiculiza la reforma de Trump en la Casa Blanca: \"Parece un Cheesecake Factory\"",
 "s": 71
 },
 {
@@ -13591,7 +13091,7 @@
 },
 {
 "id": "-YP3OCTy3lg",
-"t": "A Day at One of Miami’s Busiest Restaurants | On The Line | Bon Appétit",
+"t": "This Steakhouse is Miami’s Hardest Reservation | On The Line | Bon Appétit",
 "s": 1098
 },
 {
@@ -13616,7 +13116,7 @@
 },
 {
 "id": "3fMHHAVYpYU",
-"t": "Pasta Grandpa Francesco’s Tagliatelle with Garden-Fresh Vegetables",
+"t": "Pasta Grandpa Francesco’s Tagliatelle with Homegrown Vegetables",
 "s": 483
 },
 {
@@ -13661,7 +13161,7 @@
 },
 {
 "id": "4D4pAvxy9lo",
-"t": "How a Master French Chef Makes Coq au Vin | French Fundamentals | Bon Appétit",
+"t": "How a French Chef Makes France’s Most Famous Chicken Dish | French Fundamentals | Bon Appétit",
 "s": 791
 },
 {
@@ -13731,7 +13231,7 @@
 },
 {
 "id": "UHGWG2QVl1Q",
-"t": "This $32 Potato Is the Best in New York | Made to Order | Bon Appétit",
+"t": "Probably the Best Potato Dish in NYC | Made to Order | Bon Appétit",
 "s": 759
 },
 {
@@ -20636,7 +20136,7 @@
 },
 {
 "id": "Z4Lj6Cd6Tq0",
-"t": "Ed Maverick - ESCOMBRO (Live) | Open Mic on @genius",
+"t": "Ed Maverick “ESCOMBRO” (Live Performance) | Open Mic",
 "s": 278
 },
 {
@@ -24890,7 +24390,7 @@
 "items": [
 {
 "id": "UKpTQJXKerc",
-"t": "Pourquoi personne ne parle de ce pays ?",
+"t": "Le secret le mieux gardé d’Europe",
 "s": 877
 },
 {
@@ -27445,7 +26945,7 @@
 },
 {
 "id": "DDB7E6aUJa8",
-"t": "The Most Valuable Sales Training You’ll Ever Watch",
+"t": "25 Years of Sales Advice in 1 hour 38 minutes",
 "s": 5937
 },
 {
