@@ -1,5 +1,15 @@
 {
-"03": {
+"channels": [
+{
+"num": "03",
+"name": "Dibujos",
+"hours": [
+15,
+20
+],
+"sourceName": "Hey Arnold Full Episodes (In Order)",
+"tagline": "Hey Arnold Full Episodes (In Order)",
+"kind": "linear",
 "items": [
 {
 "id": "b7ALgCvv2xY",
@@ -168,14 +178,1317 @@
 }
 ]
 },
-"05": {
+{
+"num": "04",
+"name": "Podcasts",
+"hours": [],
+"sourceName": "Escuela de Nada, Nacho Redondo y El Cuartico",
+"tagline": "Escuela de Nada, Nacho Redondo y El Cuartico",
+"kind": "episodes",
+"items": [
+{
+"id": "djJ4ie4zZJE",
+"t": "¿Una tragedia en el fútbol puede convertirte en ases*no? - EP#771",
+"s": 3751
+},
+{
+"id": "U_4upf36-z0",
+"t": "TRAUMAS 105 - “A MI TÍA NO LE DURAN LAS PAREJAS... VIVAS\" - 🇲🇽MÉXICO🇲🇽",
+"s": 1071
+},
+{
+"id": "33glIoFlXVE",
+"t": "¿Por qué la vida está tan cara? | 326",
+"s": 4532
+},
+{
+"id": "eVQPfHW8HOQ",
+"t": "Trabajó fabricando comida y reveló lo que realmente estamos comiendo - EP#769",
+"s": 3779
+},
+{
+"id": "JHwVIAEmxAI",
+"t": "TRAUMAS 104 - “MI PAPÁ LE FUE INFIEL A MI MAMÁ CON MI TÍO\" - 🇲🇽MÉXICO🇲🇽",
+"s": 816
+},
+{
+"id": "aEj2D4oM2mE",
+"t": "El placer de darse un gustico | 325 | El Cuartico",
+"s": 4420
+},
+{
+"id": "2gNda5kA91c",
+"t": "¿Trabajar para ti vs trabajar para otros? Feat. Poly Diaz",
+"s": 3818
+},
+{
+"id": "Sg1IZZQSF6g",
+"t": "TRAUMAS 103 - “ATRAPÉ A MI EX CON OTRA\" - 🇵🇷PUERTO RICO🇵🇷",
+"s": 1262
+},
+{
+"id": "NOxFLUnE0fM",
+"t": "El significado de las banderas | 324",
+"s": 6244
+},
+{
+"id": "2CYu5Y_pKzk",
+"t": "El problema con los Latin Grammys y sus nominaciones - EP #766",
+"s": 5523
+},
+{
+"id": "In5SFeu6Fp8",
+"t": "TRAUMAS 102 - “MI PERRO ES RAC1STA\" - 🇵🇷PUERTO RICO🇵🇷",
+"s": 1467
+},
+{
+"id": "D2am6DeiDWk",
+"t": "Lo que callan los comediantes x Nanutria | 323",
+"s": 7362
+},
+{
+"id": "tNSY2uNQMN0",
+"t": "El millonario negocio dentro de Amazon que cualquiera puede empezar - EP #765",
+"s": 4949
+},
+{
+"id": "e2eDzHVmrhQ",
+"t": "TRAUMAS 101 - “MI EX PREÑÓ A MI PRIMA\" - 🇵🇷PUERTO RICO🇵🇷",
+"s": 689
+},
+{
+"id": "EgTMzSMN6WM",
+"t": "Ser alguien que resuelve x Akapellah | 322",
+"s": 4564
+},
+{
+"id": "uF-1xwqsOzI",
+"t": "La humanidad tiene los días contados - EP #764",
+"s": 3671
+},
+{
+"id": "njMxl2o1bkE",
+"t": "TRAUMAS 100 - “MI FAMILIA ME EXORCISÓ\" - 🇵🇷PUERTO RICO🇵🇷",
+"s": 866
+},
+{
+"id": "cpOFGWj_bzQ",
+"t": "Fuimos a las Fiestas Patrias en Chile | 321",
+"s": 5841
+},
+{
+"id": "BSGQnECCywE",
+"t": "¿Por qué los runners generan tanto rechazo en internet? - EP #763",
+"s": 4826
+},
+{
+"id": "cbXoJPS1i8o",
+"t": "TRAUMAS 99 - “EL NOVIO DE MI MAMÁ ERA DR0G4DICT0\" - 🇵🇷PUERTO RICO🇵🇷",
+"s": 1041
+},
+{
+"id": "ZJ8GAhrtyIU",
+"t": "¿De dónde vienen los tambores? | 320",
+"s": 5412
+},
+{
+"id": "nOv75PPsoWw",
+"t": "¿Por qué una canción puede emocionarnos más que una película? - EP #762",
+"s": 4107
+},
+{
+"id": "Kd1EpcYzfQU",
+"t": "TRAUMAS 98 - “VIVÍ EN SECRETO CON MI JEFE\" - 🇵🇷PUERTO RICO🇵🇷",
+"s": 1252
+},
+{
+"id": "BYDVKZbgjWk",
+"t": "¿Por qué hablamos con señas? | 319",
+"s": 4523
+},
+{
+"id": "m7-P31xR5WQ",
+"t": "¿El retiro de Messi es el más impactante de nuestra generación? - EP #761",
+"s": 4612
+},
+{
+"id": "wwhIRlqYif0",
+"t": "TRAUMAS 97 - “MIS VECINOS ME QUISIERON SECUESTRAR\" - 🇺🇾URUGUAY🇺🇾",
+"s": 1036
+},
+{
+"id": "pddPaNOcH6E",
+"t": "Historias de Arroceros x Santa Teresa 1796 | 318",
+"s": 4561
+},
+{
+"id": "gx6xFuDSFHk",
+"t": "La madre que as*sin* a sus tres hijos y quizás no sea culpable - EP #760",
+"s": 3698
+},
+{
+"id": "nVJGY-n89WA",
+"t": "TRAUMAS 96 - “CASI ME M*T4N POR UN CHISTE\" - 🇵🇪PERU🇵🇪",
+"s": 1054
+},
+{
+"id": "dBxrZLCpNsI",
+"t": "El rico mundo de las empanadas | 317",
+"s": 5091
+},
+{
+"id": "lQiRdSYVFjo",
+"t": "La noche que Nacho lloró con una geisha en Japón - EP #759",
+"s": 5628
+},
+{
+"id": "Kp09LPDHIBA",
+"t": "TRAUMAS 95 - “MI FAMILIA HIZO GALLETAS CON LAS CENIZAS DE MI PRIMO\" - 🇵🇪PERU🇵🇪",
+"s": 816
+},
+{
+"id": "fgH_VxPHbDQ",
+"t": "De que vuelan, vuelan | 316",
+"s": 4995
+},
+{
+"id": "A3BfrQeZUd4",
+"t": "82 cosas que nos hacen felices - EP #758",
+"s": 3601
+},
+{
+"id": "Rt8nYx470tI",
+"t": "TRAUMAS 94 - “MI MAMÁ SE DABA A MI NOVIO\" - 🇨🇴COLOMBIA🇨🇴",
+"s": 1180
+},
+{
+"id": "3TiEgOMwVlE",
+"t": "Lo que callan los tatuadores | 315",
+"s": 6427
+},
+{
+"id": "wlnGsPUk0VA",
+"t": "Decadencia de la televisión nacional + farmear aura - EP #757",
+"s": 4031
+},
+{
+"id": "uxTKmChhX3Q",
+"t": "TRAUMAS 93 - “MI PAPÁ ME ABANDONÓ 3 VECES\" - 🇨🇴COLOMBIA🇨🇴",
+"s": 1000
+},
+{
+"id": "ujsWmOeRJp8",
+"t": "El origen de los apellidos | 314",
+"s": 4655
+},
+{
+"id": "bU2X3zS5TwE",
+"t": "¿Por qué pagamos una fortuna por algo coleccionable? - EP#756",
+"s": 2883
+},
+{
+"id": "HckQzbBhiG4",
+"t": "TRAUMAS 92 - “MI EX AHORA ES MI VECINO\" - 🇨🇷COSTA RICA🇨🇷",
+"s": 1073
+},
+{
+"id": "ufSBwih1Y5E",
+"t": "¿Por qué existen los mitos? | 313",
+"s": 4268
+},
+{
+"id": "lgPOXQxOnME",
+"t": "Uno de nosotros no quiere probar nada nuevo nunca más - EP #755",
+"s": 2659
+},
+{
+"id": "jzTB5SMIxD8",
+"t": "TRAUMAS 91 - “NO SABÍA QUE MI PRIMA ERA PREPAGO\" - 🇨🇷COSTA RICA🇨🇷",
+"s": 1034
+},
+{
+"id": "Fyy0D9h_rfk",
+"t": "¿Qué es ser pichirre? | 312",
+"s": 5143
+},
+{
+"id": "T8aq18hZXlM",
+"t": "¿Vale la pena decepcionar a tu familia a cambio de hacer lo que te gusta? Feat. Neisser",
+"s": 3735
+},
+{
+"id": "JuOuDRScH3E",
+"t": "TRAUMAS 90 - “INUNDÉ MI CASA PERDIENDO LA VIRG1NIDAD\" - 🇨🇷COSTA RICA🇨🇷",
+"s": 904
+},
+{
+"id": "cwbg9yHJhBQ",
+"t": "Caracas/La Guaira después del terremoto | 311",
+"s": 5496
+},
+{
+"id": "k-d0FPLqiZs",
+"t": "¿Te preocupa que te revisen el teléfono? - EP #753",
+"s": 2678
+},
+{
+"id": "69C2xL457Lc",
+"t": "TRAUMAS 89 - “HICE UN TRÍO CON MI PRIMA\" - 🇨🇷COSTA RICA🇨🇷",
+"s": 965
+},
+{
+"id": "U428FCn8GvQ",
+"t": "¿Cómo hablar en público? con Briceño | 310",
+"s": 5198
+},
+{
+"id": "0D8xydh8Lyw",
+"t": "Hay gente que no está preparada para ser famosa Feat. Dani Schulz",
+"s": 3514
+},
+{
+"id": "B28dsQXKHrk",
+"t": "TRAUMAS 88 - “MI MAMÁ SE CASÓ CON SU YERNO\" - 🇨🇷COSTA RICA🇨🇷",
+"s": 702
+},
+{
+"id": "TvdzAkifl0I",
+"t": "Todo sobre el Mundial | 309",
+"s": 5907
+},
+{
+"id": "4U21eLbU9a4",
+"t": "¿Cómo hace un artista para llegar al Lollapalooza? Feat. Simon Grossmann",
+"s": 3766
+},
+{
+"id": "-sStN3ZT8ps",
+"t": "TRAUMAS 87 - “VI A MI PAPÁ HACIENDO EL AM0R\" - 🇨🇷COSTA RICA🇨🇷",
+"s": 1103
+},
+{
+"id": "TGz3doPeHX8",
+"t": "¿Por qué se va la luz? | 308",
+"s": 5139
+},
+{
+"id": "yRKNim5llfc",
+"t": "Somatizar en épocas oscuras - EP #750",
+"s": 2721
+},
+{
+"id": "Tb2hXB-xQyA",
+"t": "TRAUMAS 86 - “ME MONTARON CACHOS EL DÍA QUE MURIÓ MI ABUELA\" - 🇵🇦PANAMÁ🇵🇦",
+"s": 978
+},
+{
+"id": "2s4iigbY2zQ",
+"t": "¿Por qué importan los árboles? | 307",
+"s": 4751
+},
+{
+"id": "bw8t2rKju88",
+"t": "El resultado de inventar un género musical Feat. Carlos Vives",
+"s": 3976
+},
+{
+"id": "w-G-qEl2S-Y",
+"t": "TRAUMAS 85 - “MI SUEGRA SE ENAMORÓ DE MI PAPÁ\" - 🇵🇦PANAMÁ🇵🇦",
+"s": 1477
+},
+{
+"id": "MqvMj20vjWQ",
+"t": "Millennials vs Gen Z con Joaquina | 306",
+"s": 4851
+},
+{
+"id": "vejK-pvbpBs",
+"t": "Todas las celebridades venecas son polarizantes - EP #747",
+"s": 2365
+},
+{
+"id": "mm4jK-CLoB8",
+"t": "TRAUMAS 84 - “ME TUVIERON QUE QUITAR UNA B*LA\" - 🇵🇦PANAMÁ🇵🇦",
+"s": 937
+},
+{
+"id": "N6gFWpIQIDs",
+"t": "Ni olvido, ni perdón | 305",
+"s": 4766
+},
+{
+"id": "F5Tr_mVE9hM",
+"t": "Todos tenemos una obsesión involuntaria por ser misólogos Feat. Profesor Briceño",
+"s": 6465
+},
+{
+"id": "03CoVFFyvQ0",
+"t": "TRAUMAS 83 - “BESÉ A UN PASTO DE IGLESIA\"",
+"s": 668
+},
+{
+"id": "iZGG3M8n6Mo",
+"t": "Lo que nadie te dice de tener tu propio negocio | 304",
+"s": 5233
+},
+{
+"id": "fM4Rqw00TeQ",
+"t": "¿Cuánto cuesta documentar lugares extremos? Feat. Araya Vlogs",
+"s": 3789
+},
+{
+"id": "nhxvO1pXWAw",
+"t": "TRAUMAS 82 - “ME ENGAÑARON Y NOS CAÍMOS A GOLPES\"",
+"s": 1068
+},
+{
+"id": "q75qxt1dPfY",
+"t": "¿Qué dicen las uñas de tu cultura? | 303",
+"s": 4790
+},
+{
+"id": "alvaasjRrB8",
+"t": "Hacer comedia en Venezuela Feat. Carluis Medina",
+"s": 4057
+},
+{
+"id": "bWCAXAleVHI",
+"t": "TRAUMAS 81 - “VI EL MIEMBRO DE MI TÍO SIN QUERER\"",
+"s": 679
+},
+{
+"id": "zHjLMB4Nmgk",
+"t": "La verdad de los Centros Comerciales | 302",
+"s": 4704
+},
+{
+"id": "Q56s3Y2SzrY",
+"t": "Me desespera tomarle fotos a mi novia - EP #744",
+"s": 2494
+},
+{
+"id": "8UJyGR_fEps",
+"t": "TRAUMAS 80 - “MI VECINO QUISO M4T4R A MI MAMÁ\"",
+"s": 1142
+},
+{
+"id": "s4TxJbIfDj8",
+"t": "¿Cómo es ser papá? con Led Varela | 301",
+"s": 4683
+},
+{
+"id": "tCEgmT_UnAQ",
+"t": "Pegas una canción, ¿y luego qué? Feat. Sech",
+"s": 3609
+},
+{
+"id": "KsG2noxLXng",
+"t": "TRAUMAS 79 - “MI PAPÁ ME ABANDONÓ DOS VECES\"",
+"s": 765
+},
+{
+"id": "tcvhyRKOxzg",
+"t": "La nueva carrera espacial | 300",
+"s": 4548
+},
+{
+"id": "BkONR-OH1ug",
+"t": "Economía del slop y por qué todo se abarató - EP #743",
+"s": 4023
+},
+{
+"id": "cc8vYmA8T-U",
+"t": "TRAUMAS 78 - “MI MAMÁ ME PRESENTÓ 3 PAPÁS\"",
+"s": 795
+},
+{
+"id": "hQkn0cyJX7g",
+"t": "Cómo ser un buen anfitrión con Eliú y Shakti | 299",
+"s": 4798
+},
+{
+"id": "Dh1VeL_NR4w",
+"t": "La mentira de parecer exitoso sí funciona - EP #742",
+"s": 2858
+},
+{
+"id": "1RmvXMoxED8",
+"t": "TRAUMAS 77 - “ME BESARON LA BARRIGA EN LA PRIMERA CITA\"",
+"s": 840
+},
+{
+"id": "laJlR6nwyFY",
+"t": "Lo que callan los escritores con Leonardo Padrón | 298",
+"s": 4759
+},
+{
+"id": "0yCPJpaaZMk",
+"t": "Operaron a Daniel de emergencia por bocón - EP #741",
+"s": 3645
+},
+{
+"id": "e1eOpgBcKU8",
+"t": "TRAUMAS 76 - “MI MAMÁ APUÑ4L0 7 VECES A MI PAPÁ\"",
+"s": 915
+},
+{
+"id": "_1QqB5Op_B4",
+"t": "De compras con Sascha Fitness | 297",
+"s": 3679
+},
+{
+"id": "iq70L3LCgBY",
+"t": "Tener amigos con ideales de m*erd@ - EP #740",
+"s": 2575
+},
+{
+"id": "J52xDV-VTpk",
+"t": "TRAUMAS 75 - “MI MAMÁ MONTABA CACHOS CON SU PRIMO\"",
+"s": 1185
+},
+{
+"id": "mdHY21xsLZc",
+"t": "¿Por qué Venezuela es un país de motos? | 296",
+"s": 5320
+},
+{
+"id": "ITZzdr0tZTA",
+"t": "El estrés dañó nuestros cerebros - EP #738",
+"s": 3415
+},
+{
+"id": "wdR5HOa2sK0",
+"t": "TRAUMAS 74 - “ME EMBARAZARON Y ME ABANDONARON\"",
+"s": 1121
+},
+{
+"id": "HnKjPN-TOts",
+"t": "Crecer con Los Amigos Invisibles | 295",
+"s": 3900
+},
+{
+"id": "RzmVlxCIrLs",
+"t": "¿Por qué no hay ley en las playas de Venezuela? - EP #737",
+"s": 2874
+},
+{
+"id": "MtuQQUW8c-I",
+"t": "TRAUMAS 73 - “LE CAÍ A GOLPES A LA AMANTE DE MI PAPÁ\"",
+"s": 1016
+},
+{
+"id": "o0TGp-zj6bk",
+"t": "Comer en casa vs comer en la calle | 294",
+"s": 4937
+},
+{
+"id": "2K-huuFuppo",
+"t": "¿Los mejores artistas no se encasillan en un solo género? Ft. Trainer",
+"s": 4184
+},
+{
+"id": "aFEcW0NW0w0",
+"t": "TRAUMAS 72 - “MI PAPÁ COCINÓ A MI MASCOTA\"",
+"s": 887
+},
+{
+"id": "P3TT7lS8ll8",
+"t": "Todo sobre las citas | 293",
+"s": 6724
+},
+{
+"id": "RQ4KVzQysh4",
+"t": "No se siente la fiebre del mundial - EP #736",
+"s": 2374
+},
+{
+"id": "7hfqiovuJNg",
+"t": "TRAUMAS 71 - “MI MAMÁ PERSIGUIÓ A MI PAPÁ CON UNA MOTOSIERRA\"",
+"s": 880
+},
+{
+"id": "4P41M0Zmt78",
+"t": "Lo que callan los DJs | 292",
+"s": 6265
+},
+{
+"id": "P34goJTWqwQ",
+"t": "¿La inteligencia artificial nunca reemplazará lo artesanal? Ft. Mau y Ricky",
+"s": 3649
+},
+{
+"id": "8UGcE1IANPA",
+"t": "Q&A de TRAUMAS con Nacho",
+"s": 1349
+},
+{
+"id": "wxCFOBZhmzE",
+"t": "Mejora tu autoestima x Érika de la Vega | 291",
+"s": 4012
+},
+{
+"id": "RQvLNktmcFU",
+"t": "La popularización de los viajes ¿A dónde van los millonarios ahora? - EP #735",
+"s": 3482
+},
+{
+"id": "D0AIldK8avg",
+"t": "TRAUMAS 70 - “MI PRIMO PUBLICÓ MIS NUD3S\"",
+"s": 689
+},
+{
+"id": "p_QIrs0QWDU",
+"t": "Todo sobre el dólar en Venezuela | 290",
+"s": 5713
+},
+{
+"id": "ZpxSRzgZXu0",
+"t": "Las historias de un venezolano Marine que luchó en Afganistán Ft. David Mantilla",
+"s": 4276
+},
+{
+"id": "-AKVJYOT_ug",
+"t": "TRAUMAS 69 - “TENGO 4 PAPÁS\"",
+"s": 952
+},
+{
+"id": "WxyImxZHSQ0",
+"t": "¿Cuántos regresan a Venezuela? | 289",
+"s": 6121
+},
+{
+"id": "tBxXyR7DG5A",
+"t": "Anatomía de la humillación - EP #734",
+"s": 3481
+},
+{
+"id": "EgvIm2JgluM",
+"t": "TRAUMAS 68 - “EL EX DE MI NOVIA ME CAYÓ A GOLPES\"",
+"s": 640
+},
+{
+"id": "sUCPz_NSiBQ",
+"t": "¿Qué está pasando en Venezuela? | 288",
+"s": 4533
+},
+{
+"id": "HmrRkHUq8-k",
+"t": "¿Cómo sería confesarnos por primera vez en 20 años? - EP #733",
+"s": 2650
+},
+{
+"id": "VmwLksHaoEs",
+"t": "TRAUMAS 67 - “MI NOVIA ME TRAUMÓ PARA SIEMPRE\"",
+"s": 756
+},
+{
+"id": "l8shJ-YKgtc",
+"t": "El Origen del Pesebre | 287",
+"s": 5307
+},
+{
+"id": "Ige1uXa3ai8",
+"t": "¿Cuál es el deporte principal de Venezuela: béisbol o fútbol? - EP #732",
+"s": 2630
+},
+{
+"id": "1x1g98hFqaA",
+"t": "TRAUMAS 66 - “LE OFRECÍ UN TRÍO A MI NOVIO Y LO HIZO SIN MÍ\"\"",
+"s": 625
+},
+{
+"id": "pZDvyA2Q1no",
+"t": "El arte de bailar x Nojoda Chica | 286",
+"s": 4572
+},
+{
+"id": "TR4ecZfnmeQ",
+"t": "¿Falta cultura de fútbol en Venezuela? Ft. Francisco Blavia, Carlos Ramírez y José Manuel Rey",
+"s": 3893
+},
+{
+"id": "4jrfgt6dR6U",
+"t": "TRAUMAS 65 - “MIENTRAS JUGABA FÚTBOL, M4T4RON AL PORTERO\"\"",
+"s": 697
+},
+{
+"id": "Ot1q5q0SUkM",
+"t": "¿Cómo nació la hallaca? x Mayonesa Mavesa | 285",
+"s": 5215
+},
+{
+"id": "Edyf4Hzuh8c",
+"t": "Puedes curarte del brainrot en 2 semanas - EP #730",
+"s": 3129
+},
+{
+"id": "5BD7gijZB1M",
+"t": "TRAUMAS 64 - “MI EX ME MANDÓ A M4T4R\"\"",
+"s": 869
+},
+{
+"id": "B7d-Vc0gTEE",
+"t": "¿Por qué no sabemos qué ver? | 284",
+"s": 4672
+},
+{
+"id": "GzN8s2gKdxg",
+"t": "La realidad de Cuba en 2026 Ft. Ramiro Gonzalez",
+"s": 3997
+},
+{
+"id": "gdFKOjINbEw",
+"t": "TRAUMAS 63 - “MI DOCTOR ME HIZO CREER QUE TENÍA S1D4\"",
+"s": 601
+},
+{
+"id": "NW4YrbKY4XQ",
+"t": "La historia de ir al baño | 283",
+"s": 4637
+},
+{
+"id": "fIvxE8t_LwI",
+"t": "El nuevo reality show de Marko Ft. El Desorden de Marko",
+"s": 3748
+},
+{
+"id": "3-4LMfyCb7I",
+"t": "TRAUMAS 62 - “A MI BULLY LO APLASTÓ UN CARRO\"",
+"s": 728
+},
+{
+"id": "w0N32DY4beE",
+"t": "¿Cómo han cambiado los cortes de cabello? | 282",
+"s": 5695
+},
+{
+"id": "jaOyCp5nxC8",
+"t": "Los malos siempre ganan y el odio de internet a Timothée Chalamet - EP #728",
+"s": 3128
+},
+{
+"id": "-JfYWrMvrsQ",
+"t": "TRAUMAS 61 - “MI NOVIO SE MOLESTÓ PORQUE CASI ME MU3RO\"",
+"s": 987
+},
+{
+"id": "sNSwSrASlrM",
+"t": "¿Por qué todos aman el pan? | 281",
+"s": 4696
+},
+{
+"id": "3cCUxyM8fFU",
+"t": "La apariencia mórbida de Jim Carrey que desató conspiraciones - EP #727",
+"s": 2325
+},
+{
+"id": "MqBAv1KJLfk",
+"t": "NACHO REDONDO - TRAUMAS NAVIDEÑOS - UN ESPECIAL DE CROWDWORK",
+"s": 1990
+},
+{
+"id": "JL4Nw75wbSY",
+"t": "¿Cómo vencer la flojera? | 280",
+"s": 5066
+},
+{
+"id": "6MCIpEL06h8",
+"t": "Tu egoísmo te está dejando sin amigos - EP #726",
+"s": 2907
+},
+{
+"id": "FMhULnpENRk",
+"t": "TRAUMAS 60 - “CASI FALLECE HACIÉNDOME EL AMOR\"",
+"s": 1034
+},
+{
+"id": "DNz4FFmf2XM",
+"t": "Cómo mantener tu batería social con Gabo Ruiz | 279",
+"s": 4217
+},
+{
+"id": "E-14TN5neKo",
+"t": "Polymarket convirtió la política en un casino - EP #725",
+"s": 3148
+},
+{
+"id": "ZNfcK4kUH_M",
+"t": "TRAUMAS 59 - “Me iban a DETONAR y me DESMAYÉ\"",
+"s": 730
+},
+{
+"id": "FRPaZkDy92I",
+"t": "Lo que callan las Misses | 277",
+"s": 5451
+},
+{
+"id": "7Y431mTBVJk",
+"t": "Tener hijos se convirtió en un lujo - EP #722",
+"s": 3167
+},
+{
+"id": "wlkNd0gGlYA",
+"t": "TRAUMAS 58 - “Estudié DERECHO para DEMANDAR A MI PAPÁ\"",
+"s": 725
+},
+{
+"id": "9YNexZ-rUn4",
+"t": "Tipos de familias | 276",
+"s": 6095
+},
+{
+"id": "L6CjF8b1z08",
+"t": "La teoría que te va a salvar del burnout - EP #721",
+"s": 3531
+},
+{
+"id": "DNKy78md1v0",
+"t": "TRAUMAS 57 - “Descubrí a MI PAPÁ EN LA CAMA CON MI TÍA\"",
+"s": 844
+},
+{
+"id": "H4Vvit_ky00",
+"t": "Nuestra relación con las loncheras x Retorna",
+"s": 4425
+},
+{
+"id": "BLd1vQhSeGw",
+"t": "¿Qué $#&!? son los Therians? y el crush famoso de tu novia - EP #720",
+"s": 2964
+},
+{
+"id": "uNQN8XdJyQM",
+"t": "TRAUMAS 56 - “Mi NOVIO me CACHÓ con mi PRIMO\"",
+"s": 1041
+},
+{
+"id": "ixJeC5aPMhk",
+"t": "¿Qué pasa entre Venezuela y Estados Unidos? | 274",
+"s": 4081
+},
+{
+"id": "hQjLPnEdvns",
+"t": "Quedamos expuestos jugando “¿Qué prefieres?” - EP #716",
+"s": 2771
+},
+{
+"id": "xl-tVnU_2d8",
+"t": "TRAUMAS 55 - “Mi TÍO quiso ACUCHILL4RME\"",
+"s": 1054
+},
+{
+"id": "KBdb4Gp07jc",
+"t": "¿Los sueños tienen significado? | 273",
+"s": 4899
+},
+{
+"id": "rSNGzWZyIoc",
+"t": "El impuesto al pecado - EP #715",
+"s": 2437
+},
+{
+"id": "Tl98hc2DY9E",
+"t": "TRAUMAS 54 - “Mandé a M4T4R a ALGUIEN SIN QUERER\"",
+"s": 619
+},
+{
+"id": "e3Qey67C1J4",
+"t": "Trucos para vivir solo x Congelados PAN",
+"s": 4417
+},
+{
+"id": "h-zla4hUFMs",
+"t": "Los mejores animes de la historia según EDN - EP #714",
+"s": 2869
+},
+{
+"id": "jltXcau8YUI",
+"t": "TRAUMAS 53 - “Mi VERDADERO PAPÁ BIOLÓGICO es mi ABUELO\"",
+"s": 1392
+},
+{
+"id": "QmmRzARfbPw",
+"t": "Lo que callan los bomberos | 272",
+"s": 4786
+},
+{
+"id": "hCrSUj0cn3Q",
+"t": "Las cosas más gays que hacen los héteros - Episodio Especial",
+"s": 2749
+},
+{
+"id": "HNhQsDFtkpY",
+"t": "TRAUMAS 52 - “MI NOVIO SE MUTILÓ EL P3N* CON UNA AMOLADORA\"",
+"s": 1183
+},
+{
+"id": "eW1ABqbbtl4",
+"t": "¿El tráfico nos vuelve locos? | 271",
+"s": 4640
+},
+{
+"id": "yCWLaYWZxO4",
+"t": "Terapia de Roommates con Daniel y Guille - EP #713",
+"s": 3038
+},
+{
+"id": "z0H1iRvD4TE",
+"t": "TRAUMAS 51 - “SALÍ de FIESTA con mi MAMÁ y se METIÓ C0C4\"",
+"s": 833
+},
+{
+"id": "vKLSuenH270",
+"t": "Todo sobre los gemelos | 270",
+"s": 3982
+},
+{
+"id": "fecdCMZDo5w",
+"t": "Los cuentos más locos de Leo en China y Japón - EP #712",
+"s": 4467
+},
+{
+"id": "9kzgEt2GyLo",
+"t": "TRAUMAS 50 - “Mi NOVIO tuvo una ORG*4 con mis AMIGOS”",
+"s": 1000
+},
+{
+"id": "0LPmn2lLYvg",
+"t": "¿Importa lo que digan los demás? | 269",
+"s": 4588
+},
+{
+"id": "gIoDPhfWAQU",
+"t": "¿Saldrías con alguien obsesionado con la astrología? - Episodio Especial",
+"s": 2821
+},
+{
+"id": "D2yUIHiPnM8",
+"t": "TRAUMAS 49 - “Mi MAMÁ me PIDIÓ que la MAT4R4\"",
+"s": 856
+},
+{
+"id": "Co_OyPIVERg",
+"t": "¿De qué hablan los hombres cuando están solos? | 268",
+"s": 5283
+},
+{
+"id": "vu5SyHVo_Z4",
+"t": "Nuestros sueños materiales más grandes - EP #710",
+"s": 3234
+},
+{
+"id": "2FZAlfrawFc",
+"t": "TRAUMAS 48 - “Me SECUESTR4RON junto a 20 AMIGOS\"",
+"s": 1149
+},
+{
+"id": "cyE4l-JuXP8",
+"t": "El oscuro mundo del soborno | 267",
+"s": 4671
+},
+{
+"id": "z4mNrjwruhY",
+"t": "¿Cuánto cobrarías para casarte por la nacionalidad? - Episodio Especial",
+"s": 2789
+},
+{
+"id": "1WyWOHZ0Mes",
+"t": "TRAUMAS 47 - “La ESPOSA DE MI PRIMO se COG*A a MI MARIDO\"",
+"s": 1116
+},
+{
+"id": "x6DK7_qV5ME",
+"t": "El arte de pedir favores | 266",
+"s": 5014
+},
+{
+"id": "3_lVBqJx-zE",
+"t": "¿Vivir en una ciudad o en un pueblo? y experiencias vergonzosas de hoteles - EP #708",
+"s": 2293
+},
+{
+"id": "WZIB8D7YhNo",
+"t": "TRAUMAS 46 - “ESTUVE en un INTENTO DE ASES*NAT0\"",
+"s": 960
+},
+{
+"id": "Ldt39BLZW90",
+"t": "El Cuartico cumple 5 Años (EPISODIO ESPECIAL) | 265",
+"s": 6879
+},
+{
+"id": "7T2TE7936qI",
+"t": "¿Quiénes son más cochinos: hombres o mujeres? - Episodio Especial",
+"s": 2877
+},
+{
+"id": "ZCDqDb36zdQ",
+"t": "TRAUMAS 45 - “Mi PAPÁ fue INFIEL con la PROFESORA DE PREESCOLAR\"",
+"s": 818
+},
+{
+"id": "XQaAppqg76w",
+"t": "¿Por qué todos aman la pizza? | 264",
+"s": 4525
+},
+{
+"id": "tjWtrp8qpvI",
+"t": "Lo mejor y lo peor del 2025 según EDN - EP #707",
+"s": 3022
+},
+{
+"id": "dhfiD0EDv6A",
+"t": "TRAUMAS 44 - “Encontré a mi NOVIA en la CAMA con mi VECINO\"",
+"s": 891
+},
+{
+"id": "sCmIS10ObTc",
+"t": "Saliendo del Clóset x Neisser (y Chucho) | 263",
+"s": 4121
+},
+{
+"id": "sv_WjXIYO4E",
+"t": "¿Adaptarse a otro país es perder tu identidad? - Regalo de Navidad - EP #706",
+"s": 2648
+},
+{
+"id": "QTIcuOloZcE",
+"t": "TRAUMAS 43 - “Mi PAPÁ era TRAFICANTE DE DR0G4S\"",
+"s": 667
+},
+{
+"id": "K1AddxgtC-U",
+"t": "Lo que callan los psicólogos | 262",
+"s": 5209
+},
+{
+"id": "S9MFShFeneU",
+"t": "¿Perú es el país más bulleado? y el despecho en hombres vs mujeres - Episodio Especial",
+"s": 2544
+},
+{
+"id": "BtQRez2c3RI",
+"t": "TRAUMAS 42 - “Mi PAPÁ se COGI* a mi NOVIA\"",
+"s": 912
+},
+{
+"id": "Q4iWCbY1nvY",
+"t": "Los Venezolanos que se van de Estados Unidos | 261",
+"s": 4168
+},
+{
+"id": "r4gJoLGREmE",
+"t": "Descubrimos que no estamos en los close friends de la oficina - EP #705",
+"s": 2925
+},
+{
+"id": "bjlHeQCSF7o",
+"t": "TRAUMAS 41 - “Mi EX hacía SACRIFICIOS ANIM4LES en la SALA DE MI CASA”",
+"s": 663
+},
+{
+"id": "K-ytHWwsux4",
+"t": "Feliz Día del Padre | El Cuartico x Retorna",
+"s": 4146
+},
+{
+"id": "cSqfPJ6uc0k",
+"t": "Lo más humillante que le hemos preguntado a ChatGPT - Episodio Especial",
+"s": 2442
+},
+{
+"id": "i4uKQf6zRp0",
+"t": "TRAUMAS 40 - “Estuve con la AMANTE DE MI PAPÁ”",
+"s": 714
+},
+{
+"id": "VFspKYg4Z9w",
+"t": "Tipos de apodos | 260",
+"s": 4903
+},
+{
+"id": "nc_HC-Wag3g",
+"t": "Chris cayó redondito en una broma de cámara escondida - EP #702",
+"s": 2692
+},
+{
+"id": "tk_lfrlQatE",
+"t": "TRAUMAS 39 - “Mi EX me amenazó con un CUCHILLO y llamé a mi MAMÁ ”",
+"s": 847
+},
+{
+"id": "cxQ0afFM9xQ",
+"t": "Casi nos engañan para revender nuestros autógrafos - Episodio Especial",
+"s": 2343
+},
+{
+"id": "WuxUU-54q3Y",
+"t": "TRAUMAS 38 - “Descubrí una INFIDELIDAD después de la MUE*TE ”",
+"s": 619
+},
+{
+"id": "YB89hVecDF8",
+"t": "Netflix compró Warner: ¿se irá la industria a la m*erda? - EP #700",
+"s": 3266
+},
+{
+"id": "x8xygLaXFZA",
+"t": "TRAUMAS 37 - “Vi a mi EX c0g*endo con su PRIMO”",
+"s": 610
+},
+{
+"id": "EvD_SD87JV8",
+"t": "Los dealbreakers más específicos de relaciones - EP #699",
+"s": 3687
+},
+{
+"id": "NhP_GQp9N5g",
+"t": "TRAUMAS 36 - “Mi MAMÁ me ASFIXIABA cuando me daba HIPO”",
+"s": 601
+},
+{
+"id": "1iUOXMn_5Ww",
+"t": "Las peores experiencias humanas - EP #698",
+"s": 4552
+},
+{
+"id": "v__typpoQO0",
+"t": "TRAUMAS 35 - “Mi NOVIO me ROMPIÓ el CUL* sin querer”",
+"s": 635
+},
+{
+"id": "vxVomfKgj7A",
+"t": "Ser solter@ es una pesadilla y nuestro viaje a Las Vegas - EP #697",
+"s": 4354
+},
+{
+"id": "ZKORPUqA_Xc",
+"t": "TRAUMAS 34 - “Me apuntaron con un RIFLE de NIÑO”",
+"s": 904
+},
+{
+"id": "yg4ZSN0A83Q",
+"t": "Los ciclos del rap y cómo coleccionar cartas de Pokémon Ft. Akapellah",
+"s": 4741
+},
+{
+"id": "ys0Aa--ke6Y",
+"t": "TRAUMAS 33 - \"Mi PAPÁ lanzó a mi MAMÁ por las ESCALERAS\"",
+"s": 694
+},
+{
+"id": "bQojPIAJT3c",
+"t": "Los secretos del cuerpo en una nueva relación - EP #696",
+"s": 5819
+},
+{
+"id": "dIReZDkarqo",
+"t": "TRAUMAS 32 - \"Mi EX NOVIA me SECUESTRÓ\"",
+"s": 1163
+},
+{
+"id": "ngA8IgO0I1o",
+"t": "La calma es la clave durante el clímax de un partido Ft. Miguel Rojas",
+"s": 3879
+},
+{
+"id": "F-0xkgkOn_4",
+"t": "TRAUMAS 31 - \"Le tengo FOBIA a las mujeres EMBARAZADAS\"",
+"s": 698
+},
+{
+"id": "Ij73rIv_Eoo",
+"t": "Las ofertas de trabajo más indignantes que aceptarías por necesidad - EP #695",
+"s": 3040
+},
+{
+"id": "Fqmizs93M90",
+"t": "TRAUMAS 30 - \"Mi MAMÁ me ahogaba en un TANQUE\"",
+"s": 719
+},
+{
+"id": "qVwfakNzBZU",
+"t": "¿Para mantener tu estatus de leyenda hay que ridiculizarse un poco? - EP #694",
+"s": 2755
+},
+{
+"id": "3KjqKupaw6Q",
+"t": "TRAUMAS 29 - \"Le dije ZORR* a mi MADRASTRA\"",
+"s": 887
+},
+{
+"id": "kzibJ1K_eRU",
+"t": "¿El rap dejó de ser relevante e interesante? - EP #693",
+"s": 3509
+},
+{
+"id": "Fsdo20sI00Y",
+"t": "TOP 10 MEJORES TRAUMAS - TEMPORADA 1",
+"s": 2890
+},
+{
+"id": "Nby67GzzmdM",
+"t": "¿El morbo forzado en formato de reality? - EP #692",
+"s": 2999
+},
+{
+"id": "jIsYXeZPd6g",
+"t": "TRAUMAS 28 - \"Mi EX me entregó para que me DEPORTARAN\"",
+"s": 912
+},
+{
+"id": "Zpw9srFaz2Y",
+"t": "El regreso de la piratería y la decadencia del streaming - EP #691",
+"s": 2785
+},
+{
+"id": "3SvN2thSdi0",
+"t": "TRAUMAS 27 - \"Salí con mi EX y su nuevo NOVIO\"",
+"s": 619
+},
+{
+"id": "Aa8SWKSmcxg",
+"t": "El mercado negro m*ldito de obras de arte - EP #690",
+"s": 3180
+},
+{
+"id": "BuQGlQZpZ5I",
+"t": "TRAUMAS 26 - \"Vi a mi MAMÁ en CUATRO\"",
+"s": 624
+},
+{
+"id": "Gui-MHSORKA",
+"t": "Los peores nombres de bebés - EP #689",
+"s": 2475
+},
+{
+"id": "3O5n1aYYVyQ",
+"t": "TRAUMAS 25 - \"Se me cayó un BEBÉ\"",
+"s": 688
+},
+{
+"id": "gctz16giAfs",
+"t": "La GenZ y su obsesión por las marcas moralmente correctas - EP #688",
+"s": 2918
+},
+{
+"id": "bSaX5SPXUPM",
+"t": "TRAUMAS 24 - \"Mi TÍA sedujo a mi PAPÁ\"",
+"s": 606
+},
+{
+"id": "1vZomw_hGA4",
+"t": "El fin del efectivo y estamos hartos de tanta publicidad - EP #687",
+"s": 3346
+},
+{
+"id": "2FquWD4H3TU",
+"t": "TRAUMAS 23 - \"Mi PAPÁ se muri* DOS VECES\"",
+"s": 603
+},
+{
+"id": "x8N1dkZRa9s",
+"t": "Las cosas más humillantes que hemos hecho por amor Ft. Niñas Bien",
+"s": 6570
+},
+{
+"id": "oo8BbSnEGpk",
+"t": "TRAUMAS 22 - \"Mi ABUELA MAT* a mi MASCOTA\"",
+"s": 848
+},
+{
+"id": "hOVTBh79j0Q",
+"t": "TRAUMAS 21 - \"Mis papás saben que cog*a con MI PRIMO\"",
+"s": 849
+},
+{
+"id": "igU5TQwosYg",
+"t": "NACHO REDONDO - HUEVO DE DRAGÓN - UN ESPECIAL DE STAND UP",
+"s": 4383
+},
+{
+"id": "06l1xD5gSIY",
+"t": "TRAUMAS 20 - \"Me puse PERLAS en el P*NE\"",
+"s": 696
+},
+{
+"id": "oZZSacnJ-K4",
+"t": "TRAUMAS 19 - \"Vi un video ÍNTIMO de mis PAPÁS\"",
+"s": 714
+},
+{
+"id": "8ePMYgpw6pE",
+"t": "TRAUMAS 18 - \"Mi papá le di$paró a mi ABUELA\"",
+"s": 671
+},
+{
+"id": "gwrPqEpVddg",
+"t": "TRAUMAS 17 - \"Presencié un EXORCISMO\"",
+"s": 603
+},
+{
+"id": "88mSi09jMus",
+"t": "TRAUMAS 16 - \"Ya he perdido DOS CASAS\"",
+"s": 785
+},
+{
+"id": "OWxQ1dfn2Jw",
+"t": "TRAUMAS 15 - \"Me tiré del CARRO ANDANDO\"",
+"s": 711
+},
+{
+"id": "DDaJk0rIrls",
+"t": "TRAUMAS 14 - \"Mi papá se cog*ó a mi niñera\"",
+"s": 977
+},
+{
+"id": "M3Ef3-aXk-Q",
+"t": "TRAUMAS 13 - \"Me funaron a nivel MUNDIAL\"",
+"s": 906
+}
+]
+},
+{
+"num": "05",
+"name": "Noticias",
+"hours": [
+7,
+12
+],
+"sourceName": "DW Español y RTVE Noticias",
+"tagline": "DW Español y RTVE Noticias",
+"kind": "latest",
+"ids": [
+"UCT4Jg8h03dD0iN3Pb5L0PMA"
+],
 "recap": [
 "36RiNEZQkNc",
 "Npd28oXC-pk",
 "oTH1Brp1OIs"
 ]
 },
-"07": {
+{
+"num": "06",
+"name": "Late Night",
+"hours": [],
+"sourceName": "The Tonight Show Starring Jimmy Fallon y Jimmy Kimmel Live",
+"tagline": "The Tonight Show Starring Jimmy Fallon y Jimmy Kimmel Live",
+"kind": "latest",
+"ids": [
+"UC8-Th83bH_thdKZDJCrn88g",
+"UCa6vGFO9ty8v5KZJXQxdhaw"
+]
+},
+{
+"num": "07",
+"name": "Cocina",
+"hours": [
+12,
+15
+],
+"sourceName": "Joshua Weissman Recipes",
+"tagline": "Joshua Weissman Recipes",
+"kind": "linear",
 "items": [
 {
 "id": "-H3pjmp_aDg",
@@ -326,10 +1639,250 @@
 "id": "FSFTqzmuzy8",
 "t": "Las salsas que todo el mundo debe conocer",
 "s": 1558
+},
+{
+"id": "WGVaDl1RRkc",
+"t": "Sándwiches De Comida Callejera Mexicana En Casa (Torta De Milanesa)",
+"s": 923
+},
+{
+"id": "N3QgxolJbNE",
+"t": "Los mejores rollos de canela caseros",
+"s": 875
+},
+{
+"id": "8Bzi_ybXw10",
+"t": "The Best Beef Short Ribs Ever",
+"s": 979
+},
+{
+"id": "KJ5CW1Hsums",
+"t": "Desayuno chino auténtico en casa (Jianbing)",
+"s": 907
+},
+{
+"id": "-2RjqDwbrZQ",
+"t": "El plato vietnamita más subestimado (Bun Cha Hanoi)",
+"s": 823
+},
+{
+"id": "vjIfHr0GOrw",
+"t": "The Best Breakfast Sandwich At Home",
+"s": 803
+},
+{
+"id": "eC8gqjQRj1I",
+"t": "The Best Spicy Fried Rice Ever",
+"s": 607
+},
+{
+"id": "oniAMAulMgU",
+"t": "La mejor pasta Alfredo baja en calorías de la historia",
+"s": 524
+},
+{
+"id": "5BzvDJ9I4jg",
+"t": "El Beef Wellington más fácil",
+"s": 843
+},
+{
+"id": "lLNH-JnbigM",
+"t": "Cómo hacer que la comida tenga buen sabor",
+"s": 914
+},
+{
+"id": "ZruAfXHBrNk",
+"t": "Los mejores fideos con chile y ajo de la historia",
+"s": 594
+},
+{
+"id": "uNM5ZvNkN1U",
+"t": "La mejor hamburguesa baja en calorías de la historia",
+"s": 603
+},
+{
+"id": "Uj5ZggWHYU4",
+"t": "El mejor shawarma en casa",
+"s": 838
+},
+{
+"id": "0ZMRL8blTsY",
+"t": "Los Poke Bowls más saludables en casa",
+"s": 842
+},
+{
+"id": "4r7Yl15-F7c",
+"t": "Los mejores panqueques esponjosos (2 maneras)",
+"s": 527
+},
+{
+"id": "ZLULwy2cXVE",
+"t": "Las mejores galletas con chispas de chocolate de la historia",
+"s": 550
+},
+{
+"id": "h_ZWXncC0CI",
+"t": "Pollo con mantequilla perfecto en casa",
+"s": 875
+},
+{
+"id": "kzBOTkQRp0A",
+"t": "El mejor chocolate caliente de la historia (2 maneras)",
+"s": 492
+},
+{
+"id": "KAfbkuBF6L0",
+"t": "Arroz glutinoso con mango perfecto en casa",
+"s": 581
+},
+{
+"id": "qEHvmINXUfk",
+"t": "El mejor pollo frito casero",
+"s": 722
+},
+{
+"id": "aPqG4RkvyMw",
+"t": "Cómo convertir cualquier cosa en sopa",
+"s": 806
+},
+{
+"id": "kSspDhrvNok",
+"t": "Las dos mejores maneras de preparar puré de papas",
+"s": 793
+},
+{
+"id": "dxZgcuxQTFs",
+"t": "Burritos de pollo perfectos en casa",
+"s": 785
+},
+{
+"id": "_tx6VaBC_Bc",
+"t": "El mejor sándwich club en casa",
+"s": 839
+},
+{
+"id": "6bk4a4_ORfI",
+"t": "Los mejores bagels caseros de Nueva York",
+"s": 728
+},
+{
+"id": "urECpujNgcM",
+"t": "El mejor pollo frito coreano en casa",
+"s": 772
+},
+{
+"id": "oFSgLH8AN7w",
+"t": "La hamburguesa perfecta en casa (2 maneras)",
+"s": 499
+},
+{
+"id": "TveUI2jD_2c",
+"t": "Focaccia ultra aireada de 51 horas en casa",
+"s": 686
+},
+{
+"id": "UhByCuLYt2g",
+"t": "Los mejores macarrones con queso caseros (2 opciones)",
+"s": 529
+},
+{
+"id": "3iNyUwPKrXQ",
+"t": "Pollo Peri Peri Perfecto en Casa",
+"s": 926
+},
+{
+"id": "qDRrXpKCk8M",
+"t": "Nuggets de pollo fáciles en casa",
+"s": 657
+},
+{
+"id": "AFzx37MGW6o",
+"t": "Auténtico pollo jerk en casa",
+"s": 879
+},
+{
+"id": "u-_FnU9FaeA",
+"t": "Cómo cocinar con acero inoxidable",
+"s": 1127
+},
+{
+"id": "0aS89GsHIBQ",
+"t": "Los mejores tacos de carne en casa",
+"s": 729
+},
+{
+"id": "ldVuxgEc1m0",
+"t": "Rollitos Primavera Crujientes En Casa (Lumpia)",
+"s": 763
+},
+{
+"id": "9BnVOZ1chKE",
+"t": "Los fideos con ajo y chile picante más fáciles (2 maneras)",
+"s": 533
+},
+{
+"id": "RBkhdRBp1xo",
+"t": "Pudín de dátiles pegajoso que cualquiera puede preparar",
+"s": 469
+},
+{
+"id": "yvfVAvJZ-8A",
+"t": "Cómo hacer los mejores panecillos para hamburguesas de la historia",
+"s": 655
+},
+{
+"id": "EAmC5DhRbz4",
+"t": "El plato de pollo saludable más fácil de preparar en casa",
+"s": 602
+},
+{
+"id": "S-E0KQW-Nl0",
+"t": "La Pasta Picante con Vodka Perfecta",
+"s": 601
+},
+{
+"id": "tY9pSkn1VCg",
+"t": "El sándwich de pollo frito perfecto",
+"s": 943
+},
+{
+"id": "j_pNxyr1GM0",
+"t": "Pizza estilo Nueva York en casa",
+"s": 608
+},
+{
+"id": "bBqwT03GlrQ",
+"t": "Khao Soi perfecto en casa",
+"s": 730
+},
+{
+"id": "6yC2kEr9m-o",
+"t": "El mejor panceta crujiente en casa (Siu Yuk)",
+"s": 673
+},
+{
+"id": "BIueul4H8B0",
+"t": "Ragú de costillas casero",
+"s": 941
+},
+{
+"id": "7TSexgaX8SY",
+"t": "Filete con patatas fritas perfecto en casa",
+"s": 1077
 }
 ]
 },
-"09": {
+{
+"num": "09",
+"name": "Noche",
+"hours": [
+20,
+7
+],
+"sourceName": "YUMMY YAMMY",
+"tagline": "YUMMY YAMMY",
+"night": true,
+"kind": "linear",
 "items": [
 {
 "id": "1IL8fDyTHvo",
@@ -480,366 +2033,358 @@
 "id": "wQkgnXx6yZk",
 "t": "¡Esto no es solo tonkatsu! Los 4 mejores maestros coreanos del filete de cerdo empanado",
 "s": 4232
-}
-]
 },
-"04": {
-"items": [
 {
-"id": "eVQPfHW8HOQ",
-"t": "Trabajó fabricando comida y reveló lo que realmente estamos comiendo - EP#769",
-"s": 3779
+"id": "J1uKWBgKBPI",
+"t": "¡Dedicaron su vida a las tartas! Top 3 maestros pasteleros coreanos nivel Dios",
+"s": 3464
 },
 {
-"id": "U_4upf36-z0",
-"t": "TRAUMAS 105 - “A MI TÍA NO LE DURAN LAS PAREJAS... VIVAS\" - 🇲🇽MÉXICO🇲🇽",
-"s": 1071
+"id": "ZuvgrHZyVE4",
+"t": "¡Agotado a diario! Preparación del increíblemente elástico mochi helado de queso crema coreano",
+"s": 614
 },
 {
-"id": "33glIoFlXVE",
-"t": "¿Por qué la vida está tan cara? | 326",
-"s": 4532
+"id": "CaMYV6on1MQ",
+"t": "¡Agotado al instante! Cómo 4 panaderías coreanas populares preparan su pan insignia",
+"s": 2783
 },
 {
-"id": "2gNda5kA91c",
-"t": "¿Trabajar para ti vs trabajar para otros? Feat. Poly Diaz",
-"s": 3818
+"id": "m7_Lrtk1jek",
+"t": "¡Pedidos infinitos! La hamburguesa artesanal a domicilio n.º 1 en Corea",
+"s": 746
 },
 {
-"id": "JHwVIAEmxAI",
-"t": "TRAUMAS 104 - “MI PAPÁ LE FUE INFIEL A MI MAMÁ CON MI TÍO\" - 🇲🇽MÉXICO🇲🇽",
-"s": 816
+"id": "DHRWu0dPjQc",
+"t": "¡Obra maestra comestible! Top 3 fascinantes maestros de tartas mousse en Corea",
+"s": 3376
 },
 {
-"id": "aEj2D4oM2mE",
-"t": "El placer de darse un gustico | 325 | El Cuartico",
-"s": 4420
+"id": "7E8DydWknWk",
+"t": "¿Es real esta pizza gigante de $6? ¡Una locura de pizza coreana que vende 500+ al día!",
+"s": 920
 },
 {
-"id": "2CYu5Y_pKzk",
-"t": "El problema con los Latin Grammys y sus nominaciones - EP #766",
-"s": 5523
+"id": "55ptFo0pfJo",
+"t": "¿De verdad esto es Bingsu? Top 4 postres coreanos de hielo raspado más increíbles",
+"s": 3041
 },
 {
-"id": "Sg1IZZQSF6g",
-"t": "TRAUMAS 103 - “ATRAPÉ A MI EX CON OTRA\" - 🇵🇷PUERTO RICO🇵🇷",
-"s": 1262
+"id": "OmM7esEE3Jo",
+"t": "¡Habilidades increíbles! Top 3 'God-Level' Maestros Pasteleros en Corea",
+"s": 3279
 },
 {
-"id": "NOxFLUnE0fM",
-"t": "El significado de las banderas | 324",
-"s": 6244
+"id": "-fPMuWM-zcI",
+"t": "Estos tacos son una LOCURA… Por qué todo el mundo hace cola en Corea",
+"s": 1143
 },
 {
-"id": "tNSY2uNQMN0",
-"t": "El millonario negocio dentro de Amazon que cualquiera puede empezar - EP #765",
-"s": 4949
+"id": "n048JTgEH3Q",
+"t": "Por qué todos hacen fila… Los 4 postres de repostería más virales de Corea",
+"s": 3612
 },
 {
-"id": "In5SFeu6Fp8",
-"t": "TRAUMAS 102 - “MI PERRO ES RAC1STA\" - 🇵🇷PUERTO RICO🇵🇷",
-"s": 1467
+"id": "AxGHnbvR05Y",
+"t": "¡Increíblemente Crujiente! El proceso del pan de sal coreano más viral",
+"s": 1062
 },
 {
-"id": "D2am6DeiDWk",
-"t": "Lo que callan los comediantes x Nanutria | 323",
-"s": 7362
+"id": "WXraS-KStZI",
+"t": "¿Por qué la gente hace fila? Los 4 lugares de postres y panaderías más virales de Corea",
+"s": 4278
 },
 {
-"id": "uF-1xwqsOzI",
-"t": "La humanidad tiene los días contados - EP #764",
-"s": 3671
+"id": "V-VEvDXB2BE",
+"t": "¿Esto es PAN?! ¡Relleno de sopa de cerdo coreana! Pan de Gukbap patentado",
+"s": 971
 },
 {
-"id": "e2eDzHVmrhQ",
-"t": "TRAUMAS 101 - “MI EX PREÑÓ A MI PRIMA\" - 🇵🇷PUERTO RICO🇵🇷",
-"s": 689
+"id": "Nq48VF_5CrU",
+"t": "¡Tan único! Postres virales coreanos de Dubái por los que la gente hace cola",
+"s": 1766
 },
 {
-"id": "EgTMzSMN6WM",
-"t": "Ser alguien que resuelve x Akapellah | 322",
-"s": 4564
+"id": "b3haQhLn0fQ",
+"t": "¡Demasiado hermosos para comer! 4 increíbles postres coreanos que debes ver",
+"s": 3661
 },
 {
-"id": "BSGQnECCywE",
-"t": "¿Por qué los runners generan tanto rechazo en internet? - EP #763",
-"s": 4826
+"id": "-VnqsrG02Uo",
+"t": "¡Parece una toalla de verdad! El pastel viral de toalla de Dubái (Agotado al instante)",
+"s": 739
 },
 {
-"id": "njMxl2o1bkE",
-"t": "TRAUMAS 100 - “MI FAMILIA ME EXORCISÓ\" - 🇵🇷PUERTO RICO🇵🇷",
-"s": 866
+"id": "xr_pvZt1Hwg",
+"t": "¡Visuales increíbles! Los 4 croissants coreanos únicos que siempre se agotan",
+"s": 3663
 },
 {
-"id": "cpOFGWj_bzQ",
-"t": "Fuimos a las Fiestas Patrias en Chile | 321",
-"s": 5841
+"id": "ppyQiNvbETo",
+"t": "¡El legendario pan de ajo dulce coreano en Seúl! La gente hace cola 3 horas antes de abrir",
+"s": 785
 },
 {
-"id": "nOv75PPsoWw",
-"t": "¿Por qué una canción puede emocionarnos más que una película? - EP #762",
-"s": 4107
+"id": "d0MlqdwM9mw",
+"t": "¡Habilidades increíbles! 4 maestros coreanos toda una vida haciendo dumplings",
+"s": 3603
 },
 {
-"id": "cbXoJPS1i8o",
-"t": "TRAUMAS 99 - “EL NOVIO DE MI MAMÁ ERA DR0G4DICT0\" - 🇵🇷PUERTO RICO🇵🇷",
-"s": 1041
+"id": "PL31A6YgxA4",
+"t": "¡Se agota al instante! El pan de chocolate de Dubái de 108 capas es viral en Corea",
+"s": 837
 },
 {
-"id": "ZJ8GAhrtyIU",
-"t": "¿De dónde vienen los tambores? | 320 ",
-"s": 5412
+"id": "ovP8Fq-94tI",
+"t": "¡Visuales increíbles! TOP 3 panaderías de ciabatta en Corea siempre agotadas",
+"s": 2408
 },
 {
-"id": "m7-P31xR5WQ",
-"t": "¿El retiro de Messi es el más impactante de nuestra generación? - EP #761",
-"s": 4612
+"id": "nkiIkfMtyoI",
+"t": "¡Agotado al abrir! El pastel coreano viral Bosque de fresas",
+"s": 1087
 },
 {
-"id": "Kd1EpcYzfQU",
-"t": "TRAUMAS 98 - “VIVÍ EN SECRETO CON MI JEFE\" - 🇵🇷PUERTO RICO🇵🇷",
-"s": 1252
+"id": "JnLR-IRW3LA",
+"t": "¿Es realmente pastel de arroz? El premiado 'Rice Cake Roll' y postres coreanos únicos",
+"s": 3291
 },
 {
-"id": "BYDVKZbgjWk",
-"t": "¿Por qué hablamos con señas? | 319",
-"s": 4523
+"id": "xyANlicxrKA",
+"t": "¡Nunca has visto pan así! El “Pan de Contenedor” patentado por un maestro panadero coreano",
+"s": 738
 },
 {
-"id": "gx6xFuDSFHk",
-"t": "La madre que as*sin* a sus tres hijos y quizás no sea culpable - EP #760",
-"s": 3698
+"id": "XwnJHUgjrZY",
+"t": "¡Este es un auténtico postre coreano! Increíble pastel de arroz con chocolate, K-Mochi único",
+"s": 968
 },
 {
-"id": "wwhIRlqYif0",
-"t": "TRAUMAS 97 - “MIS VECINOS ME QUISIERON SECUESTRAR\" - 🇺🇾URUGUAY🇺🇾",
-"s": 1036
+"id": "khRTSL2UVrY",
+"t": "¡Carne de res increíble! Los legendarios maestros del bistec de Corea",
+"s": 3552
 },
 {
-"id": "pddPaNOcH6E",
-"t": "Historias de Arroceros x Santa Teresa 1796 | 318",
-"s": 4561
+"id": "L60rIQpTyw0",
+"t": "¡No dan abasto! Este pudín coreano se agota todos los días",
+"s": 1006
 },
 {
-"id": "lQiRdSYVFjo",
-"t": "La noche que Nacho lloró con una geisha en Japón - EP #759",
-"s": 5628
+"id": "H1bpYADUXMY",
+"t": "¡Increíble producción en masa! Los 3 mejores postres de Corea siempre agotados - Panadería coreana",
+"s": 3237
 },
 {
-"id": "nVJGY-n89WA",
-"t": "TRAUMAS 96 - “CASI ME M*T4N POR UN CHISTE\" - 🇵🇪PERU🇵🇪",
-"s": 1054
+"id": "yDujQP-VYA8",
+"t": "¡Sin harina! ¿Es esto realmente una tortita? Tortita de patata de 1,5 cm",
+"s": 486
 },
 {
-"id": "dBxrZLCpNsI",
-"t": "El rico mundo de las empanadas | 317",
-"s": 5091
+"id": "3zmMOZg5Q3I",
+"t": "¿Es esto realmente un postre? Los 3 pasteles de Navidad más bellos de Corea",
+"s": 3870
 },
 {
-"id": "A3BfrQeZUd4",
-"t": "82 cosas que nos hacen felices - EP #758",
-"s": 3601
+"id": "AM4VBNxVFv0",
+"t": "¿Es esto Pastel o Arte? Mousse de Árbol de Navidad Next Level - Pastelería Coreana",
+"s": 1261
 },
 {
-"id": "Kp09LPDHIBA",
-"t": "TRAUMAS 95 - “MI FAMILIA HIZO GALLETAS CON LAS CENIZAS DE MI PRIMO\" - 🇵🇪PERU🇵🇪",
-"s": 816
+"id": "LA-1gCeVnUg",
+"t": "¡Agotado todos los días! Pastel con toneladas de fresas - Panadería coreana",
+"s": 3608
 },
 {
-"id": "fgH_VxPHbDQ",
-"t": "De que vuelan, vuelan | 316",
-"s": 4995
+"id": "edgkz8LPYwU",
+"t": "¡Agotado todos los días! Producción masiva de pan gigante de Mochi - Panadería coreana",
+"s": 1088
 },
 {
-"id": "wlnGsPUk0VA",
-"t": "Decadencia de la televisión nacional + farmear aura - EP #757",
-"s": 4031
+"id": "EVXnVMncP5s",
+"t": "¡Top 7 Comida Callejera Coreana de Invierno Más Popular!",
+"s": 3464
 },
 {
-"id": "Rt8nYx470tI",
-"t": "TRAUMAS 94 - “MI MAMÁ SE DABA A MI NOVIO\" - 🇨🇴COLOMBIA🇨🇴",
-"s": 1180
+"id": "hZ5b-65Srhg",
+"t": "¡Chocolate de calidad excepcional! Los 4 mejores vídeos sobre cómo hacer chocolate coreano",
+"s": 4206
 },
 {
-"id": "3TiEgOMwVlE",
-"t": "Lo que callan los tatuadores | 315",
-"s": 6427
+"id": "dwL6IHJICIw",
+"t": "¡La recopilación definitiva de platos asiáticos con huevo que tienes que ver!",
+"s": 3197
 },
 {
-"id": "bU2X3zS5TwE",
-"t": "¿Por qué pagamos una fortuna por algo coleccionable? - EP#756",
-"s": 2883
+"id": "T6IP17Ol-kY",
+"t": "¡Comió 5000 chocolates para crear esto! Chocolate popular de Dubái, pastel de Dubái - postre coreano",
+"s": 1124
 },
 {
-"id": "uxTKmChhX3Q",
-"t": "TRAUMAS 93 - “MI PAPÁ ME ABANDONÓ 3 VECES\" - 🇨🇴COLOMBIA🇨🇴",
-"s": 1000
+"id": "YZJbBm3q0gk",
+"t": "Fábricas K-Food increíbles! Producción masiva de kimchi, kimbap y ramen",
+"s": 2901
 },
 {
-"id": "ujsWmOeRJp8",
-"t": "El origen de los apellidos | 314",
-"s": 4655
+"id": "dbN7fmDf0a4",
+"t": "¡Popular! Comida callejera coreana de invierno que no te puedes perder",
+"s": 4171
 },
 {
-"id": "lgPOXQxOnME",
-"t": "Uno de nosotros no quiere probar nada nuevo nunca más - EP #755",
-"s": 2659
+"id": "BW9D1SB7w2Y",
+"t": "¡Increíble proceso de producción de bibimbap coreano! Enorme fábrica de bibimbap congelado",
+"s": 853
 },
 {
-"id": "HckQzbBhiG4",
-"t": "TRAUMAS 92 - “MI EX AHORA ES MI VECINO\" - 🇨🇷COSTA RICA🇨🇷",
-"s": 1073
+"id": "M1f-co3ko7k",
+"t": "¡Esto es una locura! La mejor recopilación de postres y tartas de queso coreanas",
+"s": 5213
 },
 {
-"id": "ufSBwih1Y5E",
-"t": "¿Por qué existen los mitos? | 313",
-"s": 4268
+"id": "fkSMymaGHP4",
+"t": "¿Se puede comer esto?! Hacer pastel de perrito de chocolate súper realista",
+"s": 916
 },
 {
-"id": "T8aq18hZXlM",
-"t": "¿Vale la pena decepcionar a tu familia a cambio de hacer lo que te gusta? Feat. Neisser",
-"s": 3735
+"id": "raHcMoBRyJA",
+"t": "¡Los locales hacen fila por esto! La mejor compilación de comida callejera asiática!",
+"s": 4712
 },
 {
-"id": "jzTB5SMIxD8",
-"t": "TRAUMAS 91 - “NO SABÍA QUE MI PRIMA ERA PREPAGO\" - 🇨🇷COSTA RICA🇨🇷",
-"s": 1034
+"id": "eJWs6e-gdQA",
+"t": "¡Nunca has visto un postre como este! La mejor colección de postres coreanos de pastel de arroz",
+"s": 4135
 },
 {
-"id": "Fyy0D9h_rfk",
-"t": "¿Qué es ser pichirre? | 312",
-"s": 5143
+"id": "91Pv0OBOeUg",
+"t": "¡Increíble! Proceso innovador de producción de arroz frito congelado – Fábrica de alimentos coreana",
+"s": 871
 },
 {
-"id": "k-d0FPLqiZs",
-"t": "¿Te preocupa que te revisen el teléfono? - EP #753",
-"s": 2678
+"id": "ZZeTDSfJQvE",
+"t": "¡Habilidades perfectas para cortar fruta! Maestros asiáticos al más alto nivel",
+"s": 3227
 },
 {
-"id": "JuOuDRScH3E",
-"t": "TRAUMAS 90 - “INUNDÉ MI CASA PERDIENDO LA VIRG1NIDAD\" - 🇨🇷COSTA RICA🇨🇷",
-"s": 904
+"id": "-eTJc4xgEtE",
+"t": "¿Una calabaza entera dentro del pan?! Ciabatta de calabaza con queso popular - Korean Street Food",
+"s": 847
 },
 {
-"id": "cwbg9yHJhBQ",
-"t": "Caracas/La Guaira después del terremoto | 311",
-"s": 5496
+"id": "0WX-TxB5dqU",
+"t": "Famosas Panaderías y Postres Coreanos! Relajante Compilación del Proceso de Horneado",
+"s": 4209
 },
 {
-"id": "0D8xydh8Lyw",
-"t": "Hay gente que no está preparada para ser famosa Feat. Dani Schulz",
-"s": 3514
+"id": "aZ9RSZJPuyc",
+"t": "¡Este pan de queso está loco! 7 quesos en la ciabatta bomba de queso – Comida callejera coreana",
+"s": 923
 },
 {
-"id": "69C2xL457Lc",
-"t": "TRAUMAS 89 - “HICE UN TRÍO CON MI PRIMA\" - 🇨🇷COSTA RICA🇨🇷",
-"s": 965
+"id": "qiHF8D8kZ-E",
+"t": "¡Las fábricas de alimentos asiáticas más épicas! Increíble compilación de producción a gran escala",
+"s": 4258
 },
 {
-"id": "U428FCn8GvQ",
-"t": "¿Cómo hablar en público? con Briceño | 310",
-"s": 5198
+"id": "SEowoSVhm7M",
+"t": "¡Maestro de chuletas de cerdo por 26 años! Increíble chuleta Black Pink con queso – Comida coreana",
+"s": 1667
 },
 {
-"id": "4U21eLbU9a4",
-"t": "¿Cómo hace un artista para llegar al Lollapalooza? Feat. Simon Grossmann",
-"s": 3766
+"id": "Un8JahKjmzc",
+"t": "¡Explosión de Dulzura! Los Postres Coreanos Favoritos del Mundo",
+"s": 3987
 },
 {
-"id": "B28dsQXKHrk",
-"t": "TRAUMAS 88 - “MI MAMÁ SE CASÓ CON SU YERNO\" - 🇨🇷COSTA RICA🇨🇷",
-"s": 702
+"id": "XpU4jE4xr8U",
+"t": "¡Agotadas al instante! Galletas de mantequilla deliciosas – Postre coreano popular",
+"s": 1065
 },
 {
-"id": "TvdzAkifl0I",
-"t": "Todo sobre el Mundial | 309",
-"s": 5907
+"id": "ayH11fdzrZU",
+"t": "¡Sensacional compilación de postres coreanos!",
+"s": 3936
 },
 {
-"id": "yRKNim5llfc",
-"t": "Somatizar en épocas oscuras - EP #750",
-"s": 2721
+"id": "CpsmYOny8WU",
+"t": "¡No podrás apartar la vista! Top 5 fábricas de alimentos congelados de Corea con escala increíble",
+"s": 4287
 },
 {
-"id": "-sStN3ZT8ps",
-"t": "TRAUMAS 87 - “VI A MI PAPÁ HACIENDO EL AM0R\" - 🇨🇷COSTA RICA🇨🇷",
-"s": 1103
+"id": "LvCXnW0H3mA",
+"t": "¿De verdad la gente come este postre?! Hielo raspado en inodoro y pastel de bañera coreano popular",
+"s": 730
 },
 {
-"id": "TGz3doPeHX8",
-"t": "¿Por qué se va la luz? | 308",
-"s": 5139
+"id": "w2iLJ_rw5a8",
+"t": "¡La máquina de donas que sorprendió al mundo! Donas populares que se agotan todos los días",
+"s": 933
 },
 {
-"id": "bw8t2rKju88",
-"t": "El resultado de inventar un género musical Feat. Carlos Vives",
-"s": 3976
+"id": "5v4RIMVymyE",
+"t": "¡Sanación Dulce! Videos populares de pastelería y postres asiáticos que te derretirán el corazón",
+"s": 4711
 },
 {
-"id": "Tb2hXB-xQyA",
-"t": "TRAUMAS 86 - “ME MONTARON CACHOS EL DÍA QUE MURIÓ MI ABUELA\" - 🇵🇦PANAMÁ🇵🇦",
-"s": 978
+"id": "kWtjbDwoCEE",
+"t": "¡Esto es una locura! Tteokbokki con pastel de arroz rojo y montaña de brotes",
+"s": 721
 },
 {
-"id": "2s4iigbY2zQ",
-"t": "¿Por qué importan los árboles? | 307",
-"s": 4751
+"id": "_fKNxuj6Wf8",
+"t": "Increíble! Producción de postres en las panaderías y fábricas más populares de Asia",
+"s": 6317
 },
 {
-"id": "vejK-pvbpBs",
-"t": "Todas las celebridades venecas son polarizantes - EP #747",
-"s": 2365
+"id": "4ewUkjDu7sE",
+"t": "¡Agotado en 10 minutos! Postre coreano de leche Kaimak y el primer Kaimak de chocolate del mundo",
+"s": 922
 },
 {
-"id": "w-G-qEl2S-Y",
-"t": "TRAUMAS 85 - “MI SUEGRA SE ENAMORÓ DE MI PAPÁ\" - 🇵🇦PANAMÁ🇵🇦",
-"s": 1477
+"id": "fdbsKdm7O-w",
+"t": "¡Agotado al instante! Preparando un pan de sandía viral, increíblemente masticable",
+"s": 686
 },
 {
-"id": "MqvMj20vjWQ",
-"t": "Millennials vs Gen Z con Joaquina | 306",
-"s": 4851
+"id": "Yy_0pL7ZXXk",
+"t": "¡La pizza que impactó al mundo! TOP 4 de las pizzas coreanas más increíbles que jamás hayas visto",
+"s": 4560
 },
 {
-"id": "mm4jK-CLoB8",
-"t": "TRAUMAS 84 - “ME TUVIERON QUE QUITAR UNA B*LA\" - 🇵🇦PANAMÁ🇵🇦",
-"s": 937
+"id": "b7HL-e5YvoY",
+"t": "¡Agotado todos los días! Este pan de abeja está lleno de miel real y relleno dulce – Postre coreano",
+"s": 714
 },
 {
-"id": "03CoVFFyvQ0",
-"t": "TRAUMAS 83 - “BESÉ A UN PASTO DE IGLESIA\"",
-"s": 668
+"id": "qmuIvE24ZV8",
+"t": "Increíbles habilidades de un maestro de caramelos artesanales creando dulces gato 3D adorables",
+"s": 1059
 },
 {
-"id": "nhxvO1pXWAw",
-"t": "TRAUMAS 82 - “ME ENGAÑARON Y NOS CAÍMOS A GOLPES\"",
-"s": 1068
+"id": "H_FyNT1U6Rg",
+"t": "TOP 4 fábricas de pan en Corea que producen postres virales a otro nivel",
+"s": 3946
 },
 {
-"id": "bWCAXAleVHI",
-"t": "TRAUMAS 81 - “VI EL MIEMBRO DE MI TÍO SIN QUERER\"",
-"s": 679
+"id": "Pym0v_jZcGM",
+"t": "¿Prenden fuego al shaved ice? Este postre coreano de merengue enloquece a todos",
+"s": 1096
 },
 {
-"id": "8UJyGR_fEps",
-"t": "TRAUMAS 80 - “MI VECINO QUISO M4T4R A MI MAMÁ\"",
-"s": 1142
+"id": "JnVkb9p4iMk",
+"t": "¡No lo vas a creer! Esta salchicha entera de calamar de Corea se agota todos los días",
+"s": 1177
 },
 {
-"id": "KsG2noxLXng",
-"t": "TRAUMAS 79 - “MI PAPÁ ME ABANDONÓ DOS VECES\"",
-"s": 765
+"id": "HvYmfN5sbfc",
+"t": "¡Imprescindible probar! Los 4 street foods coreanos más vendidos",
+"s": 3056
 },
 {
-"id": "cc8vYmA8T-U",
-"t": "TRAUMAS 78 - “MI MAMÁ ME PRESENTÓ 3 PAPÁS\"",
-"s": 795
-},
-{
-"id": "1RmvXMoxED8",
-"t": "TRAUMAS 77 - “ME BESARON LA BARRIGA EN LA PRIMERA CITA\"",
-"s": 840
+"id": "t4PrnU1QrGY",
+"t": "¡Increíble! Este pan de molde increíblemente popular se agota todos los días | Postre coreano",
+"s": 1623
 }
 ]
 }
+]
 }

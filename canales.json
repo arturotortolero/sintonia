@@ -1,0 +1,24 @@
+[
+  {"num": "03", "name": "Dibujos", "modo": "tele", "barajar": true, "hours": [15, 20], "fuentes": [
+    {"url": "https://www.youtube.com/playlist?list=PLMnlzeYiwSXeCVwR2j9EDs-J63QPr06jU", "contiene": "Nicktoons|NickRewind", "excluir": "Jungle", "min": 0.75}
+  ]},
+  {"num": "04", "name": "Podcasts", "modo": "nuevo", "hours": [], "fuentes": [
+    {"url": "https://www.youtube.com/@escueladenada", "min": 30},
+    {"url": "https://www.youtube.com/@nachored", "min": 10},
+    {"url": "https://www.youtube.com/@elcuarticopod", "min": 30}
+  ]},
+  {"num": "05", "name": "Noticias", "modo": "nuevo", "hours": [7, 12], "fuentes": [
+    {"url": "https://www.youtube.com/@dwespanol"},
+    {"url": "https://www.youtube.com/@rtvenoticias", "contiene": "en 10 minutos"}
+  ]},
+  {"num": "06", "name": "Late Night", "modo": "nuevo", "hours": [], "fuentes": [
+    {"url": "https://www.youtube.com/@fallontonight"},
+    {"url": "https://www.youtube.com/@jimmykimmellive"}
+  ]},
+  {"num": "07", "name": "Cocina", "modo": "tele", "hours": [12, 15], "fuentes": [
+    {"url": "https://www.youtube.com/@joshuaweissmanrecipes"}
+  ]},
+  {"num": "09", "name": "Noche", "modo": "tele", "noche": true, "hours": [20, 7], "fuentes": [
+    {"url": "https://www.youtube.com/@yummy_yammy"}
+  ]}
+]
