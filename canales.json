@@ -104,7 +104,7 @@
   {
     "num": "05",
     "name": "Noticias",
-    "modo": "nuevo",
+    "modo": "tele",
     "hours": [
       7,
       12
@@ -116,6 +116,12 @@
       {
         "url": "https://www.youtube.com/@rtvenoticias",
         "contiene": "en 10 minutos"
+      },
+      {
+        "url": "https://www.youtube.com/@LaVanguardia"
+      },
+      {
+        "url": "https://www.youtube.com/@eldiarioes"
       }
     ]
   },
