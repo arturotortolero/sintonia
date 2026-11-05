@@ -34,6 +34,9 @@
       },
       {
         "url": "https://www.youtube.com/@VICE-TV"
+      },
+      {
+        "url": "https://www.youtube.com/@VICE"
       }
     ]
   },
@@ -51,6 +54,9 @@
       },
       {
         "url": "https://www.youtube.com/@PopularMechanics"
+      },
+      {
+        "url": "https://www.youtube.com/@WIRED"
       }
     ]
   },
@@ -89,6 +95,9 @@
       {
         "url": "https://www.youtube.com/@elcuarticopod",
         "min": 30
+      },
+      {
+        "url": "https://www.youtube.com/@ElRetake"
       }
     ]
   },
@@ -156,6 +165,15 @@
       },
       {
         "url": "https://www.youtube.com/@Munchies"
+      },
+      {
+        "url": "https://www.youtube.com/@JamieOliver"
+      },
+      {
+        "url": "https://www.youtube.com/@GazOfWales"
+      },
+      {
+        "url": "https://www.youtube.com/@InsiderFood"
       }
     ]
   },
@@ -182,6 +200,9 @@
       },
       {
         "url": "https://www.youtube.com/@SEBFRIT"
+      },
+      {
+        "url": "https://www.youtube.com/@loginnjp"
       }
     ]
   },
@@ -219,6 +240,29 @@
     "fuentes": [
       {
         "url": "https://www.youtube.com/@Archdigest"
+      },
+      {
+        "url": "https://www.youtube.com/@themodernhouse_films"
+      },
+      {
+        "url": "https://www.youtube.com/@nevertoosmall"
+      }
+    ]
+  },
+  {
+    "num": "12",
+    "name": "Learn New Things",
+    "modo": "nuevo",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@theschooloflifetv"
+      },
+      {
+        "url": "https://www.youtube.com/@CleoAbram"
+      },
+      {
+        "url": "https://www.youtube.com/@BusinessInsider"
       }
     ]
   }
