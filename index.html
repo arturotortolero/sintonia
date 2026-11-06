@@ -16,7 +16,7 @@
 <style>
 /* Concepto: televisor doméstico de 1994 a toda pantalla. Los mandos van en la propia carcasa. */
 :root{
-  --room:#141516; --plastic:#2c2d30; --plastic-2:#37383c; --edge:#17181a; --glass:#050606;
+  --room:#141516; --plastic:#1d1e21; --plastic-2:#1d1e21; --edge:#17181a; --glass:#050606;
   --label:#b9bbbf; --dim:#7d7f85; --rubber:#4a4c51; --rubber-2:#5b5d63;
   --osd:#46f06a; --red:#d8362a; --guide:#101f78; --guide-2:#1a2f9c;
   --osd-font:"VT323","Courier New",monospace; --ui-font:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
@@ -28,11 +28,12 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;touch-
 button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .set{height:100%;display:flex;align-items:center;justify-content:center;
   padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left))}
-.tv{width:100%;height:100%;min-width:0;display:flex;flex-direction:column;background:linear-gradient(170deg,var(--plastic-2),var(--plastic) 30%,#232427);
-  border-radius:16px;padding:10px 10px 0;box-shadow:0 0 0 1px var(--edge),inset 0 1px 0 #55575c}
-.tube{position:relative;flex:1;min-height:0;width:100%;container-type:size;background:var(--glass);border-radius:26px;overflow:hidden;box-shadow:0 0 0 3px #0c0d0e,0 0 0 5px #3f4044}
-.tube:fullscreen{border-radius:0;box-shadow:none}
-.frame{position:absolute;inset:0;overflow:hidden;background:#000}
+.tv{width:100%;height:100%;min-width:0;display:flex;flex-direction:column;background:var(--plastic);border:1px solid #3a3c41;border-radius:10px;padding:12px 12px 0}
+.tube{position:relative;flex:1;min-height:0;width:100%;container-type:size;background:var(--glass);border-radius:18px;overflow:hidden;border:3px solid #050506}
+.tube:fullscreen{border-radius:0;border:0}
+.frame{position:absolute;inset:0;overflow:hidden;background:linear-gradient(90deg,#c8c8c8 0 14.28%,#c8c83a 0 28.57%,#3ac8c8 0 42.85%,#3ac83a 0 57.14%,#c83ac8 0 71.42%,#c83a3a 0 85.71%,#3a3ac8 0)}
+.pic{transition:opacity .28s ease}
+.frame.idle .pic{opacity:0}
 .pic{position:absolute;left:50%;top:50%;width:min(100cqw,177.78cqh);aspect-ratio:16/9;transform:translate(-50%,-50%)}
 .frame.zoom .pic{width:max(100cqw,177.78cqh)}
 .pic iframe,#player{position:absolute;inset:0;width:100%;height:100%;border:0}
@@ -40,18 +41,18 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .glass{opacity:1;inset:0;z-index:4;border-radius:inherit;
   background:repeating-linear-gradient(0deg,rgba(0,0,0,.1) 0 1px,transparent 1px 3px),radial-gradient(120% 90% at 28% 12%,rgba(255,255,255,.08),transparent 45%);
   box-shadow:inset 0 0 70px rgba(0,0,0,.6)}
-#static{inset:0;width:100%;height:100%;opacity:0;image-rendering:pixelated}
-#static.on{opacity:1}
+#static{inset:0;width:100%;height:100%;opacity:0;transition:opacity .28s ease}
+#static.on{opacity:.82;transition-duration:.08s}
 .osd{inset:0;padding:6%;font-family:var(--osd-font);color:var(--osd);text-shadow:2px 2px 0 #021;display:flex;flex-direction:column;justify-content:space-between;opacity:0}
 .osd.on{opacity:1}
 .osd .num{align-self:flex-end;font-size:clamp(40px,7vw,76px);line-height:.9}
 .osd .info{font-size:clamp(19px,2.5vw,28px);line-height:1.05;max-width:85%;margin-bottom:7%}
 .osd .name{display:block}
-.off{position:absolute;inset:0;z-index:3;background:radial-gradient(circle at 50% 50%,#101312,#040505);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:9%}
+.off{position:absolute;inset:0;z-index:3;background:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:9%}
 .off[hidden]{display:none}
-.off .now{font-family:var(--osd-font);font-size:clamp(18px,2.4vw,24px);color:#6f8a76;max-width:28em;line-height:1.1}
+.off .now{font-family:var(--osd-font);font-size:clamp(18px,2.4vw,24px);color:#fff;max-width:28em;line-height:1.1;background:rgba(5,6,6,.82);padding:10px 16px}
 .off .now b{color:var(--osd);font-weight:400}
-.power-big{font-family:var(--osd-font);font-size:30px;color:var(--osd);border:2px solid var(--osd);padding:6px 26px;border-radius:3px}
+.power-big{font-family:var(--osd-font);font-size:30px;color:var(--osd);background:#050606;border:2px solid var(--osd);padding:6px 26px;border-radius:3px}
 .power-big:hover{background:var(--osd);color:#021}
 .tv.warm .frame{animation:warm .5s cubic-bezier(.2,.8,.2,1)}
 @keyframes warm{0%{transform:scale(.02,.006);filter:brightness(5)}45%{transform:scale(1,.012);filter:brightness(4)}100%{transform:none;filter:none}}
@@ -63,41 +64,65 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .row .n{color:var(--osd);font-size:1.4em;grid-row:span 3}
 .row .t{color:var(--osd)}
 .row .sub{opacity:.75;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-/* Barbilla con los mandos del aparato */
-.chin{position:relative;z-index:6;min-height:50px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;padding-block:6px;transition:opacity 1s}
-.badge{font-size:14px;font-weight:600;letter-spacing:.34em;color:var(--label)}
-.ctrl{display:flex;flex-wrap:wrap;justify-content:center;gap:5px}
-.status{display:flex;align-items:center;justify-content:flex-end;gap:10px;font-size:10px;letter-spacing:.14em;color:var(--dim)}
+/* Carcasa: los mandos son piezas del aparato */
+.brandline{display:none;align-items:center;justify-content:space-between;padding:9px 4px 8px;font-size:12px;letter-spacing:.4em;font-stretch:125%}
+.chin{position:relative;z-index:6;flex:none;min-height:76px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:16px;padding:0 8px;transition:opacity 1s}
+.badge{font-size:15px;letter-spacing:.42em;font-stretch:125%;color:var(--label)}
+.tray{display:flex;align-items:center;gap:2px;padding:3px 8px;border-radius:9px;background:#121315;border:1px solid #303236}
+.extra{display:contents}
+.sep{width:1px;height:24px;margin:0 7px;background:#3a3c41}
+.right{display:flex;justify-content:flex-end;align-items:center;gap:10px}
+.chbox{display:flex;align-items:center;padding:3px 4px;border-radius:9px;background:#121315;border:1px solid #303236}
+#chNum{min-width:42px;text-align:center;font:400 30px var(--osd-font);color:var(--osd)}
 .led{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 7px var(--red)}
 .set.on .led{background:var(--osd);box-shadow:0 0 7px var(--osd)}
-.k{min-width:36px;min-height:32px;padding:0 8px;border-radius:6px;background:var(--rubber);box-shadow:inset 0 -2px 0 #0006,0 1px 0 #0008;font-size:12px;font-weight:600;color:#e6e7e9;letter-spacing:.03em;text-transform:uppercase;font-variant-numeric:tabular-nums}
-.k{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
-.k:hover{background:var(--rubber-2)}
-@media (hover:hover){
-  .k[data-key]{position:relative}
-  .k[data-key]:hover::after,.k[data-key]:focus-visible::after{content:"Tecla: " attr(data-key);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);z-index:20;
-    padding:3px 7px;border-radius:4px;background:#050606;color:var(--osd);font:400 17px var(--osd-font);letter-spacing:0;text-transform:none;white-space:nowrap;pointer-events:none;box-shadow:0 0 0 1px #3f4044}
-  .status .k[data-key]:hover::after{left:auto;right:0;transform:none}
-  .cine-keys .k[data-key]{opacity:.6}
-  .cine-keys:not(.cine-ch) .k[data-key]:hover::after{bottom:auto;left:calc(100% + 6px);top:50%;transform:translateY(-50%)}
-  .cine-ch .k[data-key]:hover::after{bottom:auto;left:auto;right:calc(100% + 6px);top:50%;transform:translateY(-50%)}
-}
-.k:active{transform:translateY(1px);box-shadow:none}
-.k.lit{color:var(--osd)}
+.key{position:relative;width:44px;height:44px;flex:none;padding:0;border:0;border-radius:6px;background:transparent;color:#d9dbdf;display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.key svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.key text{fill:currentColor;stroke:none;font:600 7.5px Arial,sans-serif}
+.key:active{transform:translateY(1px)}
+.key.lit{color:var(--osd)}
+#powerBtn{color:#ff7a6b}
+#moreBtn{display:none}
+#sleepMin{position:absolute;right:3px;bottom:3px;font:400 15px var(--osd-font);color:var(--osd)}
+.k{min-height:36px;padding:0 12px;border-radius:6px;background:var(--rubber);font-size:13px;font-weight:600;color:#e6e7e9}
 .k.pw{background:var(--red);color:#fff}
+.chlist{display:none}
+.chlist button{width:100%;min-height:50px;padding:0 14px;display:flex;align-items:center;gap:14px;text-align:left;font-size:15px;color:#d9dbdf}
+.chlist b{width:32px;font:400 25px var(--osd-font);color:var(--osd)}
+.chlist button.cur{background:#27292d}
 .set.night .chin{opacity:.4}
 .set.night .chin:hover,.set.night .chin:focus-within{opacity:1}
-@media (max-aspect-ratio:1/1){
-  .tv{height:auto;padding:8px 8px 0}
-  .tube{flex:none;aspect-ratio:16/9;border-radius:14px;height:auto}
-  .chin{grid-template-columns:minmax(0,1fr) auto}
-  .ctrl{grid-column:1/-1;grid-row:2}
+@media (hover:hover){
+  .key:hover{background:#34363b}
+  .key[data-tip]:hover::after,.key[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);z-index:20;padding:3px 9px;border-radius:4px;background:#050606;border:1px solid #3a3c41;color:var(--osd);font:400 20px var(--osd-font);white-space:nowrap;pointer-events:none}
+  .right .key[data-tip]:hover::after{left:auto;right:0;transform:none}
+  .cine-keys:not(.cine-ch) .key[data-tip]:hover::after{bottom:auto;left:calc(100% + 8px);top:50%;transform:translateY(-50%)}
+  .cine-ch .key[data-tip]:hover::after{bottom:auto;left:auto;right:calc(100% + 8px);top:50%;transform:translateY(-50%)}
 }
-@media (max-width:900px) and (min-aspect-ratio:1/1){
-  .chin{grid-template-columns:minmax(0,1fr);min-height:0;padding-block:4px}
-  .chin{grid-template-columns:minmax(0,1fr) auto}
-  .badge,.status span{display:none}
-  .k{min-height:28px;font-size:11px;padding:0 6px}
+@media (max-aspect-ratio:1/1){
+  .set{padding:0;align-items:stretch}
+  .tv{height:100%;padding:max(8px,env(safe-area-inset-top)) 0 0;border:0;border-radius:0;background:#151618}
+  .tube{flex:none;width:calc(100% - 20px);margin:0 10px;aspect-ratio:16/9;height:auto;border-radius:10px}
+  .brandline{display:flex;margin:0 10px}
+  .chin{display:flex;flex-direction:column;align-items:stretch;gap:0;padding:0;min-height:0;background:#1d1e21;border-block:1px solid #3a3c41}
+  .badge{display:none}
+  .tray{justify-content:space-between;flex-wrap:wrap;background:none;border:0;border-radius:0;padding:4px 6px}
+  .key{width:48px;height:48px}
+  .sep,.right .led{display:none}
+  #moreBtn{display:inline-flex}
+  .extra,.right{display:none}
+  .set.more .extra{display:flex;flex-basis:100%;justify-content:space-between}
+  .set.more .right{display:flex;justify-content:space-between;padding:0 6px 4px}
+  .chlist{display:block;flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;padding-bottom:env(safe-area-inset-bottom)}
+}
+@media (max-height:460px) and (min-aspect-ratio:1/1){
+  .set{padding-block:6px}
+  .tv{padding:6px 6px 0}
+  .chin{grid-template-columns:minmax(0,1fr) auto;min-height:48px;gap:6px;padding:0 2px}
+  .badge,.right .led,.sep{display:none}
+  .tray,.chbox{padding:0;border:0;background:none}
+  .key{width:40px;height:40px}
+  #chNum{min-width:30px;font-size:24px}
 }
 /* Ajustes */
 .prefs{position:fixed;inset:0;z-index:30;overflow:auto;background:var(--room);color:#e6e7e9;font-size:16px;line-height:1.35;
@@ -127,14 +152,16 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .linkish{align-self:flex-start;color:var(--label);text-decoration:underline;font-size:14px}
 /* Modo cine: pantalla completa propia para el iPhone, que no permite la del navegador */
 .cine-keys{display:none;position:absolute;z-index:5;top:max(10px,env(safe-area-inset-top));left:max(10px,env(safe-area-inset-left));flex-direction:column;gap:6px}
-.cine-keys .k{opacity:.45;min-height:36px}
-.cine-keys .k.lit{opacity:1}
+.cine-keys .key{width:48px;height:48px;background:rgba(10,11,12,.62);border-radius:8px;opacity:.7}
+.cine-keys .key.lit{opacity:1}
 .cine-keys .gap{margin-top:10px}
+html.cine-scroll,html.cine-scroll body{height:auto;overflow:auto}
+html.cine-scroll body{min-height:calc(100lvh + 140px)}
 .cine-ch{left:auto;right:max(10px,env(safe-area-inset-right));top:50%;transform:translateY(-50%)}
 .set.cine{padding:0}
-.set.cine .tv{position:fixed;inset:0;z-index:10;width:auto;height:auto;padding:0;border-radius:0;background:#000;box-shadow:none}
-.set.cine .tube{flex:1;aspect-ratio:auto;height:100%;border-radius:0;box-shadow:none}
-.set.cine .chin{display:none}
+.set.cine .tv{position:fixed;inset:0;z-index:10;width:auto;height:auto;padding:0;border:0;border-radius:0;background:#000}
+.set.cine .tube{flex:1;aspect-ratio:auto;width:100%;height:100%;margin:0;border:0;border-radius:0}
+.set.cine .chin,.set.cine .chlist,.set.cine .brandline{display:none}
 .set.cine .cine-keys{display:flex}
 @media (max-aspect-ratio:1/1){
   .set.cine .tv{inset:auto;left:50%;top:50%;width:100dvh;height:100dvw;transform:translate(-50%,-50%) rotate(90deg)}
@@ -146,7 +173,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 <div class="set" id="set">
     <div class="tv" id="tube">
       <div class="tube">
-        <div class="frame" id="frame">
+        <div class="frame idle" id="frame">
           <div class="pic"><div id="player"></div></div>
           <canvas id="static" width="160" height="120" aria-hidden="true"></canvas>
           <div class="osd" id="osd" aria-live="polite"><div class="num" id="osdNum"></div><div class="info"><span class="name" id="osdName"></span><span id="osdTitle"></span></div></div>
@@ -155,39 +182,49 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
         <div class="off" id="off"><div class="now" id="offNow"></div><button class="power-big" id="powerBig">ENCENDER</button></div>
         <div class="glass"></div>
         <div class="cine-keys">
-          <button class="k" id="cineExit" aria-label="Salir de pantalla completa">✕</button>
-          <button class="k mute" aria-pressed="false">Mute</button>
-          <button class="k" id="cineGuide">Guía</button>
-          <a class="k yt" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube">YT</a>
+          <button class="key" id="cineExit" aria-label="Salir de pantalla completa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          <button class="key mute" data-mute aria-label="Silenciar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h4l5 4v-13l-5 4zM17 9.5l5 5M22 9.5l-5 5"/></svg></button>
+          <button class="key" id="cineGuide" aria-label="Guía"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg></button>
+          <a class="key yt"  href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/></svg></a>
         </div>
         <div class="cine-keys cine-ch">
-          <button class="k" id="cineUp" aria-label="Canal siguiente">CH +</button>
-          <button class="k" id="cineDown" aria-label="Canal anterior">CH −</button>
-          <button class="k gap" data-seek="start" aria-label="Ver desde el inicio">⏮</button>
-          <button class="k" data-seek="-30" aria-label="Retroceder 30 segundos">−30</button>
-          <button class="k" data-seek="30" aria-label="Adelantar 30 segundos">+30</button>
+          <button class="key" id="cineUp" aria-label="Canal siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+          <button class="key" id="cineDown" aria-label="Canal anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+          <button class="key gap" data-seek="start" aria-label="Ver desde el inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14M19 6l-9 6 9 6z"/></svg></button>
+          <button class="key" data-seek="-30" aria-label="Retroceder 30 segundos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12a7.5 7.5 0 1 0 2.4-5.5L5 9M5 4v5h5"/><text x="8" y="15">30</text></svg></button>
+          <button class="key" data-seek="30" aria-label="Adelantar 30 segundos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12a7.5 7.5 0 1 1-2.4-5.5L19 9M19 4v5h-5"/><text x="8" y="15">30</text></svg></button>
         </div>
       </div>
+      <div class="brandline"><span>SINTONÍA</span><i class="led"></i></div>
       <div class="chin">
         <div class="badge">SINTONÍA</div>
-        <div class="ctrl">
-          <button class="k" data-seek="start" aria-label="Ver desde el inicio">⏮ Inicio</button>
-          <button class="k" data-seek="-30" aria-label="Retroceder 30 segundos">−30 s</button>
-          <button class="k" data-seek="30" aria-label="Adelantar 30 segundos">+30 s</button>
-          <button class="k mute" id="muteBtn" aria-pressed="false">Mute</button>
-          <button class="k" id="guideBtn">Guía</button>
-          <button class="k" id="zoomBtn">Zoom</button>
-          <a class="k yt" id="ytBtn" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube">YouTube</a>
-          <button class="k" id="sleepBtn">Sleep</button>
-          <button class="k" id="prefsBtn">Ajustes</button>
-          <button class="k" id="fullBtn" aria-label="Pantalla completa">⛶</button>
-          <button class="k pw" id="powerBtn" aria-label="Encender o apagar">⏻</button>
+        <div class="tray">
+          <button class="key" data-seek="start" aria-label="Ver desde el inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14M19 6l-9 6 9 6z"/></svg></button>
+          <button class="key" data-seek="-30" aria-label="Retroceder 30 segundos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12a7.5 7.5 0 1 0 2.4-5.5L5 9M5 4v5h5"/><text x="8" y="15">30</text></svg></button>
+          <button class="key" data-seek="30" aria-label="Adelantar 30 segundos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12a7.5 7.5 0 1 1-2.4-5.5L19 9M19 4v5h-5"/><text x="8" y="15">30</text></svg></button>
+          <i class="sep"></i>
+          <button class="key mute" id="muteBtn" aria-pressed="false" aria-label="Silenciar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h4l5 4v-13l-5 4zM17 9.5l5 5M22 9.5l-5 5"/></svg></button>
+          <button class="key" id="fullBtn" aria-label="Pantalla completa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+          <button class="key" id="moreBtn" aria-expanded="false" aria-label="Más opciones"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h.01M12 12h.01M19 12h.01"/></svg></button>
+          <span class="extra">
+          <button class="key" id="guideBtn" aria-label="Guía"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg></button>
+          <button class="key" id="zoomBtn" aria-label="Zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5M8.5 11h5M11 8.5v5"/></svg></button>
+          <a class="key yt" id="ytBtn" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/></svg></a>
+          <button class="key" id="sleepBtn" aria-label="Sleep"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><span id="sleepMin"></span></button>
+          <button class="key" id="prefsBtn" aria-label="Ajustes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg></button>
+          </span>
         </div>
-        <div class="status"><span>STEREO</span><i class="led"></i>
-          <button class="k" id="chDown" aria-label="Canal anterior">CH −</button>
-          <button class="k" id="chUp" aria-label="Canal siguiente">CH +</button>
+        <div class="right">
+          <i class="led"></i>
+          <div class="chbox">
+            <button class="key" id="chDown" aria-label="Canal anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
+            <span id="chNum">--</span>
+            <button class="key" id="chUp" aria-label="Canal siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+          </div>
+          <button class="key" id="powerBtn" aria-label="Encender o apagar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v9M7 6.5a8 8 0 1 0 10 0"/></svg></button>
         </div>
       </div>
+      <nav class="chlist" id="chlist" aria-label="Canales"></nav>
     </div>
 </div>
 <div class="prefs" id="prefs" hidden>
@@ -262,7 +299,7 @@ function applyData(d){
   const was=CHANNELS[cur]&&CHANNELS[cur].num;
   CHANNELS.splice(0,CHANNELS.length,...d.channels);
   const i=CHANNELS.findIndex(c=>c.num===was);
-  if(isOn){ cur=i<0?0:i; }
+  if(isOn){ cur=i<0?0:i; paintDial(); }
   else{ cur=defaultChannel(new Date().getHours()); paintDial(); showOff(); $("set").classList.toggle("night",!!CHANNELS[cur].night); }
 }
 fetch("https://raw.githubusercontent.com/"+REPO+"/main/data.json?t="+Date.now()).then(r=>r.ok?r.json():Promise.reject())
@@ -298,14 +335,14 @@ function noCaptions(){
 }
 function onState(e){
   if(!isOn) return;
-  if(e.data===YT.PlayerState.PLAYING){ playing=true; failures=0; noCaptions(); const d=player.getVideoData(); if(d&&d.title) flashOsd(d.title); }
+  if(e.data===YT.PlayerState.PLAYING){ playing=true; failures=0; noCaptions(); showPicture(); burstUntil=Math.min(burstUntil,performance.now()+160); const d=player.getVideoData(); if(d&&d.title) flashOsd(d.title); }
   if(e.data===YT.PlayerState.ENDED){ nextUp(); }
 }
 function onError(){
   const c=CHANNELS[cur];
   const listEmpty=!(player.getPlaylist&&(player.getPlaylist()||[]).length);
   if(c.kind==="latest"&&listEmpty&&stage<1){ stage++; play(); return; }
-  if(++failures>=4){ failures=0; isOn=false; $("set").classList.remove("on"); player.stopVideo(); showOff("YouTube no ha dejado reproducir este canal. Prueba con otro."); return; }
+  if(++failures>=4){ failures=0; isOn=false; $("set").classList.remove("on"); clearTimeout(idleSafety); $("frame").classList.add("idle"); player.stopVideo(); showOff("YouTube no ha dejado reproducir este canal. Prueba con otro."); return; }
   busy=0; nextUp();
 }
 /* Cambia antes del final para no ver la pantalla de sugerencias. */
@@ -335,6 +372,7 @@ function tune(i,silent){
   paintDial();
   $("set").classList.toggle("night",!!CHANNELS[cur].night);
   $("guide").hidden=true;
+  hidePicture();
   if(!silent){ burst(); clack(); }
   crtFade();
   flashOsd("");
@@ -349,16 +387,29 @@ function flashOsd(title){
 
 /* --- Nieve y sonido del cambio --- */
 const cv=$("static"),cx=cv.getContext("2d");
+const grain=document.createElement("canvas");grain.width=grain.height=256;
+(function(){const g=grain.getContext("2d"),img=g.createImageData(256,256);
+  for(let i=0;i<img.data.length;i+=4){const v=20+Math.random()*215;img.data[i]=img.data[i+1]=img.data[i+2]=v;img.data[i+3]=255;}
+  g.putImageData(img,0,0);})();
+let burstUntil=0,burstRun=false,idleSafety;
+function sizeStatic(){
+  const r=cv.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);
+  cv.width=Math.max(320,Math.min(1600,Math.round(r.width*d)));cv.height=Math.max(180,Math.min(1000,Math.round(r.height*d)));
+}
+function drawStatic(){
+  if(performance.now()>=burstUntil){cv.classList.remove("on");burstRun=false;return;}
+  const x=-Math.random()*256|0,y=-Math.random()*256|0;
+  cx.save();cx.translate(x,y);cx.fillStyle=cx.createPattern(grain,"repeat");cx.fillRect(0,0,cv.width+256,cv.height+256);cx.restore();
+  setTimeout(drawStatic,50);
+}
 function burst(){
   if(reduced) return;
-  cv.classList.add("on"); const end=performance.now()+420;
-  (function draw(){
-    const img=cx.createImageData(160,120);
-    for(let i=0;i<img.data.length;i+=4){const v=Math.random()*235;img.data[i]=img.data[i+1]=img.data[i+2]=v;img.data[i+3]=255;}
-    cx.putImageData(img,0,0);
-    if(performance.now()<end) setTimeout(draw,45); else cv.classList.remove("on");
-  })();
+  burstUntil=performance.now()+650;
+  if(!burstRun){burstRun=true;sizeStatic();cv.classList.add("on");drawStatic();}
 }
+/* Entre vídeos se ven las barras. Si YouTube no avisa (por ejemplo, con un anuncio), el vídeo aparece igualmente. */
+function hidePicture(){ $("frame").classList.add("idle"); clearTimeout(idleSafety); idleSafety=setTimeout(showPicture,1800); }
+function showPicture(){ clearTimeout(idleSafety); $("frame").classList.remove("idle"); }
 function clack(){
   if(!audio) return; const t=audio.currentTime;
   const o=audio.createOscillator(),g=audio.createGain();
@@ -381,7 +432,7 @@ function powerOn(){
   crtFade(); if(ready){ player.setVolume(vol); tune(cur,true); clack(); } else { pendingOn=true; }
 }
 function powerOff(){
-  isOn=false; $("set").classList.remove("on"); if(ready) player.stopVideo();
+  isOn=false; $("set").classList.remove("on"); clearTimeout(idleSafety); $("frame").classList.add("idle"); if(ready) player.stopVideo();
   sleepAt=0;sleepStep=0;paintSleep();
   if(ready) player.setVolume(vol);
   showOff();
@@ -397,7 +448,15 @@ function nowText(c){ return c.kind!=="linear"?c.tagline:c.items[onAir(c.items,no
 
 /* --- Dial y guía --- */
 function paintDial(){
-  document.querySelectorAll("[data-d]").forEach(b=>b.classList.toggle("cur",+b.dataset.d===+CHANNELS[cur].num));
+  $("chNum").textContent=CHANNELS[cur]?CHANNELS[cur].num:"--";
+  const l=$("chlist");
+  if(l.children.length!==CHANNELS.length||l.dataset.sig!==CHANNELS.map(c=>c.num+c.name).join()){
+    l.dataset.sig=CHANNELS.map(c=>c.num+c.name).join();l.innerHTML="";
+    CHANNELS.forEach((c,i)=>{const b=document.createElement("button"),n=document.createElement("b");n.textContent=c.num;b.append(n,c.name);
+      b.onclick=()=>{if(isOn)tune(i);else{cur=i;paintDial();powerOn();}};l.append(b);});
+  }
+  [...l.children].forEach((b,i)=>{b.classList.toggle("cur",i===cur);b.setAttribute("aria-current",i===cur);});
+  const r=l.children[cur]; if(r&&l.clientHeight){ if(r.offsetTop<l.scrollTop+l.offsetTop||r.offsetTop+r.offsetHeight>l.scrollTop+l.offsetTop+l.clientHeight) l.scrollTop=r.offsetTop-l.offsetTop-50; }
 }
 function press(n){
   const i=CHANNELS.findIndex(c=>+c.num===n);
@@ -443,8 +502,8 @@ function toggleGuide(){const g=$("guide");if(g.hidden){renderGuide();g.hidden=fa
 
 function paintSleep(){
   const b=$("sleepBtn");
-  if(!sleepAt){b.textContent="Sleep";b.classList.remove("lit");return;}
-  b.textContent=Math.ceil((sleepAt-Date.now())/60000)+"′";b.classList.add("lit");
+  if(!sleepAt){$("sleepMin").textContent="";b.classList.remove("lit");return;}
+  $("sleepMin").textContent=Math.ceil((sleepAt-Date.now())/60000);b.classList.add("lit");
 }
 function cycleSleep(){
   sleepStep=(sleepStep+1)%SLEEP.length;
@@ -457,12 +516,18 @@ function setVol(d){vol=Math.max(0,Math.min(100,vol+d));muted=false;paintMute();i
 
 /* --- Controles --- */
 $("zoomBtn").onclick=()=>$("frame").classList.toggle("zoom");
+function setCine(on){
+  $("set").classList.toggle("cine",on);
+  document.documentElement.classList.toggle("cine-scroll",on);
+  if(on) setTimeout(()=>window.scrollTo(0,1),80); else window.scrollTo(0,0);
+}
 function toggleFull(){
   const t=document.querySelector(".tube");
-  if(!t.requestFullscreen){ $("set").classList.toggle("cine"); return; }
+  if(!t.requestFullscreen){ setCine(!$("set").classList.contains("cine")); return; }
   try{ const p=document.fullscreenElement?document.exitFullscreen():t.requestFullscreen(); if(p&&p.catch)p.catch(()=>{}); }catch(e){}
 }
-$("cineExit").onclick=()=>$("set").classList.remove("cine");
+$("cineExit").onclick=()=>setCine(false);
+$("moreBtn").onclick=()=>{const o=$("set").classList.toggle("more");$("moreBtn").setAttribute("aria-expanded",o);};
 $("cineUp").onclick=()=>isOn&&tune(cur+1);$("cineDown").onclick=()=>isOn&&tune(cur-1);$("cineGuide").onclick=toggleGuide;
 $("fullBtn").onclick=toggleFull;
 /* Abre el vídeo actual en YouTube por el mismo punto y pausa la tele. Al volver, sigue. */
@@ -514,7 +579,7 @@ addEventListener("keydown",e=>{
   if(e.key==="f"||e.key==="F")toggleFull();
   if(/^[0-9]$/.test(e.key))typeDigit(e.key);
   if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
-  if(e.key==="Escape"){$("guide").hidden=true;$("set").classList.remove("cine");}
+  if(e.key==="Escape"){$("guide").hidden=true;setCine(false);}
   if(e.key==="y"||e.key==="Y"){$("ytBtn").click();}
   if(e.key==="s"||e.key==="S")cycleSleep();
   if(e.key==="a"||e.key==="A")openPrefs();
@@ -621,10 +686,10 @@ $("tokenSave").onclick=async()=>{
   }catch(e){setToken("");msg("Ese código no da acceso de escritura a sintonia. Revisa los pasos.",true);}
 };
 $("tokenForget").onclick=()=>{setToken("");msg("Dispositivo desconectado.");renderPrefs();};
-/* Atajos de teclado que se muestran al pasar el cursor */
-[["#chUp,#cineUp","↑"],["#chDown,#cineDown","↓"],['[data-seek="start"]',"I"],['[data-seek="-30"]',"J"],['[data-seek="30"]',"L"],
- [".mute","M"],["#guideBtn,#cineGuide","G"],["#zoomBtn","Z"],[".yt","Y"],["#sleepBtn","S"],["#prefsBtn","A"],["#fullBtn","F"],["#powerBtn","Espacio"],["#cineExit","Esc"]]
-.forEach(([sel,key])=>document.querySelectorAll(sel).forEach(b=>{b.dataset.key=key;b.setAttribute("aria-keyshortcuts",key==="Espacio"?"Space":key==="Esc"?"Escape":key==="↑"?"ArrowUp":key==="↓"?"ArrowDown":key);}));
+/* Nombre y atajo al pasar el cursor */
+[["#chUp,#cineUp","Canal +","↑"],["#chDown,#cineDown","Canal −","↓"],['[data-seek="start"]',"Inicio","I"],['[data-seek="-30"]',"−30 s","J"],['[data-seek="30"]',"+30 s","L"],
+ [".mute","Silencio","M"],["#guideBtn,#cineGuide","Guía","G"],["#zoomBtn","Zoom","Z"],[".yt","YouTube","Y"],["#sleepBtn","Sleep","S"],["#prefsBtn","Ajustes","A"],["#fullBtn","Pantalla completa","F"],["#powerBtn","Encender / Apagar","Espacio"],["#cineExit","Salir","Esc"]]
+.forEach(([sel,name,key])=>document.querySelectorAll(sel).forEach(b=>{b.dataset.tip=name+" · "+key;b.setAttribute("aria-keyshortcuts",key==="Espacio"?"Space":key==="Esc"?"Escape":key==="↑"?"ArrowUp":key==="↓"?"ArrowDown":key);}));
 window.__tv={tune,state:()=>({cur,item,stage,turn,isOn,ready,playing,yt:player&&player.getPlayerState&&player.getPlayerState(),title:player&&player.getVideoData&&player.getVideoData().title,vid:player&&player.getVideoData&&player.getVideoData().video_id,t:player&&player.getCurrentTime&&player.getCurrentTime()})};
 </script>
 </body>
