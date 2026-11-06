@@ -515,7 +515,14 @@ function setVol(d){vol=Math.max(0,Math.min(100,vol+d));muted=false;paintMute();i
   $("osd").classList.add("on");clearTimeout(osdTimer);osdTimer=setTimeout(()=>$("osd").classList.remove("on"),1500);}
 
 /* --- Controles --- */
-$("zoomBtn").onclick=()=>$("frame").classList.toggle("zoom");
+/* iPads antiguos: sin unidades de contenedor, el tamaño del vídeo se calcula aquí. */
+function fitPicture(){
+  if(window.CSS&&CSS.supports&&CSS.supports("width","1cqw")) return;
+  const r=document.querySelector(".tube").getBoundingClientRect(),z=$("frame").classList.contains("zoom");
+  document.querySelector(".pic").style.width=(z?Math.max:Math.min)(r.width,r.height*16/9)+"px";
+}
+addEventListener("resize",fitPicture);addEventListener("orientationchange",()=>setTimeout(fitPicture,300));fitPicture();
+$("zoomBtn").onclick=()=>{$("frame").classList.toggle("zoom");fitPicture();};
 function setCine(on){
   $("set").classList.toggle("cine",on);
   document.documentElement.classList.toggle("cine-scroll",on);
@@ -578,7 +585,7 @@ addEventListener("keydown",e=>{
   if(e.key==="l"||e.key==="L")seek(30);
   if(e.key==="f"||e.key==="F")toggleFull();
   if(/^[0-9]$/.test(e.key))typeDigit(e.key);
-  if(e.key==="z"||e.key==="Z")$("frame").classList.toggle("zoom");
+  if(e.key==="z"||e.key==="Z")$("zoomBtn").click();
   if(e.key==="Escape"){$("guide").hidden=true;setCine(false);}
   if(e.key==="y"||e.key==="Y"){$("ytBtn").click();}
   if(e.key==="s"||e.key==="S")cycleSleep();
