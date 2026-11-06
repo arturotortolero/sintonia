@@ -737,7 +737,7 @@ function startDrag(row,y0,touch){
 function renderDetail(){
   const d=$("prefsDetail");d.innerHTML="";const ch=prefSel;
   const save=h("button",{className:"btn1 prefsSave",textContent:"Guardar cambios",onclick:savePrefs});
-  if(!ch){d.append(h("div",{className:"pbody"},h("p",{textContent:"Elige un canal o crea uno nuevo."}))));return;}
+  if(!ch){d.append(h("div",{className:"pbody"},h("p",{textContent:"Elige un canal o crea uno nuevo."})));return;}
   const title=h("h1",{textContent:ch.num+" "+ch.name.toUpperCase()});
   const close=h("button",{className:"key",ariaLabel:"Cerrar ajustes",onclick(){$("prefs").hidden=true;}},closeSvg());close.setAttribute("aria-label","Cerrar ajustes");
   const nm=h("input",{value:ch.name,maxLength:24});
