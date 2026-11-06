@@ -124,32 +124,71 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
   .key{width:40px;height:40px}
   #chNum{min-width:30px;font-size:24px}
 }
-/* Ajustes */
-.prefs{position:fixed;inset:0;z-index:30;overflow:auto;background:var(--room);color:#e6e7e9;font-size:16px;line-height:1.35;
-  padding:max(14px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(24px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
+/* Ajustes: canales a un lado, detalle al otro. En el móvil, una pantalla cada vez. */
+.prefs{position:fixed;inset:0;z-index:30;background:#0b0c0d;color:#e6e7e9;font-size:16px;line-height:1.35;padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))}
 .prefs[hidden]{display:none}
-.prefs-in{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
-.prefs header{display:flex;justify-content:space-between;align-items:center}
-.prefs h1{margin:0;font:400 34px var(--osd-font);color:var(--osd)}
+.pwrap{height:100%;display:grid;grid-template-columns:320px minmax(0,1fr);overflow:hidden;border-radius:10px;background:#1d1e21;border:1px solid #3a3c41}
+.plist{min-height:0;display:flex;flex-direction:column;background:#151618;border-right:1px solid #3a3c41}
+.phead{flex:none;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 14px}
+.prefs h1{margin:0;font:400 32px var(--osd-font);line-height:1;color:var(--osd)}
 .prefs h2{margin:0;font:400 24px var(--osd-font);color:var(--osd)}
 .prefs a{color:var(--osd)}
-.prefs ol{margin:0;padding-left:1.3em;display:grid;gap:4px}
+.prefs ol{margin:0;padding-left:1.3em}
+.prefs ol li{margin-top:4px}
 .prefs p{margin:0}
-.connect,.card{background:var(--plastic);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px;box-shadow:inset 0 0 0 1px #3f4044}
-#prefsList{display:flex;flex-direction:column;gap:12px}
+.connect{margin:0 10px 10px;padding:12px;border-radius:8px;background:#1d1e21;border:1px solid #3a3c41;font-size:14px;overflow:auto;flex:none;max-height:60%}
+.connect>*+*{margin-top:8px}
+#prefsList{flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;padding:0 10px}
+.prow{display:flex;align-items:center;min-height:48px;border-radius:6px;background:#151618}
+.prow.cur{background:#2a2c31}
+.prow.drag{position:relative;z-index:2;background:#34363b;box-shadow:0 0 0 1px var(--osd),0 8px 18px #000}
+.popen{flex:1;min-width:0;min-height:48px;padding:0 0 0 12px;display:flex;align-items:center;gap:12px;text-align:left;font-size:15px;font-weight:500;color:#d9dbdf;overflow:hidden}
+.popen span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.popen b{flex:none;width:32px;font:400 24px var(--osd-font);color:var(--osd)}
+.grip{flex:none;width:48px;height:48px;padding:0;color:#8d8f95;font-size:18px;cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none}
+.prow.drag .grip{color:var(--osd);cursor:grabbing}
+.pfoot{flex:none;display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 12px;border-top:1px solid #3a3c41;background:#1d1e21}
+.pdetail{min-width:0;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.pbody{flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;padding:12px 24px 16px;display:flex;flex-direction:column;gap:16px}
+.pbody>*{flex:none}
+.pdetail .phead{padding:12px 16px 4px 24px}
+.pgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0}
+.prefs label,.flabel{font-size:13px;color:var(--label)}
+.prefs input{box-sizing:border-box;width:100%;height:44px;min-width:0;padding:0 10px;font:inherit;font-size:16px;color:#e6e7e9;background:#121315;border:1px solid #3a3c41;border-radius:6px}
+.seg{height:44px;box-sizing:border-box;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:3px;border-radius:6px;background:#121315;border:1px solid #3a3c41}
+.seg button{border-radius:4px;font-size:14px;font-weight:500;color:#d9dbdf}
+.seg button[aria-pressed="true"]{background:#34363b;color:var(--osd)}
+.source{display:flex;align-items:center;gap:8px;min-height:56px;border-bottom:1px solid #303236}
+.source:first-child{border-top:1px solid #3a3c41}
+.source>div{flex:1;min-width:0;overflow-wrap:anywhere}
+.source small{display:block;font-size:13px;color:var(--label)}
+.addrow{display:grid;grid-template-columns:minmax(0,1fr) 84px 84px 150px auto;gap:10px;align-items:end}
+.btn2{min-height:44px;padding:0 14px;border:1px solid #55575c;border-radius:6px;background:#2a2c31;color:#e6e7e9;font-size:14px;font-weight:500}
+.btn2:disabled{opacity:.45}
+.btn1{min-height:44px;padding:0 20px;border-radius:6px;background:var(--osd);color:#06240e;font-size:15px;font-weight:500}
+.btn1:disabled{opacity:.55}
+.danger{min-height:44px;padding:0;color:#ff8a7a;font-size:14px;font-weight:500}
+.plain{min-height:36px;padding:0;color:var(--label);font-size:13px;text-decoration:underline}
+.pback,.listSave{display:none}
 .line{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.line.end{justify-content:space-between}
-.line .grow{flex:1 1 180px;min-width:0}
-.prefs label{font-size:13px;color:var(--label)}
-.field{display:flex;flex-direction:column;gap:2px;min-width:0}
-.prefs input,.prefs select{font:inherit;font-size:16px;color:#e6e7e9;background:#17181a;border:1px solid #55575c;border-radius:6px;padding:8px;min-width:0;width:100%}
-.source{display:flex;gap:8px;align-items:center;justify-content:space-between;border-top:1px solid #3f4044;padding-top:8px}
-.source span{min-width:0;overflow-wrap:anywhere;font-size:14px}
-.source small{display:block;color:var(--label)}
-.hint{font-size:13px;color:var(--label)}
-.msg{min-height:1.4em;color:var(--osd)}
+.msg{position:absolute;left:50%;bottom:calc(84px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:3;box-sizing:border-box;width:max-content;max-width:calc(100% - 32px);margin:0;padding:8px 12px;border-radius:6px;background:#050606;border:1px solid #3a3c41;font-size:14px;color:var(--osd)}
+.msg:empty{display:none}
 .msg.bad{color:#ff8a7a}
-.linkish{align-self:flex-start;color:var(--label);text-decoration:underline;font-size:14px}
+@media (max-width:760px){
+  .prefs{padding:0}
+  .pwrap{display:block;border:0;border-radius:0;padding-top:env(safe-area-inset-top);box-sizing:border-box}
+  .plist,.pdetail{height:100%;border:0}
+  .prefs.detail .plist,.prefs:not(.detail) .pdetail{display:none}
+  .pback,.listSave{display:inline-block}
+  .pgrid{grid-template-columns:minmax(0,1fr)}
+  .pbody{padding:10px 16px 16px}
+  .pdetail .phead{padding:8px 8px 4px 16px}
+  .pdetail h1{font-size:28px}
+  .addrow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .addrow .wide{grid-column:1/-1}
+  .pfoot .btn1{flex:1}
+}
 /* Modo cine: pantalla completa propia para el iPhone, que no permite la del navegador */
 .cine-keys{display:none;position:absolute;z-index:5;top:max(10px,env(safe-area-inset-top));left:max(10px,env(safe-area-inset-left));flex-direction:column;gap:6px}
 .cine-keys .key{width:48px;height:48px;background:rgba(10,11,12,.62);border-radius:8px;opacity:.7}
@@ -241,24 +280,27 @@ html.old .chlist b{display:inline-block;vertical-align:middle;line-height:1}
     </div>
 </div>
 <div class="prefs" id="prefs" hidden>
-  <div class="prefs-in">
-    <header><h1>Ajustes</h1><button class="k" id="prefsClose">Cerrar</button></header>
-    <section class="connect" id="connect" hidden>
-      <h2>Conecta este dispositivo</h2>
-      <p>Para guardar cambios, Sintonía necesita un permiso de GitHub. Se pide una vez en cada navegador y queda guardado solo en él.</p>
-      <ol>
-        <li><a href="https://github.com/settings/personal-access-tokens/new?name=Sintonia&amp;description=Canales%20de%20Sintonia&amp;expires_in=365&amp;contents=write" target="_blank" rel="noopener">Abre GitHub para crear el permiso</a>.</li>
-        <li>En <b>Repository access</b> elige <b>Only select repositories</b> y marca <b>sintonia</b>.</li>
-        <li>En <b>Permissions</b>, comprueba que <b>Contents</b> está en <b>Read and write</b>.</li>
-        <li>Pulsa <b>Generate token</b>, copia el código y pégalo aquí.</li>
-      </ol>
-      <div class="line"><label for="tokenInput">Código</label><input id="tokenInput" type="password" autocomplete="off" placeholder="github_pat_…"><button class="k" id="tokenSave">Conectar</button></div>
-    </section>
-    <div id="prefsList"></div>
-    <div class="line end"><button class="k" id="addChannel">Nuevo canal</button><button class="k pw" id="prefsSave">Guardar cambios</button></div>
-    <p class="msg" id="prefsMsg" role="status"></p>
-    <button class="linkish" id="tokenForget" hidden>Desconectar este dispositivo</button>
+  <div class="pwrap">
+    <aside class="plist">
+      <div class="phead"><h1>AJUSTES</h1><button class="key" id="prefsClose" aria-label="Cerrar ajustes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+      <section class="connect" id="connect" hidden>
+        <h2>Conecta este dispositivo</h2>
+        <p>Para guardar cambios, Sintonía necesita un permiso de GitHub. Se pide una vez en cada navegador y queda guardado solo en él.</p>
+        <ol>
+          <li><a href="https://github.com/settings/personal-access-tokens/new?name=Sintonia&amp;description=Canales%20de%20Sintonia&amp;expires_in=365&amp;contents=write" target="_blank" rel="noopener">Abre GitHub para crear el permiso</a>.</li>
+          <li>En <b>Repository access</b> elige <b>Only select repositories</b> y marca <b>sintonia</b>.</li>
+          <li>En <b>Permissions</b>, comprueba que <b>Contents</b> está en <b>Read and write</b>.</li>
+          <li>Pulsa <b>Generate token</b>, copia el código y pégalo aquí.</li>
+        </ol>
+        <div class="field"><label for="tokenInput">Código</label><input id="tokenInput" type="password" autocomplete="off" placeholder="github_pat_…"></div>
+        <button class="btn2" id="tokenSave">Conectar</button>
+      </section>
+      <div id="prefsList"></div>
+      <div class="pfoot"><button class="btn2" id="addChannel">+ Nuevo canal</button><button class="plain" id="tokenForget" hidden>Desconectar</button><button class="btn1 prefsSave listSave" id="listSave">Guardar</button></div>
+    </aside>
+    <main class="pdetail" id="prefsDetail"></main>
   </div>
+  <p class="msg" id="prefsMsg" role="status"></p>
 </div>
 <script>
 /* ======== TUS CANALES ========
@@ -630,67 +672,130 @@ function gh(path,opts={}){
 const toB64=s=>{let b="";new TextEncoder().encode(s).forEach(c=>b+=String.fromCharCode(c));return btoa(b);};
 const fromB64=s=>new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g,"")),c=>c.charCodeAt(0)));
 function h(tag,props={},...kids){const e=document.createElement(tag);Object.assign(e,props);e.append(...kids);return e;}
-function msg(t,bad){$("prefsMsg").textContent=t;$("prefsMsg").classList.toggle("bad",!!bad);}
+function msg(t,bad){const m=$("prefsMsg");if(!m)return;m.textContent=t;m.classList.toggle("bad",!!bad);}
 function field(label,input){const id="f"+Math.random().toString(36).slice(2,8);input.id=id;return h("div",{className:"field"},h("label",{htmlFor:id,textContent:label}),input);}
 function looksLikeYT(u){return /^@[\w.-]+$/.test(u)||/(youtube\.com|youtu\.be)\//.test(u);}
 function pad2(n){return String(n).padStart(2,"0");}
-function freeNum(){for(let n=1;n<=99;n++){const s=pad2(n);if(!config.some(c=>c.num===s))return s;}return "";}
-function sourceLine(ch,i){
-  const f=ch.fuentes[i],notes=[];
-  if(f.min)notes.push("mínimo "+f.min+" min");
-  if(f.max)notes.push("máximo "+f.max+" min");
-  if(f.contiene)notes.push("título con: "+f.contiene.replace(/\|/g," o "));
-  if(f.excluir)notes.push("sin: "+f.excluir);
-  const label=f.url.replace(/^https?:\/\/(www\.)?/,"").replace(/\?si=.*$/,"");
-  return h("div",{className:"source"},h("span",{},label,h("small",{textContent:notes.join(" · ")})),
-    h("button",{className:"k",textContent:"✕",ariaLabel:"Quitar fuente",onclick(){ch.fuentes.splice(i,1);renderPrefs();}}));
+let prefSel=null;
+function renumber(){config.forEach((c,i)=>c.num=pad2(i+1));}
+function sourceInfo(f){
+  const u=f.url,handle=u.match(/\/(@[^/?]+)/);
+  const notes=[];
+  if(/[?&]list=/.test(u)) notes.push("Lista"); else if(handle) notes.push("Canal"); else if(/\/channel\//.test(u)) notes.push("Canal"); else notes.push("Vídeo");
+  if(f.min&&f.max) notes.push("de "+f.min+" a "+f.max+" min");
+  else if(f.min) notes.push("desde "+f.min+" min");
+  else if(f.max) notes.push("hasta "+f.max+" min");
+  if(f.contiene) notes.push("título con "+f.contiene.replace(/\|/g," o "));
+  if(f.excluir) notes.push("sin "+f.excluir);
+  if(notes.length===1) notes.push("sin filtro");
+  return {name:handle?handle[1]:u.replace(/^https?:\/\/(www\.)?/,"").replace(/[?&]si=.*$/,""),note:notes.join(" · ")};
 }
-function card(ch,idx){
-  const num=h("select",{}),nm=h("input",{value:ch.name,maxLength:24}),modo=h("select",{});
-  for(let n=1;n<=99;n++){const v=pad2(n);if(v===ch.num||!config.some(c=>c.num===v))num.append(h("option",{value:v,textContent:v,selected:v===ch.num}));}
-  [["tele","Como la tele: entras a mitad de la emisión"],["nuevo","Desde el principio: lo más nuevo primero"]].forEach(([v,t])=>modo.append(h("option",{value:v,textContent:t,selected:v===ch.modo})));
-  num.onchange=()=>{ch.num=num.value;config.sort((a,b)=>a.num.localeCompare(b.num));renderPrefs();};
-  nm.oninput=()=>ch.name=nm.value; modo.onchange=()=>ch.modo=modo.value;
-  const url=h("input",{placeholder:"Enlace de canal, lista o vídeo"}),min=h("input",{type:"number",min:0,step:1,inputMode:"numeric"}),has=h("input",{placeholder:"Opcional"});
-  const add=h("button",{className:"k",textContent:"Añadir fuente",onclick(){
+function selectChannel(ch){prefSel=ch;$("prefs").classList.add("detail");renderPrefs();}
+function closeSvg(){const t=document.createElement("template");t.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';return t.content.firstChild;}
+function renderList(){
+  const l=$("prefsList");l.innerHTML="";
+  config.forEach(ch=>{
+    const row=h("div",{className:"prow"+(ch===prefSel?" cur":"")});row.chan=ch;
+    const grip=h("button",{className:"grip",textContent:"⠿",ariaLabel:"Mover "+ch.name});
+    grip.setAttribute("aria-label","Mover "+ch.name);
+    grip.addEventListener("mousedown",e=>{e.preventDefault();startDrag(row,e.clientY,false);});
+    grip.addEventListener("touchstart",e=>{e.preventDefault();startDrag(row,e.touches[0].clientY,true);},{passive:false});
+    row.append(h("button",{className:"popen",onclick(){selectChannel(ch);}},h("b",{textContent:ch.num}),h("span",{textContent:ch.name})),grip);
+    l.append(row);
+  });
+}
+/* Arrastrar: la fila se mueve entre las demás y los números siguen el orden. Funciona con ratón y con el dedo. */
+function startDrag(row,y0,touch){
+  const l=$("prefsList");row.classList.add("drag");let lastY=y0;
+  const paintNums=()=>[...l.children].forEach((r,i)=>r.querySelector("b").textContent=pad2(i+1));
+  const move=y=>{
+    lastY=y;
+    for(const r of l.children){
+      if(r===row) continue;
+      const b=r.getBoundingClientRect();
+      if(y>b.top&&y<b.bottom){
+        const down=[...l.children].indexOf(r)>[...l.children].indexOf(row);
+        if(down?y>b.top+b.height/2:y<b.top+b.height/2){l.insertBefore(row,down?r.nextSibling:r);paintNums();}
+        break;
+      }
+    }
+    const box=l.getBoundingClientRect();
+    if(y<box.top+36) l.scrollTop-=10; else if(y>box.bottom-36) l.scrollTop+=10;
+  };
+  const onMouse=e=>move(e.clientY);
+  const onTouch=e=>{e.preventDefault();move(e.touches[0].clientY);};
+  const end=()=>{
+    document.removeEventListener("mousemove",onMouse);document.removeEventListener("mouseup",end);
+    document.removeEventListener("touchmove",onTouch);document.removeEventListener("touchend",end);document.removeEventListener("touchcancel",end);
+    clearInterval(tick);
+    config=[...l.children].map(r=>r.chan);renumber();renderPrefs();msg("Orden cambiado. Pulsa Guardar cambios para conservarlo.");
+  };
+  const tick=setInterval(()=>move(lastY),120);
+  if(touch){document.addEventListener("touchmove",onTouch,{passive:false});document.addEventListener("touchend",end);document.addEventListener("touchcancel",end);}
+  else{document.addEventListener("mousemove",onMouse);document.addEventListener("mouseup",end);}
+}
+function renderDetail(){
+  const d=$("prefsDetail");d.innerHTML="";const ch=prefSel;
+  const save=h("button",{className:"btn1 prefsSave",textContent:"Guardar cambios",onclick:savePrefs});
+  if(!ch){d.append(h("div",{className:"pbody"},h("p",{textContent:"Elige un canal o crea uno nuevo."}))));return;}
+  const title=h("h1",{textContent:ch.num+" "+ch.name.toUpperCase()});
+  const close=h("button",{className:"key",ariaLabel:"Cerrar ajustes",onclick(){$("prefs").hidden=true;}},closeSvg());close.setAttribute("aria-label","Cerrar ajustes");
+  const nm=h("input",{value:ch.name,maxLength:24});
+  nm.oninput=()=>{ch.name=nm.value;title.textContent=ch.num+" "+nm.value.toUpperCase();renderList();};
+  const mode=(v,t)=>{const b=h("button",{textContent:t,onclick(){ch.modo=v;renderDetail();}});b.setAttribute("aria-pressed",ch.modo===v);return b;};
+  const url=h("input",{placeholder:"Pega el enlace de YouTube"}),min=h("input",{type:"number",min:0,inputMode:"numeric"}),max=h("input",{type:"number",min:0,inputMode:"numeric"}),has=h("input",{});
+  const add=h("button",{className:"btn2",textContent:"Añadir",onclick(){
     const u=url.value.trim();
     if(!looksLikeYT(u)){msg("Pega un enlace de YouTube o un @canal.",true);return;}
     const f={url:u.startsWith("@")?"https://www.youtube.com/"+u:u};
     if(+min.value>0)f.min=+min.value;
+    if(+max.value>0)f.max=+max.value;
     if(has.value.trim())f.contiene=has.value.trim();
-    ch.fuentes.push(f);msg("");renderPrefs();
+    ch.fuentes.push(f);msg("");renderDetail();
   }});
-  const urlF=field("Nueva fuente",url);urlF.classList.add("grow");
-  const nameF=field("Nombre",nm);nameF.classList.add("grow");
-  const c=h("section",{className:"card"},
-    h("div",{className:"line"},field("Canal",num),nameF,h("button",{className:"k",textContent:"Quitar canal",onclick(){config.splice(idx,1);renderPrefs();}})),
-    field("Cómo se reproduce",modo));
-  ch.fuentes.forEach((_,i)=>c.append(sourceLine(ch,i)));
-  c.append(h("div",{className:"line"},urlF,field("Mín. minutos",min),field("Título contiene",has)),add);
-  add.style.alignSelf="flex-start";
-  return c;
+  const sources=h("div",{});
+  ch.fuentes.forEach((f,i)=>{
+    const info=sourceInfo(f),x=h("button",{className:"key",onclick(){ch.fuentes.splice(i,1);renderDetail();}},closeSvg());
+    x.setAttribute("aria-label","Quitar "+info.name);
+    sources.append(h("div",{className:"source"},h("div",{},info.name,h("small",{textContent:info.note})),x));
+  });
+  const urlF=field("Añadir canal, lista o vídeo",url);urlF.classList.add("wide");
+  d.append(
+    h("div",{className:"phead"},title,close),
+    h("div",{className:"pbody"},
+      h("div",{className:"pgrid"},field("Nombre",nm),h("div",{className:"field"},h("span",{className:"flabel",textContent:"Cómo se reproduce"}),h("div",{className:"seg"},mode("tele","Como la tele"),mode("nuevo","Desde el principio")))),
+      sources,
+      h("div",{className:"addrow"},urlF,field("Mín. min",min),field("Máx. min",max),field("Título contiene",has),add),
+      h("button",{className:"danger",textContent:"Quitar canal",onclick(){
+        const i=config.indexOf(ch);config.splice(i,1);renumber();prefSel=config[Math.min(i,config.length-1)]||null;$("prefs").classList.remove("detail");msg("");renderPrefs();
+      }})),
+    h("div",{className:"pfoot"},h("button",{className:"btn2 pback",textContent:"Canales",onclick(){$("prefs").classList.remove("detail");}}),h("span",{}),save));
+  d.querySelector(".danger").style.alignSelf="flex-start";
 }
 function renderPrefs(){
-  const connected=!!getToken();
+  const connected=!!getToken(),old=$("prefsMsg")?$("prefsMsg").textContent:"",bad=$("prefsMsg")?$("prefsMsg").classList.contains("bad"):false;
   $("connect").hidden=connected;$("tokenForget").hidden=!connected;
-  const l=$("prefsList");l.innerHTML="";config.forEach((c,i)=>l.append(card(c,i)));
-  $("addChannel").disabled=!freeNum();
+  renderList();renderDetail();
+  if(old) msg(old,bad);
+  $("addChannel").disabled=config.length>=99;
 }
 async function openPrefs(){
-  $("prefs").hidden=false;msg("Cargando canales…");
+  $("prefs").hidden=false;$("prefs").classList.remove("detail");renderPrefs();msg("Cargando canales…");
   try{
     const r=await gh("/contents/canales.json");
     if(!r.ok) throw r.status;
     const j=await r.json();configSha=j.sha;config=JSON.parse(fromB64(j.content));
-    msg("");
+    config.sort((a,b)=>a.num.localeCompare(b.num));
+    prefSel=config[0]||null;msg("");
   }catch(e){msg(e===401?"El permiso de GitHub ya no es válido. Desconecta este dispositivo y vuelve a conectarlo.":"No he podido cargar los canales. Revisa la conexión y vuelve a abrir Ajustes.",true);}
   renderPrefs();
 }
 async function savePrefs(){
-  if(!getToken()){msg("Conecta este dispositivo antes de guardar.",true);return;}
+  if(!getToken()){msg("Conecta este dispositivo antes de guardar.",true);$("prefs").classList.remove("detail");return;}
   const bad=config.find(c=>!c.name.trim()||!c.fuentes.length);
-  if(bad){msg("El canal "+bad.num+" necesita un nombre y al menos una fuente.",true);return;}
-  $("prefsSave").disabled=true;msg("Guardando…");
+  if(bad){prefSel=bad;renderPrefs();msg("El canal "+bad.num+" necesita un nombre y al menos una fuente.",true);return;}
+  renumber();
+  document.querySelectorAll(".prefsSave").forEach(b=>b.disabled=true);msg("Guardando…");
   try{
     const r=await gh("/contents/canales.json",{method:"PUT",headers:{"Content-Type":"application/json"},
       body:JSON.stringify({message:"Actualiza canales desde Ajustes",content:toB64(JSON.stringify(config,null,2)+"\n"),sha:configSha})});
@@ -700,10 +805,15 @@ async function savePrefs(){
     configSha=(await r.json()).content.sha;
     msg("Guardado. En uno o dos minutos estará listo: recarga Sintonía para verlo.");
   }catch(e){msg("No se ha podido guardar. Vuelve a intentarlo.",true);}
-  finally{$("prefsSave").disabled=false;}
+  finally{document.querySelectorAll(".prefsSave").forEach(b=>b.disabled=false);}
 }
-$("prefsBtn").onclick=openPrefs;$("prefsClose").onclick=()=>$("prefs").hidden=true;$("prefsSave").onclick=savePrefs;
-$("addChannel").onclick=()=>{const n=freeNum();if(!n)return;config.push({num:n,name:"Nuevo canal",modo:"nuevo",hours:[],fuentes:[]});config.sort((a,b)=>a.num.localeCompare(b.num));renderPrefs();};
+$("listSave").onclick=savePrefs;
+$("prefsBtn").onclick=openPrefs;$("prefsClose").onclick=()=>$("prefs").hidden=true;
+$("addChannel").onclick=()=>{
+  if(config.length>=99)return;
+  const ch={num:pad2(config.length+1),name:"Nuevo canal",modo:"nuevo",hours:[],fuentes:[]};config.push(ch);selectChannel(ch);
+  $("prefsList").scrollTop=1e6;
+};
 $("tokenSave").onclick=async()=>{
   const v=$("tokenInput").value.trim(); if(!v)return;
   setToken(v);msg("Comprobando…");
