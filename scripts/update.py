@@ -145,6 +145,14 @@ def main():
             print(f"{ch['num']}: error, conservo lo anterior: {e}", file=sys.stderr)
             if ch["num"] in previous:
                 channels.append({**previous[ch["num"]], "name": ch["name"], "hours": ch.get("hours", [])})
+    # Cada vídeo, en un solo canal: el de número más bajo donde aparece.
+    taken = set()
+    for c in channels:
+        if c.get("items"):
+            own = [v for v in c["items"] if v["id"] not in taken]
+            if own:
+                c["items"] = own
+            taken.update(v["id"] for v in c["items"])
     if channels:
         path.write_text(json.dumps({"channels": channels}, ensure_ascii=False, indent=0) + "\n", "utf8")
     return 1 if failed == len(config) else 0

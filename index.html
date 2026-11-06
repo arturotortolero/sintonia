@@ -324,6 +324,56 @@ function onAir(items, nowSec){
   for(let i=0;i<items.length;i++){ if(t<items[i].s) return {index:i,offset:Math.floor(t)}; t-=items[i].s; }
   return {index:0,offset:0};
 }
+/* --- Parrilla del día y memoria de lo visto ---
+   Cada día (de 05:00 a 05:00) un canal "como la tele" baraja su orden con una semilla del día
+   y lo congela en este dispositivo: lo que entre durante el día se suma mañana.
+   Lo visto (más de un minuto, o la mitad si es corto) se salta durante 30 días. */
+const DAY_START_H=5, SEEN_DAYS=30, SEEN_KEY="sintonia_seen", DAY_KEY="sintonia_day";
+function dayInfo(){
+  const d=new Date(Date.now()-DAY_START_H*3600e3);
+  const key=d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate();
+  const start=new Date(d.getFullYear(),d.getMonth(),d.getDate(),DAY_START_H).getTime()/1000;
+  return {key,start};
+}
+function seeded(str){let h=2166136261;for(let i=0;i<str.length;i++){h^=str.charCodeAt(i);h=Math.imul(h,16777619);}
+  return ()=>{h^=h<<13;h^=h>>>17;h^=h<<5;return ((h>>>0)%1e9)/1e9;};}
+function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||"null");localStorage.setItem(k,JSON.stringify(v));}catch(e){return null;}}
+let dayCache=null;
+function schedule(c){
+  if(c.kind!=="linear") return c.items||[];
+  const {key}=dayInfo();
+  if(!dayCache||dayCache.key!==key){ const st=store(DAY_KEY); dayCache=st&&st.key===key?{key,ch:st.ch||{},lists:{}}:{key,ch:{},lists:{}}; }
+  if(dayCache.lists[c.num]) return dayCache.lists[c.num];
+  const byId={};c.items.forEach(v=>byId[v.id]=v);
+  let list=(dayCache.ch[c.num]||[]).map(id=>byId[id]).filter(Boolean);
+  if(list.length<Math.min(5,c.items.length)){
+    list=c.items.slice();const r=seeded(key+"|"+c.num);
+    for(let i=list.length-1;i>0;i--){const j=Math.floor(r()*(i+1));const t=list[i];list[i]=list[j];list[j]=t;}
+    dayCache.ch[c.num]=list.map(v=>v.id);store(DAY_KEY,{key,ch:dayCache.ch});
+  }
+  dayCache.lists[c.num]=list;return list;
+}
+let seenMap=null;
+function seen(){ if(!seenMap){ seenMap=store(SEEN_KEY)||{}; const old=Date.now()-SEEN_DAYS*864e5; for(const k in seenMap) if(seenMap[k]<old) delete seenMap[k]; } return seenMap; }
+function isSeen(id){ return !!seen()[id]; }
+function markSeen(id){ const m=seen(); m[id]=Date.now(); const ks=Object.keys(m); if(ks.length>6000){ks.sort((a,b)=>m[a]-m[b]).slice(0,ks.length-6000).forEach(k=>delete m[k]);} store(SEEN_KEY,m); }
+/* El siguiente no visto a partir de i (incluido). Si todo está visto, sigue el orden del día. */
+function nextUnseen(list,i){
+  for(let k=0;k<list.length;k++){const j=(i+k)%list.length;if(!isSeen(list[j].id))return j;}
+  return i%list.length;
+}
+/* Lo que pone un canal ahora: la emisión del día, saltando lo ya visto. */
+function nowOn(c){
+  const list=schedule(c);
+  if(c.kind==="linear"){
+    const total=list.reduce((t,v)=>t+v.s,0)||1;let t=((nowSec()-dayInfo().start)%total+total)%total,i=0;
+    for(;i<list.length;i++){if(t<list[i].s)break;t-=list[i].s;}
+    if(i>=list.length){i=0;t=0;}
+    if(isSeen(list[i].id)){const j=nextUnseen(list,i);if(j!==i){i=j;t=0;}}
+    return {list,index:i,offset:Math.floor(t)};
+  }
+  return {list,index:nextUnseen(list,turn%list.length),offset:0};
+}
 function defaultChannel(hour){
   const i = CHANNELS.findIndex(c=>{const [a,b]=c.hours; return a<b ? hour>=a&&hour<b : hour>=a||hour<b;});
   return i<0?0:i;
@@ -336,7 +386,7 @@ const REPO="arturotortolero/sintonia";
 const nowSec=()=>Date.now()/1000;
 const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
 let player,ready=false,isOn=false,cur=0,item=0,stage=0,playing=false,busy=0,vol=70;
-let sleepAt=0,osdTimer,audio,failures=0,turn=0,muted=false;
+let sleepAt=0,osdTimer,audio,failures=0,turn=0,muted=false,watchVid=null,watchSec=0;
 const SLEEP=[0,15,30,60]; let sleepStep=0;
 
 /* --- Reproductor --- */
@@ -373,17 +423,16 @@ function play(){
     const every=hasRecap(c)?2:c.ids.length, round=Math.floor(turn/every);
     if(hasRecap(c)&&turn%2===0) player.loadVideoById(c.recap[round%c.recap.length]);
     else player.loadPlaylist({list:latestList(c),listType:"playlist",index:round});
-  }else if(c.kind==="episodes"){
-    player.loadVideoById({videoId:c.items[turn%c.items.length].id,startSeconds:0});
   }else{
-    const a=onAir(c.items,nowSec()); item=a.index;
-    player.loadVideoById({videoId:c.items[item].id,startSeconds:a.offset});
+    const a=nowOn(c); item=a.index;
+    player.loadVideoById({videoId:a.list[item].id,startSeconds:a.offset});
   }
 }
 function nextUp(){
   const c=CHANNELS[cur]; if(Date.now()<busy) return; busy=Date.now()+3000;
-  if(c.kind!=="linear"){ turn++; stage=0; play(); }
-  else{ item=(item+1)%c.items.length; player.loadVideoById({videoId:c.items[item].id,startSeconds:0}); }
+  if(c.kind==="latest"){ turn++; stage=0; play(); return; }
+  const list=schedule(c); item=nextUnseen(list,(item+1)%list.length); if(c.kind!=="linear") turn=item;
+  player.loadVideoById({videoId:list[item].id,startSeconds:0});
 }
 /* Quita los subtítulos aunque la cuenta o el vídeo los traigan activados. */
 function noCaptions(){
@@ -407,6 +456,10 @@ setInterval(()=>{
   if(player.getPlayerState&&player.getPlayerState()===YT.PlayerState.PLAYING){
     const d=player.getDuration(),t=player.getCurrentTime();
     if(d>10&&t>=d-1.5) nextUp();
+    const v=player.getVideoData&&player.getVideoData().video_id;
+    if(v!==watchVid){watchVid=v;watchSec=0;}
+    watchSec+=0.5;
+    if(v&&!isSeen(v)&&d>0&&watchSec>=Math.min(60,d*0.5)) markSeen(v);
   }
   if(sleepAt){
     const left=(sleepAt-Date.now())/1000;
@@ -500,7 +553,7 @@ function showOff(msg){
   $("offNow").append(b); const line=document.createElement("div");line.textContent=msg?"":nowText(c);$("offNow").append(line);
   $("off").hidden=false;
 }
-function nowText(c){ return c.kind!=="linear"?c.tagline:c.items[onAir(c.items,nowSec()).index].t; }
+function nowText(c){ if(c.kind==="latest") return c.tagline; const a=nowOn(c); return a.list[a.index].t; }
 
 /* --- Dial y guía --- */
 function paintDial(){
@@ -545,9 +598,9 @@ function renderGuide(){
     const t=document.createElement("span");t.className="t";t.textContent=c.name;
     const s=document.createElement("span");s.className="sub";
     const s2=document.createElement("span");s2.className="sub";
-    if(c.kind!=="linear"){s.textContent="Ahora: "+c.tagline;s2.textContent=c.sourceName;}
+    if(c.kind==="latest"){s.textContent="Ahora: "+c.tagline;s2.textContent=c.sourceName;}
     else{
-      const a=onAir(c.items,nowSec()),v=c.items[a.index],nx=c.items[(a.index+1)%c.items.length];
+      const a=nowOn(c),v=a.list[a.index],nx=a.list[nextUnseen(a.list,(a.index+1)%a.list.length)];
       s.textContent="Ahora: "+v.t;
       s2.textContent=fmtClock(nowSec()+v.s-a.offset)+" · "+nx.t;
     }
