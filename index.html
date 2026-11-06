@@ -31,7 +31,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .tv{width:100%;height:100%;min-width:0;display:flex;flex-direction:column;background:var(--plastic);border:1px solid #3a3c41;border-radius:10px;padding:12px 12px 0}
 .tube{position:relative;flex:1;min-height:0;width:100%;container-type:size;background:var(--glass);border-radius:18px;overflow:hidden;border:3px solid #050506}
 .tube:fullscreen{border-radius:0;border:0}
-.frame{position:absolute;inset:0;overflow:hidden;background:linear-gradient(90deg,#c8c8c8 0 14.28%,#c8c83a 0 28.57%,#3ac8c8 0 42.85%,#3ac83a 0 57.14%,#c83ac8 0 71.42%,#c83a3a 0 85.71%,#3a3ac8 0)}
+.frame{position:absolute;inset:0;overflow:hidden;background:linear-gradient(90deg,#c8c8c8 14.28%,#c8c83a 14.28%,#c8c83a 28.57%,#3ac8c8 28.57%,#3ac8c8 42.85%,#3ac83a 42.85%,#3ac83a 57.14%,#c83ac8 57.14%,#c83ac8 71.42%,#c83a3a 71.42%,#c83a3a 85.71%,#3a3ac8 85.71%)}
 .pic{transition:opacity .28s ease}
 .frame.idle .pic{opacity:0}
 .pic{position:absolute;left:50%;top:50%;width:min(100cqw,177.78cqh);aspect-ratio:16/9;transform:translate(-50%,-50%)}
@@ -94,7 +94,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .set.night .chin:hover,.set.night .chin:focus-within{opacity:1}
 @media (hover:hover){
   .key:hover{background:#34363b}
-  .key[data-tip]:hover::after,.key[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);z-index:20;padding:3px 9px;border-radius:4px;background:#050606;border:1px solid #3a3c41;color:var(--osd);font:400 20px var(--osd-font);white-space:nowrap;pointer-events:none}
+  .key[data-tip]:hover::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);z-index:20;padding:3px 9px;border-radius:4px;background:#050606;border:1px solid #3a3c41;color:var(--osd);font:400 20px var(--osd-font);white-space:nowrap;pointer-events:none}
   .right .key[data-tip]:hover::after{left:auto;right:0;transform:none}
   .cine-keys:not(.cine-ch) .key[data-tip]:hover::after{bottom:auto;left:calc(100% + 8px);top:50%;transform:translateY(-50%)}
   .cine-ch .key[data-tip]:hover::after{bottom:auto;left:auto;right:calc(100% + 8px);top:50%;transform:translateY(-50%)}
@@ -156,7 +156,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .cine-keys .key.lit{opacity:1}
 .cine-keys .gap{margin-top:10px}
 html.cine-scroll,html.cine-scroll body{height:auto;overflow:auto}
-html.cine-scroll body{min-height:calc(100lvh + 140px)}
+html.cine-scroll body{min-height:calc(100vh + 140px);min-height:calc(100lvh + 140px)}
 .cine-ch{left:auto;right:max(10px,env(safe-area-inset-right));top:50%;transform:translateY(-50%)}
 .set.cine{padding:0}
 .set.cine .tv{position:fixed;inset:0;z-index:10;width:auto;height:auto;padding:0;border:0;border-radius:0;background:#000}
@@ -164,8 +164,21 @@ html.cine-scroll body{min-height:calc(100lvh + 140px)}
 .set.cine .chin,.set.cine .chlist,.set.cine .brandline{display:none}
 .set.cine .cine-keys{display:flex}
 @media (max-aspect-ratio:1/1){
-  .set.cine .tv{inset:auto;left:50%;top:50%;width:100dvh;height:100dvw;transform:translate(-50%,-50%) rotate(90deg)}
+  .set.cine .tv{inset:auto;left:50%;top:50%;width:100vh;height:100vw;width:100dvh;height:100dvw;transform:translate(-50%,-50%) rotate(90deg)}
 }
+/* iPad Air 1 (Safari 12): lo que ese navegador no entiende, hecho a la antigua. Solo se activa allí. */
+html.old button,html.old .key{-webkit-text-fill-color:currentColor}
+html.old .frame,html.old #static,html.old .osd,html.old .off,html.old .guide,html.old .glass,html.old .prefs{top:0;right:0;bottom:0;left:0}
+html.old .set.cine .tv{top:0;right:0;bottom:0;left:0}
+html.old .tray>*+*,html.old .extra>*+*,html.old .chbox>*+*{margin-left:2px}
+html.old .right>*+*,html.old .chlist b+*{margin-left:10px}
+html.old .off>*+*,html.old .cine-keys>*+*{margin-top:12px}
+html.old .osd .num{font-size:64px}
+html.old .osd .info{font-size:24px}
+html.old .off .now,html.old .guide{font-size:22px}
+html.old .chin{grid-column-gap:16px}
+html.old .chlist button{display:block;line-height:50px}
+html.old .chlist b{display:inline-block;vertical-align:middle;line-height:1}
 @media (prefers-reduced-motion:reduce){.tv.warm .frame{animation:none}}
 </style>
 </head>
@@ -516,16 +529,24 @@ function setVol(d){vol=Math.max(0,Math.min(100,vol+d));muted=false;paintMute();i
 
 /* --- Controles --- */
 /* iPads antiguos: sin unidades de contenedor, el tamaño del vídeo se calcula aquí. */
+const OLD=!(window.CSS&&CSS.supports&&CSS.supports("aspect-ratio","1/1")&&CSS.supports("width","1cqw"));
+if(OLD) document.documentElement.classList.add("old");
 function fitPicture(){
-  if(window.CSS&&CSS.supports&&CSS.supports("width","1cqw")) return;
-  const r=document.querySelector(".tube").getBoundingClientRect(),z=$("frame").classList.contains("zoom");
-  document.querySelector(".pic").style.width=(z?Math.max:Math.min)(r.width,r.height*16/9)+"px";
+  if(!OLD) return;
+  const t=document.querySelector(".tube"),pic=document.querySelector(".pic");
+  if(!window.CSS||!CSS.supports("aspect-ratio","1/1")){
+    const tall=matchMedia("(max-aspect-ratio:1/1)").matches&&!$("set").classList.contains("cine");
+    t.style.height=tall?Math.round(t.offsetWidth*9/16)+"px":"";
+  }
+  const r=t.getBoundingClientRect(),w=($("frame").classList.contains("zoom")?Math.max:Math.min)(r.width,r.height*16/9);
+  pic.style.width=w+"px";pic.style.height=w*9/16+"px";
 }
 addEventListener("resize",fitPicture);addEventListener("orientationchange",()=>setTimeout(fitPicture,300));fitPicture();
 $("zoomBtn").onclick=()=>{$("frame").classList.toggle("zoom");fitPicture();};
 function setCine(on){
   $("set").classList.toggle("cine",on);
   document.documentElement.classList.toggle("cine-scroll",on);
+  setTimeout(fitPicture,60);
   if(on) setTimeout(()=>window.scrollTo(0,1),80); else window.scrollTo(0,0);
 }
 function toggleFull(){
