@@ -272,6 +272,9 @@
         "url": "https://www.youtube.com/@britishpathe",
         "min": 4,
         "max": 25
+      },
+      {
+        "url": "https://www.youtube.com/@DWDocumentary"
       }
     ]
   },
@@ -286,6 +289,9 @@
       },
       {
         "url": "https://www.youtube.com/@jimmykimmellive"
+      },
+      {
+        "url": "https://www.youtube.com/@LaRevuelta_RTVE"
       }
     ]
   },
@@ -364,6 +370,9 @@
       },
       {
         "url": "https://www.youtube.com/@Wendoverproductions/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@stewarthicks/videos"
       }
     ]
   },
