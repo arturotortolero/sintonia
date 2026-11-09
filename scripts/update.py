@@ -76,6 +76,12 @@ def videos(page):
         for part in t.group(1).split(":"):
             secs = secs * 60 + int(part)
         out.append({"id": vid, "t": r["metadata"]["lockupMetadataViewModel"]["title"]["content"], "s": secs})
+    # Formato antiguo que YouTube aún sirve a veces (según desde dónde se pida).
+    for r in walk(data, "playlistVideoRenderer"):
+        vid, secs = r.get("videoId"), int(r.get("lengthSeconds") or 0)
+        runs = r.get("title", {}).get("runs") or [{}]
+        if vid and secs and not any(v["id"] == vid for v in out):
+            out.append({"id": vid, "t": runs[0].get("text", ""), "s": secs})
     return (title.group(1).strip() if title else ""), out
 
 def has_any(title, terms):
@@ -84,6 +90,13 @@ def has_any(title, terms):
 def read_source(src):
     info = resolve(src["url"])
     name, vids = videos(info["page"])
+    if not vids and info["type"] == "channel":
+        # Si la lista sin Shorts llega vacía, se prueba la pestaña de vídeos y luego todas las subidas.
+        for page in (f"https://www.youtube.com/channel/{info['id']}/videos",
+                     f"https://www.youtube.com/playlist?list=UU{info['id'][2:]}"):
+            name, vids = videos(page)
+            if vids:
+                break
     if src.get("min"):
         vids = [v for v in vids if v["s"] >= float(src["min"]) * 60]
     if src.get("max"):
