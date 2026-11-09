@@ -109,7 +109,17 @@ def names(sources):
     return ", ".join(got[:-1]) + " y " + got[-1] if len(got) > 1 else "".join(got)
 
 def build(ch):
-    src = [read_source(s) for s in ch["fuentes"]]
+    # Una fuente que falla hoy no tumba el canal: se usan las demás y se avisa.
+    src, errors = [], []
+    for s in ch["fuentes"]:
+        try:
+            src.append(read_source(s))
+        except Exception as e:
+            errors.append(f"{s['url']}: {e}")
+    for e in errors:
+        print(f"{ch['num']}: aviso, se omite una fuente hoy: {e}", file=sys.stderr)
+    if not src:
+        raise RuntimeError("ninguna fuente ha respondido")
     who = names(src)
     out = {"num": ch["num"], "name": ch["name"], "hours": ch.get("hours", []), "sourceName": who, "tagline": who}
     if ch.get("noche"):
