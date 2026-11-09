@@ -90,6 +90,9 @@ def has_any(title, terms):
 def read_source(src):
     info = resolve(src["url"])
     name, vids = videos(info["page"])
+    if not vids and src["url"] in CACHE:
+        # YouTube no siempre enseña un canal desde los servidores de GitHub (p. ej. por país): se usa lo último leído.
+        name, vids = CACHE[src["url"]]["name"], CACHE[src["url"]]["vids"]
     if not vids and info["type"] == "channel":
         # Si la lista sin Shorts llega vacía, se prueba la pestaña de vídeos y luego todas las subidas.
         for page in (f"https://www.youtube.com/channel/{info['id']}/videos",
@@ -97,6 +100,8 @@ def read_source(src):
             name, vids = videos(page)
             if vids:
                 break
+    if vids:
+        CACHE[src["url"]] = {"name": name, "vids": vids, "at": time.strftime("%Y-%m-%d")}
     if src.get("min"):
         vids = [v for v in vids if v["s"] >= float(src["min"]) * 60]
     if src.get("max"):
@@ -152,6 +157,9 @@ def build(ch):
         return {**out, "kind": "latest", "ids": [s["id"] for s in live], "recap": [v["id"] for v in mix([s["vids"] for s in rest])[:3]]}
     return {**out, "kind": "episodes", "items": mix(lists)}
 
+CACHE_PATH = ROOT / "fuentes-cache.json"
+CACHE = json.loads(CACHE_PATH.read_text("utf8")) if CACHE_PATH.exists() else {}
+
 def main():
     config = json.loads((ROOT / "canales.json").read_text("utf8"))
     path = ROOT / "data.json"
@@ -176,6 +184,8 @@ def main():
             if own:
                 c["items"] = own
             taken.update(v["id"] for v in c["items"])
+    keep = {f["url"] for ch in config for f in ch["fuentes"]}
+    CACHE_PATH.write_text(json.dumps({k: v for k, v in CACHE.items() if k in keep}, ensure_ascii=False) + "\n", "utf8")
     if channels:
         path.write_text(json.dumps({"channels": channels}, ensure_ascii=False, indent=0) + "\n", "utf8")
     return 1 if failed == len(config) else 0

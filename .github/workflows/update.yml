@@ -22,7 +22,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           # Si otro cambio llega mientras tanto, se recalcula sobre la versión nueva en lugar de mezclar.
           for intento in 1 2 3; do
-            git add data.json
+            git add data.json fuentes-cache.json
             git diff --cached --quiet && exit 0
             git commit -m "Actualiza listas"
             git push && exit 0
