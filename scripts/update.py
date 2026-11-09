@@ -164,18 +164,28 @@ def main():
     config = json.loads((ROOT / "canales.json").read_text("utf8"))
     path = ROOT / "data.json"
     old = json.loads(path.read_text("utf8")) if path.exists() else {}
-    previous = {c["num"]: c for c in old.get("channels", [])}
-    channels, failed = [], 0
-    for ch in sorted(config, key=lambda c: c["num"]):
+    # Lo anterior se busca por nombre: al reordenar canales en Ajustes cambian los números.
+    previous = {c["name"]: c for c in old.get("channels", [])}
+    from concurrent.futures import ThreadPoolExecutor
+    ordered = sorted(config, key=lambda c: c["num"])
+    def safe(ch):
         try:
-            built = build(ch)
+            return build(ch), None
+        except Exception as e:
+            return None, e
+    # Varios canales a la vez: con muchas fuentes, de uno en uno tardaba más de diez minutos.
+    with ThreadPoolExecutor(4) as pool:
+        results = list(pool.map(safe, ordered))
+    channels, failed = [], 0
+    for ch, (built, err) in zip(ordered, results):
+        if built:
             channels.append(built)
             print(ch["num"], ch["name"], built["kind"], len(built.get("items", built.get("ids", []))))
-        except Exception as e:
+        else:
             failed += 1
-            print(f"{ch['num']}: error, conservo lo anterior: {e}", file=sys.stderr)
-            if ch["num"] in previous:
-                channels.append({**previous[ch["num"]], "name": ch["name"], "hours": ch.get("hours", [])})
+            print(f"{ch['num']}: error, conservo lo anterior: {err}", file=sys.stderr)
+            if ch["name"] in previous:
+                channels.append({**previous[ch["name"]], "num": ch["num"], "name": ch["name"], "hours": ch.get("hours", [])})
     # Cada vídeo, en un solo canal: el de número más bajo donde aparece.
     taken = set()
     for c in channels:
