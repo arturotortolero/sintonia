@@ -86,6 +86,9 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .key.lit{color:var(--osd)}
 #powerBtn{color:#ff7a6b}
 #moreBtn{display:none}
+.key .ipl{display:none}
+.key.pause.lit .ip{display:none}
+.key.pause.lit .ipl{display:inline}
 #sleepMin{position:absolute;right:3px;bottom:3px;font:400 15px var(--osd-font);color:var(--osd)}
 .k{min-height:36px;padding:0 12px;border-radius:6px;background:var(--rubber);font-size:13px;font-weight:600;color:#e6e7e9}
 .k.pw{background:var(--red);color:#fff}
@@ -238,6 +241,7 @@ html.old .chlist b{display:inline-block;vertical-align:middle;line-height:1}
         <div class="glass"></div>
         <div class="cine-keys">
           <button class="key" id="cineExit" aria-label="Salir de pantalla completa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+          <button class="key pause" aria-pressed="false" aria-label="Pausar"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="ip" d="M8 5v14M16 5v14"/><path class="ipl" d="M7 5l12 7-12 7z"/></svg></button>
           <button class="key mute" data-mute aria-label="Silenciar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h4l5 4v-13l-5 4zM17 9.5l5 5M22 9.5l-5 5"/></svg></button>
           <button class="key" id="cineGuide" aria-label="Guía"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg></button>
           <a class="key yt"  href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Ver este vídeo en YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9.5v5l4.5-2.5z"/></svg></a>
@@ -258,6 +262,7 @@ html.old .chlist b{display:inline-block;vertical-align:middle;line-height:1}
           <button class="key" data-seek="-30" aria-label="Retroceder 30 segundos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12a7.5 7.5 0 1 0 2.4-5.5L5 9M5 4v5h5"/><text x="8" y="15">30</text></svg></button>
           <button class="key" data-seek="30" aria-label="Adelantar 30 segundos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12a7.5 7.5 0 1 1-2.4-5.5L19 9M19 4v5h-5"/><text x="8" y="15">30</text></svg></button>
           <i class="sep"></i>
+          <button class="key pause" id="pauseBtn" aria-pressed="false" aria-label="Pausar"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="ip" d="M8 5v14M16 5v14"/><path class="ipl" d="M7 5l12 7-12 7z"/></svg></button>
           <button class="key mute" id="muteBtn" aria-pressed="false" aria-label="Silenciar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5v5h4l5 4v-13l-5 4zM17 9.5l5 5M22 9.5l-5 5"/></svg></button>
           <button class="key" id="fullBtn" aria-label="Pantalla completa"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
           <button class="key" id="moreBtn" aria-expanded="false" aria-label="Más opciones"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h.01M12 12h.01M19 12h.01"/></svg></button>
@@ -442,7 +447,8 @@ function noCaptions(){
 }
 function onState(e){
   if(!isOn) return;
-  if(e.data===YT.PlayerState.PLAYING){ playing=true; failures=0; noCaptions(); showPicture(); burstUntil=Math.min(burstUntil,performance.now()+160); const d=player.getVideoData(); if(d&&d.title) flashOsd(d.title); }
+  if(e.data===YT.PlayerState.PAUSED&&!leftForYT&&!paused){ paused=true; paintPause(); }
+  if(e.data===YT.PlayerState.PLAYING){ if(paused){paused=false;paintPause();$("osd").classList.remove("on");} playing=true; failures=0; noCaptions(); showPicture(); burstUntil=Math.min(burstUntil,performance.now()+160); const d=player.getVideoData(); if(d&&d.title) flashOsd(d.title); }
   if(e.data===YT.PlayerState.ENDED){ nextUp(); }
 }
 function onError(){
@@ -479,7 +485,7 @@ function crtFade(){
   g.style.transition="opacity 60s linear"; g.style.opacity=0;
 }
 function tune(i,silent){
-  cur=(i+CHANNELS.length)%CHANNELS.length; stage=0; turn=0; busy=0;
+  cur=(i+CHANNELS.length)%CHANNELS.length; stage=0; turn=0; busy=0; paused=false; paintPause();
   paintDial();
   $("set").classList.toggle("night",!!CHANNELS[cur].night);
   $("guide").hidden=true;
@@ -543,6 +549,7 @@ function powerOn(){
   crtFade(); if(ready){ player.setVolume(vol); tune(cur,true); clack(); } else { pendingOn=true; }
 }
 function powerOff(){
+  paused=false; paintPause();
   isOn=false; $("set").classList.remove("on"); clearTimeout(idleSafety); $("frame").classList.add("idle"); if(ready) player.stopVideo();
   sleepAt=0;sleepStep=0;paintSleep();
   if(ready) player.setVolume(vol);
@@ -669,6 +676,17 @@ document.addEventListener("visibilitychange",()=>{
 });
 $("chUp").onclick=()=>isOn&&tune(cur+1);$("chDown").onclick=()=>isOn&&tune(cur-1);
 function paintMute(){document.querySelectorAll(".mute").forEach(b=>{b.classList.toggle("lit",muted);b.setAttribute("aria-pressed",muted);});}
+/* Pausa: congela lo que ves y lo retoma donde estaba (la emisión del canal sigue en su sitio al cambiar). */
+let paused=false;
+function paintPause(){document.querySelectorAll(".key.pause").forEach(b=>{b.classList.toggle("lit",paused);b.setAttribute("aria-pressed",paused);b.setAttribute("aria-label",paused?"Seguir viendo":"Pausar");});}
+function togglePause(){
+  if(!ready||!isOn) return;
+  paused=!paused; if(paused) player.pauseVideo(); else player.playVideo();
+  paintPause();
+  $("osdNum").textContent="";$("osdName").textContent=paused?"PAUSA":"";$("osdTitle").textContent="";
+  $("osd").classList.add("on");clearTimeout(osdTimer);if(!paused)osdTimer=setTimeout(()=>$("osd").classList.remove("on"),600);
+}
+document.querySelectorAll(".key.pause").forEach(b=>b.onclick=togglePause);
 function toggleMute(){
   if(!ready) return;
   muted=!muted; if(muted) player.mute(); else player.unMute();
@@ -709,7 +727,8 @@ addEventListener("keydown",e=>{
   if(e.key==="y"||e.key==="Y"){$("ytBtn").click();}
   if(e.key==="s"||e.key==="S")cycleSleep();
   if(e.key==="a"||e.key==="A")openPrefs();
-  if(e.key===" "){e.preventDefault();if(document.activeElement&&document.activeElement.blur)document.activeElement.blur();isOn?powerOff():powerOn();}
+  if(e.key===" "||e.key==="k"||e.key==="K"){e.preventDefault();if(document.activeElement&&document.activeElement.blur)document.activeElement.blur();isOn?togglePause():powerOn();}
+  if(e.key==="o"||e.key==="O"){isOn?powerOff():powerOn();}
 });
 addEventListener("resize",paintDial);
 cur=defaultChannel(new Date().getHours());paintDial();showOff();
@@ -882,7 +901,7 @@ $("tokenSave").onclick=async()=>{
 $("tokenForget").onclick=()=>{setToken("");msg("Dispositivo desconectado.");renderPrefs();};
 /* Nombre y atajo al pasar el cursor */
 [["#chUp,#cineUp","Canal +","↑"],["#chDown,#cineDown","Canal −","↓"],['[data-seek="start"]',"Inicio","I"],['[data-seek="-30"]',"−30 s","J"],['[data-seek="30"]',"+30 s","L"],
- [".mute","Silencio","M"],["#guideBtn,#cineGuide","Guía","G"],["#zoomBtn","Zoom","Z"],[".yt","YouTube","Y"],["#sleepBtn","Sleep","S"],["#prefsBtn","Ajustes","A"],["#fullBtn","Pantalla completa","F"],["#powerBtn","Encender / Apagar","Espacio"],["#cineExit","Salir","Esc"]]
+ [".key.pause","Pausa","Espacio"],[".mute","Silencio","M"],["#guideBtn,#cineGuide","Guía","G"],["#zoomBtn","Zoom","Z"],[".yt","YouTube","Y"],["#sleepBtn","Sleep","S"],["#prefsBtn","Ajustes","A"],["#fullBtn","Pantalla completa","F"],["#powerBtn","Encender / Apagar","O"],["#cineExit","Salir","Esc"]]
 .forEach(([sel,name,key])=>document.querySelectorAll(sel).forEach(b=>{b.dataset.tip=name+" · "+key;b.setAttribute("aria-keyshortcuts",key==="Espacio"?"Space":key==="Esc"?"Escape":key==="↑"?"ArrowUp":key==="↓"?"ArrowDown":key);}));
 window.__tv={tune,state:()=>({cur,item,stage,turn,isOn,ready,playing,yt:player&&player.getPlayerState&&player.getPlayerState(),title:player&&player.getVideoData&&player.getVideoData().title,vid:player&&player.getVideoData&&player.getVideoData().video_id,t:player&&player.getCurrentTime&&player.getCurrentTime()})};
 </script>
