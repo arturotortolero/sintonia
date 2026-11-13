@@ -90,9 +90,6 @@ def has_any(title, terms):
 def read_source(src):
     info = resolve(src["url"])
     name, vids = videos(info["page"])
-    if not vids and src["url"] in CACHE:
-        # YouTube no siempre enseña un canal desde los servidores de GitHub (p. ej. por país): se usa lo último leído.
-        name, vids = CACHE[src["url"]]["name"], CACHE[src["url"]]["vids"]
     if not vids and info["type"] == "channel":
         # Si la lista sin Shorts llega vacía, se prueba la pestaña de vídeos y luego todas las subidas.
         for page in (f"https://www.youtube.com/channel/{info['id']}/videos",
@@ -100,7 +97,12 @@ def read_source(src):
             name, vids = videos(page)
             if vids:
                 break
-    if vids:
+    fresh = bool(vids)
+    if not vids and src["url"] in CACHE:
+        # YouTube no siempre enseña un canal desde los servidores de GitHub (p. ej. por país): se usa lo último leído.
+        name, vids = CACHE[src["url"]]["name"], CACHE[src["url"]]["vids"]
+        print(f"aviso, uso lo leído el {CACHE[src['url']].get('at', '?')}: {src['url']}", file=sys.stderr)
+    if vids and fresh:
         CACHE[src["url"]] = {"name": name, "vids": vids, "at": time.strftime("%Y-%m-%d")}
     if src.get("min"):
         vids = [v for v in vids if v["s"] >= float(src["min"]) * 60]
