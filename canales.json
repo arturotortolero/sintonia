@@ -20,6 +20,9 @@
       },
       {
         "url": "https://www.youtube.com/@eldiarioes"
+      },
+      {
+        "url": "https://www.youtube.com/@nytimes"
       }
     ]
   },
@@ -97,6 +100,9 @@
       },
       {
         "url": "https://www.youtube.com/@hervecuisine"
+      },
+      {
+        "url": "https://www.youtube.com/@ChefMichelDumas"
       }
     ]
   },
@@ -163,10 +169,13 @@
         "url": "https://www.youtube.com/@blogotheque/videos"
       },
       {
-        "url": "https://www.youtube.com/@amoeba/videos"
+        "url": "https://www.youtube.com/@Polyphonic/videos"
       },
       {
-        "url": "https://www.youtube.com/@Polyphonic/videos"
+        "url": "https://www.youtube.com/@retapestudios"
+      },
+      {
+        "url": "https://www.youtube.com/@arteconcert"
       }
     ]
   },
@@ -211,6 +220,21 @@
       },
       {
         "url": "https://www.youtube.com/@buzzfeedtasty"
+      },
+      {
+        "url": "https://www.youtube.com/@simonegiertz"
+      },
+      {
+        "url": "https://www.youtube.com/@laurakampf"
+      },
+      {
+        "url": "https://www.youtube.com/@FastCompany"
+      },
+      {
+        "url": "https://www.youtube.com/@UnnecessaryInventions"
+      },
+      {
+        "url": "https://www.youtube.com/@ScottYuJan/videos"
       }
     ]
   },
@@ -228,6 +252,12 @@
       },
       {
         "url": "https://www.youtube.com/@JoannaStern"
+      },
+      {
+        "url": "https://www.youtube.com/@CNET"
+      },
+      {
+        "url": "https://www.youtube.com/@CleoAbram"
       }
     ]
   },
@@ -272,6 +302,9 @@
       },
       {
         "url": "https://www.youtube.com/@DWDocumentary"
+      },
+      {
+        "url": "https://www.youtube.com/@GreatBigStory"
       }
     ]
   },
@@ -460,6 +493,9 @@
       },
       {
         "url": "https://www.youtube.com/@haegreendal/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@SoonFilms"
       }
     ]
   }
