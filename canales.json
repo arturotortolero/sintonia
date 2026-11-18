@@ -190,16 +190,7 @@
         "url": "https://www.youtube.com/@BusinessInsider"
       },
       {
-        "url": "https://www.youtube.com/@nevertoosmall"
-      },
-      {
         "url": "https://www.youtube.com/@talentmatch_es"
-      },
-      {
-        "url": "https://www.youtube.com/@konbini"
-      },
-      {
-        "url": "https://www.youtube.com/@themuseumofmodernart"
       },
       {
         "url": "https://www.youtube.com/@nytimes"
@@ -212,9 +203,6 @@
       },
       {
         "url": "https://www.youtube.com/@VICE"
-      },
-      {
-        "url": "https://www.youtube.com/@QuotidienTMC"
       },
       {
         "url": "https://www.youtube.com/@GreatBigStory"
@@ -236,6 +224,12 @@
       },
       {
         "url": "https://www.youtube.com/@ScottYuJan/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@NOWNESS"
+      },
+      {
+        "url": "https://www.youtube.com/@tested"
       }
     ]
   },
@@ -363,6 +357,21 @@
       },
       {
         "url": "https://www.youtube.com/@dezeen/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@livingbig/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@ExploringAlternatives/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@dwell/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@vitra/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@designboom/videos"
       }
     ]
   },
@@ -404,6 +413,9 @@
       },
       {
         "url": "https://www.youtube.com/@stewarthicks/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@thefutur/videos"
       }
     ]
   },
@@ -494,6 +506,48 @@
       },
       {
         "url": "https://www.youtube.com/@SoonFilms"
+      }
+    ]
+  },
+  {
+    "num": "16",
+    "name": "French",
+    "modo": "nuevo",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@innerFrench/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@EasyFrench"
+      }
+    ]
+  },
+  {
+    "num": "17",
+    "name": "Audio/Tech",
+    "modo": "nuevo",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@andrewhuang/videos"
+      },
+      {
+        "url": "https://www.youtube.com/@teenageengineering/videos"
+      }
+    ]
+  },
+  {
+    "num": "18",
+    "name": "Cinema",
+    "modo": "nuevo",
+    "hours": [],
+    "fuentes": [
+      {
+        "url": "https://www.youtube.com/@ThomasFlight"
+      },
+      {
+        "url": "https://www.youtube.com/@criterioncollection"
       }
     ]
   }
