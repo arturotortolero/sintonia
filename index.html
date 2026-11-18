@@ -51,6 +51,7 @@ button:focus-visible{outline:2px solid var(--osd);outline-offset:2px}
 .osd .num{align-self:flex-end;font-size:clamp(40px,7vw,76px);line-height:.9}
 .osd .info{font-size:clamp(19px,2.5vw,28px);line-height:1.05;max-width:85%;margin-bottom:7%}
 .osd .name{display:block}
+#osdTitle{white-space:pre-line}
 .off{position:absolute;inset:0;z-index:3;background:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:9%}
 .off[hidden]{display:none}
 .off .now{font-family:var(--osd-font);font-size:clamp(18px,2.4vw,24px);color:#fff;max-width:28em;line-height:1.1;background:rgba(5,6,6,.82);padding:10px 16px}
@@ -347,7 +348,13 @@ function seeded(str){let h=2166136261;for(let i=0;i<str.length;i++){h^=str.charC
 function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||"null");localStorage.setItem(k,JSON.stringify(v));}catch(e){return null;}}
 let dayCache=null;
 function schedule(c){
-  if(c.kind!=="linear") return c.items||[];
+  if(c.kind!=="linear"){
+    const all=c.items||[];
+    if(!c.maxHoras) return all;
+    /* Actualidad: lo que haya caducado desde la última actualización también sale. */
+    const fresh=all.filter(v=>v.p&&v.p>=Date.now()/1000-c.maxHoras*3600);
+    return fresh.length?fresh:all;
+  }
   const {key}=dayInfo();
   if(!dayCache||dayCache.key!==key){ const st=store(DAY_KEY); dayCache=st&&st.key===key?{key,ch:st.ch||{},lists:{}}:{key,ch:{},lists:{}}; }
   if(dayCache.lists[c.num]) return dayCache.lists[c.num];
@@ -495,9 +502,22 @@ function tune(i,silent){
   flashOsd("");
   if(ready&&isOn) play();
 }
+/* "Hace 3 h", "Ayer", "Hace 5 días", "12 nov 2025": cuándo se publicó un vídeo. */
+function whenText(p){
+  if(!p) return "";
+  const s=Date.now()/1000-p,h=s/3600;
+  if(h<1) return "Hace "+Math.max(1,Math.round(s/60))+" min";
+  if(h<24) return "Hace "+Math.round(h)+" h";
+  const d=new Date(p*1000),y=new Date();y.setDate(y.getDate()-1);
+  if(d.toDateString()===y.toDateString()) return "Ayer";
+  if(h<24*30) return "Hace "+Math.round(h/24)+" días";
+  return d.toLocaleDateString("es-ES",{day:"numeric",month:"short",year:"numeric"});
+}
+function videoDate(c,id){ const v=(c.items||[]).find(x=>x.id===id); return v?whenText(v.p):""; }
 function flashOsd(title){
   const c=CHANNELS[cur];
-  $("osdNum").textContent=c.num; $("osdName").textContent=c.name; $("osdTitle").textContent=title||"";
+  const vid=title&&ready&&player.getVideoData?player.getVideoData().video_id:null, when=vid?videoDate(c,vid):"";
+  $("osdNum").textContent=c.num; $("osdName").textContent=c.name; $("osdTitle").textContent=(title||"")+(when?"\n"+when:"");
   $("osd").classList.add("on"); clearTimeout(osdTimer);
   osdTimer=setTimeout(()=>$("osd").classList.remove("on"),title?4500:2500);
 }
@@ -610,7 +630,7 @@ function renderGuide(){
     if(c.kind==="latest"){s.textContent="Ahora: "+c.tagline;s2.textContent=c.sourceName;}
     else{
       const a=nowOn(c),v=a.list[a.index],nx=a.list[nextUnseen(a.list,(a.index+1)%a.list.length)];
-      s.textContent="Ahora: "+v.t;
+      s.textContent="Ahora: "+v.t+(v.p?" · "+whenText(v.p):"");
       s2.textContent=fmtClock(nowSec()+v.s-a.offset)+" · "+nx.t;
     }
     b.append(n,t,s,s2);b.onclick=()=>{if(isOn)tune(i);else{cur=i;paintDial();powerOn();}g.hidden=true;};g.append(b);
@@ -818,6 +838,8 @@ function renderDetail(){
   const nm=h("input",{value:ch.name,maxLength:24});
   nm.oninput=()=>{ch.name=nm.value;title.textContent=ch.num+" "+nm.value.toUpperCase();renderList();};
   const mode=(v,t)=>{const b=h("button",{textContent:t,onclick(){ch.modo=v;renderDetail();}});b.setAttribute("aria-pressed",ch.modo===v);return b;};
+  const age=h("input",{type:"number",min:0,inputMode:"numeric",placeholder:"Sin límite",value:ch.maxHoras||""});
+  age.oninput=()=>{const n=+age.value;if(n>0)ch.maxHoras=n;else delete ch.maxHoras;};
   const url=h("input",{placeholder:"Pega el enlace de YouTube"}),min=h("input",{type:"number",min:0,inputMode:"numeric"}),max=h("input",{type:"number",min:0,inputMode:"numeric"}),has=h("input",{});
   const add=h("button",{className:"btn2",textContent:"Añadir",onclick(){
     const u=url.value.trim();
@@ -839,6 +861,7 @@ function renderDetail(){
     h("div",{className:"phead"},title,close),
     h("div",{className:"pbody"},
       h("div",{className:"pgrid"},field("Nombre",nm),h("div",{className:"field"},h("span",{className:"flabel",textContent:"Cómo se reproduce"}),h("div",{className:"seg"},mode("tele","Como la tele"),mode("nuevo","Desde el principio")))),
+      h("div",{className:"pgrid"},field("Solo vídeos de las últimas (horas)",age),h("p",{className:"flabel",textContent:"Útil para noticias: lo más nuevo primero y nada más antiguo."})),
       sources,
       h("div",{className:"addrow"},urlF,field("Mín. min",min),field("Máx. min",max),field("Título contiene",has),add),
       h("button",{className:"danger",textContent:"Quitar canal",onclick(){

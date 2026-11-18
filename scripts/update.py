@@ -63,6 +63,35 @@ def resolve(url):
     return {"type": "channel", "id": cid, "name": title.group(1).strip() if title else "",
             "page": f"https://www.youtube.com/playlist?list=UULF{cid[2:]}"}
 
+UNITS = [("seg", 1), ("s", 1), ("min", 60), ("h", 3600), ("hora", 3600), ("d", 86400), ("día", 86400), ("dia", 86400),
+         ("sem", 604800), ("mes", 2592000), ("año", 31536000), ("ano", 31536000),
+         ("second", 1), ("minute", 60), ("hour", 3600), ("day", 86400), ("week", 604800), ("month", 2592000), ("year", 31536000)]
+
+def ago_to_time(text):
+    """'hace 6 h', 'hace 2 días', '3 weeks ago' → instante aproximado (segundos). None si no se entiende."""
+    m = re.search(r"(\d+)\s*([a-zA-Zñí]+)", text)
+    if not m or not re.search(r"hace|ago", text):
+        return None
+    n, unit = int(m.group(1)), m.group(2).lower()
+    for pre, secs in sorted(UNITS, key=lambda u: -len(u[0])):
+        if unit.startswith(pre):
+            return int(time.time()) - n * secs
+    return None
+
+def rss_dates(cid):
+    """Fecha exacta de los ~15 vídeos más nuevos de un canal (feed RSS de YouTube)."""
+    try:
+        xml = fetch(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}")
+    except Exception:
+        return {}
+    out = {}
+    for vid, pub in re.findall(r"<yt:videoId>([\w-]{11})</yt:videoId>.*?<published>([^<]+)</published>", xml, re.S):
+        try:
+            out[vid] = int(time.mktime(time.strptime(pub[:19], "%Y-%m-%dT%H:%M:%S")) - time.timezone)
+        except ValueError:
+            pass
+    return out
+
 def videos(page):
     html, data = page_with_data(page)
     title = re.search(r'<meta property="og:title" content="([^"]*)"', html)
@@ -75,7 +104,13 @@ def videos(page):
         secs = 0
         for part in t.group(1).split(":"):
             secs = secs * 60 + int(part)
-        out.append({"id": vid, "t": r["metadata"]["lockupMetadataViewModel"]["title"]["content"], "s": secs})
+        item = {"id": vid, "t": r["metadata"]["lockupMetadataViewModel"]["title"]["content"], "s": secs}
+        for txt in re.findall(r'"content": "([^"]*(?:hace|ago)[^"]*)"', json.dumps(r["metadata"], ensure_ascii=False)):
+            when = ago_to_time(txt)
+            if when:
+                item["p"] = when
+                break
+        out.append(item)
     # Formato antiguo que YouTube aún sirve a veces (según desde dónde se pida).
     for r in walk(data, "playlistVideoRenderer"):
         vid, secs = r.get("videoId"), int(r.get("lengthSeconds") or 0)
@@ -98,6 +133,9 @@ def read_source(src):
             if vids:
                 break
     fresh = bool(vids)
+    if vids and info["type"] == "channel":
+        exact = rss_dates(info["id"])
+        vids = [{**v, "p": exact[v["id"]]} if v["id"] in exact else v for v in vids]
     if not vids and src["url"] in CACHE:
         # YouTube no siempre enseña un canal desde los servidores de GitHub (p. ej. por país): se usa lo último leído.
         name, vids = CACHE[src["url"]]["name"], CACHE[src["url"]]["vids"]
@@ -145,6 +183,16 @@ def build(ch):
     if ch.get("noche"):
         out["night"] = True
     lists = [s["vids"] for s in src]
+    if ch.get("maxHoras"):
+        # Canal de actualidad: solo lo publicado en las últimas N horas, del más nuevo al más antiguo.
+        limit = time.time() - float(ch["maxHoras"]) * 3600
+        seen, items = set(), []
+        for v in sorted((v for l in lists for v in l if v.get("p", 0) >= limit), key=lambda v: -v["p"]):
+            if v["id"] not in seen:
+                seen.add(v["id"]); items.append(v)
+        if not items:
+            raise RuntimeError(f"nada publicado en las últimas {ch['maxHoras']} horas")
+        return {**out, "kind": "episodes", "maxHoras": float(ch["maxHoras"]), "items": items}
     if ch["modo"] == "tele":
         items = mix(lists)
         if ch.get("barajar"):
