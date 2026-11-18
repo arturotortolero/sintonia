@@ -14,7 +14,7 @@
 "items": [
 {
 "id": "XLWQZI7ngFw",
-"t": "CCOO pide \"responsabilidades, cabezas y dimisiones\" por actuación policial en la huelga",
+"t": "CCOO pide \"que rueden cabezas\" en la Policía por las cargas del 11N",
 "s": 633,
 "p": 1795005645
 },
@@ -32,13 +32,13 @@
 },
 {
 "id": "TVzP55qgOWs",
-"t": "El Frente Amplio plantea un IVA superreducido para los pañales y uno progresivo para la luz",
+"t": "Colau propone 0% de IVA a consumos bajos de luz, agua y gas y elevarlo progresivamente al 21%",
 "s": 453,
 "p": 1795000282
 },
 {
 "id": "7YGyVBGZNpc",
-"t": "Putin y Xi Jinping estrechan lazos en una importante reunión bilateral en China",
+"t": "Xi Jinping invita a Putin a China para mantener una reunión bilateral",
 "s": 44,
 "p": 1794998612
 },
@@ -50,21 +50,21 @@
 },
 {
 "id": "zfNVSQAXJs0",
-"t": "Las calles de Francia se llenan por una huelga general por el coste de la vida",
+"t": "Huelga general en Francia por los el alto coste de la vida",
 "s": 176,
 "p": 1794994788
-},
-{
-"id": "5Yx_2MlgYHA",
-"t": "PODCAST | Núcleo Nacional: la nueva capa de la ultraderecha · UN TEMA AL DÍA",
-"s": 963,
-"p": 1794993149
 },
 {
 "id": "kxqranqTsVg",
 "t": "Feijóo en un acto de campaña en Eibar: \"Los vascos no necesitan enfrentamientos\"",
 "s": 651,
 "p": 1794992497
+},
+{
+"id": "5Yx_2MlgYHA",
+"t": "PODCAST | Núcleo Nacional: la nueva capa de la ultraderecha · UN TEMA AL DÍA",
+"s": 963,
+"p": 1794991585
 },
 {
 "id": "BUeW5vGSf0A",
@@ -92,7 +92,7 @@
 },
 {
 "id": "AdCxE9334rY",
-"t": "¿La apertura de CENTROS de DEPORTACIONES es la muestra del FRACASO la POLÍTICA migratoria de la UE?",
+"t": "DEPORTACIONES a RUANDA: ¿Cómo funcionará este PLAN EUROPEO? | En Contexto",
 "s": 833,
 "p": 1794978025
 },
@@ -142,7 +142,19 @@
 "id": "7LQ7dlmHkIs",
 "t": "El exjuez Peinado participa en la presentación del libro sobre Zapatero en Madrid",
 "s": 78,
-"p": 1794946349
+"p": 1794944785
+},
+{
+"id": "r0RdRnZ_TfE",
+"t": "Javier Bardem apela al voto útil para proteger la sanidad, la educación pública y la vivienda",
+"s": 706,
+"p": 1794944785
+},
+{
+"id": "_VvlRCfLhdw",
+"t": "Europa frente a EE. UU. y China: el reto de recuperar competitividad",
+"s": 1562,
+"p": 1794944774
 },
 {
 "id": "IqZv2dRR00Y",
@@ -151,310 +163,292 @@
 "p": 1794942876
 },
 {
-"id": "r0RdRnZ_TfE",
-"t": "Javier Bardem apela al voto útil para proteger la sanidad, la educación pública y la vivienda",
-"s": 706,
-"p": 1794942749
-},
-{
-"id": "dWMrg3EMlAQ",
-"t": "WAYNE ROONEY revela el DRAMA que vivió en el MANCHESTER UNITED: “Pensé en SUICIDARME”",
-"s": 138,
-"p": 1794942746
-},
-{
-"id": "_VvlRCfLhdw",
-"t": "Europa frente a EE. UU. y China: el reto de recuperar competitividad",
-"s": 1562,
-"p": 1794942735
-},
-{
 "id": "BOXpmYYevvs",
 "t": "Las noticias del martes 17 de noviembre en 10 minutos | RTVE Noticias",
 "s": 620,
 "p": 1794942038
 },
 {
+"id": "dWMrg3EMlAQ",
+"t": "WAYNE ROONEY confiesa su ADICCIÓN al alcohol: “Pensé en SUICIDARME”",
+"s": 138,
+"p": 1794941182
+},
+{
 "id": "uj9SHu5E8zo",
 "t": "Deportaciones a Ruanda | 17-11 | Claves del día",
 "s": 1525,
-"p": 1794939146
+"p": 1794941182
 },
 {
 "id": "1obAagAimoM",
 "t": "¿Por qué UCRANIA ataca el PUENTE de CRIMEA? La infraestructura ESTRATÉGICA de Putin",
 "s": 122,
-"p": 1794935546
+"p": 1794937582
 },
 {
 "id": "nc6j8T3JBZI",
 "t": "Irán buscaría atacar a Washington con una \"bomba sucia\", según la inteligencia de EE. UU.",
 "s": 1561,
-"p": 1794935535
+"p": 1794937574
 },
 {
 "id": "kF0QZ_mydzE",
 "t": "NVIDIA, Trump y China: la guerra por los chips que puede cambiar el orden económico mundial",
 "s": 1562,
-"p": 1794935535
+"p": 1794933974
 },
 {
 "id": "q3wo1IWvdjc",
 "t": "RUFIÁN aboga por un GOVERN con el PSC, COMUNS y la CUP si ganan PP y VOX",
 "s": 66,
-"p": 1794931946
+"p": 1794930382
 },
 {
 "id": "uFdBGggI0nw",
 "t": "JUNTS pide a los CANDIDATOS catalanes hablar CATALÁN en el CONGRESO",
 "s": 43,
-"p": 1794931946
+"p": 1794930382
 },
 {
 "id": "WslirOAxpu4",
 "t": "Yolanda Díaz celebra la subida del SMI en un 5,3% y el fin del secreto salarial en las empresas",
 "s": 540,
-"p": 1794928349
+"p": 1794926785
 },
 {
 "id": "HdCgXbZg0co",
 "t": "Arcadi España defiende los impuestos: \"Un parto en España cuesta 3.300 euros y nadie nos pide nada\"",
 "s": 44,
-"p": 1794928349
+"p": 1794926785
 },
 {
 "id": "fKKzYCQSXEQ",
 "t": "El Gobierno sube el sueldo a los funcionarios: \"La mayor subida salarial desde 1992\"",
 "s": 532,
-"p": 1794928349
-},
-{
-"id": "9Tk9Ca4t3gs",
-"t": "HUELGA de RODALIES: 40% los TRENES cancelados",
-"s": 82,
-"p": 1794928346
+"p": 1794926785
 },
 {
 "id": "sWQfHxW-MWQ",
 "t": "Yolanda Díaz, sobre si el PSOE se apropia de sus medidas: \"Copiar si se copia bien es estupendo\"",
 "s": 62,
-"p": 1794924749
+"p": 1794926785
+},
+{
+"id": "9Tk9Ca4t3gs",
+"t": "HUELGA de RODALIES: 40% los TRENES cancelados",
+"s": 82,
+"p": 1794926782
 },
 {
 "id": "-36itaeJ9zg",
 "t": "El GOBIERNO aprueba la SUBIDIA del SMI hasta los 1.286 euros",
 "s": 156,
-"p": 1794924746
-},
-{
-"id": "pmdK-svxIVI",
-"t": "FEIJÓO ARREMETE contra SÁNCHEZ por “no condenar” el incidente VIOLENTO sufrido por ECHEVARRÍA",
-"s": 132,
-"p": 1794924746
-},
-{
-"id": "gktj4oAmlyY",
-"t": "El SUELDO de los FUNCIONARIOS SUBIRÁ un 5% en el 2027",
-"s": 114,
-"p": 1794924746
+"p": 1794926782
 },
 {
 "id": "8dLKFpMHCsI",
 "t": "Dos investigados por la muerte con disparos de gatos en el puerto pesquero de Adra (Almería)",
 "s": 52,
-"p": 1794921149
+"p": 1794923185
 },
 {
 "id": "ykrgyW9BUuw",
 "t": "Ayuso desprecia a los andaluces en otro mitin electoral",
 "s": 53,
-"p": 1794921149
+"p": 1794923185
 },
 {
 "id": "5TBrEz15TXI",
 "t": "Un rosario golpea al Papa León XIV en la cara en Perú",
 "s": 11,
-"p": 1794921149
+"p": 1794923185
 },
 {
 "id": "HaP5oi9kcHc",
-"t": "Entrevista exclusiva a Gabriel Rufián: “A Abascal y a Sílvia Orriols le paga Israel”",
+"t": "Gabriel Rufián: “A Abascal le paga Israel y a Sílvia Orriols le paga Israel”",
 "s": 2350,
-"p": 1794921149
+"p": 1794923185
 },
 {
 "id": "2tM5EURdd8M",
 "t": "PODCAST | Núcleo Nacional: la nueva capa de la ultraderecha · UN TEMA AL DÍA",
 "s": 1064,
-"p": 1794921149
+"p": 1794923185
 },
 {
 "id": "-jLgUZLn6kk",
 "t": "Glenn Close rinde homenaje a Los Javis al recibir su Oscar honorífico",
 "s": 64,
-"p": 1794921149
+"p": 1794923185
 },
 {
 "id": "-PFJrdm8hVc",
 "t": "Feijóo quiere una inmigración \"ordenada\": \"No tienen más derechos que un catalán\"",
 "s": 117,
-"p": 1794921149
+"p": 1794923185
 },
 {
-"id": "D7Z4tZm-rZ4",
-"t": "Frente Amplio exige al PSOE aprobar ya la prestación por crianza",
-"s": 120,
-"p": 1794921149
+"id": "pmdK-svxIVI",
+"t": "FEIJÓO ARREMETE contra SÁNCHEZ por “no condenar” el incidente VIOLENTO sufrido por ECHEVARRÍA",
+"s": 132,
+"p": 1794923182
+},
+{
+"id": "gktj4oAmlyY",
+"t": "El SUELDO de los FUNCIONARIOS SUBIRÁ un 5% en el 2027",
+"s": 114,
+"p": 1794923182
 },
 {
 "id": "sCYuDIfdr3Q",
 "t": "GERARD PIQUÉ critica la sanción a Owono tras la muerte de JESÚS DE MIGUEL",
 "s": 181,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "9NQh3lTh_dg",
 "t": "El 93% de las MARCAS ESPAÑOLAS gastará MÁS en INFLUENCERS | Pablo Foncillas",
 "s": 106,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "NkdtIDyXlOg",
 "t": "Cinco países europeos ACUERDAN con Ruanda crear el primer centro para DEPORTAR MIGRANTES",
 "s": 81,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "iix7MG5L63g",
 "t": "ABASCAL revindica una \"CANARIAS para los CANARIOS\" tras la entrada de MIGRANTES",
 "s": 88,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "EqNvWc-uEK8",
 "t": "Una NUEVA jornada de HUELGA en RODALIES paraliza el servicio de trenes",
 "s": 52,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "zBobYKCZdhk",
 "t": "Se DISPARAN las llegadas IRREGULARES a CANARIAS casi un 40%",
 "s": 95,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "8YXEg4NsqJ4",
-"t": "Salida a bolsa de Anthropic: ¿la mayor de la historia o la burbuja de la IA?",
+"t": "Anthropic vs OpenAI: ¿por qué su salida a bolsa lo cambia todo en la IA?",
 "s": 448,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "q3sxxillJZU",
 "t": "Paz en Ucrania: ¿cederá el Donbás a cambio de entrar en la OTAN?",
 "s": 452,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "jfvvsQEe4iY",
 "t": "Salida a bolsa de Anthropic: ¿caerá la IA? | 16-11 | Claves del día",
 "s": 1498,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "xj3tm4qtows",
 "t": "La COMPRA de VIVIENDA de EXTRANJEROS no residentes se hunde en BARCELONA",
 "s": 69,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "T01-Z1Uo85I",
 "t": "LINDSAY CLANCY será JUZGADA por SEGUNDA VEZ por el ASESINATO de sus tres HIJOS",
 "s": 69,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "H_t1gOQIUbI",
 "t": "ROBERT PATTISON será el nuevo JAMES BOND",
 "s": 74,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "mlgEfuPu-AE",
 "t": "ROSALÍA logra NUEVE nominaciones a los GRAMMY",
 "s": 59,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "UbqON_5gf58",
 "t": "TRUMP avala que HUANG vuelva al mando de NVIDIA",
 "s": 30,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "Nyopszpy7ug",
 "t": "ARGÜELLO quiere que los OBISPOS se pronuncien sobre las ELECCIONES GENERALES",
 "s": 220,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "64vgAKw43yw",
 "t": "El NOTARIO de los ANDIC asegura que Isak NUNCA se planteó DESHEREDAR a su HIJO",
 "s": 95,
-"p": 1794921146
+"p": 1794923182
 },
 {
 "id": "iAFtTKTDz3Y",
 "t": "Las noticias del lunes 16 de noviembre en 10 minutos | RTVE Noticias",
 "s": 637,
-"p": 1794921142
+"p": 1794923179
 },
 {
 "id": "ecuEy4Sb44A",
 "t": "Lula espera movilizar el voto latino en España a favor de Sánchez",
 "s": 259,
-"p": 1794921135
+"p": 1794923174
 },
 {
 "id": "YALbEFV3x-Q",
 "t": "León XIV regresa a Roma tras culminar gira con apoteósica visita a Perú",
 "s": 424,
-"p": 1794921135
+"p": 1794923174
 },
 {
 "id": "aPvScZw7pM4",
 "t": "DW Noticias 16 de noviembre: Alemania y otros cuatro países europeos pactan deportaciones a Ruanda",
 "s": 1643,
-"p": 1794921135
+"p": 1794923174
 },
 {
 "id": "vLYwiKi7EDk",
 "t": "Corea del Sur prohibirá la IA en los exámenes",
 "s": 98,
-"p": 1794921135
+"p": 1794923174
 },
 {
 "id": "pIBw4sNodSI",
 "t": "¿Por qué apenas hay autos eléctricos chinos en Estados Unidos?",
 "s": 463,
-"p": 1794921135
+"p": 1794923174
 },
 {
 "id": "QyOF7oEUEFc",
 "t": "Cinco países de UE presentan plan para crear en Ruanda un centro para migrantes expulsados",
 "s": 1562,
-"p": 1794921135
+"p": 1794923174
 },
 {
 "id": "X5xpFkpaumQ",
 "t": "¿Y si los ríos tuvieran derechos? La batalla por el río Avon",
 "s": 318,
-"p": 1794921135
+"p": 1794923174
 },
 {
 "id": "er4TLAkfPwY",
 "t": "Estonia cierra la frontera con Rusia: ¿Se suma la Unión Europea?",
 "s": 1561,
-"p": 1794921135
+"p": 1794923174
 }
 ]
 },
@@ -507,7 +501,7 @@
 },
 {
 "id": "X_sS1r4AP_E",
-"t": "Discover two variations of chickpea pancake in Italy and France",
+"t": "From Italy to France: Two Delicious Ways to Eat Chickpeas",
 "s": 492,
 "p": 1794594615
 },
@@ -579,7 +573,7 @@
 },
 {
 "id": "hBdFFCMs-Ro",
-"t": "I Spent 20 DAYS Eating on the World’s Greatest ALL INCLUSIVE \"Food Cruise\"!",
+"t": "I Spent 20 DAYS on an ALL YOU CAN EAT \"Food Cruise | Was it Worth it?",
 "s": 21069,
 "p": 1794701896
 },
@@ -596,7 +590,7 @@
 },
 {
 "id": "y8wGXpor_lU",
-"t": "Cookies feuilletés : 2 pâtes, une recette complètement différente !",
+"t": "J'ai mis de la pâte à cookies dans une pâte feuilletée… Regardez le résultat !",
 "s": 329,
 "p": 1794565822
 },
@@ -919,7 +913,7 @@
 "id": "8YWYKiRJB7E",
 "t": "76-Year-Old Teresa Makes Ravioli With 13+ Wild Herbs",
 "s": 511,
-"p": 1793193143
+"p": 1793195183
 },
 {
 "id": "jLFwDTE2XCg",
@@ -966,7 +960,7 @@
 "id": "wccIrNzRd10",
 "t": "Eric Kim prepara su cena de Acción de Gracias ideal, de principio a fin | NYT Cooking",
 "s": 2355,
-"p": 1794316358
+"p": 1794318397
 },
 {
 "id": "bbCZlK5haNg",
@@ -1100,7 +1094,7 @@
 "id": "BVuroCfqabE",
 "t": "Le di un toque moderno a la famosa tarta de cuajada de arándanos | Bake Time | NYT Cooking",
 "s": 1524,
-"p": 1794057158
+"p": 1794059197
 },
 {
 "id": "HYi_ghMmOYk",
@@ -1181,7 +1175,7 @@
 "id": "wlCkIhkWwy0",
 "t": "Dónde come realmente un chef top de NYC en su día libre – El día libre del chef",
 "s": 899,
-"p": 1792588342
+"p": 1792590382
 },
 {
 "id": "t0ScqKEZ6Dg",
@@ -1232,7 +1226,7 @@
 "id": "0qRD1SSMTkI",
 "t": "Cómo hacer el mejor puré de papas | Melissa Clark | Curso de cocina 101 | NYT Cooking",
 "s": 793,
-"p": 1793884358
+"p": 1793886397
 },
 {
 "id": "LE-Pj7boZ8c",
@@ -1290,7 +1284,7 @@
 "id": "4D4pAvxy9lo",
 "t": "How a French Chef Makes France’s Most Famous Chicken Dish | French Fundamentals | Bon Appétit",
 "s": 791,
-"p": 1793797935
+"p": 1793799975
 },
 {
 "id": "pSa-VCDOzzo",
@@ -1361,7 +1355,7 @@
 "id": "QGnnUpUsD54",
 "t": "El desayuno ideal de Yotam Ottolenghi es esta frittata de queso feta | NYT Cooking",
 "s": 364,
-"p": 1793797958
+"p": 1793799997
 },
 {
 "id": "ke73XxAGkFU",
@@ -1419,7 +1413,7 @@
 "id": "UHGWG2QVl1Q",
 "t": "This $32 Potato Is the Best in New York | Made to Order | Bon Appétit",
 "s": 759,
-"p": 1793797935
+"p": 1793799975
 },
 {
 "id": "CxX0AHuhEQ8",
@@ -1490,7 +1484,7 @@
 "id": "Nkfg-qWm5fo",
 "t": "| NYT Cooking",
 "s": 62,
-"p": 1793797958
+"p": 1793799997
 },
 {
 "id": "Z_eHCojri3w",
@@ -1548,7 +1542,7 @@
 "id": "IZo3yZy2yR4",
 "t": "NYC’s Hottest New Steakhouse is Indian | On The Line | Bon Appétit",
 "s": 906,
-"p": 1793193135
+"p": 1793195175
 },
 {
 "id": "dqpOz9pJnho",
@@ -1619,7 +1613,7 @@
 "id": "omJnBAg72mY",
 "t": "Michelle Yeoh y Hunter Schafer: La entrevista de la pizza | NYT Cooking",
 "s": 825,
-"p": 1793797958
+"p": 1793799997
 },
 {
 "id": "K5mIIDkg_6E",
@@ -1677,7 +1671,7 @@
 "id": "vs9lfTZmOMw",
 "t": "How a French Chef Makes France's Most Famous Soup | French Fundamentals | Bon Appétit",
 "s": 819,
-"p": 1793193135
+"p": 1793195175
 },
 {
 "id": "mQBIQ16C7kY",
@@ -1748,7 +1742,7 @@
 "id": "XZ_3chlKMpY",
 "t": "| NYT Cooking",
 "s": 446,
-"p": 1793193158
+"p": 1793195197
 },
 {
 "id": "8DfItei4cq0",
@@ -1805,7 +1799,7 @@
 "id": "l6N8dYQfZJ4",
 "t": "Surviving a 10-Hour Shift as a Line Cook in NYC | Life of a Line Cook | Bon Appétit",
 "s": 1559,
-"p": 1793193135
+"p": 1793195175
 },
 {
 "id": "LVJSni2TbPk",
@@ -1876,7 +1870,7 @@
 "id": "rFjkXOe4mCk",
 "t": "A Night With a Restaurant Deep Cleaner | On the Job | NYT Cooking",
 "s": 1197,
-"p": 1793193158
+"p": 1793195197
 },
 {
 "id": "yvz8z83aQBs",
@@ -2001,7 +1995,7 @@
 "id": "c0olPJdMe64",
 "t": "¡Son panqueques de pan de plátano! | Justine Doiron | NYT Cooking",
 "s": 439,
-"p": 1793193158
+"p": 1793195197
 },
 {
 "id": "F0Mp_13QHfk",
@@ -2094,7 +2088,7 @@
 "id": "c0tL0UxBFWE",
 "t": "ideas de recetas con calabaza de jamie oliver",
 "s": 3126,
-"p": 1793193148
+"p": 1793195187
 },
 {
 "id": "XTgqATMAVUw",
@@ -2125,7 +2119,7 @@
 "id": "p_TuhX-ymMU",
 "t": "Esta receta de pastel de carne (shepherd’s pie) tiene más de 8,000 calificaciones | Samantha Sene...",
 "s": 492,
-"p": 1792588358
+"p": 1792590397
 },
 {
 "id": "d5Qzlr0LAZo",
@@ -2216,7 +2210,7 @@
 "id": "nyYVQoooxD4",
 "t": "Hot pot al estilo coreano de Jamie Oliver",
 "s": 314,
-"p": 1793193148
+"p": 1793195187
 },
 {
 "id": "ulDDbH5OhJo",
@@ -2335,7 +2329,7 @@
 "id": "eRAmJf-Zbt4",
 "t": "7 MANERAS DE COCINAR UN POLLO ASADO JAMIE OLIVER",
 "s": 3137,
-"p": 1793193148
+"p": 1793195187
 },
 {
 "id": "pzKD-ujNGGM",
@@ -2453,7 +2447,7 @@
 "id": "VFR91qusOBE",
 "t": "¿Podrá Dani B superar mi reto de 20 minutos? | El martes 20",
 "s": 694,
-"p": 1792588348
+"p": 1792590387
 },
 {
 "id": "cvToBi9l9jY",
@@ -2569,7 +2563,7 @@
 "id": "J_1xoMsRMIU",
 "t": "Ideas y recetas con calabaza butternut | Jamie Oliver",
 "s": 3086,
-"p": 1792588348
+"p": 1792590387
 },
 {
 "id": "91u1UZfJBWo",
@@ -3950,7 +3944,7 @@
 "id": "Wn0N45wBIqg",
 "t": "¿De verdad se pueden hacer pierogi en 20 minutos? Jamie vs. Sorted Food | The Tuesday 20",
 "s": 1247,
-"p": 1795006348
+"p": 1795008387
 },
 {
 "id": "YMIZN_HoBjk",
@@ -5356,7 +5350,7 @@
 "id": "mX6m-B3onbY",
 "t": "¡La receta de lentejas de 30 minutos que hago una y otra vez!",
 "s": 591,
-"p": 1795005756
+"p": 1795007795
 },
 {
 "id": "4pnye5953nc",
@@ -6622,7 +6616,7 @@
 "id": "ObPZkC0i8jA",
 "t": "¡3 Deliciosas recetas de arroz que puedes hacer hoy mismo!",
 "s": 1051,
-"p": 1794748356
+"p": 1794750395
 },
 {
 "id": "Bs3AAgfyL1I",
@@ -11769,7 +11763,7 @@
 "id": "U_4upf36-z0",
 "t": "TRAUMAS 105 - “A MI TÍA NO LE DURAN LAS PAREJAS... VIVAS\" - 🇲🇽MÉXICO🇲🇽",
 "s": 1071,
-"p": 1793797934
+"p": 1793799974
 },
 {
 "id": "33glIoFlXVE",
@@ -11799,7 +11793,7 @@
 "id": "JHwVIAEmxAI",
 "t": "TRAUMAS 104 - “MI PAPÁ LE FUE INFIEL A MI MAMÁ CON MI TÍO\" - 🇲🇽MÉXICO🇲🇽",
 "s": 816,
-"p": 1793193134
+"p": 1793195174
 },
 {
 "id": "aEj2D4oM2mE",
@@ -11828,7 +11822,7 @@
 "id": "Sg1IZZQSF6g",
 "t": "TRAUMAS 103 - “ATRAPÉ A MI EX CON OTRA\" - 🇵🇷PUERTO RICO🇵🇷",
 "s": 1262,
-"p": 1792588334
+"p": 1792590374
 },
 {
 "id": "NOxFLUnE0fM",
@@ -12054,7 +12048,7 @@
 "id": "8UfyV1CTIUs",
 "t": "“NO QUISIERON NI SENTARSE A HABLAR”: Ada Colau por qué no está Podemos en Frente Amplio",
 "s": 367,
-"p": 1794748340
+"p": 1794750383
 },
 {
 "id": "lQiRdSYVFjo",
@@ -12080,7 +12074,7 @@
 "id": "9xQKPa9KH58",
 "t": "Jordi Wild pregunta directamente a Pedro Sánchez por sus cánticos de \"PEDRO SÁNCHEZ HIJO DE...\"",
 "s": 392,
-"p": 1794748340
+"p": 1794750383
 },
 {
 "id": "A3BfrQeZUd4",
@@ -12106,7 +12100,7 @@
 "id": "BbkqWNhQAVE",
 "t": "¿Eras amigo de un narcotraficante? - Jordi Wild muestra a Feijóo sus fotos con Marcial Dorado",
 "s": 419,
-"p": 1794748340
+"p": 1794750383
 },
 {
 "id": "wlnGsPUk0VA",
@@ -12130,9 +12124,9 @@
 },
 {
 "id": "mStOFBvToUI",
-"t": "The Wild Project #393 - Pedro Sánchez | Ábalos y Koldo, Ceuta y Marruecos, Su famosa hemeroteca",
+"t": "The Wild Project #393 - Pedro Sánchez",
 "s": 6727,
-"p": 1794575540
+"p": 1794577583
 },
 {
 "id": "bU2X3zS5TwE",
@@ -12156,9 +12150,9 @@
 },
 {
 "id": "1YlGArMx_N4",
-"t": "The Wild Project #392 - Alberto Núñez Feijóo | Su foto con el narco, Pensiones, Ayuso y Corrupción",
+"t": "The Wild Project #392 - Especial Elecciones: Alberto Núñez Feijóo",
 "s": 5300,
-"p": 1794575540
+"p": 1794577583
 },
 {
 "id": "lgPOXQxOnME",
@@ -12184,7 +12178,7 @@
 "id": "-ESmAhdixfo",
 "t": "The Wild Project #391 - Ada Colau | Inmigración masiva, Críticas a su alcaldía, Israel y flotilla",
 "s": 8052,
-"p": 1794575540
+"p": 1794577583
 },
 {
 "id": "T8aq18hZXlM",
@@ -12210,7 +12204,7 @@
 "id": "dCt6jXEVx0A",
 "t": "SANTIAGO ABASCAL NO VENDRÁ A THE WILD PROJECT",
 "s": 872,
-"p": 1794489140
+"p": 1794491183
 },
 {
 "id": "k-d0FPLqiZs",
@@ -12236,7 +12230,7 @@
 "id": "tPvoKmaQuHc",
 "t": "Periodista explica el horror de los TALIBANES: te podían cortar la mano por robar",
 "s": 781,
-"p": 1794402740
+"p": 1794404783
 },
 {
 "id": "0D8xydh8Lyw",
@@ -12262,7 +12256,7 @@
 "id": "MVU3AKxCfLM",
 "t": "Periodista occidental que vivía en AFGANISTÁN narra cómo usaba el BURKA para ir de incógnito",
 "s": 590,
-"p": 1794402740
+"p": 1794404783
 },
 {
 "id": "4U21eLbU9a4",
@@ -12288,7 +12282,7 @@
 "id": "TxmAiWfAPTQ",
 "t": "Así CASAN a las pobres niñas en AFGANISTÁN - Periodista relata el horror de las matrimonios afganos",
 "s": 916,
-"p": 1794402740
+"p": 1794404783
 },
 {
 "id": "yRKNim5llfc",
@@ -12314,7 +12308,7 @@
 "id": "s3AbB7hF028",
 "t": "Periodista explica el momento en el que estuvo a punto DE MORIR junto al ejército americano",
 "s": 1104,
-"p": 1794402740
+"p": 1794404783
 },
 {
 "id": "bw8t2rKju88",
@@ -12340,7 +12334,7 @@
 "id": "5VzMrk4uxjE",
 "t": "¿Qué viven en su NOCHE DE BODAS las mujeres obligadas a casarse en Afganistán?",
 "s": 574,
-"p": 1794229940
+"p": 1794231983
 },
 {
 "id": "vejK-pvbpBs",
@@ -12366,7 +12360,7 @@
 "id": "qbVT3Tq74R4",
 "t": "Así vive un mujer occidental en AFGANISTÁN: sin electricidad, frío extremo, malas miradas...",
 "s": 682,
-"p": 1794229940
+"p": 1794231983
 },
 {
 "id": "F5Tr_mVE9hM",
@@ -12392,7 +12386,7 @@
 "id": "AaM3jb4F6TU",
 "t": "La periodista que estuvo viviendo con el EJÉRCITO de USA en AFGANISTÁN cuento lo que vio allí",
 "s": 1039,
-"p": 1794143540
+"p": 1794145583
 },
 {
 "id": "fM4Rqw00TeQ",
@@ -12418,7 +12412,7 @@
 "id": "JcMwduHQQt4",
 "t": "Las MUJERES se PRENDÍAN FUEGO en AFGANISTÁN para huir de los talibanes - Periodista relata el horror",
 "s": 1037,
-"p": 1794143540
+"p": 1794145583
 },
 {
 "id": "alvaasjRrB8",
@@ -12444,7 +12438,7 @@
 "id": "GP-WrOrRVqs",
 "t": "El GOBIERNO DE ESPAÑA la VETÓ por contar la realidad de AFGANISTÁN - La periodista lo cuenta",
 "s": 1000,
-"p": 1794057140
+"p": 1794059183
 },
 {
 "id": "Q56s3Y2SzrY",
@@ -12470,7 +12464,7 @@
 "id": "nGOlDG8Dntk",
 "t": "Clavaban CLAVOS en la cabeza: una periodista vivió la BRUTALIDAD de los muyahidines",
 "s": 526,
-"p": 1794057140
+"p": 1794059183
 },
 {
 "id": "tCEgmT_UnAQ",
@@ -12496,7 +12490,7 @@
 "id": "a9HJFGyIuDU",
 "t": "Así se INFILTRÓ esta periodista en el AFGANISTÁN de los TALIBANES jugándose la vida",
 "s": 912,
-"p": 1794057140
+"p": 1794059183
 },
 {
 "id": "BkONR-OH1ug",
@@ -12522,7 +12516,7 @@
 "id": "eKV_0hrKFDc",
 "t": "The Wild Project #390 - Mònica Bernabé | Una mujer viviendo 8 años sola entre Fanáticos Islámicos",
 "s": 19554,
-"p": 1793970740
+"p": 1793972783
 },
 {
 "id": "Dh1VeL_NR4w",
@@ -12548,7 +12542,7 @@
 "id": "GtjqcqQQOq0",
 "t": "El INFIERNO bajo tierra: la historia de la cueva de los caníbales de Rusia",
 "s": 608,
-"p": 1793884340
+"p": 1793886383
 },
 {
 "id": "0yCPJpaaZMk",
@@ -12574,7 +12568,7 @@
 "id": "SgNAckX7ufE",
 "t": "El MONSTRUO MARINO que nadie ha logrado identificar - ¿Qué es el KABAGON?",
 "s": 472,
-"p": 1793884340
+"p": 1793886383
 },
 {
 "id": "iq70L3LCgBY",
@@ -12600,7 +12594,7 @@
 "id": "IOodoa_SSis",
 "t": "LAS LUCES DE MAFASCA - Terroríficas esferas brillantes que persiguen a gente",
 "s": 413,
-"p": 1793884340
+"p": 1793886383
 },
 {
 "id": "ITZzdr0tZTA",
@@ -12626,7 +12620,7 @@
 "id": "w20JgYW0IVo",
 "t": "¿CUÁL ES EL CASO OVNI MÁS DIFÍCIL DE EXPLICAR? Iván de Gran Misterio responde",
 "s": 228,
-"p": 1793884340
+"p": 1793886383
 },
 {
 "id": "RzmVlxCIrLs",
@@ -12652,7 +12646,7 @@
 "id": "fKpuGzSzFmQ",
 "t": "EL MONSTRUO DE FLATWOODS... el ser de ojos rojos y 3 metros de altura que apareció ante unos chicos",
 "s": 565,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "2K-huuFuppo",
@@ -12678,7 +12672,7 @@
 "id": "Qpm0QfOam9E",
 "t": "EL HOMBRE QUE MURIÓ QUEMADO POR UNA LUZ MISTERIOSA: el terrorífico caso de João Prestes",
 "s": 796,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "RQ4KVzQysh4",
@@ -12704,7 +12698,7 @@
 "id": "AphDak6AZI0",
 "t": "Un experto habla SIN FILTROS de los documentos OVNI que está desclasificando Trump",
 "s": 577,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "P34goJTWqwQ",
@@ -12730,7 +12724,7 @@
 "id": "e5OG66pNUwY",
 "t": "LO QUE SE ESCONDE DEBAJO DEL HIELO DE LA ANTÁRTIDA - El ser Amanda-13",
 "s": 424,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "RQvLNktmcFU",
@@ -12756,7 +12750,7 @@
 "id": "aJju2FFQ-K8",
 "t": "El caso OVNI más radical en décadas: 80 personas atacadas y heridas por unas luces blancas",
 "s": 422,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "ZpxSRzgZXu0",
@@ -12782,7 +12776,7 @@
 "id": "Tv3VJmxu5VE",
 "t": "Un EXTRAÑO ser apareció en los BOSQUES DE FINLANDIA aterrando a dos testigos para siempre... IMJARVI",
 "s": 545,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "tBxXyR7DG5A",
@@ -12808,7 +12802,7 @@
 "id": "RBFAo4NY4H0",
 "t": "El INCIDENTE DYATLOV: 9 excursionistas murieron en circunstancias de pesadilla",
 "s": 1184,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "HmrRkHUq8-k",
@@ -12834,7 +12828,7 @@
 "id": "YQBtbTCWoqo",
 "t": "El HOMBRE DEL SOMBRERO: la aterradora experiencia personal de VMGranMisterio",
 "s": 433,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "Ige1uXa3ai8",
@@ -12860,7 +12854,7 @@
 "id": "DiPt8A8gidc",
 "t": "EL ATERRADOR CASO HOPKINSVILLE: una familia acechada por criaturas durante toda una noche",
 "s": 545,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "TR4ecZfnmeQ",
@@ -12886,7 +12880,7 @@
 "id": "bc9gR7babxQ",
 "t": "¿QUÉ BUSCABAN LOS NAZIS EN MONTSERRAT? Himmler, desapariciones y misterios de la montaña",
 "s": 393,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "Edyf4Hzuh8c",
@@ -12910,9 +12904,9 @@
 },
 {
 "id": "qArQMyX28PA",
-"t": "Grabó su propia MUERTE bajo el mar: el aterrador caso de Yuri Lipski",
+"t": "El aterrador FINAL de Yuri Lipski: el submarinista que grabó su muerte",
 "s": 925,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "GzN8s2gKdxg",
@@ -12938,7 +12932,7 @@
 "id": "78FNZM29mHU",
 "t": "The Wild Project #389 - Casos Reales de Terror | El Hombre del Sombrero, Incidente Dyatlov, OVNIS",
 "s": 9314,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "fIvxE8t_LwI",
@@ -12964,7 +12958,7 @@
 "id": "zA1ooqInziw",
 "t": "¿Por qué las grandes empresas tecnológicas están DESPIDIENDO a tanta gente? - Experto en IA explica",
 "s": 651,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "jaOyCp5nxC8",
@@ -12990,7 +12984,7 @@
 "id": "peTh8bq8uNY",
 "t": "Analizando la \"BURBUJA\" de la INTELIGENCIA ARTIFICIAL: ¿Dónde está el negocio?",
 "s": 779,
-"p": 1793797940
+"p": 1793799983
 },
 {
 "id": "3cCUxyM8fFU",
@@ -13016,7 +13010,7 @@
 "id": "dFJJqolm9X0",
 "t": "Experto en IA habla sobre las PROFESIONES que más van a crecer y las que lo van a pasar fatal",
 "s": 755,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "6MCIpEL06h8",
@@ -13042,7 +13036,7 @@
 "id": "NVr_mD0oFGc",
 "t": "3 FORMAS DE USAR LA IA PARA MEJORAR TU VIDA: Los consejos de un experto",
 "s": 641,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "E-14TN5neKo",
@@ -13068,7 +13062,7 @@
 "id": "E4mCAdOEnMw",
 "t": "¿CUÁNDO TENDRÁ CONCIENCIA LA IA? Experto explica lo cerca que estamos",
 "s": 807,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "7Y431mTBVJk",
@@ -13094,7 +13088,7 @@
 "id": "mhJlqhYiNUI",
 "t": "¿Qué pasa si te ENAMORAS de una IA? Un experto explica qué podría implicar",
 "s": 319,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "L6CjF8b1z08",
@@ -13120,7 +13114,7 @@
 "id": "nl0wBOPcRHY",
 "t": "¿Qué pasa DENTRO de ChatGPT cuando le hablas? Un experto revela cómo funciona",
 "s": 487,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "BLd1vQhSeGw",
@@ -13146,7 +13140,7 @@
 "id": "6K5iBGkI0rQ",
 "t": "¿Podría la IA MANIPULAR las REDES SOCIALES para enfrentarnos entre nosotros? - Experto avisa",
 "s": 696,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "hQjLPnEdvns",
@@ -13172,7 +13166,7 @@
 "id": "_C14nWsNvTc",
 "t": "¿Ha resuelto la IA uno de los PROBLEMAS MATEMÁTICOS IMPOSIBLES? - Experto aclara el asunto",
 "s": 562,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "rSNGzWZyIoc",
@@ -13193,7 +13187,7 @@
 "id": "vcsC-lQuLl4",
 "t": "Una Inteligencia Artificial engaña por videollamada a varias personas y revienta el test de Turing",
 "s": 789,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "h-zla4hUFMs",
@@ -13214,7 +13208,7 @@
 "id": "OUMEVLYLFdc",
 "t": "SAM ALTMAN, ELON MUSK Y DARIO AMODEI: ¿Quién es MENOS de fiar?",
 "s": 579,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "hCrSUj0cn3Q",
@@ -13235,7 +13229,7 @@
 "id": "uBINiUhgM1g",
 "t": "La IA podría causar una GUERRA MUNDIAL si no revisamos bien - Esto lo dice un experto en la materia",
 "s": 884,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "yCWLaYWZxO4",
@@ -13256,7 +13250,7 @@
 "id": "-uidZ-N6Skk",
 "t": "¿Y si la IA nos MATA A TODOS? Un experto explica qué hay detrás de ese 10%",
 "s": 1268,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "fecdCMZDo5w",
@@ -13277,7 +13271,7 @@
 "id": "Et-Mkj_a66Y",
 "t": "CHATGPT, CLAUDE, GEMINI, OPUS... - Experto dice cuál es la mejor IA para cada cosa",
 "s": 1252,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "gIoDPhfWAQU",
@@ -13298,7 +13292,7 @@
 "id": "csrozpLWvb4",
 "t": "¡¡NO DES ESTA INFORMACIÓN A CHATGPT!! - Experto alerta",
 "s": 449,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "vu5SyHVo_Z4",
@@ -13319,7 +13313,7 @@
 "id": "xYQI8MMhg5o",
 "t": "¿TENDREMOS UN ROBOT EN CASA EN 2027? Experto revela lo que viene",
 "s": 958,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "z4mNrjwruhY",
@@ -13340,7 +13334,7 @@
 "id": "BswjKT9T2_w",
 "t": "La teoría del INTERNET MUERTO: ¿y si llevas años hablando con la nada? - Experto lo cuenta",
 "s": 797,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "3_lVBqJx-zE",
@@ -13361,7 +13355,7 @@
 "id": "D9AszJtt6No",
 "t": "¿Qué hace ChatGPT con lo que le cuentas? Un experto revela qué pasa con tus CHATS",
 "s": 251,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "7T2TE7936qI",
@@ -13382,7 +13376,7 @@
 "id": "XOO-6lfGIF8",
 "t": "El CASO REAL más TERRORÍFICO de rebelión de IAs: El hackeo de Hugging Face",
 "s": 732,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "tjWtrp8qpvI",
@@ -13403,7 +13397,7 @@
 "id": "ypoei24X27I",
 "t": "¿Por qué CHATGPT falla en cosas tan tontas? - Experto explica las ALUCINACIONES de las IAs",
 "s": 529,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "sv_WjXIYO4E",
@@ -13424,7 +13418,7 @@
 "id": "E3zYV4Dpgdk",
 "t": "¿Qué pasa si dejas a dos IAs hablando entre ellas? - Un experto lo explica",
 "s": 496,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "S9MFShFeneU",
@@ -13440,7 +13434,7 @@
 "id": "0FbzHpPRFjc",
 "t": "The Wild Project #388 - Brais Moure | 10 Formas en las que la IA podría EXTERMINARNOS",
 "s": 16559,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "r4gJoLGREmE",
@@ -13456,7 +13450,7 @@
 "id": "TNMJOWDYRpk",
 "t": "Charlie Sheen cuenta que NACIÓ MUERTO… y explica qué ocurrió",
 "s": 537,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "cSqfPJ6uc0k",
@@ -13472,7 +13466,7 @@
 "id": "JSphTT_798M",
 "t": "Charlie Sheen habla de su mala experiencia con OLIVER STONE en WALL STREET",
 "s": 340,
-"p": 1793193140
+"p": 1793195183
 },
 {
 "id": "nc_HC-Wag3g",
@@ -13488,7 +13482,7 @@
 "id": "mP9Tf1tVZac",
 "t": "Charlie Sheen revela al fin TODA LA VERDAD sobre DOS HOMBRES Y MEDIO",
 "s": 692,
-"p": 1793193140
+"p": 1792590383
 },
 {
 "id": "cxQ0afFM9xQ",
@@ -13504,7 +13498,7 @@
 "id": "PJ1_UOstWxE",
 "t": "Charlie Sheen carga contra el HOLLYWOOD actual",
 "s": 472,
-"p": 1792588340
+"p": 1792590383
 },
 {
 "id": "YB89hVecDF8",
@@ -13520,7 +13514,7 @@
 "id": "I0Y9x5PXcwY",
 "t": "¿Cómo sigue VIVO Charlie Sheen? Su reflexión sobre los años de adicciones",
 "s": 398,
-"p": 1792588340
+"p": 1792590383
 },
 {
 "id": "EvD_SD87JV8",
@@ -13536,7 +13530,7 @@
 "id": "UHEdWjRzqMc",
 "t": "Charlie Sheen revela los chantajes y extorsiones que sufrió durante años",
 "s": 348,
-"p": 1792588340
+"p": 1792590383
 },
 {
 "id": "1iUOXMn_5Ww",
@@ -13552,7 +13546,7 @@
 "id": "IGhnAwbHMV4",
 "t": "Charlie Sheen antes de las drogas y las fiestas: recuerda su infancia y tener un padre legendario",
 "s": 864,
-"p": 1792588340
+"p": 1792590383
 },
 {
 "id": "vxVomfKgj7A",
@@ -13568,7 +13562,7 @@
 "id": "6oLpqOxjCFU",
 "t": "El día que Charlie Sheen derrotó a MICHAEL JORDAN jugando a basket - Él mismo relata la historia",
 "s": 510,
-"p": 1792588340
+"p": 1792590383
 },
 {
 "id": "yg4ZSN0A83Q",
@@ -13584,7 +13578,7 @@
 "id": "0TSyAPLWMgY",
 "t": "Charlie Sheen recuerda el BRUTAL rodaje de PLATOON: la película que lo hizo famoso",
 "s": 756,
-"p": 1792588340
+"p": 1792590383
 },
 {
 "id": "bQojPIAJT3c",
@@ -14113,7 +14107,7 @@
 "id": "dVPCPK14sSk",
 "t": "KoRn Drummer Hears Arctic Monkeys For The First Time",
 "s": 1087,
-"p": 1794661942
+"p": 1794663982
 },
 {
 "id": "AxLqdGme5nc",
@@ -14179,7 +14173,7 @@
 "id": "ltKZtc9rQ3M",
 "t": "Club Jazzafip : Steve Okonski",
 "s": 869,
-"p": 1793797937
+"p": 1793799977
 },
 {
 "id": "kXJqbgwzqzs",
@@ -14191,7 +14185,7 @@
 "id": "wUnvUBkIOWw",
 "t": "Cómo John Tempesta creó el icónico groove de \"Dragula\"",
 "s": 528,
-"p": 1794402742
+"p": 1794404782
 },
 {
 "id": "JY9f4XylZpo",
@@ -14257,19 +14251,19 @@
 "id": "TSqu9xF7m8c",
 "t": "Club Jazzafip : Adrien Soleiman et son BelleJazzClub avec Bachar Mar-Khalifé",
 "s": 485,
-"p": 1793797937
+"p": 1793799977
 },
 {
 "id": "IwRUkl5QJNo",
 "t": "JoJo: Letra y significado de “Too Little Too Late” | Genius Verified",
 "s": 323,
-"p": 1793884340
+"p": 1793886380
 },
 {
 "id": "arBwIGECrck",
 "t": "Chad Smith's Most Underrated Drum Performance (Chickenfoot)",
 "s": 362,
-"p": 1794316342
+"p": 1794318382
 },
 {
 "id": "sVJij94KHmw",
@@ -14287,7 +14281,7 @@
 "id": "TOBmHM6_hGc",
 "t": "Sienna Senate - Do Your Thing | A COLORS SHOW",
 "s": 180,
-"p": 1794316347
+"p": 1794318386
 },
 {
 "id": "lhUZYnTaVQk",
@@ -14335,19 +14329,19 @@
 "id": "BmklV9_MuJw",
 "t": "Club Jazzafip : AMG avec Ornella Noulet",
 "s": 436,
-"p": 1793193137
+"p": 1793195177
 },
 {
 "id": "oHyGHWcaooU",
 "t": "Milo J \"Niño\" Letra Oficial Y Significado | Genius Verified",
 "s": 419,
-"p": 1793797940
+"p": 1793799980
 },
 {
 "id": "axulKy-NdZo",
 "t": "Gregg Bissonette demuestra ser un camaleón de la batería en el test de coeficiente intelectual pa...",
 "s": 417,
-"p": 1794229942
+"p": 1794231982
 },
 {
 "id": "HDxUFtOezUw",
@@ -14365,7 +14359,7 @@
 "id": "1czUusLWcZg",
 "t": "Rex Orange County - Iron Man | A COLORS SHOW",
 "s": 217,
-"p": 1793970747
+"p": 1793972786
 },
 {
 "id": "QoR0gzAjLW8",
@@ -14413,19 +14407,19 @@
 "id": "U25MQhKzDYw",
 "t": "Club Jazzafip : Dida Pelled",
 "s": 493,
-"p": 1792588337
+"p": 1792590377
 },
 {
 "id": "GBZpkNWjy0U",
 "t": "BE:FIRST “WATCH ME” (Presentación en vivo) | Open Mic",
 "s": 170,
-"p": 1793797940
+"p": 1793799980
 },
 {
 "id": "hid62SBt1y8",
 "t": "La YouTuber de metal 66Samus nos sorprende en el test de coeficiente intelectual de bateristas.",
 "s": 437,
-"p": 1794229942
+"p": 1794231982
 },
 {
 "id": "_dUxqxVoqM4",
@@ -14443,7 +14437,7 @@
 "id": "DuwDrPcC5fs",
 "t": "The Womack Sisters - I Am Your Season | A COLORS SHOW",
 "s": 243,
-"p": 1793797947
+"p": 1793799986
 },
 {
 "id": "Et_coGZFGKk",
@@ -14494,13 +14488,13 @@
 "id": "gBUFmItQtb8",
 "t": "Fabrizio: Letra y significado de “Before The Soul Goes To Waste” | Genius Verified",
 "s": 321,
-"p": 1793193140
+"p": 1793195180
 },
 {
 "id": "gzCTL5dBNRk",
 "t": "drumeo-stanton-moore-escucha-a-qotsa-crv2",
 "s": 904,
-"p": 1794057142
+"p": 1794059182
 },
 {
 "id": "XBLXmwxSd-0",
@@ -14518,7 +14512,7 @@
 "id": "TW3Hy5-Z2Pc",
 "t": "Anderson .Paak & Cordae - 58th Floor | A COLORS SHOW",
 "s": 181,
-"p": 1793797947
+"p": 1793799986
 },
 {
 "id": "g1wKae4Snvk",
@@ -14568,13 +14562,13 @@
 "id": "L0DYaO4lWZI",
 "t": "RAYE “Click Clack Symphony.” Letra y significado | Genius Verified",
 "s": 557,
-"p": 1793193140
+"p": 1793195180
 },
 {
 "id": "xqYkMYSq2RE",
 "t": "Stevo32 revisita los clásicos de Sum 41, 25 años después",
 "s": 3911,
-"p": 1793797942
+"p": 1793799982
 },
 {
 "id": "3dQQ2Bmh5W0",
@@ -14592,7 +14586,7 @@
 "id": "sFZGWPQq3ms",
 "t": "Love Spells | A COLORS INTERVIEW",
 "s": 257,
-"p": 1793797947
+"p": 1793799986
 },
 {
 "id": "KzXDJELwhTM",
@@ -14621,7 +14615,7 @@
 "id": "YplYRNMCzwk",
 "t": "\"Ghost Town\" - (The Specials Cover) by Flora Fishbach - ARTE Concert",
 "s": 250,
-"p": 1794661959
+"p": 1794664000
 },
 {
 "id": "wnKzRje8WEc",
@@ -14642,13 +14636,13 @@
 "id": "YnWSyI8tyss",
 "t": "Jae Stephens \"No One Knows My Name\" (Auda City Pledge Version) (Live Performance) | Open Mic",
 "s": 200,
-"p": 1793193140
+"p": 1793195180
 },
 {
 "id": "lU9eLzAZ90s",
 "t": "La icónica batería detrás de “Memento Mori” | Lamb Of God",
 "s": 582,
-"p": 1793797942
+"p": 1793799982
 },
 {
 "id": "Bs-eWa0Y1MM",
@@ -14666,7 +14660,7 @@
 "id": "Gevh6u7wkfw",
 "t": "Love Spells - Maybe I Still Love You | A COLORS SHOW",
 "s": 240,
-"p": 1793797947
+"p": 1793799986
 },
 {
 "id": "4zW-yEp3mUA",
@@ -14695,7 +14689,7 @@
 "id": "895NQCZurrQ",
 "t": "Avishai Cohen - Festival de jazz de Leverkusen 2026 - ARTE Concert",
 "s": 4794,
-"p": 1794575559
+"p": 1794577600
 },
 {
 "id": "7K9H6eluKwA",
@@ -14716,13 +14710,13 @@
 "id": "Z4Lj6Cd6Tq0",
 "t": "Ed Maverick - ESCOMBRO (Live) | Open Mic on @genius",
 "s": 278,
-"p": 1792588340
+"p": 1792590380
 },
 {
 "id": "r8s-khApBPM",
 "t": "Dave Grohl engañó a todos con esta parte de batería de Nirvana",
 "s": 1042,
-"p": 1793193142
+"p": 1793195182
 },
 {
 "id": "AVrXn4Hu95w",
@@ -14740,7 +14734,7 @@
 "id": "mK43i_9aXPg",
 "t": "nomi. - r u? | A COLORS SHOW",
 "s": 167,
-"p": 1793193147
+"p": 1793195186
 },
 {
 "id": "z2bJQRhZze0",
@@ -14769,7 +14763,7 @@
 "id": "ZiXnJFq50s8",
 "t": "Alizade - Braths Sessions - ARTE Concert",
 "s": 555,
-"p": 1794489159
+"p": 1794491200
 },
 {
 "id": "4sZG-S8xoA8",
@@ -14795,7 +14789,7 @@
 "id": "eb01q2oPSEM",
 "t": "drumeo-media-el-estepario-siberiano-escucha-NIN-ftft-v4",
 "s": 873,
-"p": 1793193142
+"p": 1793195182
 },
 {
 "id": "rVOT9v2zCME",
@@ -14813,13 +14807,13 @@
 "id": "_t55oy0GzOw",
 "t": "Victony - 2FRESH | A COLORS SHOW",
 "s": 155,
-"p": 1793193147
+"p": 1793195186
 },
 {
 "id": "Gpld7f3w2Jo",
 "t": "Chelsea Wolfe - The Dark (En vivo en KEXP)",
 "s": 219,
-"p": 1794575551
+"p": 1794577590
 },
 {
 "id": "1gINATB2Eik",
@@ -14842,7 +14836,7 @@
 "id": "5Fa4ZfAxZT4",
 "t": "Gildaa, live at the Prix Joséphine 2026 - ARTE Concert",
 "s": 734,
-"p": 1794489159
+"p": 1794491200
 },
 {
 "id": "DKm5R7WbXLg",
@@ -14868,7 +14862,7 @@
 "id": "eVorXW7UjTY",
 "t": "Aaron Gillespie vs. El desafío de batería de Nine Inch Nails",
 "s": 627,
-"p": 1792588342
+"p": 1792590382
 },
 {
 "id": "ROTwFlTS9kY",
@@ -14886,13 +14880,13 @@
 "id": "O6mRxDItyWQ",
 "t": "Ryan Beatty - Delancey | A COLORS SHOW",
 "s": 214,
-"p": 1792588347
+"p": 1792590386
 },
 {
 "id": "FLuuBf90mnk",
 "t": "Chelsea Wolfe - Turn The Key (En vivo en KEXP)",
 "s": 281,
-"p": 1794575551
+"p": 1794577590
 },
 {
 "id": "PavxkOGhGIk",
@@ -14914,7 +14908,7 @@
 "id": "jRR7xSNLm-Q",
 "t": "Al Di Meola - Festival de jazz de Leverkusen 2026 - ARTE Concert",
 "s": 6469,
-"p": 1794489159
+"p": 1794491200
 },
 {
 "id": "qtf9Qn22RCo",
@@ -14961,7 +14955,7 @@
 "id": "RzSSZe9j9Fg",
 "t": "Chelsea Wolfe - Death Is Not The End (Live on KEXP)",
 "s": 284,
-"p": 1794575551
+"p": 1794577590
 },
 {
 "id": "IfSVhOa5SE0",
@@ -14983,7 +14977,7 @@
 "id": "nX8y5Y0YxTQ",
 "t": "Wamen - Braths Sessions - ARTE Concert",
 "s": 818,
-"p": 1794316359
+"p": 1794318400
 },
 {
 "id": "f3rrlyiQU-A",
@@ -15029,7 +15023,7 @@
 "id": "OoZYrWjRvaQ",
 "t": "Chelsea Wolfe - Cold (En vivo en KEXP)",
 "s": 290,
-"p": 1794575551
+"p": 1794577590
 },
 {
 "id": "4m9Lx0Ncu5k",
@@ -15050,7 +15044,7 @@
 "id": "ysBMzbQG71E",
 "t": "aupinard, live at the Prix Joséphine 2026 - ARTE Concert",
 "s": 361,
-"p": 1794316359
+"p": 1794318400
 },
 {
 "id": "fzK8V3nfHvo",
@@ -15096,7 +15090,7 @@
 "id": "Qws6-I8IDQE",
 "t": "Commemorate - Full Performance (Live on KEXP)",
 "s": 1704,
-"p": 1794575551
+"p": 1794577590
 },
 {
 "id": "gdJ1cm-gWzQ",
@@ -15117,7 +15111,7 @@
 "id": "DHaFkGTxmpo",
 "t": "\"Space Oddity\" (David Bowie Cover) by Aime Simone - ARTE Concert",
 "s": 323,
-"p": 1794229959
+"p": 1794232000
 },
 {
 "id": "jZixTe8Py7o",
@@ -15136,7 +15130,7 @@
 },
 {
 "id": "K6HcQqaLuHw",
-"t": "TUIDE - “Flip-Flop Girl” (Live) | @genius Performance Open Mic",
+"t": "TUIDE - “Flip-Flop Girl” (Live) | Open Mic @genius",
 "s": 192
 },
 {
@@ -15163,7 +15157,7 @@
 "id": "X9pTek80J4I",
 "t": "Commemorate - See You Again (Live on KEXP)",
 "s": 246,
-"p": 1794575551
+"p": 1794577590
 },
 {
 "id": "_qvERtZ5_pA",
@@ -15184,7 +15178,7 @@
 "id": "VEqUKEuAjF8",
 "t": "Souly - Braths Sessions - ARTE Concert",
 "s": 663,
-"p": 1794143559
+"p": 1794145600
 },
 {
 "id": "MAkW607fgE8",
@@ -15230,7 +15224,7 @@
 "id": "n9dxtkilLws",
 "t": "Commemorate - Dazed (Live on KEXP)",
 "s": 362,
-"p": 1794489151
+"p": 1794491190
 },
 {
 "id": "VwvFYt9Wrzw",
@@ -15251,7 +15245,7 @@
 "id": "o3CbWdaU3n4",
 "t": "Shygirl, live in Paris - ARTE Concert 2026",
 "s": 3108,
-"p": 1794057159
+"p": 1794059200
 },
 {
 "id": "yyCZLoTFIB4",
@@ -15297,7 +15291,7 @@
 "id": "g2yDVKYRVbU",
 "t": "Commemorate - Bajar el ritmo (En vivo en KEXP)",
 "s": 279,
-"p": 1794489151
+"p": 1794491190
 },
 {
 "id": "UtAbIAWjugY",
@@ -15318,7 +15312,7 @@
 "id": "YGrt6GuF-nU",
 "t": "UCHE YARA \"hello, hello\", live in Paris – ARTE Concert",
 "s": 194,
-"p": 1793970759
+"p": 1793972800
 },
 {
 "id": "3vbItFOxMt4",
@@ -15364,7 +15358,7 @@
 "id": "PrOmq2WIHyA",
 "t": "Commemorate - P.S. (Please Stay) (Live on KEXP)",
 "s": 431,
-"p": 1794489151
+"p": 1794491190
 },
 {
 "id": "nvV28qb8los",
@@ -15385,7 +15379,7 @@
 "id": "f-14RQ5S9q8",
 "t": "UCHE YARA, live in Paris - ARTE Concert 2026",
 "s": 3425,
-"p": 1793797959
+"p": 1793800000
 },
 {
 "id": "JxkyBQaEvvc",
@@ -15431,7 +15425,7 @@
 "id": "AK1Py16KkJE",
 "t": "Commemorate - Away (Live on KEXP)",
 "s": 335,
-"p": 1794489151
+"p": 1794491190
 },
 {
 "id": "7tIC16OCb0k",
@@ -15452,7 +15446,7 @@
 "id": "UFCD3_0PNxo",
 "t": "Uzi Freyja, live in Paris - ARTE Concert 2026",
 "s": 2110,
-"p": 1793797959
+"p": 1793800000
 },
 {
 "id": "hRx7EAV42_U",
@@ -15498,7 +15492,7 @@
 "id": "BlKQ30FYJNg",
 "t": "Inspirative - Full Performance (Live on KEXP)",
 "s": 1714,
-"p": 1794489151
+"p": 1794491190
 },
 {
 "id": "BqClh8IvVMQ",
@@ -15519,7 +15513,7 @@
 "id": "h_sySBuFzLU",
 "t": "Kneecap, live in Paris - ARTE Concert Festival 2026",
 "s": 4855,
-"p": 1793797959
+"p": 1793800000
 },
 {
 "id": "bNUiBQTJw_o",
@@ -15565,7 +15559,7 @@
 "id": "uusPCPN8agE",
 "t": "Inspirative - Why (Live on KEXP)",
 "s": 504,
-"p": 1794402751
+"p": 1794404790
 },
 {
 "id": "slpAIQlA2fQ",
@@ -15586,7 +15580,7 @@
 "id": "wNjRAFtlNFI",
 "t": "Only Real, live in Paris - ARTE Concert Festival 2026",
 "s": 1705,
-"p": 1793797959
+"p": 1793800000
 },
 {
 "id": "maukzHU-i-4",
@@ -15632,7 +15626,7 @@
 "id": "uQ3qT3anufo",
 "t": "Inspirative - The Last Journey (Live on KEXP)",
 "s": 498,
-"p": 1794402751
+"p": 1794404790
 },
 {
 "id": "vazkLbRTP8g",
@@ -15653,7 +15647,7 @@
 "id": "xQqdBeinHiA",
 "t": "\"Ain't Got No / I Got Life\" (Nina Simone Cover) by Uzi Freyja - ARTE Concert",
 "s": 250,
-"p": 1793797959
+"p": 1793800000
 },
 {
 "id": "xdT9a26qthI",
@@ -15699,7 +15693,7 @@
 "id": "yB7ONx122nc",
 "t": "Inspirative - After 27 Years, I’m Alive (Live on KEXP)",
 "s": 262,
-"p": 1794402751
+"p": 1794404790
 },
 {
 "id": "QbV_LwxmaOM",
@@ -15720,7 +15714,7 @@
 "id": "f3I_6GhK0vg",
 "t": "Dhafer Youssef - Nancy Jazz Pulsations 2026 - ARTE Concert",
 "s": 4276,
-"p": 1793193159
+"p": 1793195200
 },
 {
 "id": "p4TXdrwv558",
@@ -15766,7 +15760,7 @@
 "id": "qgZKZAYAdSk",
 "t": "Inspirative - Follow the GPS (Live on KEXP)",
 "s": 468,
-"p": 1794402751
+"p": 1794404790
 },
 {
 "id": "JZ2g7tgJ-EY",
@@ -15787,7 +15781,7 @@
 "id": "ISd3Ht695hE",
 "t": "Moha MMZ : \"Mikasa\" - ARTE Dans le Club",
 "s": 217,
-"p": 1793193159
+"p": 1793195200
 },
 {
 "id": "ZNuJUvgb-KE",
@@ -15833,7 +15827,7 @@
 "id": "qbYI8cixutY",
 "t": "Slowwves - Actuación completa (En vivo en KEXP)",
 "s": 1429,
-"p": 1794402751
+"p": 1794404790
 },
 {
 "id": "MuON78nIJ8c",
@@ -15854,7 +15848,7 @@
 "id": "x1w8-o70sZs",
 "t": "Tatie Dee - ARTE Mix ø Trabendo 2026 - ARTE Concert",
 "s": 3749,
-"p": 1792588359
+"p": 1792590400
 },
 {
 "id": "jji29Dmmey0",
@@ -15900,7 +15894,7 @@
 "id": "GRunLx0PZKk",
 "t": "Slowwves - Killed By Egoistic Disease (Live on KEXP)",
 "s": 316,
-"p": 1794402751
+"p": 1794404790
 },
 {
 "id": "APOOfwImatw",
@@ -15966,7 +15960,7 @@
 "id": "UNE8a-AGo3Q",
 "t": "Slowwves - Vortex (Live on KEXP)",
 "s": 221,
-"p": 1794316351
+"p": 1794318390
 },
 {
 "id": "g95qpG98gEc",
@@ -16032,7 +16026,7 @@
 "id": "OGBXbNoFWEw",
 "t": "Slowwves - Evangeline (Live on KEXP)",
 "s": 393,
-"p": 1794316351
+"p": 1794318390
 },
 {
 "id": "QcyhEOCMJ6g",
@@ -16098,7 +16092,7 @@
 "id": "EeI8OkqYbbQ",
 "t": "Slowwves - Anywhere Else (Live on KEXP)",
 "s": 247,
-"p": 1794316351
+"p": 1794318390
 },
 {
 "id": "KTUaOkPaeR0",
@@ -16164,7 +16158,7 @@
 "id": "3BAJorSN7Y8",
 "t": "Slowwves - Labyrinth (Live on KEXP)",
 "s": 211,
-"p": 1794316351
+"p": 1794318390
 },
 {
 "id": "a8S1zDsR5kM",
@@ -16230,7 +16224,7 @@
 "id": "xdr2Wm_byXk",
 "t": "anaiis - Green Juice (En vivo en KEXP)",
 "s": 337,
-"p": 1794316351
+"p": 1794318390
 },
 {
 "id": "FtTMRIqmjFw",
@@ -16296,7 +16290,7 @@
 "id": "rlJ7aOPueXI",
 "t": "anaiis - Dreamer Too (En vivo en KEXP)",
 "s": 279,
-"p": 1794229951
+"p": 1794231990
 },
 {
 "id": "o-oeK-LVqoI",
@@ -16362,7 +16356,7 @@
 "id": "rbgBXm-GnJo",
 "t": "anaiis - My World (Beyond) (En vivo en KEXP)",
 "s": 297,
-"p": 1794229951
+"p": 1794231990
 },
 {
 "id": "F827iMjacfM",
@@ -16428,7 +16422,7 @@
 "id": "Eym4VYd6OsM",
 "t": "anaiis - En tiempo real (En vivo en KEXP)",
 "s": 197,
-"p": 1794229951
+"p": 1794231990
 },
 {
 "id": "feF0g6Z5Esc",
@@ -16489,7 +16483,7 @@
 "id": "o06k79idM9E",
 "t": "anaiis - Sunshine (En vivo en KEXP)",
 "s": 296,
-"p": 1794229951
+"p": 1794231990
 },
 {
 "id": "Kp9jroKpcNU",
@@ -16550,7 +16544,7 @@
 "id": "fJjg0QykS5Q",
 "t": "anaiis - Presentación completa (En vivo en KEXP)",
 "s": 2028,
-"p": 1794229951
+"p": 1794231990
 },
 {
 "id": "r8r-r8L2Sw8",
@@ -16611,7 +16605,7 @@
 "id": "V8KJ89LFjD8",
 "t": "Shabazz Palaces - Actuación completa (En vivo en KEXP)",
 "s": 1471,
-"p": 1794057151
+"p": 1794059190
 },
 {
 "id": "7iXTAVW3Ejc",
@@ -16672,7 +16666,7 @@
 "id": "DAaFOY4fc00",
 "t": "Shabazz Palaces - Un eco de los anfitriones que profesan el infinitum (En vivo en KEXP)",
 "s": 335,
-"p": 1793970751
+"p": 1793972790
 },
 {
 "id": "qC_BGCweA4Q",
@@ -16733,7 +16727,7 @@
 "id": "1pfZ-p2A-8c",
 "t": "Shabazz Palaces - ¿Estás... Puedes... Eras? (Felt) (En vivo en KEXP)",
 "s": 361,
-"p": 1793970751
+"p": 1793972790
 },
 {
 "id": "72tzkwZt7Rw",
@@ -16794,7 +16788,7 @@
 "id": "0-N61rZsowk",
 "t": "Shabazz Palaces - Jheri Curl Jump (En vivo en KEXP)",
 "s": 223,
-"p": 1793970751
+"p": 1793972790
 },
 {
 "id": "RpWjVw3p-8k",
@@ -16855,7 +16849,7 @@
 "id": "FToJTq6fMgQ",
 "t": "Shabazz Palaces - Tongue In Chic (En vivo en KEXP)",
 "s": 255,
-"p": 1793970751
+"p": 1793972790
 },
 {
 "id": "wqqmse0A5mA",
@@ -16916,7 +16910,7 @@
 "id": "u-pJE8Udvpg",
 "t": "Hariguem Zaboy - Presentación completa (En vivo en KEXP)",
 "s": 836,
-"p": 1793970751
+"p": 1793972790
 },
 {
 "id": "3K4TLcTWi4I",
@@ -16977,7 +16971,7 @@
 "id": "_kWuO8rN-hE",
 "t": "Hariguem Zaboy - Radio Burst (En vivo en KEXP)",
 "s": 193,
-"p": 1793970751
+"p": 1793972790
 },
 {
 "id": "F0IgmOGrci0",
@@ -17038,7 +17032,7 @@
 "id": "jJZ7ZeS06NQ",
 "t": "Hariguem Zaboy - Roomful Of Cool (Live on KEXP)",
 "s": 164,
-"p": 1793884351
+"p": 1793886390
 },
 {
 "id": "6WE5EoXeyQ4",
@@ -17099,7 +17093,7 @@
 "id": "ewRuCAeb1EU",
 "t": "Hariguem Zaboy - This Kind Of Meth (Make You Confess) (En vivo en KEXP)",
 "s": 175,
-"p": 1793884351
+"p": 1793886390
 },
 {
 "id": "fu4aUnTG2Iw",
@@ -17160,7 +17154,7 @@
 "id": "9utHd3OrPeE",
 "t": "Hariguem Zaboy - Christine Thompson (Live on KEXP)",
 "s": 181,
-"p": 1793884351
+"p": 1793886390
 },
 {
 "id": "tZu8aZjhfdI",
@@ -17221,7 +17215,7 @@
 "id": "wj7Hkryx7hg",
 "t": "Hariguem Zaboy - Whoa!!! (Live on KEXP)",
 "s": 128,
-"p": 1793884351
+"p": 1793886390
 },
 {
 "id": "pdYdZY_ZRUo",
@@ -17282,7 +17276,7 @@
 "id": "GXVZMiDbtiM",
 "t": "sub:shaman - Actuación completa (En vivo en KEXP)",
 "s": 1548,
-"p": 1793884351
+"p": 1793886390
 },
 {
 "id": "dPQPM8NS8eo",
@@ -17343,7 +17337,7 @@
 "id": "GNOjXB9p2_s",
 "t": "sub:shaman - cómete mi lengua (En vivo en KEXP)",
 "s": 255,
-"p": 1793884351
+"p": 1793886390
 },
 {
 "id": "U2LrguefuqY",
@@ -17404,7 +17398,7 @@
 "id": "5tFv_E2WQes",
 "t": "sub:shaman - Apnea (Live on KEXP)",
 "s": 275,
-"p": 1793884351
+"p": 1793886390
 },
 {
 "id": "xhVrVRtkaI0",
@@ -17465,7 +17459,7 @@
 "id": "ZXHLCAsaWxs",
 "t": "sub:shaman - Maraschino Mist (En vivo en KEXP)",
 "s": 297,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "gZXQJAvyvfA",
@@ -17526,7 +17520,7 @@
 "id": "RWuwrCEuWzQ",
 "t": "sub:shaman - understanza (En vivo en KEXP)",
 "s": 281,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "9u_pnVCiR7c",
@@ -17587,7 +17581,7 @@
 "id": "9B2gFoQsZdo",
 "t": "sub:shaman - cheshire cat (En vivo en KEXP)",
 "s": 215,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "9TjF0s59mDQ",
@@ -17648,7 +17642,7 @@
 "id": "4KaSeHIsvS4",
 "t": "sub:shaman - choke well (En vivo en KEXP)",
 "s": 218,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "YgaK6B1usDA",
@@ -17709,7 +17703,7 @@
 "id": "BWyrhKi-0Ck",
 "t": "Çudamani - Full Performance (Live on KEXP)",
 "s": 1691,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "QMY5yE6hyio",
@@ -17770,7 +17764,7 @@
 "id": "V8HVygM1Z6I",
 "t": "Çudamani - Rerejangan (Live on KEXP)",
 "s": 468,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "sA1D1BHcTrE",
@@ -17831,7 +17825,7 @@
 "id": "CJkwHp-IxOY",
 "t": "Çudamani - Lipi Lengis (Live on KEXP)",
 "s": 332,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "fDcoe4vu2CM",
@@ -17892,7 +17886,7 @@
 "id": "HlttcDh5EeA",
 "t": "Çudamani - Rejang Lente (Live on KEXP)",
 "s": 326,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "olipGG7qByY",
@@ -17953,7 +17947,7 @@
 "id": "C1Rz7nEmchk",
 "t": "Çudamani - Sekar Gadung (Live on KEXP)",
 "s": 515,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "2QwDb6v4FVA",
@@ -18014,7 +18008,7 @@
 "id": "dW_7LAB1zF8",
 "t": "Chanpan - Presentación completa (En vivo en KEXP)",
 "s": 1681,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "wR061jZahp4",
@@ -18075,7 +18069,7 @@
 "id": "bVwSZQPjRYE",
 "t": "Chanpan - romántico (En vivo en KEXP)",
 "s": 222,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "0MQuPGyJ8ho",
@@ -18136,7 +18130,7 @@
 "id": "mxLJxKfrCeM",
 "t": "Chanpan - buzzin (En vivo en KEXP)",
 "s": 177,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "Zt65NTaEgbY",
@@ -18197,7 +18191,7 @@
 "id": "P-a0yWL-u98",
 "t": "Chanpan - infinitamente (En vivo en KEXP)",
 "s": 193,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "tKWv2dD28lA",
@@ -18258,7 +18252,7 @@
 "id": "e2eFWYYWdV0",
 "t": "Chanpan - especulaciones (En vivo en KEXP)",
 "s": 248,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "MCBW2qsmeOc",
@@ -18319,7 +18313,7 @@
 "id": "egDlxXlgfH8",
 "t": "Russian Circles - Presentación completa (En vivo en KEXP)",
 "s": 2336,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "tTJhecxHTC4",
@@ -18380,7 +18374,7 @@
 "id": "ZLSqIZsRj8M",
 "t": "Russian Circles - Empath (Live on KEXP)",
 "s": 327,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "G63mWTzen1Q",
@@ -18441,7 +18435,7 @@
 "id": "FL0SBcKsMqg",
 "t": "Russian Circles - Deficit (Live on KEXP)",
 "s": 430,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "pbuEkYPQiRk",
@@ -18502,7 +18496,7 @@
 "id": "7mMkQXFbMsc",
 "t": "Russian Circles - Eluvial (Live on KEXP)",
 "s": 533,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "RUxz6-Pg2gY",
@@ -18563,7 +18557,7 @@
 "id": "_rsT45DtcAI",
 "t": "Russian Circles - Harper Lewis (Live on KEXP)",
 "s": 464,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "TYtIjw1Iv68",
@@ -18624,7 +18618,7 @@
 "id": "YdSY5DPq9n4",
 "t": "Basajan - Presentación completa (En vivo en KEXP)",
 "s": 1314,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "6UuW5CbXdLY",
@@ -18685,7 +18679,7 @@
 "id": "MJYbHo6VG_c",
 "t": "Basajan - Waas (Live on KEXP)",
 "s": 251,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "gX9CGR4RhWg",
@@ -18746,7 +18740,7 @@
 "id": "8-FkJpU3JqY",
 "t": "Basajan - Panonpoé (Live on KEXP) (Live on KEXP)",
 "s": 292,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "Ws6928Rpmd8",
@@ -18807,7 +18801,7 @@
 "id": "SFeLVXqLLeQ",
 "t": "Basajan - Budak Leutik Bisa Ngapung (Live on KEXP)",
 "s": 245,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "0broK9R1_q8",
@@ -18868,7 +18862,7 @@
 "id": "nto3RG0_EDo",
 "t": "Basajan - Pileuleuyan / Uleman (Live on KEXP)",
 "s": 228,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "6HobvkRFZeI",
@@ -18929,7 +18923,7 @@
 "id": "vHVPpmSYWbc",
 "t": "Basajan - Nadoman (Live on KEXP)",
 "s": 261,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "Tfq9cMphdn0",
@@ -18985,7 +18979,7 @@
 "id": "7hAX5Jfc7jk",
 "t": "Yellow Fang - Presentación completa (En vivo en KEXP)",
 "s": 1660,
-"p": 1793797951
+"p": 1793799990
 },
 {
 "id": "eh-ii0fuZM8",
@@ -19041,7 +19035,7 @@
 "id": "_EI6dafwR3Q",
 "t": "Yellow Fang - Unreal (Live on KEXP)",
 "s": 247,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "0jQy99rskgQ",
@@ -19097,7 +19091,7 @@
 "id": "419q0kKmd8M",
 "t": "Yellow Fang - Day To Dark (Live on KEXP)",
 "s": 244,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "whu8bH0w1GI",
@@ -19148,7 +19142,7 @@
 "id": "8JYpKuw9AJ8",
 "t": "Yellow Fang - If Only (En vivo en KEXP)",
 "s": 283,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "C601O-PaPTo",
@@ -19199,7 +19193,7 @@
 "id": "MuCk0pzHDvA",
 "t": "Yellow Fang - I Don't Know (En vivo en KEXP)",
 "s": 301,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "LCjQsB0sDW8",
@@ -19250,7 +19244,7 @@
 "id": "zDzoPp2RZQc",
 "t": "Yellow Fang - Athithan (Live on KEXP)",
 "s": 338,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "RtA_7mW9z_Q",
@@ -19301,7 +19295,7 @@
 "id": "zi1Pm3csVGI",
 "t": "Yellow Fang - Morning (En vivo en KEXP)",
 "s": 226,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "Ej9LHiZqXsM",
@@ -19352,7 +19346,7 @@
 "id": "qWsLRr8hCHU",
 "t": "Motivos - Actuación completa (en directo en KEXP)",
 "s": 1609,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "tcJm4P4mUB8",
@@ -19403,7 +19397,7 @@
 "id": "RwAum_atcqo",
 "t": "motifs - Maybe In Another Dream (Live on KEXP)",
 "s": 417,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "jf4USVZRZGo",
@@ -19454,7 +19448,7 @@
 "id": "d1zWRL72ihk",
 "t": "motifs - hourglass (Live on KEXP)",
 "s": 274,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "VCCLjhe5pqs",
@@ -19505,7 +19499,7 @@
 "id": "C3SOErvGfAk",
 "t": "motifs - Aug 16 (Live on KEXP)",
 "s": 223,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "baS2ufZ6DTA",
@@ -19556,7 +19550,7 @@
 "id": "naZjvpM60Lk",
 "t": "motifs - remember a stranger (Live on KEXP)",
 "s": 289,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "MayG8HtIX3g",
@@ -19607,7 +19601,7 @@
 "id": "6JNs-PwQ8ws",
 "t": "motifs - summersad (Live on KEXP)",
 "s": 373,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "vezkWEyNs2I",
@@ -19658,7 +19652,7 @@
 "id": "4QR09jzaQ1o",
 "t": "Wildwood Sessions - Presentación completa (En vivo en KEXP)",
 "s": 1962,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "PggrS0DqsdY",
@@ -19709,7 +19703,7 @@
 "id": "nsCOca_ga2Y",
 "t": "Wildwood Sessions feat. Ringdown - The Hill (En vivo en KEXP)",
 "s": 242,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "b1HyS-2aumA",
@@ -19760,7 +19754,7 @@
 "id": "gYRn0k4S1JA",
 "t": "Wildwood Sessions feat. Colin Meloy - I Want To Be Lost (En vivo en KEXP)",
 "s": 262,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "2OXjXq6ujJE",
@@ -19811,7 +19805,7 @@
 "id": "iWq8ayxyP1w",
 "t": "Wildwood Sessions feat. quickly, quickly - That’s Enough For Me (En vivo en KEXP)",
 "s": 208,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "TOTNEmb3S0c",
@@ -19862,7 +19856,7 @@
 "id": "Q2FVoWMg0c8",
 "t": "Wildwood Sessions feat. Omari Jazz, Bocha y Donte Thomas - Nature In Me (En vivo en KEXP)",
 "s": 188,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "l78qkzcvUL0",
@@ -19913,7 +19907,7 @@
 "id": "fTmmYzD4QQk",
 "t": "OSEES - Full Performance (Live on KEXP)",
 "s": 2120,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "-SAOjwV3zN8",
@@ -19964,7 +19958,7 @@
 "id": "HCBi8EoqEII",
 "t": "OSEES - Plastic Plant (Live on KEXP)",
 "s": 316,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "mP7e78UF1cQ",
@@ -20015,7 +20009,7 @@
 "id": "xzU6ENUDrL8",
 "t": "OSEES - Block Of Ice (Live on KEXP)",
 "s": 1097,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "xzmXdgpO9HM",
@@ -20061,7 +20055,7 @@
 "id": "ls0o1NwSJEQ",
 "t": "OSEES - Meat Step Lively (Live on KEXP)",
 "s": 159,
-"p": 1793193151
+"p": 1793195190
 },
 {
 "id": "GnvFs98si4c",
@@ -20108,7 +20102,7 @@
 },
 {
 "id": "OPInvKC5zRc",
-"t": "¿Quién decide el futuro de Venezuela?",
+"t": "Cómo la intervención de EE. UU. está transformando a Venezuela",
 "s": 632,
 "p": 1795006526
 },
@@ -20116,7 +20110,7 @@
 "id": "nYYY0aDfy8g",
 "t": "Floyd Mayweather: invicto en el ring, odiado fuera de él | Todos odian (Episodio 4)",
 "s": 2675,
-"p": 1794402752
+"p": 1794404793
 },
 {
 "id": "7q5W1VNWkoY",
@@ -20170,7 +20164,7 @@
 "id": "GucTD5Lc_EA",
 "t": "261118 UNA ORACIÓN METTA + REGALOS",
 "s": 567,
-"p": 1795006850
+"p": 1795006811
 },
 {
 "id": "C57PZSoCcvg",
@@ -20192,13 +20186,13 @@
 },
 {
 "id": "_GyVucbdf5w",
-"t": "How Conservatives Feel About the Democrats’ Wins in Texas",
+"t": "What Conservatives in Texas Think About Democrat Wins",
 "s": 214,
 "p": 1794582039
 },
 {
 "id": "rY9s0tMzfM8",
-"t": "The economist who built the recession alarm on the stuck job market | Best of Luck",
+"t": "Why a “stable” labor market feels so bad | Best of Luck with Kyla Scanlon",
 "s": 3098,
 "p": 1794920416
 },
@@ -20206,7 +20200,7 @@
 "id": "RCL7vC8_m7w",
 "t": "Aaron Rodgers: De niño prodigio de la NFL al villano del fútbol americano | Everybody Hates (Epis...",
 "s": 2675,
-"p": 1793884352
+"p": 1793886393
 },
 {
 "id": "VcxtV-OCF0Y",
@@ -20224,7 +20218,7 @@
 "id": "PaZpdxYF4nY",
 "t": "Combinamos dos clásicos de Acción de Gracias en un solo pastel",
 "s": 526,
-"p": 1794661959
+"p": 1794664000
 },
 {
 "id": "1MNtfa4Vz3A",
@@ -20278,13 +20272,13 @@
 "id": "9hwpIAlxviA",
 "t": "Llegó a AUSTRALIA con 200€ y ahora FACTURA hasta 150.000$ al AÑO",
 "s": 3918,
-"p": 1793797945
+"p": 1793799987
 },
 {
 "id": "owO_lyMZC6I",
 "t": "Videos Show Critical Policing Errors in Fatal Shooting of Toddler in Mississippi",
 "s": 304,
-"p": 1794489148
+"p": 1794491189
 },
 {
 "id": "gdHXWG6uXz8",
@@ -20296,7 +20290,7 @@
 "id": "fXYodLK8j5Q",
 "t": "Jake Paul: De YouTuber odiado a la estrella más polémica del boxeo | Todos odian (Episodio 1)",
 "s": 2675,
-"p": 1793797952
+"p": 1793799993
 },
 {
 "id": "J-MFatWxD-k",
@@ -20314,7 +20308,7 @@
 "id": "-T20x_f6oYo",
 "t": "Aperitivos furtivos con Lucy Hale e Ian Harding",
 "s": 486,
-"p": 1794575559
+"p": 1794577600
 },
 {
 "id": "r8fCHfCYDM8",
@@ -20352,7 +20346,7 @@
 },
 {
 "id": "z-DPfFEcyqI",
-"t": "You Will Die With a To-Do List",
+"t": "How to Stop Obsessing Over What Didn’t Get Done",
 "s": 779,
 "p": 1794754813
 },
@@ -20366,13 +20360,13 @@
 "id": "GH9PKpJ5SAc",
 "t": "¿La IA nos va a QUITAR el TRABAJO? La CRUDA REALIDAD en ESPAÑA",
 "s": 1202,
-"p": 1793797945
+"p": 1793799987
 },
 {
 "id": "Ja-dswx7SXE",
 "t": "How ICE Raids Helped Flip a Kansas County Blue",
 "s": 258,
-"p": 1794402748
+"p": 1794404789
 },
 {
 "id": "f9s7O5ZmtGk",
@@ -20384,7 +20378,7 @@
 "id": "nBZBfJcvAPs",
 "t": "Mark Coleman: Gloria en UFC, adicción y supervivencia | Dark Side of the Cage (Episodio 8)",
 "s": 2669,
-"p": 1792588352
+"p": 1792590393
 },
 {
 "id": "E9cAMJoaIUU",
@@ -20401,7 +20395,7 @@
 "id": "3r5aoFrXNRY",
 "t": "Cómo preparar el mejor chili (galardonado)",
 "s": 486,
-"p": 1794143559
+"p": 1794145600
 },
 {
 "id": "wynxywGRI4s",
@@ -20439,7 +20433,7 @@
 },
 {
 "id": "we3VE8t5HvM",
-"t": "The ILM Trick to Painting Intimidatingly Large Miniatures",
+"t": "Adam Savage on Overcoming the Fear of Painting Models",
 "s": 691,
 "p": 1794668428
 },
@@ -20447,19 +20441,19 @@
 "id": "AQ13d8dJMy0",
 "t": "Breaking Down My $78,000 Salary In Oslo, Norway | The Pay Check",
 "s": 1250,
-"p": 1794316343
+"p": 1794318386
 },
 {
 "id": "t57XJR9e_pc",
 "t": "¿Cuánto GANA la gente en la MEJOR CIUDAD de España?",
 "s": 1270,
-"p": 1793193145
+"p": 1793195187
 },
 {
 "id": "eDw6P2cTpWs",
 "t": "Inside the Nightclub Sheltering Haitians From Violent Gangs",
 "s": 233,
-"p": 1794143548
+"p": 1794145589
 },
 {
 "id": "Y0OTKFdbfcc",
@@ -20487,7 +20481,7 @@
 "id": "Fy35PZpI_jA",
 "t": "¿Puede Indiana preparar el mejor postre de otoño de Estados Unidos? | Mi estado, mi plato",
 "s": 253,
-"p": 1793970759
+"p": 1793972800
 },
 {
 "id": "yD5jWchlMJU",
@@ -20504,7 +20498,7 @@
 "id": "sDdIbDR-UD4",
 "t": "El secreto de Rare Beauty es tener una misión clara",
 "s": 3778,
-"p": 1793797964
+"p": 1793800006
 },
 {
 "id": "_dCzY4jNK2E",
@@ -20532,7 +20526,7 @@
 "id": "wFvBd2C6pHk",
 "t": "How AI Robots Are Helping The US Make More Honey | AI In Action",
 "s": 1182,
-"p": 1794057143
+"p": 1794059186
 },
 {
 "id": "oJvBQQbe_9s",
@@ -20543,7 +20537,7 @@
 "id": "Zdm1DoIV7SI",
 "t": "What Men Actually Confess in a Legal Brothel",
 "s": 3246,
-"p": 1793884348
+"p": 1793886389
 },
 {
 "id": "sYq9zTMfHx4",
@@ -20571,7 +20565,7 @@
 "id": "ad9ZJOM905k",
 "t": "¿Puede El Gato en el Sombrero preparar un snack en silencio?",
 "s": 596,
-"p": 1793797959
+"p": 1793800000
 },
 {
 "id": "pNfgQ-KqHR4",
@@ -20588,7 +20582,7 @@
 "id": "he_ONXWKUZI",
 "t": "¿Quieres llegar a la Gen Z? No gastes ni un dólar hasta que preguntes esto",
 "s": 135,
-"p": 1793797964
+"p": 1793800006
 },
 {
 "id": "z-EJYA5HYqw",
@@ -20608,7 +20602,7 @@
 },
 {
 "id": "37Jdl9c9wps",
-"t": "Why the Library of Congress Destroys Rare Books",
+"t": "Meet the 1,000 Rare Books Being Destroyed for Science: LOC's Barrow Book Collection",
 "s": 895,
 "p": 1794495625
 },
@@ -20616,7 +20610,7 @@
 "id": "2IHqDUY3ZVc",
 "t": "The Dark Side Of India's $740 Million Firecracker Industry",
 "s": 825,
-"p": 1793884343
+"p": 1793886386
 },
 {
 "id": "P_qz-dt93Hg",
@@ -20627,13 +20621,13 @@
 "id": "QvEuMFq8-JA",
 "t": "How Trump Lost Young Men in Michigan",
 "s": 285,
-"p": 1793797948
+"p": 1793799989
 },
 {
 "id": "uK_1UiwTANw",
 "t": "Creatine: la verdad al descubierto",
 "s": 575,
-"p": 1794575550
+"p": 1794577591
 },
 {
 "id": "dHTQPN3YOUQ",
@@ -20655,7 +20649,7 @@
 "id": "SHMHCbSmW-A",
 "t": "El secreto detrás del sándwich más famoso de Chicago",
 "s": 332,
-"p": 1793797959
+"p": 1793800000
 },
 {
 "id": "LqdgTsCjrJk",
@@ -20672,7 +20666,7 @@
 "id": "Ujl4gVaX5I4",
 "t": "Esta empresa quiere usar IA para revertir el envejecimiento: así es cómo lo hace",
 "s": 182,
-"p": 1793797964
+"p": 1793800006
 },
 {
 "id": "ttPaV8W4OcQ",
@@ -20683,7 +20677,7 @@
 "id": "P3XCPywlXBI",
 "t": "Cómo hacer un radiocasete inteligente de 20 dólares",
 "s": 511,
-"p": 1793279567
+"p": 1793281608
 },
 {
 "id": "JnmtgG-3-yc",
@@ -20701,7 +20695,7 @@
 "id": "0vfDPzwemeM",
 "t": "How Future Navy Officers Survive \"First Tuesday\" At OCS | Boot Camp",
 "s": 801,
-"p": 1793797943
+"p": 1793799986
 },
 {
 "id": "xuFn36sGx6U",
@@ -20712,13 +20706,13 @@
 "id": "VnyJW7-iWak",
 "t": "How Curry Barker Makes a Sad Face Terrifying in ‘Obsession’ | Anatomy of a Scene",
 "s": 214,
-"p": 1793797948
+"p": 1793799989
 },
 {
 "id": "B74hdg_zo3Q",
 "t": "¿Por qué hay menos estadounidenses negros recibiendo GLP-1?",
 "s": 573,
-"p": 1794402750
+"p": 1794404791
 },
 {
 "id": "zbZFC6X2Sdw",
@@ -20740,7 +20734,7 @@
 "id": "VqG26YNcLvQ",
 "t": "El comedor de Jack — Desafío de precios",
 "s": 513,
-"p": 1793193159
+"p": 1793195200
 },
 {
 "id": "vpn48TGRBeA",
@@ -20757,7 +20751,7 @@
 "id": "Kq6ZJSpnbGM",
 "t": "This Korean soju brand is taking over the U.S.",
 "s": 3579,
-"p": 1793193164
+"p": 1793195206
 },
 {
 "id": "A48Xf8i3pZI",
@@ -20785,7 +20779,7 @@
 "id": "77GAfNCG12g",
 "t": "Why America Abandoned Route 66",
 "s": 2001,
-"p": 1793193143
+"p": 1793195186
 },
 {
 "id": "tC8ufbhCqmY",
@@ -20796,13 +20790,13 @@
 "id": "J6Zebd9wRB4",
 "t": "How ICE Arrests Depleted a Haitian Work Force",
 "s": 245,
-"p": 1793797948
+"p": 1793799989
 },
 {
 "id": "l7-eiKWhRHo",
 "t": "Por qué tus correos en frío no están funcionando | Best of Luck",
 "s": 2608,
-"p": 1794316350
+"p": 1794318391
 },
 {
 "id": "h9XNPZZK7Rk",
@@ -20840,7 +20834,7 @@
 "id": "T2UqaYV7F4c",
 "t": "Si tu voto no importara, ¿por qué se esforzarían tanto en detenerte?",
 "s": 169,
-"p": 1793193164
+"p": 1793195206
 },
 {
 "id": "Qv0fOAYZ1rQ",
@@ -20868,7 +20862,7 @@
 "id": "5AG4HoAWbUU",
 "t": "Where Michelin-Starred Restaurants Get 14 Ingredients | Marathon | Business Insider",
 "s": 13801,
-"p": 1792588343
+"p": 1792590386
 },
 {
 "id": "M3CSaHQtK5Y",
@@ -20879,13 +20873,13 @@
 "id": "XjY6Og9jgR8",
 "t": "Why Kansas Ranchers Are Turning on Trump",
 "s": 197,
-"p": 1793797948
+"p": 1793799989
 },
 {
 "id": "r0750q5e-Us",
 "t": "El chocolate es cada vez peor. Y también todo lo demás. | The Gray Area",
 "s": 2491,
-"p": 1794229950
+"p": 1794231991
 },
 {
 "id": "GhX-yry1L6Q",
@@ -20960,13 +20954,13 @@
 "id": "cuXJ8hLcc2w",
 "t": "Why Israeli Expats Are Flying Back to Vote",
 "s": 221,
-"p": 1793193148
+"p": 1793195189
 },
 {
 "id": "olEs7cm1LWw",
 "t": "Wes Moore a los demócratas: Actúen rápido sobre la asequibilidad | America, Actually",
 "s": 1904,
-"p": 1794057150
+"p": 1794059191
 },
 {
 "id": "3JHLl7ppYaA",
@@ -21041,13 +21035,13 @@
 "id": "EjBEkpJjmL4",
 "t": "James Talarico on His Historic Texas Senate Campaign",
 "s": 2104,
-"p": 1793193148
+"p": 1793195189
 },
 {
 "id": "MQqi6wZYRGs",
 "t": "¿Es este el fin de MAGA?",
 "s": 703,
-"p": 1794057150
+"p": 1794059191
 },
 {
 "id": "7r316WW5nCM",
@@ -21122,13 +21116,13 @@
 "id": "FsqKRuQjhtM",
 "t": "Why Nikole Hannah-Jones Doesn’t Regret Her Viral Essay",
 "s": 471,
-"p": 1793193148
+"p": 1793195189
 },
 {
 "id": "r0DDDpsniYU",
 "t": "Los demócratas ganaron a lo grande. Ahora deben cumplir | America, Actually",
 "s": 1849,
-"p": 1794057150
+"p": 1794059191
 },
 {
 "id": "5quhKYyEK0E",
@@ -21203,13 +21197,13 @@
 "id": "IGodo0M9QPU",
 "t": "Inside the Gang Suppression Force Promising Change in Haiti",
 "s": 325,
-"p": 1792588348
+"p": 1792590389
 },
 {
 "id": "e_Kain0Mj00",
 "t": "Por qué todos están abrazando el populismo | The Gray Area",
 "s": 1640,
-"p": 1793970750
+"p": 1793972791
 },
 {
 "id": "MsK-z-N8Nb0",
@@ -21289,7 +21283,7 @@
 "id": "mFGzioRMW5s",
 "t": "Cómo arrasaron los demócratas en las elecciones de medio mandato",
 "s": 1339,
-"p": 1793884350
+"p": 1793886391
 },
 {
 "id": "38r14UAaEv8",
@@ -21344,9 +21338,9 @@
 },
 {
 "id": "DYmdM24JeiM",
-"t": "Bambu Lab H3C 3D Printer Review!",
+"t": "Bambu Lab H3C 3D Printer Review: Swaptek Tested!",
 "s": 1941,
-"p": 1793797973
+"p": 1793800013
 },
 {
 "id": "kBP-bVci-IM",
@@ -21367,7 +21361,7 @@
 "id": "5s32duTy_ic",
 "t": "Por qué la derecha no puede dejar de hablar del comunismo",
 "s": 592,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "KXphHsO821Q",
@@ -21417,14 +21411,13 @@
 {
 "id": "DiLzC6o9U5k",
 "t": "261007 TARIFA INSUFICIENTE + REGALOS",
-"s": 384,
-"p": 1791374433
+"s": 384
 },
 {
 "id": "2u56s6e6y_0",
 "t": "This Hardware Built Star Wars!",
 "s": 1051,
-"p": 1793797973
+"p": 1793800013
 },
 {
 "id": "Aaj6INQWA_8",
@@ -21445,7 +21438,7 @@
 "id": "O233t0qFTP8",
 "t": "Dan Toomey made videos no one asked for | Best of Luck",
 "s": 2903,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "fDgvk_VZvzg",
@@ -21501,7 +21494,7 @@
 "id": "-D3EF9h40Rs",
 "t": "The Simple Trick Adam Savage Uses to Turn Off \"Monkey Mind\"",
 "s": 689,
-"p": 1793797973
+"p": 1793800013
 },
 {
 "id": "UDAvyIjqRuU",
@@ -21522,7 +21515,7 @@
 "id": "QfXQHt1qOII",
 "t": "Por qué la base de Trump aún cree que los republicanos pueden ganar | America, Actually",
 "s": 2702,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "JmrVhdo9-z8",
@@ -21578,7 +21571,7 @@
 "id": "BCcIo2LZJb8",
 "t": "Feeling Burned Out? Do This",
 "s": 758,
-"p": 1793797973
+"p": 1793800013
 },
 {
 "id": "W4E5JAD5U7A",
@@ -21599,7 +21592,7 @@
 "id": "wrelotZoMP8",
 "t": "Cómo Silicon Valley conquistó el negocio de la guerra | The Gray Area",
 "s": 2896,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "QjPRgf0JNTc",
@@ -21655,7 +21648,7 @@
 "id": "1psOPPZn0k8",
 "t": "How LAIKA Studios Made Their Most Advanced Stop-Motion Puppet",
 "s": 1321,
-"p": 1793797973
+"p": 1793800013
 },
 {
 "id": "bCfzbN3Shl0",
@@ -21676,7 +21669,7 @@
 "id": "F68AdaKgwOU",
 "t": "Nevada tests midterm voter mood | America, Actually",
 "s": 1713,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "XXm6TgTaO0M",
@@ -21732,7 +21725,7 @@
 "id": "WejZgrMZSL8",
 "t": "How IMAX 70MM Film is Developed!",
 "s": 879,
-"p": 1793797973
+"p": 1793800013
 },
 {
 "id": "zLFILxL1jMg",
@@ -21753,7 +21746,7 @@
 "id": "EogeI7sRtwU",
 "t": "Talarico vs. Paxton: Por qué la contienda por el Senado de Texas está tan reñida",
 "s": 1369,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "W-wmfub96Zc",
@@ -21794,7 +21787,7 @@
 "id": "_wi5gkVM-Pw",
 "t": "Me imprimí en 3D para hacer esta tarea por mí",
 "s": 829,
-"p": 1794748366
+"p": 1794750407
 },
 {
 "id": "EQJfDLENYnU",
@@ -21810,7 +21803,7 @@
 "id": "NGBytdB5nDw",
 "t": "Adam Savage Builds a Mini Cardboard Cannon!",
 "s": 1087,
-"p": 1793193173
+"p": 1793195213
 },
 {
 "id": "VQMGznOs0Us",
@@ -21831,7 +21824,7 @@
 "id": "9ensf6V2Uyk",
 "t": "Por qué los estadounidenses más jóvenes no pueden salir adelante",
 "s": 2741,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "eT3dX3od1y4",
@@ -21887,7 +21880,7 @@
 "id": "J8-KyvQSvew",
 "t": "Adam Savage Reacts to World Cosplay Summit Medalists!",
 "s": 2091,
-"p": 1793193173
+"p": 1793195213
 },
 {
 "id": "KIBJAEZMxwo",
@@ -21908,7 +21901,7 @@
 "id": "KVYNwthBcgM",
 "t": "Las universidades de élite están perdiendo estudiantes negros",
 "s": 518,
-"p": 1793797950
+"p": 1793799991
 },
 {
 "id": "jiy6vf2Htls",
@@ -21964,7 +21957,7 @@
 "id": "wSWVimEnPkU",
 "t": "The Reality of Fitting Into Iconic Costumes",
 "s": 659,
-"p": 1793193173
+"p": 1793195213
 },
 {
 "id": "VyvFRS5w9yM",
@@ -21985,7 +21978,7 @@
 "id": "L_r6Gtb-_Os",
 "t": "Tu mundo, explicado por Vox: Descarga nuestra nueva aplicación",
 "s": 159,
-"p": 1793193150
+"p": 1793195191
 },
 {
 "id": "BdTzoUDEVoM",
@@ -22041,7 +22034,7 @@
 "id": "ajhFnkmSboE",
 "t": "Adam Savage’s Strict Duct Tape Rule for People Working in His Shop",
 "s": 613,
-"p": 1793193173
+"p": 1793195213
 },
 {
 "id": "HFV5UH10_eg",
@@ -22062,7 +22055,7 @@
 "id": "vXjcd99EMME",
 "t": "Pablo Torre sobre lo que el deporte revela de la Estados Unidos de Trump | America, Actually",
 "s": 1927,
-"p": 1793193150
+"p": 1793195191
 },
 {
 "id": "z9r7-EoyXr4",
@@ -22118,7 +22111,7 @@
 "id": "joYBiW9K07s",
 "t": "Adam Savage Tours the LAIKA Studios Model Shop!",
 "s": 1660,
-"p": 1793193173
+"p": 1793195213
 },
 {
 "id": "UD7ZPxgIxbU",
@@ -22139,7 +22132,7 @@
 "id": "3kh_dRtXquc",
 "t": "Qué significa la tasa de renuncias en EE. UU. para tu trabajo | Buena suerte",
 "s": 2211,
-"p": 1793193150
+"p": 1793195191
 },
 {
 "id": "15TWc4IqIq4",
@@ -22195,7 +22188,7 @@
 "id": "9stm18DFD08",
 "t": "Adam Savage Behind the Scenes at LAIKA Studios!",
 "s": 1680,
-"p": 1793193173
+"p": 1793195213
 },
 {
 "id": "3I-xv56cBUY",
@@ -22216,7 +22209,7 @@
 "id": "W3Zn_sjdHxM",
 "t": "Inside the secret race to build artificial intelligence | The Gray Area",
 "s": 2506,
-"p": 1793193150
+"p": 1793195191
 },
 {
 "id": "6qRiKrh9VrE",
@@ -22272,7 +22265,7 @@
 "id": "xF0FwAVCqnY",
 "t": "Adam Savage Attempts to Solve a Mailbag Puzzle",
 "s": 1235,
-"p": 1792588373
+"p": 1792590413
 },
 {
 "id": "Q5J1mDr-Oig",
@@ -22293,7 +22286,7 @@
 "id": "w5HRDzH_EE4",
 "t": "Can Trump steal the midterms? | America, Actually",
 "s": 1752,
-"p": 1793193150
+"p": 1793195191
 },
 {
 "id": "W8HbxW_UEj4",
@@ -22349,7 +22342,7 @@
 "id": "ivWJoOnof_s",
 "t": "The Secret Technique Behind Classic Star Wars Ships",
 "s": 2388,
-"p": 1792588373
+"p": 1792590413
 },
 {
 "id": "-4dc6907JYY",
@@ -22370,7 +22363,7 @@
 "id": "NB93ARM7GVY",
 "t": "Can Democrats finally pass affordable child care for all?",
 "s": 1711,
-"p": 1793193150
+"p": 1793195191
 },
 {
 "id": "Us88TlaFY6Q",
@@ -22426,7 +22419,7 @@
 "id": "1qCzCGskfiQ",
 "t": "The Surprising Secret to Learning Any Physical Skill",
 "s": 732,
-"p": 1792588373
+"p": 1792590413
 },
 {
 "id": "_1jQVSjrhOs",
@@ -22447,7 +22440,7 @@
 "id": "annnR8zAdbY",
 "t": "Una vida agradable está más cerca de lo que crees | The Gray Area",
 "s": 2535,
-"p": 1793193150
+"p": 1793195191
 },
 {
 "id": "zTqsYrhss-s",
@@ -22523,7 +22516,7 @@
 "id": "62aBuDKsiDc",
 "t": "Presentamos Best of Luck con Kyla Scanlon",
 "s": 104,
-"p": 1792588350
+"p": 1792590391
 },
 {
 "id": "ELoYoixhLrc",
@@ -22599,7 +22592,7 @@
 "id": "F8Mm4FgIwBg",
 "t": "Los demócratas necesitan caras nuevas | America, Actually",
 "s": 2823,
-"p": 1792588350
+"p": 1792590391
 },
 {
 "id": "HWx4wrtPFxQ",
@@ -24703,7 +24696,7 @@
 },
 {
 "id": "jwznSIeiY0E",
-"t": "Inside The Army’s Most Sacred Mission",
+"t": "Inside The Army’s Most Sacred Mission | Boot Camp",
 "s": 1227
 },
 {
@@ -27652,7 +27645,7 @@
 "id": "ZQt3tQojWqA",
 "t": "Prueba de vuelo 15 de SpaceX Starship: todo lo que sucedió en 12 minutos",
 "s": 753,
-"p": 1794661959
+"p": 1794663995
 },
 {
 "id": "XfGEMCb6BQU",
@@ -27679,7 +27672,7 @@
 "id": "kXYE0fxLMyY",
 "t": "¿El Apple Watch está escuchando TODO?! Puse a prueba Siri Recap | One More Thing",
 "s": 548,
-"p": 1794575559
+"p": 1794577595
 },
 {
 "id": "0g97kzzldgw",
@@ -27706,7 +27699,7 @@
 "id": "bBfuNTg2_MU",
 "t": "Comprar un televisor durante las fiestas es complicado. Nuestros expertos lo hacen más sencillo",
 "s": 405,
-"p": 1794402759
+"p": 1794404795
 },
 {
 "id": "C0gErQtnNFE",
@@ -27733,7 +27726,7 @@
 "id": "sBckm1sBUh4",
 "t": "Adobe Max 2026 Supercut: Todo lo anunciado en 18 minutos",
 "s": 1088,
-"p": 1794402759
+"p": 1794404795
 },
 {
 "id": "0HlLwG2xN_c",
@@ -27760,7 +27753,7 @@
 "id": "QIxUyt2up7o",
 "t": "Prueba de cámara nocturna de iPhone: Duo vs. iPhone 18 Pro Max",
 "s": 438,
-"p": 1794229959
+"p": 1794231995
 },
 {
 "id": "p60I9LNHNxg",
@@ -27786,7 +27779,7 @@
 "id": "TqEGWzPIb-Q",
 "t": "La era experimental de Apple: ¡Todo lo nuevo que llega este mes! | One More Thing",
 "s": 604,
-"p": 1793970759
+"p": 1793972795
 },
 {
 "id": "kr3iXUcNt2g",
@@ -27812,7 +27805,7 @@
 "id": "u2_njBB0FMI",
 "t": "Análisis del iPad Mini: ¿El Duo eclipsa a la pequeña tableta de Apple?",
 "s": 355,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "LOn-mmezykQ",
@@ -27838,7 +27831,7 @@
 "id": "qksmMk-4Qc0",
 "t": "Le dimos el iPhone Duo a extraños para ver qué opinan",
 "s": 409,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "iX6w1P60m8M",
@@ -27859,7 +27852,7 @@
 "id": "WT1gctqVoqg",
 "t": "Le entregué mi sangre a Apple, Oura, Whoop y Ultrahuman | Tech Today",
 "s": 396,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "qmQ_lQOBdq4",
@@ -27880,7 +27873,7 @@
 "id": "y9lMGuJgy68",
 "t": "SLAC National Accelerator Laboratory Final",
 "s": 343,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "hmtuvNfytjM",
@@ -27901,7 +27894,7 @@
 "id": "wM51ROuEhKI",
 "t": "Cómo descargar y usar Google Gemini para macOS",
 "s": 589,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "znWFsB0f0EA",
@@ -27922,7 +27915,7 @@
 "id": "j5VVz6sv3tE",
 "t": "No existe tal cosa como un Tesla volador | El futuro",
 "s": 783,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "5zJbE7J3X8I",
@@ -27943,7 +27936,7 @@
 "id": "inSeYecSaj4",
 "t": "Probando el MacBook Pro con pantalla táctil de Apple: Lo que realmente me impresionó | Una cosa más",
 "s": 458,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "0OXaanDHENI",
@@ -27964,7 +27957,7 @@
 "id": "6SYjKC-3d6U",
 "t": "La salvaje historia de cómo vemos la Serie Mundial | STAT",
 "s": 695,
-"p": 1793797959
+"p": 1793799995
 },
 {
 "id": "bY1EQ6HD-ao",
@@ -27985,7 +27978,7 @@
 "id": "vMKuv9Pyozs",
 "t": "¿Buscas juegos? Nuestros expertos te ayudan a elegir los mejores regalos para esta temporada navi...",
 "s": 505,
-"p": 1793193159
+"p": 1793195195
 },
 {
 "id": "BKIkTKqWMfg",
@@ -28006,7 +27999,7 @@
 "id": "yshGt4WPhwA",
 "t": "Análisis del Google Fitbit Edge: Útil, pero le falta algo | Todo sobre móviles",
 "s": 410,
-"p": 1793193159
+"p": 1793195195
 },
 {
 "id": "enevSuDgf3U",
@@ -28027,7 +28020,7 @@
 "id": "lwRdAHKC0co",
 "t": "Esta IA les está dando a los médicos una \"boleta de calificaciones\" después de los procedimientos",
 "s": 185,
-"p": 1793193159
+"p": 1793195195
 },
 {
 "id": "7ARBJQn6QkM",
@@ -28048,7 +28041,7 @@
 "id": "eOfp4mZfjKI",
 "t": "Conoce la máquina que romperá al dúo de iPhone, eventualmente | All Things Mobile",
 "s": 270,
-"p": 1793193159
+"p": 1793195195
 },
 {
 "id": "RDoVLHaYfgM",
@@ -28069,7 +28062,7 @@
 "id": "RUrxnoci_R0",
 "t": "Dentro del día de lanzamiento del iPhone Duo con Bridget | Una cosa más",
 "s": 183,
-"p": 1793193159
+"p": 1793195195
 },
 {
 "id": "N0-ZZ9pLyWw",
@@ -28090,7 +28083,7 @@
 "id": "47PI0Eu2dzA",
 "t": "Pruebo las primeras aplicaciones hechas para Duo: esto es lo que sigue | Una cosa más",
 "s": 362,
-"p": 1793193159
+"p": 1793195195
 },
 {
 "id": "LrHaXyv8eO0",
@@ -28111,7 +28104,7 @@
 "id": "CmJ7m9KnTQA",
 "t": "Cómo elegir una cinta de correr en 2026: tipos, presupuesto y especificaciones explicados",
 "s": 510,
-"p": 1793193159
+"p": 1793195195
 },
 {
 "id": "oX7OduG1YmI",
@@ -28132,7 +28125,7 @@
 "id": "ULWD2IAfH1c",
 "t": "Reseña del iPhone Duo: Entiendo por qué Apple se tomó su tiempo | Todo sobre móviles",
 "s": 657,
-"p": 1792588359
+"p": 1792590395
 },
 {
 "id": "JbKzSDfDdns",
@@ -28153,7 +28146,7 @@
 "id": "HDzsG-ZoBTs",
 "t": "Probando tecnología de entrenamiento de nivel NBA en un jugador promedio | STAT",
 "s": 713,
-"p": 1792588359
+"p": 1792590395
 },
 {
 "id": "KmxNtDMAj2A",
@@ -28574,7 +28567,7 @@
 "id": "RCTYyo82UAA",
 "t": "Qualcomm Snapdragon Summit 2026: Todo lo anunciado en 15 minutos",
 "s": 923,
-"p": 1795006659
+"p": 1795008695
 },
 {
 "id": "DlQskUgzlHM",
@@ -29773,7 +29766,7 @@
 "id": "Vn80aXWj0O0",
 "t": "North Korea - Propaganda and the next generation | DW Documentary",
 "s": 2632,
-"p": 1793884373
+"p": 1793886410
 },
 {
 "id": "gmTBCaTQQrk",
@@ -29812,7 +29805,7 @@
 "id": "0ZDvKTJSpS4",
 "t": "Decoding conflicts - Sudan: The forgotten war | DW Documentary",
 "s": 1695,
-"p": 1793797973
+"p": 1793800010
 },
 {
 "id": "OBIR9rbxOmk",
@@ -29846,7 +29839,7 @@
 "id": "7eu4CU3IxU4",
 "t": "No future in Germany? Why skilled Polish workers are going home | DW Documentary",
 "s": 1651,
-"p": 1793797973
+"p": 1793800010
 },
 {
 "id": "12QG748LZkM",
@@ -29879,7 +29872,7 @@
 "id": "ifEJnQLaMvk",
 "t": "Cargo sailboats: A sea change for shipping? | DW Documentary",
 "s": 3122,
-"p": 1793797973
+"p": 1793800010
 },
 {
 "id": "MwWt8RLbejE",
@@ -29912,7 +29905,7 @@
 "id": "M0cDGeD8bLs",
 "t": "Between Capitol Hill and Black Broadway - Washington, D.C.'s hidden worlds | DW Documentary",
 "s": 2552,
-"p": 1793797973
+"p": 1793800010
 },
 {
 "id": "vqphgWu1Is8",
@@ -29945,7 +29938,7 @@
 "id": "ojOdB-7Dbdg",
 "t": "Artificial intelligence and psychotherapy | DW Documentary",
 "s": 2612,
-"p": 1793797973
+"p": 1793800010
 },
 {
 "id": "k1lF_BnUw_w",
@@ -29976,7 +29969,7 @@
 "id": "cQmVOxGwg3g",
 "t": "North Korea's alliance with China and Russia | DW Documentary",
 "s": 2542,
-"p": 1793797973
+"p": 1793800010
 },
 {
 "id": "-1l5JBOUJGM",
@@ -30007,7 +30000,7 @@
 "id": "n_rm51MDzog",
 "t": "Inside ICE: The fight against Trump's deportations | DW Documentary",
 "s": 1752,
-"p": 1793193173
+"p": 1793195210
 },
 {
 "id": "sry4IpUeOvc",
@@ -30038,7 +30031,7 @@
 "id": "6OIhk5QBAS8",
 "t": "Greece's mobile hospital: Providing medical care to remote islands | DW Documentary",
 "s": 1622,
-"p": 1793193173
+"p": 1793195210
 },
 {
 "id": "tfiCYtDmHrU",
@@ -30069,7 +30062,7 @@
 "id": "EDusb1gev90",
 "t": "Afghanistan's raw materials - The race is on | DW Documentary",
 "s": 3262,
-"p": 1793193173
+"p": 1793195210
 },
 {
 "id": "zHwXdPV_-Gg",
@@ -30100,7 +30093,7 @@
 "id": "mEDXhHCwO6U",
 "t": "Between the czar and Hitler - The forgotten story of the White Army | DW Documentary",
 "s": 2562,
-"p": 1793193173
+"p": 1793195210
 },
 {
 "id": "WEbM_JgQa4U",
@@ -30131,7 +30124,7 @@
 "id": "IMAJdNZnWi0",
 "t": "The high-priced world of beauty | DW Documentary",
 "s": 2611,
-"p": 1793193173
+"p": 1793195210
 },
 {
 "id": "Js0URaCKvvE",
@@ -30162,7 +30155,7 @@
 "id": "YKG6GQ3fiWs",
 "t": "Killing time - The science of boredom | DW Documentary",
 "s": 3092,
-"p": 1793193173
+"p": 1793195210
 },
 {
 "id": "X06mNLXn3bQ",
@@ -30193,7 +30186,7 @@
 "id": "lb4MYxaBHoI",
 "t": "In the shadow of copper - The price of mining in Serbia | DW Documentary",
 "s": 1751,
-"p": 1792588373
+"p": 1792590410
 },
 {
 "id": "l0oXV0oT6-8",
@@ -30224,7 +30217,7 @@
 "id": "61ODlrzb7Pk",
 "t": "One electric truck's road trip to Norway | DW Documentary",
 "s": 1702,
-"p": 1792588373
+"p": 1792590410
 },
 {
 "id": "9UX8AYTUJ78",
@@ -31961,7 +31954,7 @@
 "id": "0Sy01tVkj1E",
 "t": "¿Tus padres son primos? | #LaRevuelta 16.11.2026",
 "s": 1463,
-"p": 1794921169
+"p": 1794923207
 },
 {
 "id": "oN2LwAZFm6s",
@@ -31979,7 +31972,7 @@
 "id": "4PKplX_qtJ8",
 "t": "Carolina Iglesias solo quiere estar mazas | #LaRevuelta 16.11.2026",
 "s": 1249,
-"p": 1794921169
+"p": 1794923207
 },
 {
 "id": "7RLTzKMMlEc",
@@ -31997,7 +31990,7 @@
 "id": "3g7EzCXXtF8",
 "t": "Jorge Ponce hace un repaso de la entrevista de Abascal | #LaRevuelta 10.11.2026",
 "s": 301,
-"p": 1794489169
+"p": 1794491207
 },
 {
 "id": "m62qYsKxAi8",
@@ -32015,7 +32008,7 @@
 "id": "x0g7Zs-yHbg",
 "t": "Pedimos perdón a nuestro público | #LaRevuelta 10.11.2026",
 "s": 930,
-"p": 1794489169
+"p": 1794491207
 },
 {
 "id": "OB5ktrgIEO8",
@@ -32033,7 +32026,7 @@
 "id": "fLF1gFLcM1U",
 "t": "Ada Colau da su solución para la crisis de la vivienda | #LaRevuelta 10.11.2026",
 "s": 788,
-"p": 1794402769
+"p": 1794404807
 },
 {
 "id": "UHb3qLxhnJw",
@@ -32051,13 +32044,13 @@
 "id": "7OGGjn8hjSo",
 "t": "Ada colau opina sobre el estadoactual del feminismo | #LaRevuelta 10.11.2026",
 "s": 551,
-"p": 1794402769
+"p": 1794404807
 },
 {
 "id": "fWx6-3NDJO4",
 "t": "Amy Poehler Reveals Who Paul McCartney Thinks Does the Best Impression of Him (Extended)",
 "s": 512,
-"p": 1794921164
+"p": 1794923203
 },
 {
 "id": "IOoA2QhuqWM",
@@ -32069,13 +32062,13 @@
 "id": "tZeBj9MS9RQ",
 "t": "Santiago Abascal opina sobre el cambio climático | #LaRevuelta 09.11.2026",
 "s": 1006,
-"p": 1794316369
+"p": 1794318407
 },
 {
 "id": "MOw6CgtFsXA",
 "t": "Trump Says Old FAA Tech \"Had a Heart Attack,\" Heads to Asia for High-Stakes Xi and Putin Meeting",
 "s": 587,
-"p": 1794921164
+"p": 1794923203
 },
 {
 "id": "yiprvoKiXAQ",
@@ -32087,13 +32080,13 @@
 "id": "wIKaqVcTZio",
 "t": "Santiago Abascal aclara su relación con Israel | #LaRevuelta 09.11.2026",
 "s": 844,
-"p": 1794316369
+"p": 1794318407
 },
 {
 "id": "BRFNKmGiOz4",
 "t": "Elevator's Got The Hunger Games w/ Jennifer Lawrence, Josh Hutcherson & Woody Harrelson (Cold Open)",
 "s": 93,
-"p": 1794921164
+"p": 1794923203
 },
 {
 "id": "pdJELD-D6bs",
@@ -32105,13 +32098,13 @@
 "id": "5x4Jwe9KtDE",
 "t": "Pedro Almodóvar le da lecciones de vida a un joven del público | #LaRevuelta 05.11.2026",
 "s": 951,
-"p": 1793970769
+"p": 1793972807
 },
 {
 "id": "XoWQsWBOzE4",
 "t": "Jimmy Interviews Miss Piggy and Kermit the Frog | Fallon Flashback (Late Night with Jimmy Fallon)",
 "s": 275,
-"p": 1794921164
+"p": 1794923203
 },
 {
 "id": "yxOC3xlazYc",
@@ -32123,13 +32116,13 @@
 "id": "zcK6Re7wPa8",
 "t": "Almodóvar vuelve a cantar punk | #LaRevuelta 05.11.2026",
 "s": 973,
-"p": 1793970769
+"p": 1793972807
 },
 {
 "id": "lyk15Sj3aqw",
 "t": "Offset: Hating On Me | The Tonight Show Starring Jimmy Fallon",
 "s": 218,
-"p": 1794834764
+"p": 1794836803
 },
 {
 "id": "6-wBsmF74N8",
@@ -32141,13 +32134,13 @@
 "id": "9Hw25ScBLIA",
 "t": "Lala pitbull viene a conquistar madrid| #LaRevuelta 05.11.2026",
 "s": 504,
-"p": 1793970769
+"p": 1793972807
 },
 {
 "id": "Pcus_guYbPc",
 "t": "Anthony Mackie Clears Up Avengers: Doomsday Spoilers, Tackles Doctor Doom and Talks 12 12 12",
 "s": 800,
-"p": 1794834764
+"p": 1794836803
 },
 {
 "id": "RSqnUT1nJfE",
@@ -32159,343 +32152,343 @@
 "id": "cdII10jpxdg",
 "t": "El mayor deseo de Mckenna Grace y Joseph Zada | #LaRevuelta 04.11.2026",
 "s": 1536,
-"p": 1793884369
+"p": 1793886407
 },
 {
 "id": "NXw_L0PuMv0",
 "t": "Jennifer Lopez Shares Her Inspiration for The JLO Show: Live in Las Vegas, Teases Tour and New Music",
 "s": 574,
-"p": 1794834764
+"p": 1794836803
 },
 {
 "id": "JTac8nEJFtg",
 "t": "Jodie Foster on Crazy Superstitions, Training with FBI Agents & Playing a Villain in Disney's Hexed",
 "s": 770,
-"p": 1794402767
+"p": 1794404805
 },
 {
 "id": "RKDi1nryzc4",
 "t": "Los anuncios de famosos tienen que parar | #LaRevuelta 20.10.2026",
 "s": 810,
-"p": 1793884369
+"p": 1793886407
 },
 {
 "id": "K58YY_bjoGQ",
 "t": "Wig Swap Holiday Lounge Singers with Jennifer Lopez | The Tonight Show Starring Jimmy Fallon",
 "s": 139,
-"p": 1794834764
+"p": 1794836803
 },
 {
 "id": "qSiIvZX00ZU",
 "t": "Jesse Welles – The Nerd Reich",
 "s": 224,
-"p": 1794402767
+"p": 1794404805
 },
 {
 "id": "-8dk8sJ2pjQ",
 "t": "La surrealista experiencia de Almudena Ariza en Corea del Norte | #LaRevuelta 04.11.2026",
 "s": 1204,
-"p": 1793797969
+"p": 1793800007
 },
 {
 "id": "LF44NTgzJok",
 "t": "FAA Equipment Failure Grounds Flights Nationwide, Trump Breaks Silence on Air Traffic Control System",
 "s": 718,
-"p": 1794834764
+"p": 1794836803
 },
 {
 "id": "CJ2MwO6lnWg",
 "t": "Trump Praises Hegseth’s Doozy of a Press Conference, Milks the MAGA Faithful & Melania’s New Show",
 "s": 924,
-"p": 1794402767
+"p": 1794404805
 },
 {
 "id": "rSP1sF8N55E",
 "t": "Almudena Ariza le pone nota a Broncano como periodista | #LaRevuelta 04.11.2026",
 "s": 1745,
-"p": 1793797969
+"p": 1793800007
 },
 {
 "id": "rvoYNiUhh58",
 "t": "Robert De Niro, Ben Stiller and Ariana Grande Talk Focker In-Law, Play True Confessions and More",
 "s": 1671,
-"p": 1794748364
+"p": 1794750403
 },
 {
 "id": "uQL4-SO-dRw",
 "t": "Bill Murray on Meeting Huey Lewis, Driving Around Ireland with Tom Coyne & What About Bob Screening",
 "s": 1020,
-"p": 1794316367
+"p": 1794318405
 },
 {
 "id": "nkL4oCKN3bE",
 "t": "Gabriel Rufián y Montero se miden a un punki | #LaRevuelta 27.10.2026",
 "s": 1020,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "skb0pgle6U8",
 "t": "Lip Sync Battle: Will Ferrell Performs Beyoncé’s \"Drunk in Love\" | The Tonight Show",
 "s": 91,
-"p": 1794661964
+"p": 1794664003
 },
 {
 "id": "Ikg9oHVLDMQ",
 "t": "Will Ferrell Interrupts Andy Richter’s Interview About His New Elf Book",
 "s": 572,
-"p": 1794316367
+"p": 1794318405
 },
 {
 "id": "flIp3a69Kmk",
 "t": "Irene Montero y Rufián responden las preguntas clásicas | #LaRevuelta 27.10.2026",
 "s": 1581,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "y3gzEjNzXZE",
 "t": "Brothers Osborne: Born and Raised Hell | The Tonight Show Starring Jimmy Fallon",
 "s": 275,
-"p": 1794489164
+"p": 1794491203
 },
 {
 "id": "XMRsPleHZ4s",
 "t": "Trump Cries Rigged Election, “Kidding\" About Hiring Dana White & White House Insults Jimmy Kimmel",
 "s": 957,
-"p": 1794316367
+"p": 1794318405
 },
 {
 "id": "psX3BUZfGgU",
 "t": "Juan José Millás nos enseña sus detalles más íntimos | #LaRevuelta 26.10.2026",
 "s": 1506,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "QWawp1TQobU",
 "t": "Kyle Larson Talks Becoming a 3-Time NASCAR Cup Champion and His Favorite Competitor Hand Gesture",
 "s": 229,
-"p": 1794489164
+"p": 1794491203
 },
 {
 "id": "TTzta6J30eo",
 "t": "Adam Driver on Being in the Upcoming X-Men Movie & New Movie Paper Tiger with Miles Teller",
 "s": 453,
-"p": 1793970767
+"p": 1793972805
 },
 {
 "id": "eltLuizaY_s",
 "t": "Candela Peña se indigna con una marca | #LaRevuelta 26.10.2026",
 "s": 867,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "XBurmE_nbeU",
 "t": "Taylor Kinney on Celebrating 300 Episodes of Chicago Fire, Gifts Jimmy His Own Firefighter Helmet",
 "s": 505,
-"p": 1794489164
+"p": 1794491203
 },
 {
 "id": "rd2qzmINQCU",
 "t": "Sam Nivola on Loving the Movie Swingers, Finding Out About White Lotus Storyline & New Show Phony",
 "s": 471,
-"p": 1793970767
+"p": 1793972805
 },
 {
 "id": "wL3Qb--mF_M",
 "t": "Pedro Sánchez valora la situación de la vivienda en España | #LaRevuelta 22.10.2026",
 "s": 1098,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "2XT1kqflo38",
 "t": "Woman, Truck or Dog? with Jessica Chastain | The Tonight Show Starring Jimmy Fallon",
 "s": 420,
-"p": 1794489164
+"p": 1794491203
 },
 {
 "id": "wgznUQoK2yI",
 "t": "Mike D 5D – Switch Up",
 "s": 218,
-"p": 1793970767
+"p": 1793972805
 },
 {
 "id": "Vo5oG1g6uM8",
 "t": "Pedro Sánchez responde las preguntas clásicas | #LaRevuelta 22.10.2026",
 "s": 603,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "Yxny0VRZ998",
 "t": "Jessica Chastain Reveals Her Insane Wine Hack, Talks Singing in Front of Country Stars for Heartland",
 "s": 580,
-"p": 1794489164
+"p": 1794491203
 },
 {
 "id": "UWDWyXvHo90",
 "t": "Trump Rants & Raves About the Least Important Things Ever & All the Promises He’s Failed to Fulfill",
 "s": 1263,
-"p": 1793970767
+"p": 1793972805
 },
 {
 "id": "NRWfm6AQ3KQ",
 "t": "Pedro Sánchez comenta la crisis de Ceuta | #LaRevuelta 22.10.2026",
 "s": 865,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "eCQURN2LkP4",
 "t": "Pete Hegseth Narrowly Avoids Impeachment, White House Destroys Documents | The Tonight Show",
 "s": 429,
-"p": 1794489164
+"p": 1794491203
 },
 {
 "id": "DBcBmzz8Bf4",
 "t": "Timothy Simons on Major Soup Fail, Getting into Politics Doing VEEP & His Epic Search for Cigarettes",
 "s": 516,
-"p": 1793884367
+"p": 1793886405
 },
 {
 "id": "TuhmoNMJ-tM",
 "t": "Candela Peña conoce a Pedro Sánchez | #LaRevuelta 22.10.2026",
 "s": 468,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "_yPwx6YZ6yc",
 "t": "Tinashe: Popstar/Melatonin | The Tonight Show Starring Jimmy Fallon",
 "s": 216,
-"p": 1794402764
+"p": 1794404803
 },
 {
 "id": "Dp_bpfEvvoQ",
 "t": "Miles Teller on Tom Cruise Talking About Top Gun 3, MLB All-Star Game in Philly & Paper Tiger",
 "s": 716,
-"p": 1793884367
+"p": 1793886405
 },
 {
 "id": "OFLy1GzbF2I",
 "t": "El pasado de veterinario de Jesús Vázquez | #LaRevuelta 21.10.2026",
 "s": 1144,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "zrdLnWs8HNw",
 "t": "Donovan Mitchell Talks Facing the Knicks Again and Plays an Intense Game of One-Cup Pong",
 "s": 402,
-"p": 1794402764
+"p": 1794404803
 },
 {
 "id": "RHWmbCnprXw",
 "t": "Trump Blames Everyone But Himself for Huge Midterm Loss & the White House Lashes Out at Jimmy Kimmel",
 "s": 1310,
-"p": 1793884367
+"p": 1793886405
 },
 {
 "id": "nH9x3HEzAXY",
 "t": "Jesús Vázquez tiene culazo | #LaRevuelta 21.10.2026",
 "s": 1269,
-"p": 1793193169
+"p": 1793195207
 },
 {
 "id": "vpyOZ9P0BX4",
 "t": "Skyler Gisondo Reacts to Becoming a Viral Meme, Confirms He Radiates Peanut Allergy Energy",
 "s": 649,
-"p": 1794402764
+"p": 1794404803
 },
 {
 "id": "sdw-9wFMT1A",
 "t": "Pod Save America Hosts on Midterm Results, Trump’s Final Two Years & 2028 Presidential Candidates",
 "s": 1238,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "jMut28lTeI8",
 "t": "Antonio Resines se pasa al ejército | #LaRevuelta 20.10.2026",
 "s": 1255,
-"p": 1792588369
+"p": 1792590407
 },
 {
 "id": "qnmsvNyyXRY",
 "t": "Trump Claims Midterms Were Rigged, Mystery Woman Interrupts Trump's C-SPAN Call with Giggles",
 "s": 622,
-"p": 1794402764
+"p": 1794404803
 },
 {
 "id": "H9jo7ylQ1m8",
 "t": "Cage the Elephant – Make It Easy",
 "s": 211,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "jUU_UV1FAjU",
 "t": "Jaime Lorente hace el regalo más emotivo de la temporada | #LaRevuelta 20.10.2026",
 "s": 1536,
-"p": 1792588369
+"p": 1792590407
 },
 {
 "id": "clK29yNTcNE",
 "t": "Ask This Old House Experts Give Jimmy Tips for Toilers, Critters and More | The Tonight Show",
 "s": 423,
-"p": 1794316364
+"p": 1794318403
 },
 {
 "id": "KY9zDP4pH88",
 "t": "Jimmy Kimmel Breaks Down Midterm Election Results, Trump Loses Bigly & Assistant Natalie Stops By!",
 "s": 1000,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "wfclLcubntI",
 "t": "La máquina de la verdad | #LaRevuelta 19.10.2026",
 "s": 522,
-"p": 1792588369
+"p": 1792590407
 },
 {
 "id": "korbMR6LobM",
 "t": "Léa Seydoux Performs Opera for Jimmy, Talks Mission Impossible and Gentle Monster | The Tonight Show",
 "s": 368,
-"p": 1794316364
+"p": 1794318403
 },
 {
 "id": "ouEPXMniOUQ",
 "t": "Bill Hader on Group Chat with Kimmel, Mulaney and Armisen, The Cat in the Hat & His Kids Being Funny",
 "s": 883,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "QNP4WqwMG6M",
 "t": "Broncano presume de ser coach ante uno de los mejores tenistas de la historia #LaRevuelta 19.10.2026",
 "s": 1364,
-"p": 1792588369
+"p": 1792590407
 },
 {
 "id": "Kn_BC0VJxoY",
 "t": "Meghann Fahy Went from Performing for Livestock to Performing with Hayley Williams | Tonight Show",
 "s": 524,
-"p": 1794316364
+"p": 1794318403
 },
 {
 "id": "21an7lQV90Q",
 "t": "Justine Lupe on Nobody Wants This, Her Dad’s Disastrous Wedding Speech & Her Mom Giving the Talk",
 "s": 616,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "S55B1XnG100",
 "t": "Rey de la pista entre Broncano, McEnroe y Martín de la Puente | #LaRevuelta 19.10.2026",
 "s": 431,
-"p": 1792588369
+"p": 1792590407
 },
 {
 "id": "xBesCJ0EhOM",
 "t": "Pete Davidson Reacts to Footage from His Dramatic Mob Wives Television Debut | The Tonight Show",
 "s": 706,
-"p": 1794316364
+"p": 1794318403
 },
 {
 "id": "AKVUa3rRxzo",
 "t": "Trump LASER Focused on Midterm Election, Blabbers About the Reflecting Pool & Mar-a-Lago Halloween",
 "s": 1041,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "hy0HUFHI2G8",
@@ -32506,13 +32499,13 @@
 "id": "OVB16EaDFCk",
 "t": "Trump Blames Midterm Losses on \"Bad Messaging,\" Says Dana White Press Secretary Offer Was a Joke",
 "s": 652,
-"p": 1794316364
+"p": 1794318403
 },
 {
 "id": "9LIrSFby1cg",
 "t": "Behind the Scenes with Jimmy Kimmel & Audience (Tank Top Halloween Costumes)",
 "s": 307,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "RGs2SCnI5Bc",
@@ -32523,13 +32516,13 @@
 "id": "x4AClOJzbnk",
 "t": "Lil Baby: Dead Fresh | The Tonight Show Starring Jimmy Fallon",
 "s": 215,
-"p": 1794229964
+"p": 1794232003
 },
 {
 "id": "8MNrcLhXo8I",
 "t": "Foo Fighters – Baker Street",
 "s": 258,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "Rm5-CbgznxE",
@@ -32540,13 +32533,13 @@
 "id": "p4a3_cFy2-M",
 "t": "Slow Clap Soap Opera with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show",
 "s": 300,
-"p": 1794229964
+"p": 1794232003
 },
 {
 "id": "9weE2rrPpIE",
 "t": "Christopher Lloyd on Meeting Princess Diana, Being in Cher’s Bedroom & Turning 88 Years Old",
 "s": 486,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "Wl8hjt_EeGE",
@@ -32557,13 +32550,13 @@
 "id": "LtS4lur6unc",
 "t": "Robert De Niro, Ben Stiller and Ariana Grande Talk Focker In-Law and Intense Heimlich Maneuver Scene",
 "s": 577,
-"p": 1794229964
+"p": 1794232003
 },
 {
 "id": "7HeIRaVNtiM",
 "t": "Paul Bettany on New Show VisionQuest, Blowing His Eye Out on Set & Becoming an American Citizen",
 "s": 822,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "2WCZX21ta5s",
@@ -32574,13 +32567,13 @@
 "id": "r07P9Fa9Xo4",
 "t": "True Confessions with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show",
 "s": 759,
-"p": 1794229964
+"p": 1794232003
 },
 {
 "id": "7_eUJ0Af5yw",
 "t": "Trump Lashes Out at a Reporter, Hecklers Take Over His Rallies & Obama's Cheesecake Factory Response",
 "s": 830,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "gClf-PgT_rc",
@@ -32591,13 +32584,13 @@
 "id": "En4fD03PNCM",
 "t": "Robert De Niro, Ben Stiller and Ariana Grande Interrupt Jimmy's Monologue with Christmas Cheer",
 "s": 113,
-"p": 1794229964
+"p": 1794232003
 },
 {
 "id": "RSU0CPdei9k",
 "t": "Guillermo Races with Bobby & Graham Rahal - Sponsored by Edwards Lifesciences",
 "s": 69,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "OfGzQiOLjw0",
@@ -32608,13 +32601,13 @@
 "id": "zOQLrSi1peE",
 "t": "Trump Hires Stephen Miller as Chief of Staff, Butchers \"Genome\" Pronunciation | The Tonight Show",
 "s": 410,
-"p": 1794229964
+"p": 1794232003
 },
 {
 "id": "nwtmot_PL3M",
 "t": "Emma Roberts on Getting Married, American Horror Story & She Breaks Baseball Cards with Jimmy Kimmel",
 "s": 610,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "oQGTdEP83GQ",
@@ -32625,13 +32618,13 @@
 "id": "2q5fRBkzA_k",
 "t": "Dinner Party: Sleepless Nights/If It Ain't Broke Medley | The Tonight Show Starring Jimmy Fallon",
 "s": 301,
-"p": 1794057164
+"p": 1794059203
 },
 {
 "id": "cGkutLx7xLM",
 "t": "Governor Gavin Newsom on Trump’s Election Meddling, If He'll Run for President & Blue Wave Coming",
 "s": 985,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "VzEClVq1BiY",
@@ -32642,13 +32635,13 @@
 "id": "KCZaSSr5m6o",
 "t": "Caitlin Clark Shoots Cheeseballs into Jimmy's Mouth, Talks Nike Friendship Bracelet Caitlin 1s",
 "s": 554,
-"p": 1794057164
+"p": 1794059203
 },
 {
 "id": "zIwbwIlFFcE",
 "t": "Foo Fighters – Your Favorite Toy",
 "s": 187,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "0Xy_YXhPkuM",
@@ -32659,13 +32652,13 @@
 "id": "uWmxJ9_q8t4",
 "t": "Sarah Paulson Talks Harryween and Her All's Fair Season 2 Rotten Tomatoes Prediction | Tonight Show",
 "s": 636,
-"p": 1794057164
+"p": 1794059203
 },
 {
 "id": "bwWGBP18vmc",
 "t": "Trump’s Racism is on Full Display, Won’t Endorse JD Vance & Don Jr is All Over the Place",
 "s": 961,
-"p": 1793797967
+"p": 1793800005
 },
 {
 "id": "f2ByDMaTbGw",
@@ -32676,13 +32669,13 @@
 "id": "NCGspQaNqi4",
 "t": "What's Behind Me? with Sarah Paulson | The Tonight Show Starring Jimmy Fallon",
 "s": 420,
-"p": 1794057164
+"p": 1794059203
 },
 {
 "id": "1BqwBATY6Qo",
 "t": "Foo Fighters – This Is A Call",
 "s": 230,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "sJgDOSLjic4",
@@ -32693,13 +32686,13 @@
 "id": "qJB-oN4zHn8",
 "t": "Thank You Notes: Bob Dylan Meeting the Pope, Automatic Toilets | The Tonight Show",
 "s": 446,
-"p": 1794057164
+"p": 1794059203
 },
 {
 "id": "BQaMVQ3Bq6A",
 "t": "Gabourey Sidibe on Her Twins Dressing Up for Halloween & Scary Role on American Horror Story",
 "s": 513,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "ZGr_ExDK8Yk",
@@ -32710,13 +32703,13 @@
 "id": "v2E4D_CO2RE",
 "t": "Democrats Ride the Blue Wave High, 19-Year-Old Unseats GOP Lawmaker in Massachusetts | Tonight Show",
 "s": 328,
-"p": 1794057164
+"p": 1794059203
 },
 {
 "id": "t-WFvGbYyK8",
 "t": "Owen Wilson on Fockers Call from De Niro, Stealing from Woody Harrelson & Golfing with His Brother",
 "s": 731,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "d2qz8DZFdP8",
@@ -32727,13 +32720,13 @@
 "id": "nJ7RYGHIxcI",
 "t": "Ashe: Stop The Wedding! | The Tonight Show Starring Jimmy Fallon",
 "s": 244,
-"p": 1793970764
+"p": 1793972803
 },
 {
 "id": "zpW_gVjb7T4",
 "t": "Trump Gets Heckled at His Own Rally, Gifts Us a GREAT Moment & Don Jr’s Oligarch Hunting Trip",
 "s": 934,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "3w0YyESSk3Q",
@@ -32744,13 +32737,13 @@
 "id": "rVoNx1yuOH0",
 "t": "Anthony Ippolito Talks Starring as Sylvester Stallone in I Play Rocky, Reenacting Iconic Film Scenes",
 "s": 438,
-"p": 1793970764
+"p": 1793972803
 },
 {
 "id": "Gd-lxHNPMI0",
 "t": "Connie Britton on Friday Night Lights Reunion, Road Trip with Kyle Chandler & New Hulu Show Phony",
 "s": 558,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "Qy10Ptkk6Nc",
@@ -32761,13 +32754,13 @@
 "id": "kSt_PCNtkQE",
 "t": "Jennifer Beals Praises Taylor Swift, Says She Was a Mythology Nerd Before Starring in Percy Jackson",
 "s": 490,
-"p": 1793970764
+"p": 1793972803
 },
 {
 "id": "dk8jaL4AyCQ",
 "t": "Dave Grohl on Poaching Taylor Hawkins from Alanis Morissette, Cooking for Vin Diesel & New Album",
 "s": 869,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "yUDnmROEng8",
@@ -32778,13 +32771,13 @@
 "id": "PCsU9f6yXQU",
 "t": "Ethan Hawke Talks Attending Maya Hawke's Wedding and Filming Training Day with Denzel Washington",
 "s": 681,
-"p": 1793970764
+"p": 1793972803
 },
 {
 "id": "a9lTedOJDxI",
 "t": "Foo Fighters – Window",
 "s": 224,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "Kyl7iCUXC70",
@@ -32795,13 +32788,13 @@
 "id": "O6gyQAPVAnE",
 "t": "Trump's Cabinet Distances Themselves from Him After Midterms | The Tonight Show",
 "s": 639,
-"p": 1793970764
+"p": 1793972803
 },
 {
 "id": "5HNo4Cz5Yec",
 "t": "Trump Comments on Nicki Minaj’s “Beautiful Ass,\" Obama Roasts Trump & Midterm Shenanigans",
 "s": 886,
-"p": 1793193167
+"p": 1793195205
 },
 {
 "id": "-mEE3TmWOVQ",
@@ -32812,7 +32805,7 @@
 "id": "uDTcC4fuDAw",
 "t": "Chef Anthony Vitolo Cooks His Classic Spaghetti Pomodoro with Jimmy | The Tonight Show",
 "s": 431,
-"p": 1793884364
+"p": 1793886403
 },
 {
 "id": "MMaOs74_bzs",
@@ -32828,7 +32821,7 @@
 "id": "PcALlSqnVAs",
 "t": "Memory Drawing Challenge with Carrie Coon | The Tonight Show Starring Jimmy Fallon",
 "s": 437,
-"p": 1793884364
+"p": 1793886403
 },
 {
 "id": "3ZbbL2ySDAo",
@@ -32844,7 +32837,7 @@
 "id": "awKCW9dyuvQ",
 "t": "Carrie Coon Says Taylor Swift Should Be on The Gilded Age, Discusses the Show's New Season",
 "s": 455,
-"p": 1793884364
+"p": 1793886403
 },
 {
 "id": "4K1Cz42AYxY",
@@ -32860,7 +32853,7 @@
 "id": "vKy1cYrIsVg",
 "t": "Tracy Morgan Does His Chewbacca Impression, Talks the Knicks and Reggie Dinkins Season 2",
 "s": 594,
-"p": 1793884364
+"p": 1793886403
 },
 {
 "id": "7qjdZkgITXY",
@@ -32876,7 +32869,7 @@
 "id": "gKjwSQyc5Js",
 "t": "Trump Furious About Democrats' Midterms Win, Says He Would Have Won the Ballot | The Tonight Show",
 "s": 514,
-"p": 1793884364
+"p": 1793886403
 },
 {
 "id": "jKGzSb5RY8g",
@@ -32892,7 +32885,7 @@
 "id": "2zO9sHPInEQ",
 "t": "Kurt Vile: 99 BPM | The Tonight Show Starring Jimmy Fallon",
 "s": 285,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "4CZem0V1XhA",
@@ -32908,7 +32901,7 @@
 "id": "1jGI0zIQ1k0",
 "t": "Eric Ripert Always Wanted to Be a Chef, Talks His New Cookbook and Drinks Tea with Jimmy",
 "s": 326,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "QKppvCsSO6Y",
@@ -32924,7 +32917,7 @@
 "id": "a-aW6D4hYrI",
 "t": "Niecy Nash-Betts Told Rihanna She Dressed as Her for Halloween, Talks Filming All's Fair Season 2",
 "s": 477,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "eCkr9Mmj2l4",
@@ -32940,7 +32933,7 @@
 "id": "CPIx4qgKpMw",
 "t": "Sam Rockwell Makes Another Iconic Tonight Show Entrance, Does His Best SNL Impression with Jimmy",
 "s": 610,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "c2UegpzAt4c",
@@ -32956,7 +32949,7 @@
 "id": "j4L-DHQA4zw",
 "t": "Trump Says He Will Become \"Mr. Veto\" If Democrats Win Midterms, Gives Speech at Reflecting Pool",
 "s": 501,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "25PihIm_Nd0",
@@ -32972,7 +32965,7 @@
 "id": "OFgdomoKXt4",
 "t": "ADÉLA Teaches Jimmy Her Iconic Swaggerina Dance, Performs \"Nicole Kidman\" and \"Ain't In LA\"",
 "s": 729,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "KRUYAuhFpi4",
@@ -32988,7 +32981,7 @@
 "id": "4EJqaRrJvZ4",
 "t": "Shin Lim Performs a Mind-Blowing Cup and Ball Magic Trick for Jimmy | The Tonight Show",
 "s": 392,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "RIktC1DJ6ao",
@@ -33004,7 +32997,7 @@
 "id": "fNvBsfb3TzU",
 "t": "Veronika Slowikowska Celebrates Her Birthday on The Tonight Show with a Polish Birthday Song",
 "s": 319,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "KryCb2pWYBU",
@@ -33020,7 +33013,7 @@
 "id": "-oFXlJxXsbM",
 "t": "Mel Robbins Pranked Her Family with Fake PEOPLE Magazine Cover, Shares Advice That Changed Her Life",
 "s": 650,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "wcGjroe8BZA",
@@ -33036,7 +33029,7 @@
 "id": "FH-8ZAvGWfc",
 "t": "LL COOL J Introduced Hip-Hop to Maine, Talks Early Rap Names and Rock the Bells Vegas Residency",
 "s": 492,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "cSChIJS1pyQ",
@@ -33052,7 +33045,7 @@
 "id": "dku-9J0KxTM",
 "t": "Trump Brags About Cognitive Test Again, Putin Hails Elon Musk a “Genius\" | The Tonight Show",
 "s": 559,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "7HrD9azWOTg",
@@ -33068,7 +33061,7 @@
 "id": "ENAAxBc_StE",
 "t": "Jamie Campbell Bower Smells Jimmy, Shows Off His Stranger Things and Rings of Power Prosthetics",
 "s": 791,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "Ic3bD0QRVYQ",
@@ -33084,7 +33077,7 @@
 "id": "Vf09TIOOdw0",
 "t": "Angèle: Love Triangle | The Tonight Show Starring Jimmy Fallon",
 "s": 239,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "dtqSh7DAHAM",
@@ -33100,7 +33093,7 @@
 "id": "bbIvEDa6BCk",
 "t": "Hey Robot with Jamie Lee Curtis | The Tonight Show Starring Jimmy Fallon",
 "s": 421,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "uTi2Yiz-8vs",
@@ -33116,7 +33109,7 @@
 "id": "D38EKEBbMpE",
 "t": "Jamie Lee Curtis Tests Her Horror Movie Knowledge, Shows Off Baby Impression and Talks Newlyweds",
 "s": 829,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "XIBcA0R6AD4",
@@ -33132,7 +33125,7 @@
 "id": "2RoZtt4mLVA",
 "t": "Trump Rants About Loving Meat, Continues to Thirst Over Sen. Jon Husted | The Tonight Show",
 "s": 586,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "GMk-YpfErws",
@@ -33148,7 +33141,7 @@
 "id": "jLXghyVDXbg",
 "t": "You Can See Everything with Jamie Lee Curtis (Cold Open) | The Tonight Show Starring Jimmy Fallon",
 "s": 96,
-"p": 1793797964
+"p": 1793800003
 },
 {
 "id": "39hD61SxyGw",
@@ -33164,7 +33157,7 @@
 "id": "S_qp-16ic04",
 "t": "Julian McCullough Stand-Up: Touring with Nate Bargatze, Rat Birth Control | The Tonight Show",
 "s": 374,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "TYxJ_HXi6Cw",
@@ -33180,7 +33173,7 @@
 "id": "m-rX7mtKv_M",
 "t": "Nicholas Galitzine Chickened Out of Whittling a Chess Piece for Ben Stiller (Extended)",
 "s": 507,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "LO9Tlp7LgiY",
@@ -33196,7 +33189,7 @@
 "id": "7E5KprMBADA",
 "t": "Silent Disco Interview with Parker Posey | The Tonight Show Starring Jimmy Fallon",
 "s": 332,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "i261DEYcOcw",
@@ -33212,7 +33205,7 @@
 "id": "tVILxPeUynk",
 "t": "Parker Posey's Mom Had a Message for Joe Gorga While Filming The Mob, Talks Wild Horse Nine",
 "s": 457,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "ilWkoLJT2xo",
@@ -33228,7 +33221,7 @@
 "id": "LPkSDiJmUrU",
 "t": "Trump Offers $1 Million for Voter Fraud Reports, Gets Heckled at Mississippi Rally | Tonight Show",
 "s": 655,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "nlbaq4cRsfA",
@@ -33244,7 +33237,7 @@
 "id": "kXivqiKcgSE",
 "t": "St. Vincent: Smoking Section | The Tonight Show Starring Jimmy Fallon",
 "s": 301,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "KdBGJTRDPG4",
@@ -33260,7 +33253,7 @@
 "id": "DmYH6VEARqk",
 "t": "Joe Keery Recalls Shocking Audience Bathroom Incident During Other Desert Cities | The Tonight Show",
 "s": 337,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "13KR2CUo1hc",
@@ -33276,7 +33269,7 @@
 "id": "a9Zqb2Wei-0",
 "t": "Billy Crystal Announces 860 Broadway Extension, Reveals His Grandkids Called Him Mike Wazowski",
 "s": 499,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "p1CiIWrRh0s",
@@ -33292,7 +33285,7 @@
 "id": "WXkIUl97fmY",
 "t": "Password with Billy Crystal, Joe Keery and St. Vincent | The Tonight Show Starring Jimmy Fallon",
 "s": 621,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "K42dfioYcAQ",
@@ -33308,7 +33301,7 @@
 "id": "DSuqH79btC8",
 "t": "Trump Orders DOJ to Block Alaska Senate Results, Blasts Don Jr. Over Bankrolled Wedding",
 "s": 493,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "5lFfr11ODtk",
@@ -33324,7 +33317,7 @@
 "id": "_D1shb99GNA",
 "t": "ROSALÍA Talks LUX Tour Celebrity Confessionals, Plays Charades with Linda Cardellini and Tate McRae",
 "s": 920,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "JU5s-fTT1LU",
@@ -33340,7 +33333,7 @@
 "id": "DPu5RyE1BKQ",
 "t": "ADÉLA: Nicole Kidman/Ain't In LA Medley | The Tonight Show Starring Jimmy Fallon",
 "s": 314,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "q5KvXwWeF7k",
@@ -33356,7 +33349,7 @@
 "id": "t9MpJpgE8h0",
 "t": "ADÉLA Freaked Out When Nicole Kidman Mentioned Her & Gives Jimmy an Iconic Swaggerina Dance Lesson",
 "s": 439,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "yrlod2vMk_A",
@@ -33372,7 +33365,7 @@
 "id": "lc7dQcLXTW0",
 "t": "\"I'm Probably the Only Villain Ever with an Ostomy Bag\": Joe Manganiello on His Justice League Role",
 "s": 796,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "4VIErDWXDKs",
@@ -33388,7 +33381,7 @@
 "id": "UddHaiMqAqg",
 "t": "Kristen Bell's Halloween Hayride Was Sabotaged by Zombies | The Tonight Show Starring Jimmy Fallon",
 "s": 510,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "5m4aaVWLGiI",
@@ -33404,7 +33397,7 @@
 "id": "XTiftHEseWc",
 "t": "Trump Makes Strange Guttural Noise During Campaign Rally, Hegseth Breaks Priceless Historic Globe",
 "s": 814,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "2baPys-3uTs",
@@ -33420,7 +33413,7 @@
 "id": "rSsdVPOQWxA",
 "t": "Queens of the Stone Age: Where The Goth Girls At? | The Tonight Show Starring Jimmy Fallon",
 "s": 253,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "b_D1gPu5fSc",
@@ -33436,7 +33429,7 @@
 "id": "qKoLXIjBsYk",
 "t": "Josh Charles on Getting Headbutted by David Wells & Playing a Blood-Phobic Surgeon in Best Medicine",
 "s": 568,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "YmewnMHBOw0",
@@ -33452,7 +33445,7 @@
 "id": "mQMc-mtqRDM",
 "t": "Uma Thurman Had a Terrifying Brush with the Law When She Was Three | The Tonight Show",
 "s": 623,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "4nb76mJ2XiU",
@@ -33468,7 +33461,7 @@
 "id": "PbbE-wy1Y4o",
 "t": "Jimmy Feeds the Tonight Show's Pet Fish | The Tonight Show Starring Jimmy Fallon",
 "s": 207,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "0lW3GRcj2cs",
@@ -33484,7 +33477,7 @@
 "id": "339-czfSS5s",
 "t": "Trump Thirsts Over Sen. John Husted, White House Officials Believe Democrats Will Sweep the Midterms",
 "s": 492,
-"p": 1793193164
+"p": 1793195203
 },
 {
 "id": "ss6bLwzpYSY",
@@ -33500,7 +33493,7 @@
 "id": "xXJ76YlLm8k",
 "t": "Beck: In The Night | The Tonight Show Starring Jimmy Fallon",
 "s": 208,
-"p": 1792588364
+"p": 1792590403
 },
 {
 "id": "PWd48Rt-k_4",
@@ -33516,7 +33509,7 @@
 "id": "Y5BeBkfgc7c",
 "t": "Beck Was the Inspiration for an Iconic Zoolander Character | The Tonight Show Starring Jimmy Fallon",
 "s": 588,
-"p": 1792588364
+"p": 1792590403
 },
 {
 "id": "9dSLJHS2Uns",
@@ -33532,7 +33525,7 @@
 "id": "8Ld7Q8RZg-E",
 "t": "KJ Apa Responds to Mr. Fantasy Identity Theft Allegations, Talks Jimmy Stewart Biopic | Tonight Show",
 "s": 391,
-"p": 1792588364
+"p": 1792590403
 },
 {
 "id": "1liG0P61DPc",
@@ -33548,7 +33541,7 @@
 "id": "5Q7snsArHds",
 "t": "Sacha Baron Cohen on Bringing Back Ali G | The Tonight Show Starring Jimmy Fallon",
 "s": 793,
-"p": 1792588364
+"p": 1792590403
 },
 {
 "id": "BztVV-Io2AI",
@@ -33564,7 +33557,7 @@
 "id": "IPWQkcJqoGI",
 "t": "Hoops of Insanity: Jock Strap Flap Slap, Hoop! There It Is | The Tonight Show Starring Jimmy Fallon",
 "s": 578,
-"p": 1792588364
+"p": 1792590403
 },
 {
 "id": "nHoquA-kUhI",
@@ -33853,7 +33846,7 @@
 "id": "AWIi6Upmvvw",
 "t": "Una maldición legendaria llegó a casa con esta tarántula | Mi mascota poseída | Travel Channel",
 "s": 716,
-"p": 1793970774
+"p": 1793972813
 },
 {
 "id": "fH_I7nSBGck",
@@ -33877,7 +33870,7 @@
 "id": "lACFhxdAY94",
 "t": "Niña torturada físicamente por lo paranormal | The Dead Files | Travel Channel",
 "s": 699,
-"p": 1793797974
+"p": 1793800013
 },
 {
 "id": "GTAAuUC5kag",
@@ -33900,7 +33893,7 @@
 "id": "CZjwCelp-NA",
 "t": "Cómo se fabrican una caña de pescar de clase mundial y un mono de calcetín | Hecho en Estados Uni...",
 "s": 743,
-"p": 1793797974
+"p": 1793800013
 },
 {
 "id": "vm6UDSFxnck",
@@ -33923,7 +33916,7 @@
 "id": "OE1Yfdo0NSI",
 "t": "Monster Traps 101 | Mountain Monsters | Travel Channel",
 "s": 3599,
-"p": 1793797974
+"p": 1793800013
 },
 {
 "id": "gv8vBjEkAOU",
@@ -33946,7 +33939,7 @@
 "id": "j9B9j5-OKMA",
 "t": "Una segunda noche en el Sanatorio Cresson obliga a Tanner a renunciar | Destination Fear | Travel...",
 "s": 545,
-"p": 1793797974
+"p": 1793800013
 },
 {
 "id": "xF88XVegHaU",
@@ -33968,7 +33961,7 @@
 "id": "mxjSw_wsEO8",
 "t": "Su amado caballo se volvió violento | Mi mascota poseída | Travel Channel",
 "s": 694,
-"p": 1793797974
+"p": 1793800013
 },
 {
 "id": "vDCqXJo7XpE",
@@ -33990,7 +33983,7 @@
 "id": "RVYLmF1QLQ8",
 "t": "Una leyenda mortal acecha este paraíso tropical | The Dead Files | Travel Channel",
 "s": 563,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "o4oY2buqrdM",
@@ -34012,7 +34005,7 @@
 "id": "EIgbAzftTwg",
 "t": "Secretos divertidos y picantes: Cómo se fabrican Silly Putty y Tabasco | Hecho en Estados Unidos ...",
 "s": 694,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "nU09bakrpjU",
@@ -34034,7 +34027,7 @@
 "id": "k5l6YNw2sLk",
 "t": "Cazando a los monstruos más terroríficos de Kentucky | Mountain Monsters | Travel Channel",
 "s": 3420,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "nE_j6pyO6Yk",
@@ -34056,7 +34049,7 @@
 "id": "H5O9Pp0UzUI",
 "t": "Encerrados solos en el sanatorio más aterrador de Estados Unidos | Destination Fear | Travel Channel",
 "s": 562,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "ihD1yru6XN4",
@@ -34078,7 +34071,7 @@
 "id": "eMTmUAwugDA",
 "t": "Anthony en la India | Sin Reservas | Travel Channel",
 "s": 3629,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "Hxote74wcUI",
@@ -34100,7 +34093,7 @@
 "id": "wnWLEn5E4mk",
 "t": "Un espíritu la siguió a casa... y eligió a su perra | Mi mascota poseída | Travel Channel",
 "s": 738,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "EMbZwBzEcTc",
@@ -34122,7 +34115,7 @@
 "id": "c9JE46vdIE4",
 "t": "Una entidad violenta está ahuyentando a los huéspedes de este hotel | The Dead Files | Travel Cha...",
 "s": 650,
-"p": 1792588374
+"p": 1792590413
 },
 {
 "id": "h420KdsyV7c",
@@ -34144,7 +34137,7 @@
 "id": "FnFVyl9aODU",
 "t": "Creaciones de alta velocidad: Corvette y Wiffle Ball | Hecho en Estados Unidos | Travel Channel",
 "s": 692,
-"p": 1792588374
+"p": 1792590413
 },
 {
 "id": "GqMDbQwePEA",
@@ -35697,7 +35690,7 @@
 },
 {
 "id": "7UH8WALCEm8",
-"t": "Small Scandinavian Style Minimalist Apartment, Copenhagen 40sqm/431sqft",
+"t": "Scandinavian Style Small Copenhagen Apartment, 40sqm/431sqft",
 "s": 757,
 "p": 1794459636
 },
@@ -35741,13 +35734,13 @@
 "id": "rU60QnxyvWs",
 "t": "Explora la impresionante casa georgiana del experto en rescate Drew Pritchard en Bath, ahora a la...",
 "s": 412,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "yUzgb0RYpfc",
 "t": "Small Apartment Transformed With Clever Storage and Colour, Poland 58sqm/624sqft",
 "s": 579,
-"p": 1793884379
+"p": 1793886414
 },
 {
 "id": "qRKBUVxvfNk",
@@ -35789,13 +35782,13 @@
 "id": "JxleKDytOvA",
 "t": "De granja en ruinas a Passivhaus: La casa larga galesa de un arquitecto",
 "s": 1339,
-"p": 1793193174
+"p": 1793195213
 },
 {
 "id": "7jW_PdUaO3Y",
 "t": "Inside the Life of an Illustrator Who Left London for a DIY Seaside Home",
 "s": 1237,
-"p": 1793797979
+"p": 1793800014
 },
 {
 "id": "Ebn1Ju6fjEo",
@@ -35842,7 +35835,7 @@
 "id": "t3N9aNO5Wfo",
 "t": "This Tiny London Apartment Packs 4 Levels Into Just 45sqm/484sqft",
 "s": 1112,
-"p": 1793193179
+"p": 1793195214
 },
 {
 "id": "3Mn6YnuH_AI",
@@ -40051,7 +40044,7 @@
 "id": "C0jOKDJtK9s",
 "t": "Intenté automatizar completamente la edición de mis videos con IA (RESULTADOS SIN EDITAR)",
 "s": 2793,
-"p": 1793193185
+"p": 1793195224
 },
 {
 "id": "-EDZZwMtPNw",
@@ -40264,7 +40257,7 @@
 },
 {
 "id": "dOZkAqR_2lA",
-"t": "Easy Way to Get Clients Without Ads or Cold DM's - FREE 2 HOUR MASTERCLASS",
+"t": "How to Get Unlimited Leads (No Ads, No Outreach)",
 "s": 8715
 },
 {
@@ -40931,7 +40924,7 @@
 "id": "oDZ0kyltz5Y",
 "t": "9 hábitos minimalistas que pueden hacerte rico sin esfuerzo",
 "s": 816,
-"p": 1794975183
+"p": 1794977222
 },
 {
 "id": "6tmBB5GcOLU",
@@ -43722,7 +43715,7 @@
 "id": "feM3hlS8GnM",
 "t": "Cómo hacer salmón ahumado mantecoso en menos de 15 minutos: ¡con una freidora de aire!",
 "s": 497,
-"p": 1795006687
+"p": 1795008726
 },
 {
 "id": "uoJwt9l-XhQ",
@@ -44417,7 +44410,7 @@
 },
 {
 "id": "sCbOgFAPNVs",
-"t": "When the Ice Melts, the Battle Begins (Full Episode) | Primal Combat | Nat Geo Animals",
+"t": "Battle for the Tidelands (Full Episode) | Primal Combat | Nat Geo Animals",
 "s": 2658,
 "p": 1795003220
 },
@@ -44429,7 +44422,7 @@
 },
 {
 "id": "FPuMNwoIw7g",
-"t": "China's Rare Golden Monkey (Full Episode) | Hidden Kingdoms of China | Nat Geo Animals",
+"t": "How This Baby Monkey Survives in Snow (Full Episode) | Hidden Kingdoms of China | Nat Geo Animals",
 "s": 2665,
 "p": 1794744031
 },
@@ -44539,7 +44532,7 @@
 "id": "v8zBKdy-JKI",
 "t": "Meet the Coastal Queens (Full Episode) | Queens | Nat Geo Animals",
 "s": 2831,
-"p": 1793797979
+"p": 1793800018
 },
 {
 "id": "SvLNzdrn3-o",
@@ -44551,7 +44544,7 @@
 "id": "M3MYLSq4qoQ",
 "t": "Inside Animal Rivalries | Documentary Special MEGA Episode | Nat Geo Animals",
 "s": 8001,
-"p": 1793797979
+"p": 1793800018
 },
 {
 "id": "ESfx8R5eOWs",
@@ -44563,43 +44556,43 @@
 "id": "bqT6ES7u3fA",
 "t": "Cougars vs. Wolves: A Deadly New Threat (Full Episode) | American Cougar: Revealed | Nat Geo Animals",
 "s": 2719,
-"p": 1793193179
+"p": 1793195218
 },
 {
 "id": "J7y7uhvha10",
 "t": "Un viaje increíble a través de la naturaleza salvaje de África | 4K UHD | BBC Earth",
 "s": 3907,
-"p": 1793193177
+"p": 1793195216
 },
 {
 "id": "CFN_z41NjD4",
 "t": "Lion Survival in African Wilderness (Full Episode) | The Lakeshore Killers | Nat Geo Animals",
 "s": 2665,
-"p": 1793193179
+"p": 1793195218
 },
 {
 "id": "jk4S1R8zp1M",
 "t": "El pulpo que camina por tierra | Planeta Azul III | 4K | BBC Earth",
 "s": 210,
-"p": 1793193177
+"p": 1793195216
 },
 {
 "id": "RpMLzWJDSmg",
 "t": "Alligators, Bears, & Toxic Creatures: Monsters of Nature | MEGA Episode | Nat Geo Animals",
 "s": 8001,
-"p": 1793193179
+"p": 1793195218
 },
 {
 "id": "Vn5xZSZc_Uw",
 "t": "| BBC Earth",
 "s": 6482,
-"p": 1793193177
+"p": 1793195216
 },
 {
 "id": "d73FGclipw0",
 "t": "It Comes at Night (Full Episode) | Dead by Dawn Compilation | Nat Geo Animals",
 "s": 2665,
-"p": 1793193179
+"p": 1793195218
 },
 {
 "id": "j1YmhOEyb4Y",
@@ -44610,7 +44603,7 @@
 "id": "gUcOy4EG-Mc",
 "t": "How Bull Sharks Adapt (Full Episode) | World's Most Iconic Animals | Nat Geo Animals",
 "s": 2658,
-"p": 1792588379
+"p": 1792590418
 },
 {
 "id": "QYThPEf6V08",
@@ -45511,7 +45504,7 @@
 "id": "Q6CW-vkS-x0",
 "t": "Weekend Update: Mississippi's First Black Senator Hiram Revels Discusses the 2026 Midterms - SNL",
 "s": 210,
-"p": 1794834783
+"p": 1794836820
 },
 {
 "id": "eCsGnruUX2w",
@@ -45527,7 +45520,7 @@
 "id": "k-4sSm-OFYw",
 "t": "Weekend Update: Svetlana and Kurt on Being a Couple Who Tell Each Other Everything - SNL",
 "s": 334,
-"p": 1794834783
+"p": 1794836820
 },
 {
 "id": "pRCTZwwvz1o",
@@ -45543,7 +45536,7 @@
 "id": "wRklbeWexH4",
 "t": "Phoebe Bridgers: Still Standing (Live) - SNL",
 "s": 278,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "SiRIcrElgMM",
@@ -45559,7 +45552,7 @@
 "id": "UrEbWMtkkDI",
 "t": "Kathy - Coworker Drinks - SNL",
 "s": 339,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "l5wdNy2qoaA",
@@ -45575,7 +45568,7 @@
 "id": "Lug5Tj1iGiE",
 "t": "Woodstock - SNL",
 "s": 233,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "gyavV_v19Uc",
@@ -45591,7 +45584,7 @@
 "id": "j3ciKOrWPO4",
 "t": "Central Park Horse & Carriage Ride - SNL",
 "s": 537,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "oLytSvYPslg",
@@ -45607,7 +45600,7 @@
 "id": "n6z70aaezd8",
 "t": "Weekend Update: Trump Admin Comments on FAA Outage, Biden Writes Memoir About His Presidency - SNL",
 "s": 434,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "oQkjmb3aAls",
@@ -45623,7 +45616,7 @@
 "id": "H7Q_wnltz0w",
 "t": "Weekend Update: Tommy Brennan Performs an Original Thanksgiving Song - SNL",
 "s": 215,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "OKC2Nf5DkP4",
@@ -45639,7 +45632,7 @@
 "id": "-X9dxL17t1k",
 "t": "Sister - SNL",
 "s": 179,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "q6wJPxnd49Y",
@@ -45655,7 +45648,7 @@
 "id": "848Qm25A8n0",
 "t": "Phoebe Bridgers: Bobby (Live) - SNL",
 "s": 203,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "nqoc2CCePPA",
@@ -45671,7 +45664,7 @@
 "id": "S3KDPLMYu9I",
 "t": "Gettin' It Done - SNL",
 "s": 257,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "Jr0flqVNPK0",
@@ -45687,7 +45680,7 @@
 "id": "T8j9WpcbKWU",
 "t": "Plane Crash - SNL",
 "s": 330,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "ACc6fbI7akM",
@@ -45703,7 +45696,7 @@
 "id": "9tyxwb3LZzM",
 "t": "John Mulaney Stand-Up Monologue - SNL",
 "s": 562,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "A_PajWngBg4",
@@ -45719,7 +45712,7 @@
 "id": "R_8UPhJNrZ4",
 "t": "CIA Meeting Cold Open - SNL",
 "s": 360,
-"p": 1794748383
+"p": 1794750420
 },
 {
 "id": "oYdPKX25ue0",
@@ -45735,7 +45728,7 @@
 "id": "grfzEXnbtXA",
 "t": "Ben Marshall Thinks John Mulaney Is Roasting Him - SNL",
 "s": 81,
-"p": 1794575583
+"p": 1794577620
 },
 {
 "id": "3S5vHEozoVI",
@@ -45751,7 +45744,7 @@
 "id": "1mM5FFlfe6E",
 "t": "Behind the Sketch: Birthday Girl - SNL",
 "s": 108,
-"p": 1794575583
+"p": 1794577620
 },
 {
 "id": "fwtwvkzeTKU",
@@ -45767,7 +45760,7 @@
 "id": "1UWLtymkTUs",
 "t": "John Mulaney Just Wants to Promote SNL",
 "s": 105,
-"p": 1794489183
+"p": 1794491220
 },
 {
 "id": "r0RO3Q63K5o",
@@ -45783,7 +45776,7 @@
 "id": "9naAIkGI41c",
 "t": "Weekend Update ft. Jeremy Culhane, Andrew Dismukes and Ashley Padilla - SNL",
 "s": 904,
-"p": 1794316383
+"p": 1794318420
 },
 {
 "id": "MEjWAnT2j3s",
@@ -45799,7 +45792,7 @@
 "id": "Wb8KSed6Zhc",
 "t": "Post-Election Ad - SNL",
 "s": 140,
-"p": 1794229983
+"p": 1794232020
 },
 {
 "id": "JspfS_xTRMM",
@@ -45815,7 +45808,7 @@
 "id": "YRVKmQEgL48",
 "t": "Golden Age of Hip-Hop - SNL",
 "s": 170,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "4Z3I_0eUDsQ",
@@ -45831,7 +45824,7 @@
 "id": "EQ4r3YBGGX0",
 "t": "The Strokes: Going Shopping (Live) - SNL",
 "s": 293,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "5uqfx63e0KU",
@@ -45847,7 +45840,7 @@
 "id": "-W47zrSTCpY",
 "t": "Wedding Photographers - SNL",
 "s": 236,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "oIisw8CCdd8",
@@ -45863,7 +45856,7 @@
 "id": "b84KRcISOl8",
 "t": "Proposal - SNL",
 "s": 300,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "sMw001gS2Ps",
@@ -45879,7 +45872,7 @@
 "id": "ljMvm20rg-4",
 "t": "Weekend Update: Two People Who Just Hooked Up on the Midterms - SNL",
 "s": 251,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "Q1BaXoPvoZE",
@@ -45895,7 +45888,7 @@
 "id": "N5Ws09EYV3s",
 "t": "Weekend Update: Elon Musk on His Tough Week After Midterms - SNL",
 "s": 266,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "ZLG_RWROi5I",
@@ -45911,7 +45904,7 @@
 "id": "lw99lLIkcTg",
 "t": "Weekend Update: Bob Dylan Meets with Pope Leo, Martha Stewart Apologizes for Halloween Costume - SNL",
 "s": 150,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "YdS8XFEFxWg",
@@ -45927,7 +45920,7 @@
 "id": "NB15mTMlKck",
 "t": "Weekend Update: Democrats Win Control of Congress, Trump Blames Poor Quality GOP Candidates - SNL",
 "s": 265,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "D1ZPrcz0P4M",
@@ -45943,7 +45936,7 @@
 "id": "fLmK4rwUFQw",
 "t": "The Strokes: Lonely in the Future (Live) - SNL",
 "s": 236,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "f8ZkieyFydM",
@@ -45959,7 +45952,7 @@
 "id": "8cfZQ5Njnb8",
 "t": "New Health Tracker - SNL",
 "s": 162,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "Ln6wZHDFDtg",
@@ -45975,7 +45968,7 @@
 "id": "fNWgcwrK4hI",
 "t": "Birthday Girl - SNL",
 "s": 267,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "dWMeIeLmptY",
@@ -45991,7 +45984,7 @@
 "id": "8YBeaoF_zLE",
 "t": "Bubu Mobile - SNL",
 "s": 291,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "kVNixOxZgtE",
@@ -46007,7 +46000,7 @@
 "id": "war5ANHUpiA",
 "t": "Dru Can See Everything - SNL",
 "s": 243,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "qw1i1GxSIaw",
@@ -46023,7 +46016,7 @@
 "id": "KQ7bqXzrD0g",
 "t": "Washington in Focus - SNL",
 "s": 227,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "K2R1mav3sz0",
@@ -46039,7 +46032,7 @@
 "id": "A_McuuSsNiI",
 "t": "Druski Monologue - SNL",
 "s": 236,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "qLvxc83GrM4",
@@ -46055,7 +46048,7 @@
 "id": "3Bl6gav2Ofg",
 "t": "Post-Midterm Cold Open - SNL",
 "s": 408,
-"p": 1794143583
+"p": 1794145620
 },
 {
 "id": "qj5scSYOD4I",
@@ -46071,7 +46064,7 @@
 "id": "BEALU2ChgQw",
 "t": "SNL Host Druski Does an Impression of The Strokes",
 "s": 79,
-"p": 1793970783
+"p": 1793972820
 },
 {
 "id": "qL4LiFpeOZY",
@@ -46087,7 +46080,7 @@
 "id": "qyAvZgmoVCU",
 "t": "Druski Says Hosting SNL Is Even Better Than His Childhood Dream",
 "s": 83,
-"p": 1793884383
+"p": 1793886420
 },
 {
 "id": "4MYHRYbcq0c",
@@ -46103,7 +46096,7 @@
 "id": "N-9_-VwQZQk",
 "t": "Weekend Update ft. Ben Marshall and Bobby Moynihan - SNL",
 "s": 851,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "0gNA7EHzmGw",
@@ -46119,7 +46112,7 @@
 "id": "gupSBX7S9_k",
 "t": "The Inventor's Wife - SNL",
 "s": 318,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "NfkPaK05iEk",
@@ -46135,7 +46128,7 @@
 "id": "AjI9ViInwPo",
 "t": "Gracie Abrams: Here You Come, There You Go (Live) - SNL",
 "s": 206,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "aXV59Jd2PyQ",
@@ -46151,7 +46144,7 @@
 "id": "AKWh8D8bSR0",
 "t": "Plates - SNL",
 "s": 272,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "ZAFFBlliv70",
@@ -46167,7 +46160,7 @@
 "id": "Zl2IRCXSYyo",
 "t": "Paw Patrol: Special Victims Unit - SNL",
 "s": 216,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "7whqVDLieRs",
@@ -46183,7 +46176,7 @@
 "id": "-FWFoEgSPs8",
 "t": "Weekend Update: Drunk Uncle on the Milwaukee Brewers' World Series Win - SNL",
 "s": 250,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "QN488Ao-G20",
@@ -46199,7 +46192,7 @@
 "id": "-2wEs1EQaI4",
 "t": "Weekend Update: Pennywise the Clown on Gen Z Wellness Parties - SNL",
 "s": 171,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "V5kzVifGYbk",
@@ -46215,7 +46208,7 @@
 "id": "FjOMK0_nZ3o",
 "t": "Weekend Update: Scotland Opens Epstein & Prince Andrew Investigation, NYC Bans Horse-Drawn Carriages",
 "s": 206,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "_rpiv3yiYGs",
@@ -46231,7 +46224,7 @@
 "id": "DkPdyivhrfo",
 "t": "Weekend Update: Trump Obsesses Over Men's Asses & Ramps Up Attacks on Abdul El-Sayed - SNL",
 "s": 255,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "8yiKMVG3TNw",
@@ -46247,7 +46240,7 @@
 "id": "5gMdcdJ3odQ",
 "t": "Gracie Abrams: Hit the Wall (Live) - SNL",
 "s": 246,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "HW_w6k0aOV4",
@@ -46263,7 +46256,7 @@
 "id": "mqqX9i-q3qs",
 "t": "Telenovela: El Corazón Que No Siente - SNL",
 "s": 339,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "iiJmrrXwJAg",
@@ -46279,7 +46272,7 @@
 "id": "KksrucAkrIw",
 "t": "Uninterested Woman Game Show - SNL",
 "s": 268,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "iW1CLKxdLwQ",
@@ -46295,7 +46288,7 @@
 "id": "QFR2QTNf2rA",
 "t": "New Airline Class - SNL",
 "s": 157,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "yRRQNzGv6Ec",
@@ -46311,7 +46304,7 @@
 "id": "v2zdpuLkW1Y",
 "t": "Queen Mary Ghosts - SNL",
 "s": 284,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "fwczhLCz7-Y",
@@ -46327,7 +46320,7 @@
 "id": "-kjW-tcky-E",
 "t": "Inde Navarrette Monologue - SNL",
 "s": 236,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "17R3JjrsiZw",
@@ -46343,7 +46336,7 @@
 "id": "O6VZaBM2Zr4",
 "t": "Scary Halloween Cold Open (ft. David S. Pumpkins) - SNL",
 "s": 401,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "CoFjr3pgjCg",
@@ -46359,7 +46352,7 @@
 "id": "-pY-iQxFuy0",
 "t": "SNL Host Inde Navarrette Has the Same Favorite Ghost as Jane Wickline",
 "s": 74,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "5xFrbWVZHL4",
@@ -46375,7 +46368,7 @@
 "id": "cd2Yv0l4eSo",
 "t": "Inde Navarrette Isn't Scared to Host SNL on Halloween",
 "s": 139,
-"p": 1793797983
+"p": 1793800020
 },
 {
 "id": "R27ghfDIeLQ",
@@ -48885,7 +48878,7 @@
 },
 {
 "id": "y_NKQAyRRTo",
-"t": "추운날 생각나는 초간단 국물요리 찌개레시피 6가지 :: 순두부찌개, 감자짜글이, 스팸두부찌개, 참치순두부찌개",
+"t": "초간단 참치 순두부찌개 vs 오리지널 순두부찌개, 뭐가 더 맛있을까? :: 찌개레시피 6가지",
 "s": 1077,
 "p": 1794312019
 },
@@ -50941,7 +50934,7 @@
 "id": "5GQH6AWY6ko",
 "t": "Cómo hacer pastel de plátano con 1 huevo :: Pan de plátano en sartén",
 "s": 219,
-"p": 1795003994
+"p": 1795006029
 },
 {
 "id": "kuyzikW0za4",
@@ -51372,7 +51365,7 @@
 "id": "ppyQiNvbETo",
 "t": "¡El legendario pan de ajo dulce coreano en Seúl! La gente hace cola 3 horas antes de abrir",
 "s": 785,
-"p": 1794996786
+"p": 1794998823
 },
 {
 "id": "WQYz4iZGysg",
@@ -51593,7 +51586,7 @@
 "id": "7J7hgKEK9mY",
 "t": "Puedes hacer gimbap con solo 3 huevos :: Gimbap con forma de flor de huevo",
 "s": 208,
-"p": 1794996794
+"p": 1794998829
 },
 {
 "id": "Dss30fXxz44",
@@ -53733,10 +53726,1037 @@
 "hours": [],
 "sourceName": "innerFrench y Easy French",
 "tagline": "innerFrench y Easy French",
-"kind": "latest",
-"ids": [
-"UCI4xp8qHD1MDErkqxb1dPbA",
-"UCoUWq2QawqdC3-nRXKk-JUw"
+"kind": "linear",
+"items": [
+{
+"id": "idcUTDJWCEk",
+"t": "E200 Toutes les bonnes choses ont une fin",
+"s": 3660,
+"p": 1789400747
+},
+{
+"id": "GP7NNcgK8H4",
+"t": "How to Talk About What You Like in French (Slow French Conversation)",
+"s": 655,
+"p": 1794679207
+},
+{
+"id": "kTSnYNClAao",
+"t": "E199 Et si on se rencontrait ?",
+"s": 1767,
+"p": 1788176973
+},
+{
+"id": "5r1yJ3BKkFA",
+"t": "We Asked The French How They Are Doing | B1 Listening Comprehension",
+"s": 522,
+"p": 1794074411
+},
+{
+"id": "N1eYmYiNXYo",
+"t": "E198 Pourquoi regardons-nous ailleurs ?",
+"s": 2910,
+"p": 1786376363
+},
+{
+"id": "695ludBa7sc",
+"t": "9 Beginner Questions to Get to Know Someone in French: Real Answers from the Streets.",
+"s": 789,
+"p": 1793469627
+},
+{
+"id": "PZxVi6lCLAU",
+"t": "E197 L'amitié, un lien révolutionnaire ?",
+"s": 2185,
+"p": 1782903984
+},
+{
+"id": "0R7rt5YKbdE",
+"t": "What Makes The French Angry? (B2 Listening Comprehension)",
+"s": 622,
+"p": 1792861201
+},
+{
+"id": "Kfe6t4CEQfU",
+"t": "E196 En France, le nucléaire à tout prix ?",
+"s": 2085,
+"p": 1778074330
+},
+{
+"id": "KeFJN46cQ_c",
+"t": "How To Talk About Pain in Slow French (Beginner Friendly)",
+"s": 482,
+"p": 1792256416
+},
+{
+"id": "Lm9KTyS-Gv8",
+"t": "E195 L'égalité en France, une illusion ?",
+"s": 1789,
+"p": 1776865890
+},
+{
+"id": "og9R-J6bduk",
+"t": "The French Describe Their Best Friend (B1 Listening Comprehension)",
+"s": 646,
+"p": 1791651911
+},
+{
+"id": "CJXjqdL2s84",
+"t": "E194 Élections 2026 : qui dirige les villes françaises ?",
+"s": 1895,
+"p": 1775650302
+},
+{
+"id": "nDCVXdenDII",
+"t": "Cultural Mistakes to Avoid in France: What French People Really Think",
+"s": 552,
+"p": 1791046807
+},
+{
+"id": "tgUrsiKi0sM",
+"t": "E193 Alexandre Dumas, l'inventeur du héros à la française",
+"s": 2012,
+"p": 1774447914
+},
+{
+"id": "Bn11sSjvFKw",
+"t": "Do the French Have Regrets? Deep Talk With Strangers.",
+"s": 614,
+"p": 1790442033
+},
+{
+"id": "cKFwzGJiY-g",
+"t": "E192 Corriger les erreurs fossilisées avec Yasmine d'I Learn French",
+"s": 2399,
+"p": 1773236459
+},
+{
+"id": "wIrk_fg4Hyg",
+"t": "What Is Your Hidden Talent? | Intermediate French Listening Practice",
+"s": 604,
+"p": 1789232421
+},
+{
+"id": "nMw-ajbpHhs",
+"t": "E191 S'ennuyer au travail, le secret du bonheur ?",
+"s": 1782,
+"p": 1772031373
+},
+{
+"id": "Z6C6cOSgOq4",
+"t": "Countryside Vocabulary: How to Talk About Nature in Slow French",
+"s": 362,
+"p": 1788627613
+},
+{
+"id": "sGMb2L58Et0",
+"t": "E190 Le secret d'Ingrid pour aller bien en 2026",
+"s": 1894,
+"p": 1770821627
+},
+{
+"id": "9FmPuPnJvUU",
+"t": "French Learners From Around the World: Meeting the Easy French Community",
+"s": 581,
+"p": 1788022814
+},
+{
+"id": "7RV9I8mnREw",
+"t": "E189 Pourquoi les Français ne vont plus au restaurant ?",
+"s": 2337,
+"p": 1769612668
+},
+{
+"id": "n8ToxrNbOAI",
+"t": "40 Minutes of Slow French: Conversations About Food (Breakfast, Picnic, Pastries...)",
+"s": 2330,
+"p": 1787418039
+},
+{
+"id": "AqxY-gvgiqM",
+"t": "E188 N'apprenez pas le français en 2026",
+"s": 1552,
+"p": 1768593948
+},
+{
+"id": "aADdGa75fbw",
+"t": "Paris by The Locals : What To See in The 11th Arrondissement?",
+"s": 769,
+"p": 1786813215
+},
+{
+"id": "w52si3lMQUQ",
+"t": "E187 On termine 2025 ensemble !",
+"s": 4119,
+"p": 1767193699
+},
+{
+"id": "PjcbR7TxxF8",
+"t": "Job Interview in French: Getting Hired at Easy Coffee (Slow French)",
+"s": 900,
+"p": 1785603614
+},
+{
+"id": "LxPB9lEv3ko",
+"t": "E186 Pourquoi Toulouse est devenue la ville préférée des Français ?",
+"s": 1848,
+"p": 1765980819
+},
+{
+"id": "fJlGBC7OviQ",
+"t": "French People Reveal Their Dream Vacation Destinations",
+"s": 733
+},
+{
+"id": "WaEYFEhj0UA",
+"t": "E185 Pourquoi les Français adorent la provocation",
+"s": 2398
+},
+{
+"id": "vKyMMWExyks",
+"t": "What To See in the 17th Arrondissement - Paris by the Locals",
+"s": 710
+},
+{
+"id": "lG3SMh1-rz0",
+"t": "E184 Pourquoi les Français sont-ils accros à l'homéopathie ?",
+"s": 2044
+},
+{
+"id": "DS_RHyOMfGw",
+"t": "Culture Shocks: Conversations with French Expats in The Hague",
+"s": 645
+},
+{
+"id": "PPXhqsGv55Y",
+"t": "E183 La France taxe-t-elle trop les riches ?",
+"s": 2492
+},
+{
+"id": "f85tFXm8-6Y",
+"t": "What Does Success Mean To The French — Deep Talk in French",
+"s": 635
+},
+{
+"id": "48U4b2_3p3g",
+"t": "E182 La France est-elle la championne du monde des cancers ?",
+"s": 1962
+},
+{
+"id": "v2whO4U3S34",
+"t": "Summer Drinks & Terrace Culture: Vocabulary and Real Conversations in Slow French",
+"s": 903
+},
+{
+"id": "7YnGh9yRZfc",
+"t": "E181 France-Sénégal, entre amitié et domination",
+"s": 1817
+},
+{
+"id": "Nib5ZZaA4Ps",
+"t": "What French People Listen To: Music Vocabulary and Real Conversations",
+"s": 761
+},
+{
+"id": "TO05bRrHc0Q",
+"t": "E180 Une école française sur un autre continent",
+"s": 1870
+},
+{
+"id": "IxHvEOgIkGg",
+"t": "Jobs and Occupations: Vocabulary and Real Conversations in Slow French",
+"s": 580
+},
+{
+"id": "1IVa5D84nws",
+"t": "E179 La France est-elle anti-enfants ?",
+"s": 1873
+},
+{
+"id": "RYMrofsNQKk",
+"t": "French Conversations About Brothers and Sisters (B1–B2 | for Intermediate Learners)",
+"s": 766
+},
+{
+"id": "3aI6KdbFiR8",
+"t": "E178 Dépasser le plateau intermédiaire avec Impolyglot",
+"s": 2275
+},
+{
+"id": "SG1c68ZbTvg",
+"t": "How to Argue in French (A2 | Conversations for Advanced Beginners)",
+"s": 604
+},
+{
+"id": "V_H2WrCBYmI",
+"t": "E177 Les festivals, une passion française ?",
+"s": 2149
+},
+{
+"id": "-VWMMfdLw0U",
+"t": "The French Share Their Unpopular Opinions | Easy French 259",
+"s": 744
+},
+{
+"id": "FJ7lhZvNnBQ",
+"t": "E176 À la découverte des côtes normandes et bretonnes",
+"s": 1737
+},
+{
+"id": "1dzAY2M1DwI",
+"t": "Inside Easy Languages: Polyglot Tips to Learn French | Super Easy French 208",
+"s": 1347
+},
+{
+"id": "s7l_-Km7xIw",
+"t": "E175 L'aide médicale à mourir, bientôt possible en France",
+"s": 1995
+},
+{
+"id": "C2nA_FSX97M",
+"t": "Paris Street Style Explained by Locals | Easy French 258",
+"s": 572
+},
+{
+"id": "95UAjUCvaWY",
+"t": "E174 Apprendre le français en immersion dans l'Utah",
+"s": 2388
+},
+{
+"id": "UsW1bR2oWj4",
+"t": "Slow French Conversations About Weather | Super Easy French 207",
+"s": 349
+},
+{
+"id": "6Y0R83qhYTo",
+"t": "E173 La France sous l'Occupation",
+"s": 2637
+},
+{
+"id": "O3VL7w3_H5M",
+"t": "We Asked the French What Was the Last Photo They Took | Easy French 257",
+"s": 561
+},
+{
+"id": "NuLI7rDZLNs",
+"t": "E172 Astérix, une icône de la culture française",
+"s": 1937
+},
+{
+"id": "oXIWKV2VpbA",
+"t": "How to Order at a French Bakery (Slow French) | Super Easy French 206",
+"s": 590
+},
+{
+"id": "_CbpDWDwIec",
+"t": "E171 Les études supérieures en France",
+"s": 2159
+},
+{
+"id": "l_5tsipN8NI",
+"t": "Paris by The Locals : What To See in the 13th Arrondissement ? | Easy French 256",
+"s": 638
+},
+{
+"id": "M2QPUEyZ6EQ",
+"t": "E170 La guerre des boulangeries",
+"s": 1912
+},
+{
+"id": "__3sV6WTrK0",
+"t": "How To Say No Like The French | Super Easy French 205",
+"s": 497
+},
+{
+"id": "dhSMb_HhUCc",
+"t": "E169 Des livres qu'on dévore comme une série",
+"s": 2165
+},
+{
+"id": "Oa6kwJgjV-g",
+"t": "How Important is Friendship in France? | Easy French 255",
+"s": 597
+},
+{
+"id": "lM0ObpWLcFw",
+"t": "E168 Marine Le Pen, condamnée ?",
+"s": 2105
+},
+{
+"id": "OXPPuCnLyz8",
+"t": "French Alphabet & Pronunciation - Full Guide | Super Easy French 204",
+"s": 920
+},
+{
+"id": "2fUn8G2Ubyc",
+"t": "E167 Mayotte, un département français comme les autres ?",
+"s": 2133
+},
+{
+"id": "S1vQpWayn0U",
+"t": "What Pets Do Parisians Have? | Easy French 254",
+"s": 616
+},
+{
+"id": "0X9muH1UJHg",
+"t": "E166 Faut-il avoir peur des PFAS ?",
+"s": 1845
+},
+{
+"id": "NixbhkeFLpk",
+"t": "Two Ways to Say “To Know” in French (Savoir vs Connaître) | Super Easy French 203",
+"s": 285
+},
+{
+"id": "60AgbJ9bjT0",
+"t": "E165 Encre et préjugés : le tatouage en France",
+"s": 2645
+},
+{
+"id": "l9dCvQsBDSY",
+"t": "Paris by The Locals: What to See in the 18th Arrondissement | Easy French 253",
+"s": 649
+},
+{
+"id": "jnF89X8MSn0",
+"t": "E164 Être hospitalisée en France",
+"s": 2133
+},
+{
+"id": "5DQH1h-BZOo",
+"t": "Tasting French Pastries : mille-feuille, flan, éclair and more | Super Easy French 202",
+"s": 848
+},
+{
+"id": "Saow_26JFwU",
+"t": "E163 Les Français travaillent-ils moins que les autres ?",
+"s": 2545
+},
+{
+"id": "NKw5nJWgjJk",
+"t": "Asking French People About Their Favorite Comfort Foods | Easy French 252",
+"s": 701
+},
+{
+"id": "_Y9la1uK_ZU",
+"t": "E162 La théorie de l'attachement",
+"s": 1745
+},
+{
+"id": "rQZudkFYkTI",
+"t": "Are French People Organised? | Easy French 251",
+"s": 764
+},
+{
+"id": "fmHEJotJ41Y",
+"t": "E161 Apprendre le français en 2025",
+"s": 1705
+},
+{
+"id": "nZhS2uJzN9k",
+"t": "French-Austrian Rapper Talks Identity, Language and Music | Easy French Podcast 179",
+"s": 2476
+},
+{
+"id": "H_Pou5d0BDY",
+"t": "E160 Vous faites quoi pour Noël ?",
+"s": 2328
+},
+{
+"id": "QxI34PU2yVo",
+"t": "Boost Your French in 10 Days with Easy French",
+"s": 104
+},
+{
+"id": "hVFx0AgVwq0",
+"t": "E159 La perfection est-elle notre nouvelle religion ?",
+"s": 1707
+},
+{
+"id": "Fb_HHY09z1c",
+"t": "What Are French People’s New Year’s Resolutions for 2026? | Easy French 250",
+"s": 587
+},
+{
+"id": "YMgRbPBRCRE",
+"t": "E158 Comment la drogue est-elle devenue taboue en France ?",
+"s": 2014
+},
+{
+"id": "7Lk_ghtWEXM",
+"t": "Roquefort, Cantal & More: French Cheese Tasting in Slow French | Super Easy French 201",
+"s": 818
+},
+{
+"id": "udMw4hlOcrw",
+"t": "E157 Les Français sont-ils vraiment si sales ?",
+"s": 2423
+},
+{
+"id": "M5DKV5QfrsY",
+"t": "Paris by the Locals: What to See in the 14th Arrondissement | Easy French 249",
+"s": 578
+},
+{
+"id": "CRrEnkXU2F4",
+"t": "E156 Pourquoi je me suis installé à Marseille ?",
+"s": 2057
+},
+{
+"id": "8RwPXyA1hoE",
+"t": "How to Describe Things in French (Beginner Friendly) | Super Easy French 200",
+"s": 669
+},
+{
+"id": "oEqjEwustDU",
+"t": "E155 Transfuges de classe : les nouveaux héros français ?",
+"s": 2051
+},
+{
+"id": "S81ZKmWnQ4o",
+"t": "What Are People Doing for Christmas in France? | Easy French 248",
+"s": 514
+},
+{
+"id": "U9k0wQsiRe0",
+"t": "E154 Le périple d'Ingrid en Asie",
+"s": 2036
+},
+{
+"id": "ymPWksz-UUc",
+"t": "French Greetings Every Beginner Should Learn | Super Easy French 199",
+"s": 649
+},
+{
+"id": "9SK_plr04bc",
+"t": "E153 Les Jeux Olympiques, une victoire pour la France ?",
+"s": 2690
+},
+{
+"id": "nZFGQGgwjL8",
+"t": "Neighborhood Culture in France: Do The French Get Along With Their Neighbors ? | Easy French 247",
+"s": 590
+},
+{
+"id": "6X08Tve2bLM",
+"t": "E152 Les couples binationaux avec Easy French",
+"s": 2599
+},
+{
+"id": "BLL2PHPMgJs",
+"t": "Master Falloir: The French Verb for Necessity (With Street Examples)| Super Easy French 198",
+"s": 522
+},
+{
+"id": "gcB3Am-2y54",
+"t": "E151 Peter nous raconte son tour de France",
+"s": 1973
+},
+{
+"id": "REg3R25hjGU",
+"t": "Southwestern France: Where The Locals Really Travel | Easy French 246",
+"s": 615
+},
+{
+"id": "0pQSfmKSYK4",
+"t": "E150 Faire du volontariat en France",
+"s": 1980
+},
+{
+"id": "pA0Vs_JuSmk",
+"t": "How We Reached A Million Subscribers on Youtube | Super Easy French 197",
+"s": 947
+},
+{
+"id": "Zfkq_EfXAM4",
+"t": "E149 La France est-elle devenue ingouvernable ?",
+"s": 2545
+},
+{
+"id": "EuiOiY50Qug",
+"t": "What Can You Buy For €10 in Paris ? | Easy French 245",
+"s": 522
+},
+{
+"id": "OhWDB9qBmTw",
+"t": "E148 La France reconnaîtra-t-elle la Palestine ?",
+"s": 1703
+},
+{
+"id": "tCd_4uCD5eo",
+"t": "How To Introduce Yourself in French | Super Easy French 196",
+"s": 418
+},
+{
+"id": "JhZFKwenqSM",
+"t": "E147 Peut-on encore écouter de la musique ?",
+"s": 2722
+},
+{
+"id": "oHixMoIwtss",
+"t": "What Do The French Do Before Going To Bed? | Easy French 244",
+"s": 598
+},
+{
+"id": "twszeCTdE-c",
+"t": "E146 La France restera-t-elle européenne ?",
+"s": 2331
+},
+{
+"id": "MGihIbHXCQ8",
+"t": "How To Count in French From 1 to 99 (and it's complicated)| Super Easy French 195",
+"s": 487
+},
+{
+"id": "lIcvMwOPZYQ",
+"t": "E145 Le Tour de France de Peter",
+"s": 1665
+},
+{
+"id": "9x6AC_bdAHM",
+"t": "What Are The French Addicted To? | Easy French 243",
+"s": 560
+},
+{
+"id": "kevNYKQqeI4",
+"t": "E144 Indochine : quelle marque la France a laissée au Vietnam ?",
+"s": 2300
+},
+{
+"id": "3OuZqZgpJbQ",
+"t": "Master French Filler Words with Real Life Examples | Super Easy French 194",
+"s": 442
+},
+{
+"id": "hzcHs73fC5E",
+"t": "E143 La France en guerre contre la fast fashion",
+"s": 2250
+},
+{
+"id": "iLaWCP_U9xE",
+"t": "What is a Typical French Lunch? | Easy French 242",
+"s": 551
+},
+{
+"id": "IA0xwyt-3Zg",
+"t": "E142 Les Roms en France : préjugés et exclusion",
+"s": 2020
+},
+{
+"id": "jInw3WBgCAo",
+"t": "How to Use Devoir in French: Real Life Examples | Super Easy French 193",
+"s": 505
+},
+{
+"id": "xCW6JQpmsI4",
+"t": "E141 La France sera-t-elle prête pour les Jeux olympiques ?",
+"s": 2146
+},
+{
+"id": "cXssr8PPRp0",
+"t": "What Makes The French Happy? | Easy French 241",
+"s": 530
+},
+{
+"id": "2hb1VI3IbiY",
+"t": "E140 Les menottes connectées",
+"s": 1628
+},
+{
+"id": "eAe8WkpOv18",
+"t": "Best Places to Live According to The French | Easy French 240",
+"s": 539
+},
+{
+"id": "DNVczKQE2is",
+"t": "E139 Joël Dicker nous parle de son nouveau roman",
+"s": 1454
+},
+{
+"id": "uf4ctO75nRo",
+"t": "A Day in Saint-Malo, Brittany – in Slow French | Super Easy French 192",
+"s": 473
+},
+{
+"id": "NTT3TxJGoGY",
+"t": "E138 Les Français sont-ils vraiment romantiques ?",
+"s": 2273
+},
+{
+"id": "qvtIFwxTwNw",
+"t": "Do You Remember Your First Love? | Easy French 239",
+"s": 440
+},
+{
+"id": "jGhQBK-1z5c",
+"t": "E137 Pourquoi les Français boivent-ils de moins en moins d'alcool ?",
+"s": 2397
+},
+{
+"id": "IKc5xMs0UMM",
+"t": "Where Do The French Go on Vacation This Summer ? | Easy French 238",
+"s": 599
+},
+{
+"id": "jk6OHwRph1o",
+"t": "E136 Pourquoi immigrer en France va devenir plus difficile ?",
+"s": 1917
+},
+{
+"id": "DFmluj866Nc",
+"t": "A Tour of The 5th Arrondissement of Paris (in Slow French) | Super Easy French 191",
+"s": 449
+},
+{
+"id": "01jfOabmfls",
+"t": "E135 2024, le grand retour du train ?",
+"s": 2190
+},
+{
+"id": "stJ-_TRSbQE",
+"t": "50 Real Life Sentences with the Verb \"Pouvoir\"| Super Easy French 190",
+"s": 690
+},
+{
+"id": "bhrX5xt4NAE",
+"t": "E134 Ciao 2023 !",
+"s": 2392
+},
+{
+"id": "DDZyMo_Yx7c",
+"t": "Men in France : Have They Changed? | Easy French 237",
+"s": 442
+},
+{
+"id": "XtR4ZgqMm_Y",
+"t": "E133 Du métal dans la jambe",
+"s": 1263
+},
+{
+"id": "KhlaEA4W5CY",
+"t": "How to Talk About Family in Slow French | Super Easy French 189",
+"s": 518
+},
+{
+"id": "D8AlZMXQ2uI",
+"t": "E132 Petit éloge de la radio française",
+"s": 1151
+},
+{
+"id": "flS3MVNXWbw",
+"t": "The Secrets of French Happiness | Easy French 236",
+"s": 536
+},
+{
+"id": "TgKnnbvqUDI",
+"t": "E131 Une rentrée mouvementée",
+"s": 966
+},
+{
+"id": "Dcdv3Jegy-8",
+"t": "Real Life Sentences with the Verb “Vouloir” | Super Easy French 188",
+"s": 432
+},
+{
+"id": "BC6Wa27VVz0",
+"t": "Comment apprendre le français dans le bon ordre ?",
+"s": 821
+},
+{
+"id": "If_iJ4geb8A",
+"t": "What Was Your First Job as a Student? | Easy French 235",
+"s": 588
+},
+{
+"id": "1YYzaD_USR4",
+"t": "La dictée : une obsession française",
+"s": 995
+},
+{
+"id": "KN_R-vXx8ZI",
+"t": "How to Improve Your French Listening & Speaking Skills | Super Easy French 187",
+"s": 1454
+},
+{
+"id": "5p9hpZTfG8Q",
+"t": "E130 Les autres habitudes bizarres des Français",
+"s": 2163
+},
+{
+"id": "6DNPE4Qu6uY",
+"t": "Don’t Say This in France (Use This Instead) | Super Easy French 186",
+"s": 444
+},
+{
+"id": "bDqNQEmEpB0",
+"t": "Biarritz : la Californie française ?",
+"s": 811
+},
+{
+"id": "YLryHYuDx8o",
+"t": "What’s the French Food You Hate the Most? | Easy French 234",
+"s": 550
+},
+{
+"id": "t6pKGoPCJAY",
+"t": "E129 Les habitudes bizarres des Français",
+"s": 2470
+},
+{
+"id": "z9V-n6NyhbA",
+"t": "What's the Best Advice You've Been Given? | Easy French 233",
+"s": 521
+},
+{
+"id": "jwMkrsCNuRY",
+"t": "Pourquoi les Français n'aiment pas Bernard Arnault ?",
+"s": 756
+},
+{
+"id": "afXR5Zz6nLM",
+"t": "Listening Practice: A Day at the Beach | Super Easy French 185",
+"s": 440
+},
+{
+"id": "7E1om2uNcrk",
+"t": "E128 France-Algérie : une histoire inachevée",
+"s": 2601
+},
+{
+"id": "Xj-J-4Vpb1Y",
+"t": "Where Do You See Yourself in 5 Years? | Easy French 232",
+"s": 504
+},
+{
+"id": "YJcLMJWMld8",
+"t": "Pourquoi les Français adorent ces baskets ?",
+"s": 807
+},
+{
+"id": "2l7akQYoxZE",
+"t": "Talking About Hobbies in Slow French | Super Easy French 184",
+"s": 570
+},
+{
+"id": "GbGDhelc78Y",
+"t": "E127 Les Français croient-ils en Dieu ?",
+"s": 2105
+},
+{
+"id": "IYWERIelcUM",
+"t": "What’s the Best District in Paris? Parisians Share Their Favorites | Easy French 231",
+"s": 592
+},
+{
+"id": "hy7lutjhhc0",
+"t": "E126 Comment Bernard Arnault est-il devenu l’homme le plus riche du monde ?",
+"s": 2489
+},
+{
+"id": "Dvx6IAiDx_c",
+"t": "Friday Night in Paris: What Are Your Plans? | Easy French 230",
+"s": 505
+},
+{
+"id": "Ei0E0uY2rNE",
+"t": "E125 Pourquoi la retraite des Français fait débat ?",
+"s": 1864
+},
+{
+"id": "10TxnucEx0E",
+"t": "Why the French Serve 3 Desserts with Coffee | Super Easy French 183",
+"s": 762
+},
+{
+"id": "_7Cz7oSTOdU",
+"t": "E124 Apprendre une langue va-t-il devenir obsolète ?",
+"s": 1911
+},
+{
+"id": "7g0dpw-2TTA",
+"t": "What The French Love About France | Easy French 229",
+"s": 574
+},
+{
+"id": "Hk3Mvz0vqmk",
+"t": "E123 L’intelligence artificielle va-t-elle nous remplacer ?",
+"s": 1769
+},
+{
+"id": "Qfk3NVD3cYg",
+"t": "Time in French: Explanations & Real-Life Examples | Super Easy French 182",
+"s": 615
+},
+{
+"id": "LaBwR112J8o",
+"t": "E122 On termine l’année ensemble !",
+"s": 2417
+},
+{
+"id": "YtFvaBtV1Cc",
+"t": "What’s Your Life Story? We Asked French People to Share! | Easy French 228",
+"s": 555
+},
+{
+"id": "VrmqjwWdvjc",
+"t": "E121 Qui est Gisèle Halimi, grande figure du féminisme français ?",
+"s": 1862
+},
+{
+"id": "Rbab52Eej-E",
+"t": "How Did You Two Meet? Love & Friendship Stories | Easy French 227",
+"s": 493
+},
+{
+"id": "TZ9tATSyngQ",
+"t": "E120 Footix boycotte la Coupe du monde",
+"s": 1969
+},
+{
+"id": "HADlVv4nZZQ",
+"t": "Inside Hélène’s New Apartment – Slow French Conversation | Super Easy French 181",
+"s": 707
+},
+{
+"id": "GuSBE5eQSu4",
+"t": "Un Français comprend-il une Congolaise ?",
+"s": 755
+},
+{
+"id": "L9PciXnuDIM",
+"t": "Are French People Beautiful? | Easy French 226",
+"s": 599
+},
+{
+"id": "vfyMakR2bds",
+"t": "E119 Le télétravail va-t-il changer la société ?",
+"s": 2152
+},
+{
+"id": "tQ4lsDJF46Y",
+"t": "We Tested Paris' Best Croissants... It Didn't Go as Planned! | Super Easy French 180",
+"s": 762
+},
+{
+"id": "fS-ysRdTkW4",
+"t": "E118 Les Français sont-ils grossophobes ?",
+"s": 2178
+},
+{
+"id": "6yi9N-5MDgs",
+"t": "Where to Travel in France? Locals Share Their Favorite Spots! | Easy French 225",
+"s": 548
+},
+{
+"id": "_8nZ9gDEcXQ",
+"t": "E117 Avons-nous oublié comment dormir ?",
+"s": 2122
+},
+{
+"id": "CmTYhv2F96k",
+"t": "Learn These 10 Slang Expressions to Speak Like a Local | Super Easy French 179",
+"s": 363
+},
+{
+"id": "uhveelJpO4Y",
+"t": "E116 Développement personnel : 3 idées de lecture en français",
+"s": 1789
+},
+{
+"id": "Fw654p9awoM",
+"t": "What Kind of Jobs Do Parisians Apply For? | Easy French 224",
+"s": 535
+},
+{
+"id": "0l2fFuu31vs",
+"t": "Parler français \"naturellement\"",
+"s": 621
+},
+{
+"id": "g8oOzEYCfs8",
+"t": "20 Most Common French Adjectives and How to Use Them | Super Easy French 178",
+"s": 459
+},
+{
+"id": "du2vHSNcG_0",
+"t": "E115 Le minimalisme sauvera-t-il la planète ?",
+"s": 1880
+},
+{
+"id": "-jhYkDO3CdM",
+"t": "Parenting in France: Are Children Still in the Plan? | Easy French 223",
+"s": 502
+},
+{
+"id": "VEZjxUMh13s",
+"t": "E114 Trois idées fausses sur les Français et la nourriture",
+"s": 1832
+},
+{
+"id": "nqu_6r5Eivo",
+"t": "The Best Fries of Brussels According to Locals | Super Easy French 177",
+"s": 620
+},
+{
+"id": "U-35z2fIK9A",
+"t": "Connaissez-vous ces expressions journalistiques 🇫🇷 ?",
+"s": 787
+},
+{
+"id": "j9n3Bc7Nkqs",
+"t": "What Do The French Want For Christmas? | Easy French 222",
+"s": 534
+},
+{
+"id": "_Ms37HuTZ9s",
+"t": "Pourquoi les Français se moquent des Belges",
+"s": 889
+},
+{
+"id": "IlnnA4ssptY",
+"t": "Speak French Every Day For 30 Days",
+"s": 150
+},
+{
+"id": "2BaCW9r8Xhc",
+"t": "E113 Le français belge",
+"s": 3325
+},
+{
+"id": "N-SqRVLB14I",
+"t": "French Eating Habits: What Do They Cook? | Easy French 221",
+"s": 511
+},
+{
+"id": "1JnDTUj1dwo",
+"t": "E112 Le lycée français 2.0",
+"s": 3216
+},
+{
+"id": "2xzUDVlV2EQ",
+"t": "20 Ways to Use the Verb “Faire” (in Slow French) | Super Easy French 176",
+"s": 555
+},
+{
+"id": "j2aF5X9MsN4",
+"t": "Et si le français n'était pas la langue de Molière ?",
+"s": 643
+},
+{
+"id": "7PUt9qUxvI8",
+"t": "How Much Do You Need to Live Like a Parisian? | Easy French 220",
+"s": 538
+},
+{
+"id": "1up0J_wFtmc",
+"t": "E111 Vincent Bolloré, l’homme le plus puissant de France",
+"s": 2714
+},
+{
+"id": "VidF6hKAiZo",
+"t": "Slow French Conversation: Making Plans | Super Easy French 175",
+"s": 350
+}
 ]
 },
 {
@@ -53745,10 +54765,1021 @@
 "hours": [],
 "sourceName": "ANDREW HUANG y teenage engineering",
 "tagline": "ANDREW HUANG y teenage engineering",
-"kind": "latest",
-"ids": [
-"UCdcemy56JtVTrsFIOoqvV8g",
-"UCJaEGe7IYRz4_f42DyeUU1w"
+"kind": "linear",
+"items": [
+{
+"id": "tJOmw4eM2HI",
+"t": "The most innovative music tools of the year",
+"s": 1016,
+"p": 1794589204
+},
+{
+"id": "xcBQWLZa6tg",
+"t": "midnight operations, ep 26 - paquete de sonidos dc para OP–XY con douglas carr",
+"s": 2729,
+"p": 1792180806
+},
+{
+"id": "K1gTVGO30DE",
+"t": "He built a video game inside Ableton that helps you finish tracks",
+"s": 1118,
+"p": 1793905203
+},
+{
+"id": "dhdrtcZCk4Y",
+"t": "midnight operations, ep 25 - actualización de firmware OP–XY 1.2.0",
+"s": 2583,
+"p": 1792128931
+},
+{
+"id": "fszqbN3AAM4",
+"t": "Music Royalties EXPLAINED",
+"s": 977,
+"p": 1793376003
+},
+{
+"id": "2hdg44fvBZ8",
+"t": "tráiler de la banda sonora original de la película sinus transmission completed parte 3",
+"s": 95,
+"p": 1780750823
+},
+{
+"id": "OUkEdBOw4PE",
+"t": "Album in a Day 2026 w/ Rob Scallon!",
+"s": 1476,
+"p": 1793019627
+},
+{
+"id": "Ll6HiTHhqMA",
+"t": "tráiler de la banda sonora original de la película sinus transmission completed parte 2",
+"s": 88,
+"p": 1780664404
+},
+{
+"id": "Fv0v9BfD5xc",
+"t": "Finding Rhythms In Strange Places",
+"s": 360
+},
+{
+"id": "6ko3Arh87m0",
+"t": "Transmisión sinusal completada banda sonora original de la película tráiler parte 1",
+"s": 111,
+"p": 1780583668
+},
+{
+"id": "GzA25xIl61M",
+"t": "Web browser DAW has features the majors are missing!",
+"s": 813
+},
+{
+"id": "yV6Ju9dmWq0",
+"t": "K.O.–SIDEKICK",
+"s": 474,
+"p": 1778160140
+},
+{
+"id": "GpybLwr4W4k",
+"t": "Did NOT expect how good some of these sound in my guitar!",
+"s": 684
+},
+{
+"id": "ZSUwzu2pNQc",
+"t": "Campo OP-1, ahora con deshacer de cinta",
+"s": 33,
+"p": 1777489344
+},
+{
+"id": "znWQqretNlU",
+"t": "This isolated island has an amazing studio on it",
+"s": 674
+},
+{
+"id": "PiUUNNa33f8",
+"t": "Sonidos del riddim EP-40",
+"s": 67,
+"p": 1763563993
+},
+{
+"id": "AxK73p-uv1U",
+"t": "Guitar pedals on drums sounds ridiculous",
+"s": 815
+},
+{
+"id": "GDG1n24c9A4",
+"t": "EP–2350 ting",
+"s": 47
+},
+{
+"id": "mYcTWyQCcLQ",
+"t": "4 PRODUCERS REMIX THE SAME SONG (ft. Son Lux, Swarvy, Kaitlyn Aurelia Smith, Shigeto)",
+"s": 1429
+},
+{
+"id": "IV6G0I_VBCk",
+"t": "Presentando EP–40 riddim n' EP–2350 ting",
+"s": 93
+},
+{
+"id": "aqWg6E4fTqA",
+"t": "Subscriber's demo was so good I flew her to my studio",
+"s": 1393
+},
+{
+"id": "Vo5-5zSVR-M",
+"t": "elio and the choir",
+"s": 22
+},
+{
+"id": "88Nm30sIbI0",
+"t": "The most instant fun groovebox! (deconstruct MINIMAL)",
+"s": 790
+},
+{
+"id": "AVxYObcmuR8",
+"t": "the making of “sounds like home” a collaboration with bentgablenits",
+"s": 230
+},
+{
+"id": "PY1t5-xTNVE",
+"t": "My studio has gotten even more ridiculous…",
+"s": 753
+},
+{
+"id": "TNLz4gwAH0s",
+"t": "field system™ black",
+"s": 45
+},
+{
+"id": "Jx30RFGbOKg",
+"t": "The $5,000 reverb trick you can do for free",
+"s": 266
+},
+{
+"id": "005697Msgd4",
+"t": "oplab 05: human rhythm composer",
+"s": 97
+},
+{
+"id": "6zeuQP72rZM",
+"t": "4 PRODUCERS FLIP THE SAME SAMPLE w/ willowind, Broken Screen, Rickpo",
+"s": 1908
+},
+{
+"id": "4AUcMCBNxoM",
+"t": "oplab 04: sensors 202",
+"s": 136
+},
+{
+"id": "0NQt6_zrmcA",
+"t": "Experimental instrument! (Elta Solar 42N)",
+"s": 713
+},
+{
+"id": "F8FhBNeFCbk",
+"t": "oplab 03: triggers",
+"s": 116
+},
+{
+"id": "-pQaoZb7vPs",
+"t": "13 Life-Changing Ableton Tips!",
+"s": 559
+},
+{
+"id": "SrHQmk2hLtc",
+"t": "oplab 02: sensors",
+"s": 131
+},
+{
+"id": "viIkv6fA1hc",
+"t": "Found some weird vintage gear!",
+"s": 460
+},
+{
+"id": "m00Pf8ZCf7A",
+"t": "oplab 01: overview",
+"s": 103
+},
+{
+"id": "WeJ3wz1S01Q",
+"t": "WTF did they make? Bastl Kalimba!",
+"s": 662
+},
+{
+"id": "_QKr06470xU",
+"t": "Los campeones de K.O. II actualizan el sistema operativo 2.0",
+"s": 268
+},
+{
+"id": "lnJA5rOrp-M",
+"t": "25 song transition tips I wish I learned from the start",
+"s": 832
+},
+{
+"id": "z2i75oBoFzU",
+"t": "ten years of pocket operator®",
+"s": 37
+},
+{
+"id": "60a47oCB_Ho",
+"t": "Osmose CE is the next level of MIDI controllers!",
+"s": 411
+},
+{
+"id": "FuFpRerFxIs",
+"t": "EP–1320 medieval vinyl",
+"s": 47
+},
+{
+"id": "sYPKG9Fxh6M",
+"t": "I'm trying a new way to release music",
+"s": 942
+},
+{
+"id": "YF-dpDuBt0c",
+"t": "create a track in 50 seconds with OP–XY",
+"s": 55
+},
+{
+"id": "Tjjw4KPyvmI",
+"t": "One-of-a-kind custom FX box ✨",
+"s": 409
+},
+{
+"id": "xceQgvssxeU",
+"t": "introducing OP–XY",
+"s": 34
+},
+{
+"id": "Aq37dsbhgns",
+"t": "Guitar, but add a motor",
+"s": 718
+},
+{
+"id": "ukES66CtiAg",
+"t": "OP–XY",
+"s": 56
+},
+{
+"id": "N--_y6uYYic",
+"t": "The Best Music Gear I Found in 2025",
+"s": 2174
+},
+{
+"id": "QHf-dgbnfCw",
+"t": "behind the scenes: the EP–1320 launch at visby's medieval week",
+"s": 28
+},
+{
+"id": "XTdfmkD0jOk",
+"t": "My Top 10 Plugins of 2025!",
+"s": 1337
+},
+{
+"id": "LVLsRvGMwMk",
+"t": "introducing EP–1320 medieval",
+"s": 65
+},
+{
+"id": "UzzzaoOonh8",
+"t": "My streaming strategy worked and I didn't like it",
+"s": 1298
+},
+{
+"id": "sHeCtYcVsSc",
+"t": "small device, big sound.",
+"s": 27
+},
+{
+"id": "HTsdbMpY0bQ",
+"t": "KPop Demon Hunters soundtrack is weirder than you think",
+"s": 1479
+},
+{
+"id": "UbSAUYS8nIY",
+"t": "OP–1 field, now with terminal",
+"s": 32
+},
+{
+"id": "3ahr6XyLjf4",
+"t": "If you're not using envelope followers, you're missing out",
+"s": 769
+},
+{
+"id": "MglYOx8zd_Q",
+"t": "OB–4 new colors",
+"s": 32
+},
+{
+"id": "cwKK5mrNzRw",
+"t": "Always wanted to sample this sound!",
+"s": 173
+},
+{
+"id": "Tpnuo7H-Jkw",
+"t": "field system",
+"s": 49
+},
+{
+"id": "gtLupImEYac",
+"t": "S4 2.0 is one of the most inspiring tools I've used",
+"s": 1024
+},
+{
+"id": "z51wI9OWP7o",
+"t": "Descripción general del micrófono de campo CM-15",
+"s": 134
+},
+{
+"id": "5bOGllwJ_pE",
+"t": "Album in a Day 2025!",
+"s": 1324
+},
+{
+"id": "Up8m-q1BhcE",
+"t": "OP–1 field, now with vocoder!",
+"s": 30
+},
+{
+"id": "0yAAeSJ0J7I",
+"t": "Misusing a voice changer sounds INTERESTING",
+"s": 924
+},
+{
+"id": "oB6k0VtV9BA",
+"t": "OP–1 field, now with velocity sensitivity.",
+"s": 27
+},
+{
+"id": "DTjQUqipotA",
+"t": "Beautiful new music making environment! (GRM Atelier)",
+"s": 1034
+},
+{
+"id": "3Pcp0au-IBY",
+"t": "teenage engineering choir with OP–1 field",
+"s": 56
+},
+{
+"id": "EZH56IewHUo",
+"t": "The most innovative music tools of 2025!",
+"s": 1012
+},
+{
+"id": "BM4w5HqaapE",
+"t": "the making of our okinawa lager with stigberget",
+"s": 31
+},
+{
+"id": "ydlyuM_BxnA",
+"t": "4 PRODUCERS FLIP THE SAME SAMPLE w/ JP Waksman, nyco nemesis, Haphaz7ard",
+"s": 1765
+},
+{
+"id": "y2gWw6ole3c",
+"t": "TX–6 update: live beat tracking",
+"s": 174
+},
+{
+"id": "_P6q__MOyqU",
+"t": "10 free online tools for musicians!",
+"s": 515
+},
+{
+"id": "ixyGxVkiSb0",
+"t": "how to assemble your PO-80",
+"s": 23
+},
+{
+"id": "moduTTJ_fj0",
+"t": "Random Note Challenge!",
+"s": 462
+},
+{
+"id": "p4Syxl8lKOA",
+"t": "PO-80 record factory",
+"s": 29
+},
+{
+"id": "v_vy9ufYcl0",
+"t": "Weird Gear: Landscape Noon",
+"s": 544
+},
+{
+"id": "Yn7VF0XYz2U",
+"t": "coming soon...",
+"s": 19
+},
+{
+"id": "dAQraJwd-N0",
+"t": "This music induces sleep in 5 minutes",
+"s": 483
+},
+{
+"id": "WV_KOOguUIY",
+"t": "Actualización de firmware TX–6 1.1.4",
+"s": 283
+},
+{
+"id": "v2fZKR0w_DY",
+"t": "This experiment got out of hand",
+"s": 648
+},
+{
+"id": "sunWmZYFk38",
+"t": "pocket operator™ for Pixel™",
+"s": 29
+},
+{
+"id": "IROPa44n9gg",
+"t": "Moog Messenger Demo & Top 5 Features!",
+"s": 452
+},
+{
+"id": "PcuhSu1dxZE",
+"t": "Introducción al OP–1 field",
+"s": 84
+},
+{
+"id": "ZGjOZoQUp1Y",
+"t": "Sonic Boom | All Episodes",
+"s": 23531
+},
+{
+"id": "BgUgYuE1oHY",
+"t": "Descripción general del OP–1 field",
+"s": 148
+},
+{
+"id": "UnMTIo3mpKQ",
+"t": "We have to end the show.",
+"s": 883
+},
+{
+"id": "Fab7sp30pg0",
+"t": "introducing OP–1 field",
+"s": 29
+},
+{
+"id": "JYDWdzfZ_Kc",
+"t": "Fun synthesizer game! w/ Sarah Belle Reid",
+"s": 467
+},
+{
+"id": "a_fLH-DevVw",
+"t": "behind the scenes of TX–6 field mixer",
+"s": 43
+},
+{
+"id": "snzI6qPJQ0c",
+"t": "Whammy bar inspired our best song!",
+"s": 1362
+},
+{
+"id": "hsG2-wRLy3k",
+"t": "TX–6 built-in synthesizer and sequencer",
+"s": 206
+},
+{
+"id": "tCY_wsv6-N4",
+"t": "World's most unhinged kalimba",
+"s": 673
+},
+{
+"id": "UJoBJtBTMKk",
+"t": "Descripción general del TX-6",
+"s": 94
+},
+{
+"id": "H7Ecmcg2Pao",
+"t": "The Best Music Gear of 2024!",
+"s": 1828
+},
+{
+"id": "b1hvk4vWgGk",
+"t": "TX–6 introduction",
+"s": 77
+},
+{
+"id": "CbXdCbEbJcA",
+"t": "My Top 10 Plugins of 2024!",
+"s": 1251
+},
+{
+"id": "x9KaDDcREUQ",
+"t": "introducing TX–6 field mixer",
+"s": 31
+},
+{
+"id": "w8SCFeTCtnc",
+"t": "Song Generator: Erratic Arpeggios",
+"s": 810
+},
+{
+"id": "inq0oMdJ7iY",
+"t": "ZM–4 line module for OP–Z",
+"s": 301
+},
+{
+"id": "L-FKzFC9HLA",
+"t": "Everything about my video making process",
+"s": 1457
+},
+{
+"id": "CJebEs3gffk",
+"t": "introducing OB–4 Off-White™",
+"s": 60
+},
+{
+"id": "my2GmzXPDaw",
+"t": "Album in a day 2024 (w/ Rob Scallon)",
+"s": 1183
+},
+{
+"id": "0I53T8uuW54",
+"t": "computer–1 build guide",
+"s": 184
+},
+{
+"id": "s3tYd_X9nTk",
+"t": "Top 5 things beginners miss in music production",
+"s": 605
+},
+{
+"id": "BIoD2tqJN-M",
+"t": "a scientific study in modular sound – part 2",
+"s": 150
+},
+{
+"id": "C6AG0Q-RKT0",
+"t": "Hardware vs Software: Where it actually matters",
+"s": 604
+},
+{
+"id": "HTV_-R0We9c",
+"t": "a scientific study in modular sound – part 1",
+"s": 104
+},
+{
+"id": "SABw1KBqWB4",
+"t": "Can we remake a song after only seeing the art? (Sonic Boom)",
+"s": 1159
+},
+{
+"id": "49U2tPoZNFo",
+"t": "midnight operations, ep 15 - PO-35 super stream (eng sub)",
+"s": 4189
+},
+{
+"id": "um_Z-51nGP4",
+"t": "My new plugin does ridiculous things (Transit 2 w/ Baby Audio)",
+"s": 733
+},
+{
+"id": "_ME8rAffpSk",
+"t": "introducing Capcom® videopaks - controlled by OP–Z",
+"s": 50
+},
+{
+"id": "23DUqgSX-XY",
+"t": "They’ve finally nailed hand tracking for music! (ROLI Airwave demo)",
+"s": 520
+},
+{
+"id": "kTy0QLpdOio",
+"t": "OP–Z video in photomatic",
+"s": 33
+},
+{
+"id": "dAJtqHSSYKA",
+"t": "Picking weird instruments before we know what the challenge is",
+"s": 830
+},
+{
+"id": "ksZfKnShHh0",
+"t": "PO–128 Mega Man overview",
+"s": 61
+},
+{
+"id": "3kSri0Hmgdc",
+"t": "Pro drummer levels up an amateur in 15 minutes!",
+"s": 942
+},
+{
+"id": "qRDdXSPsLJk",
+"t": "PO–133 Street Fighter overview",
+"s": 40
+},
+{
+"id": "D4WewoyDNKY",
+"t": "Song Generator: Cute Murderous Kittens",
+"s": 714
+},
+{
+"id": "sBTcVWQFVGE",
+"t": "PO-133 Street Fighter",
+"s": 54
+},
+{
+"id": "ryyiyB7as7k",
+"t": "Song ideas from a random Wikipedia article (w/ Tom McGovern)",
+"s": 1125
+},
+{
+"id": "1mBJWutYFDQ",
+"t": "Descripción general del OB–4",
+"s": 161
+},
+{
+"id": "cK-yN0EaK2g",
+"t": "Moog Muse demo & 10 favorite features!",
+"s": 880
+},
+{
+"id": "rVYl9UKhvbk",
+"t": "OB–4 la radio mágica",
+"s": 44
+},
+{
+"id": "uQG8ClNvd0c",
+"t": "Sonic Boom doing music content",
+"s": 900
+},
+{
+"id": "c19Fz08S7r0",
+"t": "midnight operations, ep6 - OP-Z videopaks (2/2)",
+"s": 6295
+},
+{
+"id": "FUYNaLlP-to",
+"t": "\"That's just noise.\" (why we left classical music)",
+"s": 1656
+},
+{
+"id": "nJS-S2lUSSQ",
+"t": "pocket operator modular 16 - guía de ensamblaje",
+"s": 299
+},
+{
+"id": "ej2jLErKsWc",
+"t": "Moog Labyrinth - their best release in years",
+"s": 687
+},
+{
+"id": "PDQvvCCR8Vw",
+"t": "pocket operator modular 170 - pocket operator sync",
+"s": 87
+},
+{
+"id": "FHOAeFkoVLw",
+"t": "The AI art situation",
+"s": 1260
+},
+{
+"id": "5CTRxUn-SJk",
+"t": "Pocket Operator Modular 170: creación de patch",
+"s": 202
+},
+{
+"id": "Q3Tt4to4bY0",
+"t": "Getting musical inspiration from a deck of cards",
+"s": 536
+},
+{
+"id": "_iwBEOS4Gm0",
+"t": "pocket operator modular 170 - tutorial de ensamblaje",
+"s": 348
+},
+{
+"id": "_C4Xvhe3Bj0",
+"t": "Song Generator: Trippy Anthem",
+"s": 1051
+},
+{
+"id": "iOqaJJhEQB0",
+"t": "OP-Z app",
+"s": 28
+},
+{
+"id": "rmzW9n0e0k0",
+"t": "Controlling synths with our brains",
+"s": 598
+},
+{
+"id": "vyOZpQVnQ8A",
+"t": "london design festival",
+"s": 77
+},
+{
+"id": "UdBSzvrNytw",
+"t": "Writing and recording without our right hands",
+"s": 968
+},
+{
+"id": "-J5KT9JUayY",
+"t": "teenage engineering - TGS Otaru event",
+"s": 50
+},
+{
+"id": "EanmcYRlTEg",
+"t": "I got to write for Blue Man Group",
+"s": 674
+},
+{
+"id": "TnACRRnLC4s",
+"t": "lidelsen festival 2019",
+"s": 41
+},
+{
+"id": "olYm0RKY9Ds",
+"t": "Listening to embarrassing songs I made 20 years ago",
+"s": 1389,
+"p": 1164289626
+},
+{
+"id": "Ju06eqjZqjE",
+"t": "Edición Rick and Morty del PO-137",
+"s": 96
+},
+{
+"id": "0FiqMOR2Hh4",
+"t": "You voted for us to finish this! (Saloon at Dusk / Gone)",
+"s": 1181
+},
+{
+"id": "SFJ9CeaQ76c",
+"t": "Esther - Kvällsgäst",
+"s": 201
+},
+{
+"id": "EmC5c7YHGK4",
+"t": "4 PRODUCERS REMIX THE SAME SONG",
+"s": 2054
+},
+{
+"id": "BeKrwDqbJVo",
+"t": "Buster - You're In Love With Your Hair",
+"s": 230
+},
+{
+"id": "ViM_Jx3Xfak",
+"t": "This fan-submitted song idea turned out great (Pizza Blades)",
+"s": 951
+},
+{
+"id": "wAKno0pe4UQ",
+"t": "teenage engineering x loney dear live at Harpa Concert Hall",
+"s": 852
+},
+{
+"id": "Zv-2_sQEW4c",
+"t": "How Russell became a live breakbeat machine",
+"s": 803
+},
+{
+"id": "XYJkerZCTGg",
+"t": "Luces DMX del OP-Z",
+"s": 73
+},
+{
+"id": "5FKUEPuqxGs",
+"t": "This diagram got me a million followers",
+"s": 899
+},
+{
+"id": "cm58fNhEUyQ",
+"t": "Secuenciación básica del OP-Z",
+"s": 132
+},
+{
+"id": "_RTiy2eLZZ4",
+"t": "Jamming but our guitars are plugged into fruit",
+"s": 816
+},
+{
+"id": "p0BHLMPRyro",
+"t": "OP-Z introduction",
+"s": 63
+},
+{
+"id": "ENI4D5PbuDw",
+"t": "Hearing loss update",
+"s": 714
+},
+{
+"id": "8nzhM3zbfQw",
+"t": "OP-Z fotomático",
+"s": 59
+},
+{
+"id": "TZpWmw-7THI",
+"t": "How fast do your lips move during raspberries?",
+"s": 797
+},
+{
+"id": "LPpFP2QUMX4",
+"t": "Visuales 3D del OP-Z",
+"s": 63
+},
+{
+"id": "OqwSXjxqH_w",
+"t": "Inspiring beat making tool!",
+"s": 965
+},
+{
+"id": "kh8jrWO3crk",
+"t": "baseck on the beat | live jam on PO-35 speak",
+"s": 264
+},
+{
+"id": "lp-H_7ypLso",
+"t": "My Top 10 Plugins of 2023!",
+"s": 1592
+},
+{
+"id": "Zd6d6fsKiA8",
+"t": "Operador de bolsillo serie metal",
+"s": 79
+},
+{
+"id": "wu3V5GCXx60",
+"t": "Music with baby toys turned out beautiful",
+"s": 829
+},
+{
+"id": "8y8_toxA4ME",
+"t": "Vídeo resumen del PO-33 K.O!",
+"s": 106
+},
+{
+"id": "95PFkcGlyEY",
+"t": "Why I turned down $100,000 from YouTube",
+"s": 509
+},
+{
+"id": "tsOefsSHJOA",
+"t": "PO-35 hablar",
+"s": 94
+},
+{
+"id": "ELSykpwm4S0",
+"t": "The pedal I helped design - Endorphin.es Ghost!",
+"s": 952
+},
+{
+"id": "c0eTEXD-HYo",
+"t": "OD-11 setup tutorial",
+"s": 224
+},
+{
+"id": "maZoTHkRYuI",
+"t": "We made an album in a day...with the Beatles' gear",
+"s": 1165
+},
+{
+"id": "Sz4YfI7pE6o",
+"t": "ortho remote pairing",
+"s": 26
+},
+{
+"id": "Nem-rZjSaTY",
+"t": "8 alternative uses for Transit",
+"s": 507
+},
+{
+"id": "MoMxANGOoaI",
+"t": "R - behind the scenes",
+"s": 147
+},
+{
+"id": "0YGNnYZwDZ8",
+"t": "Octave mandolin should be way more popular",
+"s": 698
+},
+{
+"id": "RyWTx9ExAjQ",
+"t": "introducing R",
+"s": 61
+},
+{
+"id": "lYgoxUUcmzc",
+"t": "Turning our best riff into a song (If I Die Tonight)",
+"s": 1351
+},
+{
+"id": "AF_3KKch-wI",
+"t": "introducing H",
+"s": 40
+},
+{
+"id": "Iy9jEy6nLek",
+"t": "My new experimental guitar",
+"s": 1175
+},
+{
+"id": "KhmEXMWnO_c",
+"t": "ortho remote BLE-MIDI setup",
+"s": 170
+},
+{
+"id": "JUQV-l54TTY",
+"t": "Making a song together but we can't talk",
+"s": 1124
+},
+{
+"id": "OyXbHa1p8EY",
+"t": "ortho remote BLE-MIDI demo",
+"s": 19
+},
+{
+"id": "qQ-164qdE2M",
+"t": "My first plug-in is here (Transit w/ Baby Audio)",
+"s": 900
+},
+{
+"id": "IIQRjf-m8NE",
+"t": "PO-32 tonic, pattern transfer demo",
+"s": 54
+},
+{
+"id": "F1oO-t914S8",
+"t": "The Return of Banjo Metal",
+"s": 655
+},
+{
+"id": "gZoBT5d8OUk",
+"t": "Tónico PO-32, demostración de transferencia de sonido",
+"s": 60
+},
+{
+"id": "vbPeAU_3zbk",
+"t": "Making music with 3 randomly chosen items",
+"s": 676
+},
+{
+"id": "sJ03eXLo8v4",
+"t": "how to play: we wish you a merry christmas [ PO-16 factory ]",
+"s": 12
+},
+{
+"id": "2ovHu2FaIQw",
+"t": "My best song",
+"s": 1405
+},
+{
+"id": "dv1FGunnD5U",
+"t": "OP-1 tempo + sync settings",
+"s": 180
+},
+{
+"id": "S4Bv_ImVhns",
+"t": "A song so beautiful, we broke our one rule",
+"s": 1078
+},
+{
+"id": "Q9U3sxP47Fo",
+"t": "OP-1 arpeggio sequencer",
+"s": 161
+},
+{
+"id": "1J50ba7M5D0",
+"t": "The jams with these pedals kept getting better!",
+"s": 872
+},
+{
+"id": "w6V4tazMAX8",
+"t": "PO 20-series",
+"s": 50
+},
+{
+"id": "c_mwy_ss7I0",
+"t": "This tuning = Automatically beautiful songs",
+"s": 1067
+},
+{
+"id": "YkXGE7gwZxc",
+"t": "Instrucciones del robot PO-28",
+"s": 105
+},
+{
+"id": "tJuKuHkxXNE",
+"t": "Zelda musical instrument that nobody asked for",
+"s": 500
+},
+{
+"id": "R_118tFJZB0",
+"t": "Guía instructiva del PO-24 Office",
+"s": 81
+},
+{
+"id": "M2z9VKrxmbQ",
+"t": "Song Generator: U-Bass, Acoustic Guitar, Banger (Sonic Boom)",
+"s": 718
+},
+{
+"id": "W5PvXQq3DVQ",
+"t": "Instrucciones de arcade PO-20",
+"s": 109
+}
 ]
 },
 {
@@ -53757,10 +55788,1041 @@
 "hours": [],
 "sourceName": "Thomas Flight y CRITERION",
 "tagline": "Thomas Flight y CRITERION",
-"kind": "latest",
-"ids": [
-"UCUyvQV2JsICeLZP4c_h40kA",
-"UCAP57cF-FSjJKzzXg7ntPlQ"
+"kind": "linear",
+"items": [
+{
+"id": "-H0iFbaZdAs",
+"t": "Why The Elizabeth Holmes Doc is so Wild",
+"s": 2541,
+"p": 1792854105
+},
+{
+"id": "KxO05IN-cZA",
+"t": "David Lynch’s Most Unrestrained Film: Dennis Lim on WILD AT HEART | Special Feature (Excerpt)",
+"s": 506,
+"p": 1794955489
+},
+{
+"id": "1cdw9WcTdyU",
+"t": "The Real Villain of The Backrooms",
+"s": 1505,
+"p": 1788186377
+},
+{
+"id": "Ign29M8zcqg",
+"t": "Jessica Chastain’s Closet Picks",
+"s": 465,
+"p": 1794855635
+},
+{
+"id": "O2JUhpPpn0Y",
+"t": "Why Horror Is The Last Real Genre Left",
+"s": 1140,
+"p": 1785422255
+},
+{
+"id": "EfWaf5SdQKI",
+"t": "“Reinventing Cinema with Every Shot”: Martin Scorsese on SHADOWS OF FORGOTTEN ANCESTORS",
+"s": 389,
+"p": 1794768681
+},
+{
+"id": "dluP9Lo5uos",
+"t": "In Praise of Brilliant Voiceover",
+"s": 1091,
+"p": 1782396466
+},
+{
+"id": "NxuU1k7tsDc",
+"t": "Matthew Modine, Katharina Kubrick, Vincent D’Onofrio, Lisa Leone, & Josh Safdie on Stanley Kubrick",
+"s": 2387,
+"p": 1794510087
+},
+{
+"id": "kQBWPGYGJkk",
+"t": "What Movies Lose When They Use \"Blender Cutting\"",
+"s": 1325,
+"p": 1779985180
+},
+{
+"id": "KCfa5dNjk9U",
+"t": "MARIE ANTOINETTE: Sofia Coppola on the Cinematography and Costumes | Special Feature Excerpt",
+"s": 247,
+"p": 1794348109
+},
+{
+"id": "1mfysuwfKUE",
+"t": "Why Does \"Most\" Acting Win All The Awards?",
+"s": 871,
+"p": 1777299156
+},
+{
+"id": "5I0PrEUlD8I",
+"t": "Dustin Hoffman’s Closet Picks",
+"s": 353,
+"p": 1794251787
+},
+{
+"id": "XoRm09Ynx2U",
+"t": "He Went To Prison For Directing, Then Kept Making Movies",
+"s": 1267,
+"p": 1774362473
+},
+{
+"id": "7Xrml8gDD-M",
+"t": "Parker Posey’s Closet Picks",
+"s": 259,
+"p": 1793990630
+},
+{
+"id": "vwUrzKaXyT4",
+"t": "Why Some Movies Feel More Alive",
+"s": 1258,
+"p": 1771945733
+},
+{
+"id": "KdUk0dqftNg",
+"t": "Spotlight on Gene Tierney (by Imogen Sara Smith) | Criterion Channel Original",
+"s": 987,
+"p": 1793907689
+},
+{
+"id": "LrEjwlph20M",
+"t": "Top 10 Films of 2025",
+"s": 1909,
+"p": 1766185863
+},
+{
+"id": "VHiwQkN3gpg",
+"t": "“How It’s Done”: Making the Airplane Sequence | KPOP DEMON HUNTERS | Full Criterion Special Feature",
+"s": 717,
+"p": 1793732414
+},
+{
+"id": "1W5VZoFxtM0",
+"t": "Why PTA Didn't Know How His Own Movie Would End",
+"s": 983,
+"p": 1764169442
+},
+{
+"id": "T_yTng3BjJA",
+"t": "Coming to the Criterion Collection in November | Teaser",
+"s": 63,
+"p": 1793800030
+},
+{
+"id": "ZFitkz5VJvI",
+"t": "¿Por qué el arte creado con IA se siente tan mal?",
+"s": 2268,
+"p": 1762269422
+},
+{
+"id": "3dv1vVkvS1U",
+"t": "John Turturro’s Closet Picks",
+"s": 369,
+"p": 1793800030
+},
+{
+"id": "2tMzUwPINyY",
+"t": "Elogio de las películas de confort",
+"s": 1224,
+"p": 1759237992
+},
+{
+"id": "16p_AHHOu5Y",
+"t": "Starring Nicolas Cage | Criterion Channel Teaser",
+"s": 67,
+"p": 1793800030
+},
+{
+"id": "iiH6p6MORbY",
+"t": "¿Por qué “Sinners” tiene tan buena pinta?",
+"s": 1025
+},
+{
+"id": "MjxOA0W6Oe0",
+"t": "Starring Gene Tierney | Criterion Channel Teaser",
+"s": 63,
+"p": 1793800030
+},
+{
+"id": "RoldOz5YyAw",
+"t": "Why The Movies Don't Feel The Same Anymore",
+"s": 3694
+},
+{
+"id": "4__-PS6Bs-M",
+"t": "From MTV to Hollywood | Criterion Channel Teaser",
+"s": 64,
+"p": 1793800030
+},
+{
+"id": "9L57Hy1yk9g",
+"t": "In Praise of Character Acting",
+"s": 1334
+},
+{
+"id": "kfQG9LYQlY8",
+"t": "Coming to the Criterion Channel in November | Teaser",
+"s": 74,
+"p": 1793800030
+},
+{
+"id": "cJrHPnILejw",
+"t": "Este es el futuro del cine",
+"s": 1717
+},
+{
+"id": "XlbWJFeQsLU",
+"t": "Javier Calvo and Javier Ambrossi’s Closet Picks",
+"s": 365,
+"p": 1793800030
+},
+{
+"id": "_SEQyhir4iE",
+"t": "¿Por qué es tan difícil hacer una buena película biográfica musical?",
+"s": 927
+},
+{
+"id": "7Dl3FbSOiz0",
+"t": "Jeremy Allen White’s Closet Picks",
+"s": 317,
+"p": 1793195230
+},
+{
+"id": "ju1YvvuPLkI",
+"t": "La brillantez de la inquietante precisión de Severance",
+"s": 1049
+},
+{
+"id": "7LXZulIb2Do",
+"t": "Inside Sean Baker’s CHRISTIANE F. Poster Collection | Special Feature (Excerpt)",
+"s": 232,
+"p": 1793195230
+},
+{
+"id": "O-f2BC-PYDs",
+"t": "Willem Dafoe's War on Realism",
+"s": 1183
+},
+{
+"id": "8nqIBE6-w_o",
+"t": "Frederick Elmes’s Closet Picks",
+"s": 295,
+"p": 1793195230
+},
+{
+"id": "IonPlD9Vw_w",
+"t": "The Top 10 Films of 2024",
+"s": 1490
+},
+{
+"id": "4b_AUIyLCnE",
+"t": "\"There Really Are No Rules\": Ari Aster on 8½, ROSEMARY’S BABY, and Japanese Horror",
+"s": 262,
+"p": 1793195230
+},
+{
+"id": "NB8XOZzOoA4",
+"t": "Why David Lynch Was Such a Brilliant Artist",
+"s": 1120
+},
+{
+"id": "MNQIocAU01E",
+"t": "Jonathan Anderson's Closet Picks",
+"s": 255,
+"p": 1792590430
+},
+{
+"id": "IvZGrF1hSbY",
+"t": "¿Por qué la sustancia se ve así?",
+"s": 1076
+},
+{
+"id": "V4B0kfrN32E",
+"t": "Zoe Kazan’s Closet Picks",
+"s": 534
+},
+{
+"id": "PzZTIH0WKaU",
+"t": "La mejor cinematografía que he visto jamás",
+"s": 1709
+},
+{
+"id": "6g8j-8Iq2K4",
+"t": "Behind the Scenes at the SPARTACUS Gladiator School | Special Feature | THE COMPLETE KUBRICK",
+"s": 312
+},
+{
+"id": "HYqgHKAqGv8",
+"t": "How Disaster Media Fails",
+"s": 1096
+},
+{
+"id": "_15L5kEGZ_s",
+"t": "Ngozi Onwurah’s Closet Picks",
+"s": 296
+},
+{
+"id": "cQH6CJ9nq4k",
+"t": "Por qué simplemente no les importa la continuidad",
+"s": 1054
+},
+{
+"id": "imlsabY7xyw",
+"t": "Sebastian Stan’s Closet Picks",
+"s": 323
+},
+{
+"id": "BucSbzYXqKM",
+"t": "Hollywood's Obsession with Ambition",
+"s": 1332
+},
+{
+"id": "O30O0wZA9wY",
+"t": "Aaron Sorkin’s Closet Picks",
+"s": 374
+},
+{
+"id": "TVvHTbqip5M",
+"t": "Why Does Acting Feel So Different Now?",
+"s": 3497
+},
+{
+"id": "zNWoNSqO54I",
+"t": "Grady Hendrix on THE BROOD | Criterion Channel Spotlight",
+"s": 317
+},
+{
+"id": "rywJKFunIGM",
+"t": "Elogio de la Gran Exposición",
+"s": 1143
+},
+{
+"id": "15BjAs4vgQY",
+"t": "Hiro Murai on BARRY LYNDON | Now on the Criterion Channel",
+"s": 250
+},
+{
+"id": "H2jhNicI7sY",
+"t": "When you REALLY know how to use practical effects",
+"s": 973
+},
+{
+"id": "LTppX52e1aQ",
+"t": "Glenn Close’s Closet Picks",
+"s": 461
+},
+{
+"id": "Orh20527gVI",
+"t": "¿Por qué la zona de interés no te permite ver?",
+"s": 1255
+},
+{
+"id": "lQ2OLh0CJTA",
+"t": "Marc Maron on Seeing DELIVERANCE & Becoming a Film Nerd (ft. Sean Fennessey) | Excerpt",
+"s": 328
+},
+{
+"id": "XRqu4OQ-iok",
+"t": "El villano oculto en Los asesinos de la luna de las flores",
+"s": 1159
+},
+{
+"id": "kbbq7_Dw8WU",
+"t": "Coming to the Criterion Collection in October | Teaser",
+"s": 69
+},
+{
+"id": "pt9sRLrvw-8",
+"t": "¿Quién debería ganar los Oscar 2024?",
+"s": 1364
+},
+{
+"id": "jAGUJQWv5kk",
+"t": "Sharon Horgan’s Closet Picks",
+"s": 380
+},
+{
+"id": "gQcB532FjN4",
+"t": "¿Cómo es que los Oscar terminaron así?",
+"s": 909
+},
+{
+"id": "SuMJz0guUnM",
+"t": "Denis Lavant on Running, Dancing, & Parachuting in Leos Carax’s MAUVAIS SANG (Excerpt)",
+"s": 332
+},
+{
+"id": "nYHwQ234S1s",
+"t": "Why The Curse is Such A Brilliant Show",
+"s": 1639
+},
+{
+"id": "iQ4LjcKZ56I",
+"t": "Highway Horror | Criterion Channel Teaser",
+"s": 60
+},
+{
+"id": "m6NUKFx-3EM",
+"t": "Las 10 mejores películas de 2023",
+"s": 1540
+},
+{
+"id": "MufWJzhsIuE",
+"t": "Kubrick’s Production Design | THE COMPLETE KUBRICK",
+"s": 84
+},
+{
+"id": "qsxdFNaEqBk",
+"t": "The Biggest Decision You'll Make For Any Scene",
+"s": 1526
+},
+{
+"id": "cbAc0J2wqnk",
+"t": "Coming to the Criterion Channel in October | Teaser",
+"s": 70
+},
+{
+"id": "bg2th7F9rBs",
+"t": "How The Art of Filmmaking Is Still Evolving",
+"s": 1307
+},
+{
+"id": "16ljyPH6xd4",
+"t": "Mahershala Ali’s Closet Picks",
+"s": 290
+},
+{
+"id": "n0mEHhkQRq8",
+"t": "The Best Acting I've Ever Seen",
+"s": 2039
+},
+{
+"id": "ckH62-F3oxc",
+"t": "Paul Dano on Playing Brian Wilson in LOVE & MERCY | The Craft of Acting: Paul Dano (Excerpt)",
+"s": 328
+},
+{
+"id": "Lca_XEoO4b8",
+"t": "Por qué el oso se te mete en la cabeza",
+"s": 1067
+},
+{
+"id": "86qUQtrJBPc",
+"t": "PTA, Don Cheadle, John C. Reilly, & Mark Wahlberg Watch BOOGIE NIGHTS | Criterion Commentary Excerpt",
+"s": 287
+},
+{
+"id": "K2WTGnOP48c",
+"t": "The Fictional Truth of Asteroid City",
+"s": 855
+},
+{
+"id": "KMg3nwN9ntE",
+"t": "Ben Mankiewicz’s Closet Picks",
+"s": 389
+},
+{
+"id": "r736QGoIoXg",
+"t": "La extraña realidad de El Gran Hotel Budapest",
+"s": 1279
+},
+{
+"id": "hbNIm6GOCCo",
+"t": "Kubrick’s Boxes (ft. Jon Ronson) | THE COMPLETE KUBRICK",
+"s": 139
+},
+{
+"id": "5xEi8qg266g",
+"t": "Why Do Movies Feel So Different Now?",
+"s": 2255
+},
+{
+"id": "uU860nX8W48",
+"t": "Richard Linklater’s NOUVELLE VAGUE Manifesto (read by Zoey Deutch) | Full Special Feature",
+"s": 449
+},
+{
+"id": "rjR582Dn4SM",
+"t": "La mejor película sobre IA",
+"s": 940
+},
+{
+"id": "rKKqZhrYPMw",
+"t": "Isaac Mizrahi’s Closet Picks",
+"s": 280
+},
+{
+"id": "Af2jYirxjtk",
+"t": "The Best Performances Of 2022",
+"s": 1017
+},
+{
+"id": "-itcLi0Uxf8",
+"t": "Karen O and Barnaby Clay’s Closet Picks",
+"s": 365
+},
+{
+"id": "yBd1eH6DAAY",
+"t": "5 preguntas sobre las banshees de Inisherin",
+"s": 1102
+},
+{
+"id": "py-ZFK-icKg",
+"t": "“Paul Was Spectacular”: Sally Field on Paul Newman & Patricia Neal | HUD Special Feature (Excerpt)",
+"s": 394
+},
+{
+"id": "-v2pbKWIV_g",
+"t": "Cómo se crearon los sonidos de Dune",
+"s": 1253
+},
+{
+"id": "cQPKQbcNpUw",
+"t": "Restoring Kubrick’s Original Mixes | THE COMPLETE KUBRICK",
+"s": 130
+},
+{
+"id": "zQ29UhAolHY",
+"t": "The Top 10 Movies of 2022",
+"s": 1581
+},
+{
+"id": "_ue56onqyr8",
+"t": "Vincent D’Onofrio’s Closet Picks",
+"s": 238
+},
+{
+"id": "CpcB9GiOJz4",
+"t": "Elogio de la cinematografía sutil",
+"s": 841
+},
+{
+"id": "N5Lc0mkzy10",
+"t": "Dakota Fanning’s Closet Picks",
+"s": 337
+},
+{
+"id": "UhgXXhcPQEM",
+"t": "Why Andor Feels So Real",
+"s": 821
+},
+{
+"id": "7fk5DznFj6A",
+"t": "Sean Fennessey on Abel Ferrara | Criterion Channel Spotlight",
+"s": 901
+},
+{
+"id": "eanvN_rNpqY",
+"t": "Elogio de la interpretación sutil",
+"s": 879
+},
+{
+"id": "VMFuqg5DHeo",
+"t": "Kubrick’s Costumes | THE COMPLETE KUBRICK",
+"s": 40
+},
+{
+"id": "cWPFMmuagQ4",
+"t": "Cómo el \"Nope\" engaña a tus oídos",
+"s": 908
+},
+{
+"id": "cba7ycKIAy8",
+"t": "Jack Coyne’s Closet Picks",
+"s": 327
+},
+{
+"id": "n74ZpnPY_yI",
+"t": "El verdadero villano de Nope",
+"s": 857
+},
+{
+"id": "Sc6UrpZR3Z4",
+"t": "Jason Sudeikis’s Closet Picks",
+"s": 509
+},
+{
+"id": "pQRKDBpZ_5g",
+"t": "¿Qué tan real es el ensayo?",
+"s": 1556
+},
+{
+"id": "txC8P80dDBM",
+"t": "Directed by Abel Ferrara | Criterion Channel Teaser",
+"s": 73
+},
+{
+"id": "obIWs9p0boE",
+"t": "Better Call Saul Did It Better",
+"s": 1183
+},
+{
+"id": "FFQY-XFUm9U",
+"t": "Hiro Murai’s Adventures in Moviegoing (ft. Chris Ryan) | Full Episode",
+"s": 1583
+},
+{
+"id": "kMGog1cU8BY",
+"t": "Why The Bear Hits So Hard",
+"s": 841
+},
+{
+"id": "oJXKHJeVav0",
+"t": "Wes Anderson’s Criterion Mobile Closet Picks",
+"s": 152
+},
+{
+"id": "VvclV0_o0JE",
+"t": "Why Everything Everywhere All At Once Hits So Hard",
+"s": 937
+},
+{
+"id": "W_xin9_DG_I",
+"t": "Coming to the Criterion Collection in September | Teaser",
+"s": 61
+},
+{
+"id": "n_Syn8obfyM",
+"t": "Por qué deberías ver documentales experimentales",
+"s": 1126
+},
+{
+"id": "u9aapMjogSc",
+"t": "Joan Chen’s Closet Picks",
+"s": 295
+},
+{
+"id": "exKhhOnpmRs",
+"t": "My Trip to Cannes Film Festival 2022",
+"s": 949
+},
+{
+"id": "_OJSX6yFELk",
+"t": "Coming to the Criterion Channel in September | Teaser",
+"s": 73
+},
+{
+"id": "_AQkQ4a1yJ8",
+"t": "¿Por qué el sonido de Batman es diferente?",
+"s": 855
+},
+{
+"id": "uzH9Fjb2x4w",
+"t": "Adam Scott’s Closet Picks",
+"s": 566
+},
+{
+"id": "_o5WVCCONsA",
+"t": "¿Me equivoqué acerca de El irlandés?",
+"s": 925
+},
+{
+"id": "ae01EGHg01A",
+"t": "“I Always Like to Play Tricks”: John Woo Re-Watches THE KILLER",
+"s": 178
+},
+{
+"id": "8rOU9wrEsoo",
+"t": "Por qué la Atlanta de Donald Glover se siente tan extraña",
+"s": 818
+},
+{
+"id": "nBwcFtMUkLE",
+"t": "James Gray & Sean Fennessey on LITTLE ODESSA | Special Feature (Excerpt)",
+"s": 493
+},
+{
+"id": "7_z-BwZeuQs",
+"t": "Why Dune's Editing Feels Different",
+"s": 878
+},
+{
+"id": "DtVGSdIq0bQ",
+"t": "Terry Zwigoff’s Closet Picks",
+"s": 324
+},
+{
+"id": "1wVCheO-0oM",
+"t": "The Art Movement That Changed Film Forever",
+"s": 781
+},
+{
+"id": "A3pLIoyuphY",
+"t": "Alex Cox on THE PRISONER: Who Runs the Village? | Now on the Criterion Channel",
+"s": 173
+},
+{
+"id": "d95FVToFf8g",
+"t": "How Pig Deconstructed John Wick",
+"s": 962
+},
+{
+"id": "SRnOgybaqbY",
+"t": "\"I Wish I Wrote That\": Terry Zwigoff, Daniel Clowes, & Lianne Halfon Re-Watch GHOST WORLD",
+"s": 304
+},
+{
+"id": "cKLlWzYo2eE",
+"t": "The Absurd Intricacy of The French Dispatch",
+"s": 815
+},
+{
+"id": "G5BIhjXCJOY",
+"t": "Matthew McConaughey’s Closet Picks",
+"s": 343
+},
+{
+"id": "qMjQrXvcKnc",
+"t": "La evolución de Paul Thomas Anderson",
+"s": 1072
+},
+{
+"id": "O2JSN1R4XqA",
+"t": "Lee Unkrich on the Two Versions of THE SHINING | THE COMPLETE KUBRICK",
+"s": 134
+},
+{
+"id": "uIKupTibxKQ",
+"t": "¿Por qué los efectos visuales de Dune parecen tan reales?",
+"s": 760
+},
+{
+"id": "c0S10I6rx5I",
+"t": "A Criterion x Wes Anderson Weekend of Discovery at the Hollywood Bowl",
+"s": 94
+},
+{
+"id": "P50VrsM_xlU",
+"t": "What Makes Dune's Score So Brilliant?",
+"s": 812
+},
+{
+"id": "3lFsnL7N5sA",
+"t": "Danny McBride’s Closet Picks",
+"s": 249
+},
+{
+"id": "_lU91279xZk",
+"t": "El personaje de Succession que nunca ves",
+"s": 944
+},
+{
+"id": "Xqb9TkLwY8c",
+"t": "Alex Cox on THE PRISONER: Who Is Number One? | Now on the Criterion Channel",
+"s": 147
+},
+{
+"id": "SjykndqYWv8",
+"t": "Por qué Omar Little era el alma de The Wire",
+"s": 872
+},
+{
+"id": "TDtELIituVI",
+"t": "Two Movies That Had an Impact on Fred Armisen & Carrie Brownstein | Adventures in Moviegoing",
+"s": 341
+},
+{
+"id": "FIM94dRlKWc",
+"t": "En qué quiere que pienses el Caballero Verde",
+"s": 792
+},
+{
+"id": "LB5fjskhpao",
+"t": "Colman Domingo’s Closet Picks",
+"s": 267
+},
+{
+"id": "0kB3HxHXF-0",
+"t": "The Deep Duality of Martin Scorsese",
+"s": 1148
+},
+{
+"id": "3BS_0JskEKk",
+"t": "Willem Dafoe & Martin Scorsese Re-Watch THE LAST TEMPTATION OF CHRIST | Criterion Commentary Excerpt",
+"s": 288
+},
+{
+"id": "_n-bauI2GdI",
+"t": "The Movies That Shaped Moonrise Kingdom",
+"s": 603
+},
+{
+"id": "kJqymGEIMt0",
+"t": "Eric Andre’s Closet Picks",
+"s": 305
+},
+{
+"id": "v0T2aE7QQSs",
+"t": "¿Por qué eran tan extrañas las películas de David Lynch?",
+"s": 1414
+},
+{
+"id": "z6rlm2MwelA",
+"t": "Alex Cox on THE PRISONER: Who Is Number Six? | Now on the Criterion Channel",
+"s": 170
+},
+{
+"id": "7GYmbBH6YT4",
+"t": "Uncut Gems: Carefully Crafted Chaos",
+"s": 952
+},
+{
+"id": "uaajhIBkE-g",
+"t": "Thomas Bangalter’s Closet Picks",
+"s": 323
+},
+{
+"id": "JxfQh_9JIWE",
+"t": "Why is Bo Burnham's Inside Like That?",
+"s": 2308
+},
+{
+"id": "IurtHXfoF6s",
+"t": "“Quintessentially Perfectionist”: A Clip from KUBRICK BY KUBRICK | The Complete Kubrick",
+"s": 97
+},
+{
+"id": "waA3RXy13aA",
+"t": "¿Por qué las películas de Terrence Malick se ven así?",
+"s": 1116
+},
+{
+"id": "Jf3KfAZ_q7c",
+"t": "Coming to the Criterion Collection in August!",
+"s": 56
+},
+{
+"id": "D3owqp72SJE",
+"t": "Is Martin Scorsese Right About Cinema Dying?",
+"s": 1394
+},
+{
+"id": "4rHpgf5iU7w",
+"t": "Fred Armisen & Carrie Brownstein on the Best Music Films | Adventures in Moviegoing (Excerpt)",
+"s": 207
+},
+{
+"id": "XdgI_zqvHjs",
+"t": "Why Nomadland Won Best Director",
+"s": 760
+},
+{
+"id": "uy3FoDjNR-k",
+"t": "Fred Armisen and Carrie Brownstein’s Criterion Mobile Closet Picks",
+"s": 304
+},
+{
+"id": "8Ak7skwYdqs",
+"t": "How To Get Nominated for Best Editing",
+"s": 1360
+},
+{
+"id": "oB90O5zBZg8",
+"t": "Alex Cox on THE PRISONER: Watching the Episodes | Now on the Criterion Channel",
+"s": 145
+},
+{
+"id": "uemtKijCHyQ",
+"t": "Justice League vs. The Snyder Cut: Comparativa cinematográfica",
+"s": 1544
+},
+{
+"id": "zSNz3X9EAog",
+"t": "Hunter S. Thompson Watches FEAR AND LOATHING IN LAS VEGAS | Watch on the Criterion Channel",
+"s": 408
+},
+{
+"id": "IK4KO0E5Ze0",
+"t": "El director que dominó el arte de filmar rostros",
+"s": 726
+},
+{
+"id": "lBM6MxhaiDw",
+"t": "Fred Armisen and Carrie Brownstein’s Adventures in Moviegoing | Teaser",
+"s": 70
+},
+{
+"id": "Hqz5rrCHClg",
+"t": "El brillante diseño de sonido de Sound of Metal",
+"s": 671
+},
+{
+"id": "6UCSuaFuwrY",
+"t": "Cooper Hoffman’s Closet Picks",
+"s": 403
+},
+{
+"id": "SIgznB0-ICo",
+"t": "Por qué no puedes escuchar el diálogo en Tenet",
+"s": 835
+},
+{
+"id": "b4rZxTRtqi8",
+"t": "Southern Gothic | Criterion Channel Teaser",
+"s": 74
+},
+{
+"id": "BWbYhW5PNdQ",
+"t": "The Genius of Soul's Fake Light",
+"s": 592
+},
+{
+"id": "qS7HROU7zhM",
+"t": "THE COMPLETE KUBRICK: Colors and Fonts with Visual Artist Drusilla Adeline",
+"s": 133
+},
+{
+"id": "fhXti0DeEr8",
+"t": "The Gentle Brilliance of First Cow's Editing",
+"s": 625
+},
+{
+"id": "8HuxnQrZyNs",
+"t": "Coming to the Criterion Channel in August | Teaser",
+"s": 74
+},
+{
+"id": "lsqvmZbskGo",
+"t": "TENET - Nolan Has An Exposition Problem",
+"s": 1152
+},
+{
+"id": "0uvcyCeDA7U",
+"t": "The Notebooks of Mike Mills (with Kirsten Johnson) | BEGINNERS, 20TH CENTURY WOMEN, C’MON C’MON",
+"s": 317
+},
+{
+"id": "2pPGeVkBYrU",
+"t": "¿Por qué las películas de Yorgos Lanthimos resultan tan extrañas?",
+"s": 657
+},
+{
+"id": "ZCxYGx6ueNM",
+"t": "Matt Damon’s Closet Picks",
+"s": 394
+},
+{
+"id": "NHCfaLuRvLM",
+"t": "Is Parasite Better in Black and White?",
+"s": 727
+},
+{
+"id": "DmHanv2fX6s",
+"t": "Alex Cox on THE PRISONER: The Genius of Patrick McGoohan | Now on the Criterion Channel",
+"s": 123
+},
+{
+"id": "iLS0vzockMc",
+"t": "Cómo crear conflicto sin diálogo",
+"s": 704
+},
+{
+"id": "t9fgFt-Ibik",
+"t": "Christopher Nolan’s Closet Picks",
+"s": 286
+},
+{
+"id": "Fqksc-mDxGk",
+"t": "La terrible edición de Mulán: un análisis",
+"s": 724
+},
+{
+"id": "QB3A7YbBrRo",
+"t": "Vincent D’Onofrio on Stanley Kubrick",
+"s": 87
+},
+{
+"id": "ba3c9KEuQ4A",
+"t": "¿Por qué las películas de Wes Anderson se ven así?",
+"s": 1156
+},
+{
+"id": "6YsClcfRkeQ",
+"t": "Roger Deakins: Why James Wong Howe is One of the Great DPs | HUD Special Feature (Excerpt)",
+"s": 469
+},
+{
+"id": "EgLxmsbuxqI",
+"t": "Cuando la edición es mala a propósito",
+"s": 600
+},
+{
+"id": "pCOyRuDe36I",
+"t": "THE PRISONER — The Complete Series | Now playing on the Criterion Channel",
+"s": 138
+},
+{
+"id": "3GK_3KgZios",
+"t": "How To Steal Like Wes Anderson - The Grand Budapest Hotel",
+"s": 482
+},
+{
+"id": "9Rauz_wHSXQ",
+"t": "Mindy Kaling’s Closet Picks",
+"s": 304
+},
+{
+"id": "yiuIcpwHNJo",
+"t": "Bong Joon-Ho Ranked",
+"s": 935
+},
+{
+"id": "BPiJRe0WsYU",
+"t": "“How am I not influenced by this?” Daniel Clowes & Ari Aster on THE PLUMBER",
+"s": 302
+},
+{
+"id": "-ZUSCZN6Fz4",
+"t": "Damien Chazelle's Vertical Cinema Shot Breakdown",
+"s": 622
+},
+{
+"id": "pwAJ1djDXws",
+"t": "Camila Mendes’s Closet Picks",
+"s": 321
+},
+{
+"id": "_pk3cSb6QN8",
+"t": "Palm Springs vs. Groundhog Day: Finding Meaning in The Loop",
+"s": 680
+},
+{
+"id": "WpvMPdObkRg",
+"t": "Ellen Burstyn on Making ALICE DOESN’T LIVE HERE ANYMORE with Martin Scorsese (Excerpt)",
+"s": 657
+},
+{
+"id": "Ii5kTNnyRRc",
+"t": "What Makes TikTok So Popular?",
+"s": 805
+},
+{
+"id": "IRN8XiHti2I",
+"t": "THE COMPLETE KUBRICK: Designing the Box",
+"s": 108
+},
+{
+"id": "JE26E4IM_-g",
+"t": "When You Meticulously Plan Every Shot",
+"s": 470
+},
+{
+"id": "VyE1nBqRNIQ",
+"t": "John Leguizamo’s Closet Picks",
+"s": 387
+},
+{
+"id": "pnbAkO0BKbw",
+"t": "Fleabag Play vs. Programa de TV: Una comparación",
+"s": 592
+},
+{
+"id": "eMaYmgUf6zI",
+"t": "Tony Rayns on How Edward Yang Became a Filmmaker | A BRIGHTER SUMMER DAY | Criterion Commentary",
+"s": 350
+}
 ]
 }
 ]
