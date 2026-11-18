@@ -515,7 +515,7 @@
   {
     "num": "16",
     "name": "French",
-    "modo": "nuevo",
+    "modo": "tele",
     "hours": [],
     "fuentes": [
       {
@@ -529,7 +529,7 @@
   {
     "num": "17",
     "name": "Audio/Tech",
-    "modo": "nuevo",
+    "modo": "tele",
     "hours": [],
     "fuentes": [
       {
@@ -543,7 +543,7 @@
   {
     "num": "18",
     "name": "Cinema",
-    "modo": "nuevo",
+    "modo": "tele",
     "hours": [],
     "fuentes": [
       {
