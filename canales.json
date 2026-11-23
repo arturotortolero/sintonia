@@ -528,20 +528,6 @@
   },
   {
     "num": "17",
-    "name": "Audio/Tech",
-    "modo": "tele",
-    "hours": [],
-    "fuentes": [
-      {
-        "url": "https://www.youtube.com/@andrewhuang/videos"
-      },
-      {
-        "url": "https://www.youtube.com/@teenageengineering/videos"
-      }
-    ]
-  },
-  {
-    "num": "18",
     "name": "Cinema",
     "modo": "tele",
     "hours": [],
@@ -555,7 +541,7 @@
     ]
   },
   {
-    "num": "19",
+    "num": "18",
     "name": "The Office",
     "modo": "tele",
     "hours": [],
