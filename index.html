@@ -225,6 +225,16 @@ html.old .off .now,html.old .guide{font-size:22px}
 html.old .chin{grid-column-gap:16px}
 html.old .chlist button{display:block;line-height:50px}
 html.old .chlist b{display:inline-block;vertical-align:middle;line-height:1}
+/* Canal con serie: el capítulo de hoy, para verlo completo en su plataforma */
+.ep{position:absolute;left:4%;top:6%;z-index:2;max-width:min(420px,80%);padding:12px 14px;display:flex;flex-direction:column;gap:6px;background:rgba(5,6,6,.86);border:1px solid #3a3c41;border-radius:8px;color:#fff}
+.ep[hidden]{display:none}
+.ep-eye{font:400 18px var(--osd-font);color:var(--osd);letter-spacing:.04em}
+.ep-title{font:400 26px var(--osd-font);line-height:1.05}
+.ep-btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.ep-go,.ep-btn{min-height:40px;padding:0 14px;display:inline-flex;align-items:center;border-radius:6px;font:600 14px var(--ui-font);text-decoration:none}
+.ep-go{background:var(--osd);color:#06240e}
+.ep-btn{background:#2a2c31;color:#e6e7e9;border:1px solid #55575c}
+@media (max-width:600px){.ep{left:3%;right:3%;top:auto;bottom:4%;max-width:none;padding:8px 10px}.ep-title{font-size:21px}.ep-eye{font-size:15px}.ep-go,.ep-btn{min-height:36px}}
 @media (prefers-reduced-motion:reduce){.tv.warm .frame{animation:none}}
 </style>
 </head>
@@ -238,6 +248,11 @@ html.old .chlist b{display:inline-block;vertical-align:middle;line-height:1}
           <div class="osd" id="osd" aria-live="polite"><div class="num" id="osdNum"></div><div class="info"><span class="name" id="osdName"></span><span id="osdTitle"></span></div></div>
         </div>
         <div class="guide" id="guide" hidden></div>
+        <div class="ep" id="epCard" hidden>
+          <span class="ep-eye" id="epEye">CAPÍTULO AL AZAR</span>
+          <b class="ep-title" id="epTitle"></b>
+          <span class="ep-btns"><a class="ep-go" id="epGo" href="#" target="_blank" rel="noopener">Ver en Netflix</a><button class="ep-btn" id="epOther">Otro</button><button class="ep-btn" id="epClose" aria-label="Ocultar">✕</button></span>
+        </div>
         <div class="off" id="off"><div class="now" id="offNow"></div><button class="power-big" id="powerBig">ENCENDER</button></div>
         <div class="glass"></div>
         <div class="cine-keys">
@@ -496,6 +511,7 @@ function tune(i,silent){
   paintDial();
   $("set").classList.toggle("night",!!CHANNELS[cur].night);
   $("guide").hidden=true;
+  showEpisode();
   hidePicture();
   if(!silent){ burst(); clack(); }
   crtFade();
@@ -514,6 +530,25 @@ function whenText(p){
   return d.toLocaleDateString("es-ES",{day:"numeric",month:"short",year:"numeric"});
 }
 function videoDate(c,id){ const v=(c.items||[]).find(x=>x.id===id); return v?whenText(v.p):""; }
+/* Un capítulo al azar que aún no te haya propuesto; cuando salen todos, vuelve a empezar. */
+function pickEpisode(serie){
+  const key="sintonia_ep_"+serie.nombre, done=store(key)||[], eps=serie.episodios;
+  let left=eps.filter(e=>done.indexOf(e[0]+"x"+e[1])<0);
+  if(!left.length){ left=eps; done.length=0; }
+  const e=left[Math.floor(Math.random()*left.length)];
+  done.push(e[0]+"x"+e[1]); store(key,done);
+  return e;
+}
+function showEpisode(next){
+  const c=CHANNELS[cur],card=$("epCard");
+  if(!c||!c.serie||!isOn){ card.hidden=true; return; }
+  if(next||!c._ep) c._ep=pickEpisode(c.serie);
+  const e=c._ep;
+  $("epEye").textContent=c.serie.nombre.toUpperCase()+" · CAPÍTULO AL AZAR";
+  $("epTitle").textContent="T"+e[0]+"·E"+e[1]+" · "+e[2];
+  $("epGo").href=c.serie.url; $("epGo").textContent="Ver en "+c.serie.servicio;
+  card.hidden=false;
+}
 function flashOsd(title){
   const c=CHANNELS[cur];
   const vid=title&&ready&&player.getVideoData?player.getVideoData().video_id:null, when=vid?videoDate(c,vid):"";
@@ -569,6 +604,7 @@ function powerOn(){
   crtFade(); if(ready){ player.setVolume(vol); tune(cur,true); clack(); } else { pendingOn=true; }
 }
 function powerOff(){
+  $("epCard").hidden=true;
   paused=false; paintPause();
   isOn=false; $("set").classList.remove("on"); clearTimeout(idleSafety); $("frame").classList.add("idle"); if(ready) player.stopVideo();
   sleepAt=0;sleepStep=0;paintSleep();
@@ -683,6 +719,9 @@ $("cineExit").onclick=()=>setCine(false);
 $("moreBtn").onclick=()=>{const o=$("set").classList.toggle("more");$("moreBtn").setAttribute("aria-expanded",o);};
 $("cineUp").onclick=()=>isOn&&tune(cur+1);$("cineDown").onclick=()=>isOn&&tune(cur-1);$("cineGuide").onclick=toggleGuide;
 $("fullBtn").onclick=toggleFull;
+$("epOther").onclick=()=>showEpisode(true);
+$("epClose").onclick=()=>$("epCard").hidden=true;
+$("epGo").addEventListener("click",()=>{ if(ready&&isOn){ leftForYT=true; player.pauseVideo(); } });
 /* Abre el vídeo actual en YouTube por el mismo punto y pausa la tele. Al volver, sigue. */
 let leftForYT=false;
 document.querySelectorAll(".yt").forEach(a=>a.addEventListener("click",e=>{

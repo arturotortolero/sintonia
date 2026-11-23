@@ -180,6 +180,8 @@ def build(ch):
         raise RuntimeError("ninguna fuente ha respondido")
     who = names(src)
     out = {"num": ch["num"], "name": ch["name"], "hours": ch.get("hours", []), "sourceName": who, "tagline": who}
+    if ch.get("serie"):
+        out["serie"] = ch["serie"]
     if ch.get("noche"):
         out["night"] = True
     lists = [s["vids"] for s in src]
